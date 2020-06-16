@@ -9,73 +9,13 @@
       {
         "schema_id": "datatype.string",
         "properties": {
-          "value": "tercel",
-          "scope": "local",
-          "name": "WF_CategoryQueryParam",
+          "value": "Tercel_AutomationWF",
+          "scope": "input",
+          "name": "WF_SearchQueryforUpdate",
           "type": "datatype.string",
-          "is_required": false
+          "is_required": true
         },
-        "unique_name": "variable_workflow_01FYKD7K3BHQN2xcA6sYbuWEinZi1fJSTJ8",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for PUT action id doesn not exists",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GLJBPBPM1N95XjXIDq6Yqk1GFtdwbMUV1",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "NotFoundWFID_Error",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GLGKY8RHP5S778iCuEWT0vPilYDkeWt5Z",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "OP for PUT when WFID does not exists",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GLJ8G2TS9SO20qPIOXocBt78q5csolle7",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "AO Status Check",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GLDY0RISJRL1nMcub8QKr6PKBPbOnQL73",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for delete id not exists",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GLJKKVEF9J15pOVKOxDjOrDvQ6dvtWU9A",
+        "unique_name": "variable_workflow_01FZFT4O3693I0oEZCX1JfRDt3TMkQjF9jx",
         "object_type": "variable_workflow"
       },
       {
@@ -87,18 +27,6 @@
           "is_required": false
         },
         "unique_name": "variable_workflow_01GLFMU8UXI3G35z3facaMG2rjwkg158Rqx",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "OP for PUT when WFID is Invalid",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GLJAFKRF3ZQ4iQVbFYNoIeBBDSmB8LepD",
         "object_type": "variable_workflow"
       },
       {
@@ -118,23 +46,81 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op for PUT action id is invalid",
+          "name": "op for PUT action id doesn not exists",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GLJBWWJZIK92WYHEVt4Q1eiwa62AWEuHo",
+        "unique_name": "variable_workflow_01GLJBPBPM1N95XjXIDq6Yqk1GFtdwbMUV1",
         "object_type": "variable_workflow"
       },
       {
         "schema_id": "datatype.string",
         "properties": {
-          "value": "Tercel_AutomationWF",
-          "scope": "input",
-          "name": "WF_SearchQueryforUpdate",
+          "value": "",
+          "scope": "output",
+          "name": "AO Status Check",
           "type": "datatype.string",
-          "is_required": true
+          "is_required": false
         },
-        "unique_name": "variable_workflow_01FZFT4O3693I0oEZCX1JfRDt3TMkQjF9jx",
+        "unique_name": "variable_workflow_01GLDY0RISJRL1nMcub8QKr6PKBPbOnQL73",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+        "properties": {
+          "scope": "local",
+          "name": "Sorting Headers1",
+          "type": "datatype.table",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GLFMMZPOKM67TDjxlAF0vhSxDlEtdaIdh",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "OP for PUT when WFID does not exists",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GLJ8G2TS9SO20qPIOXocBt78q5csolle7",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+        "properties": {
+          "scope": "local",
+          "name": "Sorting Headers",
+          "type": "datatype.table",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01FYKXK2G1FLM6H4loujG0pluPIphfqpQRj",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for delete id not exists",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GLJKKVEF9J15pOVKOxDjOrDvQ6dvtWU9A",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "NotFoundWFID_Error",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GLGKY8RHP5S778iCuEWT0vPilYDkeWt5Z",
         "object_type": "variable_workflow"
       },
       {
@@ -147,6 +133,30 @@
           "is_required": true
         },
         "unique_name": "variable_workflow_01FYKDYZV16KO7S7j5IxXLGycKcPjbArzBR",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "tercel",
+          "scope": "local",
+          "name": "WF_CategoryQueryParam",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01FYKD7K3BHQN2xcA6sYbuWEinZi1fJSTJ8",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01FZK8QLFFRJN2q0T9OVZdhaLLzkekKEvwo",
         "object_type": "variable_workflow"
       },
       {
@@ -173,14 +183,15 @@
         "object_type": "variable_workflow"
       },
       {
-        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+        "schema_id": "datatype.string",
         "properties": {
-          "scope": "local",
-          "name": "Sorting Headers1",
-          "type": "datatype.table",
+          "value": "",
+          "scope": "output",
+          "name": "op for PUT action id is invalid",
+          "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GLFMMZPOKM67TDjxlAF0vhSxDlEtdaIdh",
+        "unique_name": "variable_workflow_01GLJBWWJZIK92WYHEVt4Q1eiwa62AWEuHo",
         "object_type": "variable_workflow"
       },
       {
@@ -188,22 +199,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op",
+          "name": "OP for PUT when WFID is Invalid",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01FZK8QLFFRJN2q0T9OVZdhaLLzkekKEvwo",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-        "properties": {
-          "scope": "local",
-          "name": "Sorting Headers",
-          "type": "datatype.table",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01FYKXK2G1FLM6H4loujG0pluPIphfqpQRj",
+        "unique_name": "variable_workflow_01GLJAFKRF3ZQ4iQVbFYNoIeBBDSmB8LepD",
         "object_type": "variable_workflow"
       }
     ],
@@ -2073,19 +2073,6 @@
         ]
       },
       {
-        "unique_name": "definition_activity_01GLG7HSGR0XW0ndWGP8pPHZZwPa1m7okzy",
-        "name": "Start Point",
-        "title": "Start Point",
-        "type": "logic.start_point",
-        "base_type": "activity",
-        "properties": {
-          "continue_on_failure": false,
-          "display_name": "Start Point",
-          "skip_execution": true
-        },
-        "object_type": "definition_activity"
-      },
-      {
         "unique_name": "definition_activity_01GLGFZOSEUG85P9Lu9pFWzlUZMa5Wodo2L",
         "name": "Group",
         "title": "Negative Test Case -Post Call When Invalid WFID Passed ",
@@ -2204,6 +2191,19 @@
         ]
       },
       {
+        "unique_name": "definition_activity_01GLG7HSGR0XW0ndWGP8pPHZZwPa1m7okzy",
+        "name": "Start Point",
+        "title": "Start Point",
+        "type": "logic.start_point",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Start Point",
+          "skip_execution": true
+        },
+        "object_type": "definition_activity"
+      },
+      {
         "unique_name": "definition_activity_01GLII5UJP2LT4v6dBksxU4jzFalxVlNhWX",
         "name": "Group",
         "title": "Create A Action for a PUT Test Cases ",
@@ -2230,7 +2230,7 @@
               "body": "{\n\t\"description\": \"Action Description-$activity.definition_activity_01FYKGMU4ZTY42QWRD2df4nwltrfkBrKyKb.output.jsonpath_queries.WF_Name$\",\n\t\"invalid_properties\": {\n\t\t\"additionalProp1\": {},\n\t\t\"additionalProp2\": {},\n\t\t\"additionalProp3\": {}\n\t},\n\t\"name\": \"TercelService-$workflow.definition_workflow_01FYISM1403E86xK5YXfPdJHy8PpFjx2tvr.output.instance_id$-$activity.definition_activity_01FYKGMU4ZTY42QWRD2df4nwltrfkBrKyKb.output.jsonpath_queries.WF_Name$\",\n\t\"version\": {\n\t\t\"build\": 0,\n\t\t\"identifier\": \"\",\n\t\t\"major\": 0,\n\t\t\"minor\": 0\n\t},\n\t\"workflow_policies\": [\n\t\t{\n\t\t\t\"workflow\": {\n\t\t\t\t\"description\": \"TercelService-$activity.definition_activity_01FYKGMU4ZTY42QWRD2df4nwltrfkBrKyKb.output.jsonpath_queries.WF_Name$\",\n\t\t\t\t\"id\": \"$activity.definition_activity_01FYK6TYPXTNG21Cc1SBU7mkUhM1VH4M1qQ.output.jsonpath_queries.WF_ID$\",\n\t\t\t\t\"name\": \"TercelService-$activity.definition_activity_01FYKGMU4ZTY42QWRD2df4nwltrfkBrKyKb.output.jsonpath_queries.WF_Name$-$workflow.definition_workflow_01FYISM1403E86xK5YXfPdJHy8PpFjx2tvr.output.instance_id$\"\n\t\t\t}\n\t\t}\n\t]\n}",
               "content_type": "application/json",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "description": "Create A action -Post For Put Call test Cases",
               "display_name": "Create A action -Post For Put Call test Cases",
               "method": "POST",
@@ -2259,7 +2259,7 @@
               "continue_on_failure": false,
               "display_name": "For Each",
               "skip_execution": false,
-              "source_array": "$activity.definition_activity_01GLFCZ3OWKRB65x1drS0IpDZ68FDQEF9LG.output.response_headers$"
+              "source_array": "$activity.definition_activity_01GLII68JHUWT3kY3CoaLcDkyagkmO6O6Rq.output.response_headers$"
             },
             "object_type": "definition_activity",
             "actions": [
@@ -2417,7 +2417,7 @@
               "body": "{\n\t\"description\": \"Action Description-$activity.definition_activity_01FZFQS5RQFYA27uH4ZX7nNgTlBtAncEIWT.output.jsonpath_queries.WF_Name$\",\n\t\"name\": \"\",\n\t\"version\": {\n\t\t\"build\": 0,\n\t\t\"identifier\": \"\",\n\t\t\"major\": 0,\n\t\t\"minor\": 0\n\t},\n\t\"workflow_policies\": [\n\t\t{\n\t\t\t\"workflow\": {\n\t\t\t\t\"description\": \"action for update-$activity.definition_activity_01FZFQS5RQFYA27uH4ZX7nNgTlBtAncEIWT.output.jsonpath_queries.WF_Name$\",\n\t\t\t\t\"id\": \"$activity.definition_activity_01FZFQS540CCR1PBel7MhIovUdCSt03XYnL.output.jsonpath_queries.WF_ID$\",\n\t\t\t\t\"name\": \"\"\n\t\t\t}\n\t\t}\n\t]\n}",
               "content_type": "application/json",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Update a Action  - PUT Call with Empty Name ",
               "method": "PUT",
               "relative_url": "actions/$activity.definition_activity_01GLII6USWEOW6NLjsMYrQpSJ8jm65KS3fe.output.result_string$",
@@ -2442,7 +2442,7 @@
             "type": "core.find_string",
             "base_type": "activity",
             "properties": {
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "VBerify the PUT Status Code",
               "searched_string": "200",
               "skip_execution": false,
@@ -2502,7 +2502,7 @@
               "body": "{\n\t\"description\": \"CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name\",\n\t\"name\": \"CatalogItem action name CatalogItem action name CatalogItem action\",\n\t\"version\": {\n\t\t\"build\": 0,\n\t\t\"identifier\": \"\",\n\t\t\"major\": 0,\n\t\t\"minor\": 0\n\t},\n\t\"workflow_policies\": [\n\t\t{\n\t\t\t\"workflow\": {\n\t\t\t\t\"description\": \"CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name\",\n\t\t\t\t\"id\": \"$activity.definition_activity_01FZFQS540CCR1PBel7MhIovUdCSt03XYnL.output.jsonpath_queries.WF_ID$\",\n\t\t\t\t\"name\": \"CatalogItem action name CatalogItem action name CatalogItem action\"\n\t\t\t}\n\t\t}\n\t]\n}",
               "content_type": "application/json",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Update a Action  - PUT Call with Empty Name ",
               "method": "PUT",
               "relative_url": "actions/$activity.definition_activity_01GLII6USWEOW6NLjsMYrQpSJ8jm65KS3fe.output.result_string$",
@@ -2527,7 +2527,7 @@
             "type": "core.find_string",
             "base_type": "activity",
             "properties": {
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "VBerify the PUT Status Code",
               "searched_string": "200",
               "skip_execution": false,
@@ -2587,7 +2587,7 @@
               "body": "{\n\t\"description\": \"CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name\",\n\t\"name\": \"CatalogItem action name CatalogItem action name CatalogItem action\",\n\t\"version\": {\n\t\t\"build\": 0,\n\t\t\"identifier\": \"\",\n\t\t\"major\": 0,\n\t\t\"minor\": 0\n\t},\n\t\"workflow_policies\": [\n\t\t{\n\t\t\t\"workflow\": {\n\t\t\t\t\"description\": \"CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name\",\n\t\t\t\t\"id\": \"01GAQCMIINSWU2XSNn6PnIH0dTkwsHOIwv9\",\n\t\t\t\t\"name\": \"CatalogItem action name CatalogItem action name CatalogItem action\"\n\t\t\t}\n\t\t}\n\t]\n}",
               "content_type": "application/json",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Update a Action  - PUT Call with WFID which does not exists",
               "method": "PUT",
               "relative_url": "actions/$activity.definition_activity_01GLII6USWEOW6NLjsMYrQpSJ8jm65KS3fe.output.result_string$",
@@ -2612,11 +2612,11 @@
             "type": "core.find_string",
             "base_type": "activity",
             "properties": {
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "VBerify the PUT Status Code",
               "searched_string": "404",
               "skip_execution": false,
-              "source": "$activity.definition_activity_01GLJ4XACY2VF4ZAsorwbg4kfmgTu0ZyBUr.output.status_code$"
+              "source": "$activity.definition_activity_01GLJ4XACY2VF4ZAsorwbg4kfmgTu0ZyBUr.output.error.code$"
             },
             "object_type": "definition_activity"
           },
@@ -2668,7 +2668,7 @@
               "body": "{\n\t\"description\": \"CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name\",\n\t\"name\": \"CatalogItem action name CatalogItem action name CatalogItem action\",\n\t\"version\": {\n\t\t\"build\": 0,\n\t\t\"identifier\": \"\",\n\t\t\"major\": 0,\n\t\t\"minor\": 0\n\t},\n\t\"workflow_policies\": [\n\t\t{\n\t\t\t\"workflow\": {\n\t\t\t\t\"description\": \"CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name\",\n\t\t\t\t\"id\": \"01GAQCMIINSWU2XSNn6PnIH0dTkwsHOIwv\",\n\t\t\t\t\"name\": \"CatalogItem action name CatalogItem action name CatalogItem action\"\n\t\t\t}\n\t\t}\n\t]\n}",
               "content_type": "application/json",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Update a Action  - PUT Call with WFID which is Invalid",
               "method": "PUT",
               "relative_url": "actions/$activity.definition_activity_01GLII6USWEOW6NLjsMYrQpSJ8jm65KS3fe.output.result_string$",
@@ -2693,11 +2693,11 @@
             "type": "core.find_string",
             "base_type": "activity",
             "properties": {
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "VBerify the PUT Status Code",
               "searched_string": "400",
               "skip_execution": false,
-              "source": "$activity.definition_activity_01GLJ9DGCC1O23sYWELrgzSrBflLkAT7q3v.output.status_code$"
+              "source": "$activity.definition_activity_01GLJ9DGCC1O23sYWELrgzSrBflLkAT7q3v.output.error.code$"
             },
             "object_type": "definition_activity"
           },
@@ -2721,6 +2721,34 @@
             "object_type": "definition_activity"
           }
         ]
+      },
+      {
+        "unique_name": "definition_activity_01GLJROREV7LL2PYbLwx5SbdiLM79d3oiHt",
+        "name": "HTTP Request",
+        "title": "Delete a Action",
+        "type": "web-service.http_request",
+        "base_type": "activity",
+        "properties": {
+          "action_timeout": 180,
+          "allow_auto_redirect": true,
+          "continue_on_error_status_code": false,
+          "continue_on_failure": false,
+          "display_name": "Delete a Action",
+          "method": "GET",
+          "relative_url": "actions/$activity.definition_activity_01GLII6USWEOW6NLjsMYrQpSJ8jm65KS3fe.output.result_string$",
+          "runtime_user": {
+            "override_target_runtime_user": false,
+            "target_default": true
+          },
+          "skip_execution": false,
+          "target": {
+            "override_workflow_target": false,
+            "override_workflow_target_group_criteria": false,
+            "use_workflow_target": true,
+            "use_workflow_target_group": false
+          }
+        },
+        "object_type": "definition_activity"
       },
       {
         "unique_name": "definition_activity_01GLJC283QVGA3MGkjGI7dhsItqaysXYBeS",
@@ -2749,7 +2777,7 @@
               "body": "{\n\t\"description\": \"CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name\",\n\t\"name\": \"CatalogItem action name CatalogItem action name CatalogItem action\",\n\t\"version\": {\n\t\t\"build\": 0,\n\t\t\"identifier\": \"\",\n\t\t\"major\": 0,\n\t\t\"minor\": 0\n\t},\n\t\"workflow_policies\": [\n\t\t{\n\t\t\t\"workflow\": {\n\t\t\t\t\"description\": \"CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name\",\n\t\t\t\t\"id\": \"01GAQCMIINSWU2XSNn6PnIH0dTkwsHOIwvt\",\n\t\t\t\t\"name\": \"CatalogItem action name CatalogItem action name CatalogItem action\"\n\t\t\t}\n\t\t}\n\t]\n}",
               "content_type": "application/json",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Update a Action  - PUT Call with action id which is not exists",
               "method": "PUT",
               "relative_url": "actions/5ee8afa2329876bae6919646",
@@ -2774,11 +2802,11 @@
             "type": "core.find_string",
             "base_type": "activity",
             "properties": {
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "VBerify the PUT Status Code",
               "searched_string": "404",
               "skip_execution": false,
-              "source": "$activity.definition_activity_01GLJC2DU6A723sbv17OxmbVRmLUrwEncHW.output.status_code$"
+              "source": "$activity.definition_activity_01GLJC2DU6A723sbv17OxmbVRmLUrwEncHW.output.error.code$"
             },
             "object_type": "definition_activity"
           },
@@ -2830,7 +2858,7 @@
               "body": "{\n\t\"description\": \"CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name\",\n\t\"name\": \"CatalogItem action name CatalogItem action name CatalogItem action\",\n\t\"version\": {\n\t\t\"build\": 0,\n\t\t\"identifier\": \"\",\n\t\t\"major\": 0,\n\t\t\"minor\": 0\n\t},\n\t\"workflow_policies\": [\n\t\t{\n\t\t\t\"workflow\": {\n\t\t\t\t\"description\": \"CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name CatalogItem action name test CatalogItem action name CatalogItem action name\",\n\t\t\t\t\"id\": \"01GAQCMIINSWU2XSNn6PnIH0dTkwsHOIwvt\",\n\t\t\t\t\"name\": \"CatalogItem action name CatalogItem action name CatalogItem action\"\n\t\t\t}\n\t\t}\n\t]\n}",
               "content_type": "application/json",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Update a Action  - PUT Call with action id which is invalid",
               "method": "PUT",
               "relative_url": "actions/5ee8afa2329876bae691964Z",
@@ -2855,11 +2883,11 @@
             "type": "core.find_string",
             "base_type": "activity",
             "properties": {
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "VBerify the PUT Status Code",
               "searched_string": "400",
               "skip_execution": false,
-              "source": "$activity.definition_activity_01GLJFM1UK42I5nTuNFJoSTrq3FNy1XKxxk.output.status_code$"
+              "source": "$activity.definition_activity_01GLJFM1UK42I5nTuNFJoSTrq3FNy1XKxxk.output.error.code$"
             },
             "object_type": "definition_activity"
           },
@@ -2910,7 +2938,7 @@
               "allow_auto_redirect": true,
               "content_type": "application/json",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "DELETE a Action  - DEL Call with action id which is not exists",
               "method": "DELETE",
               "relative_url": "actions/5ee8afa2329876bae6919646",
@@ -2935,11 +2963,11 @@
             "type": "core.find_string",
             "base_type": "activity",
             "properties": {
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "VBerify the PUT Status Code",
               "searched_string": "404",
               "skip_execution": false,
-              "source": "$activity.definition_activity_01GLJIROK9ZMW2wT7zD6qsXP1a6xwmTjHrB.output.status_code$"
+              "source": "$activity.definition_activity_01GLJIROK9ZMW2wT7zD6qsXP1a6xwmTjHrB.output.error.code$"
             },
             "object_type": "definition_activity"
           },
@@ -2990,7 +3018,7 @@
               "allow_auto_redirect": true,
               "content_type": "application/json",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "DELETE a Action  - DEL Call with action id which is invalid",
               "method": "DELETE",
               "relative_url": "actions/5ee8afa2329876bae691964Z",
@@ -3015,11 +3043,11 @@
             "type": "core.find_string",
             "base_type": "activity",
             "properties": {
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "VBerify the PUT Status Code",
               "searched_string": "400",
               "skip_execution": false,
-              "source": "$activity.definition_activity_01GLJMLNQLMNT5sWBLwBlN5B2zzhg7d2MCh.output.status_code$"
+              "source": "$activity.definition_activity_01GLJMLNQLMNT5sWBLwBlN5B2zzhg7d2MCh.output.error.code$"
             },
             "object_type": "definition_activity"
           },
@@ -3088,13 +3116,13 @@
       "display_name": "Headers Table",
       "columns": [
         {
-          "name": "Name",
-          "title": "Name",
+          "name": "Value",
+          "title": "Value",
           "type": "string"
         },
         {
-          "name": "Value",
-          "title": "Value",
+          "name": "Name",
+          "title": "Name",
           "type": "string"
         }
       ],
