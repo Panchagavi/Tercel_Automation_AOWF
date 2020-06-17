@@ -9,25 +9,13 @@
       {
         "schema_id": "datatype.string",
         "properties": {
-          "value": "SGAO",
-          "scope": "local",
-          "name": "Enter the Service Group name",
+          "value": "",
+          "scope": "output",
+          "name": "op for SG when name is empty",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMA65U8ODND3mPCShoq1ESUepLu42EvhM",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "Service Created from the AO Automation WF",
-          "scope": "local",
-          "name": "Enter the Service Group Description",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMA75C196OI3SCzRbIuxo1ptCkbUKEqwl",
+        "unique_name": "variable_workflow_01GMFZJEKCNSK23BlCfdtcutpmcUwxG0SYC",
         "object_type": "variable_workflow"
       },
       {
@@ -35,23 +23,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op for SG when title is empty",
+          "name": "OP for Update SG with ID which does not exists",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMFZRH961166wnILvPtVzySyQdMx1RjaL",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "Tercel_AutomationWF",
-          "scope": "local",
-          "name": "WFName",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMAXKNT0FXQ0l90EMGMZQxBnUlB9OFTAl",
+        "unique_name": "variable_workflow_01GML55XPMPGY22FVm4xT6MypRGMHg81ieN",
         "object_type": "variable_workflow"
       },
       {
@@ -59,188 +35,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op for ID which is Invalid",
+          "name": "op when name is not there",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMFQEXCMT7T4FILay7o3PnPGAsCunPPBl",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for duplcate check",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMGDWPXQJLE3DGuwydgl4fJtgMa5wyZgI",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for ID which does not exists",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMFQ3CHS8L526UzqsAqugnVxg8JilQHm2",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op when title is not there",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMGDNY5Q0I12KelmGm9ttqyG0dZ8SybGD",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-        "properties": {
-          "scope": "local",
-          "name": "Action Sorting Headers",
-          "type": "datatype.table",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMBMW63PGBX1EuUNveEWBh92xWVxbPwjr",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for when desc is more than 1024",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMG5QXRHL2Y4aywC4kyps3Zkhdx2uJ6tP",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for invalid limit",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMFHA1KKSCT4kdVPShLrg0l4kmwImCy4y",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-        "properties": {
-          "scope": "local",
-          "name": "Service Sorting Headers",
-          "type": "datatype.table",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMBZ8WX1YRO3NecW5KnHC2CyCxxhNmTC1",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for when title is more than 64",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMG5JDIG6J724UGnNCxMHOoYBjcYtkMCb",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for when name is special char",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMGE3ZLYN9Z6HJWO335YrPaiwuwtrPx1X",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for when name is more than 64",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMG5D43E5UZ1cHw5zHxJGzL7pDg9x7ZsY",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "OP for Delete SG Failed",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMEFTB46BD52g6MQ2sKFqVXGDNg6nOifR",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Pagination_Links",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMFFUZ7DBP334OR40UFFFrATuCz1Kbz0E",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "tercel",
-          "scope": "local",
-          "name": "WFCategory",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMAX7UD9ELA5PURpQWplN873p5TWJE3Xd",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for invalid start",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMFHFSS5TP078ACHZbyVymN4lZa0ipxwl",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-        "properties": {
-          "scope": "local",
-          "name": "SG Sorting Headers",
-          "type": "datatype.table",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMABSJ3WQI00tdotdhjAhYMCuIkz9GfGO",
+        "unique_name": "variable_workflow_01GMGDG2MHZOF7BYsp16vTB4vJX1I8VNCYU",
         "object_type": "variable_workflow"
       },
       {
@@ -260,11 +59,22 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op for SG when name is empty",
+          "name": "op for update - empty name",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMFZJEKCNSK23BlCfdtcutpmcUwxG0SYC",
+        "unique_name": "variable_workflow_01GMLH4XRYD5I3xgjAzF7ZwDWJgYzutokj0",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+        "properties": {
+          "scope": "local",
+          "name": "Service Sorting Headers",
+          "type": "datatype.table",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMBZ8WX1YRO3NecW5KnHC2CyCxxhNmTC1",
         "object_type": "variable_workflow"
       },
       {
@@ -272,11 +82,369 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op when name is not there",
+          "name": "op for update - localised string",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMGDG2MHZOF7BYsp16vTB4vJX1I8VNCYU",
+        "unique_name": "variable_workflow_01GMM6ZQM7UPS1UjlSZ3okyIgiih97b3G5f",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for update - without title ",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMLJQMP1LUR0yO0fHFABR0beCCgD9q1YC",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for ID which does not exists",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMFQ3CHS8L526UzqsAqugnVxg8JilQHm2",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for when name is more than 64",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMG5D43E5UZ1cHw5zHxJGzL7pDg9x7ZsY",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for delete - ID is Invalid",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMM7WD2WNO80JLh0vuwhSDThtHmTL9Cvg",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for update - invalid ID",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMLAETVNKCZ4HnVsyZIxRITlm7kM5qC88",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "SGAO",
+          "scope": "local",
+          "name": "Enter the Service Group name",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMA65U8ODND3mPCShoq1ESUepLu42EvhM",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "OP for Delete SG Failed",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMEFTB46BD52g6MQ2sKFqVXGDNg6nOifR",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for invalid start",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMFHFSS5TP078ACHZbyVymN4lZa0ipxwl",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for update - without name",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMLK0Z4UKPP3ZUNUiuMYqHBSAIS84yBob",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for delete - id does not exists",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMM7B3ZPQPV7SY9TqBzaTmCpifrvg8auk",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for invalid limit",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMFHA1KKSCT4kdVPShLrg0l4kmwImCy4y",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for localised string",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMKPRV09WTD2RltJTWpYgcv97Yk9ozJIt",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for ID which is Invalid",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMFQEXCMT7T4FILay7o3PnPGAsCunPPBl",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Pagination_Links",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMFFUZ7DBP334OR40UFFFrATuCz1Kbz0E",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for update - name more than 64",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMLIEGELICW3qtJ7v9ETpZbhxSJB5UxHk",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for when name is special char",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMGE3ZLYN9Z6HJWO335YrPaiwuwtrPx1X",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for when desc is more than 1024",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMG5QXRHL2Y4aywC4kyps3Zkhdx2uJ6tP",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+        "properties": {
+          "scope": "local",
+          "name": "SG Sorting Headers",
+          "type": "datatype.table",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMABSJ3WQI00tdotdhjAhYMCuIkz9GfGO",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "tercel",
+          "scope": "local",
+          "name": "WFCategory",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMAX7UD9ELA5PURpQWplN873p5TWJE3Xd",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "Tercel_AutomationWF",
+          "scope": "local",
+          "name": "WFName",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMAXKNT0FXQ0l90EMGMZQxBnUlB9OFTAl",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for update - title more the 64",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMLIPVP44S858ou0u7YJIVRDEmA9rNkKK",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for update - empty title",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMLI5L2FREA3Z4eJ5F0Sz3o74THWbOzXt",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op when title is not there",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMGDNY5Q0I12KelmGm9ttqyG0dZ8SybGD",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for when title is more than 64",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMG5JDIG6J724UGnNCxMHOoYBjcYtkMCb",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for SG when title is empty",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMFZRH961166wnILvPtVzySyQdMx1RjaL",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for update -special char",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMLJ8RFL6A964hWoI5xfz1SM5uKFE6sJM",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for update - desc more the 1024",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMLIZU2C4WG1WaaKacWsSWio4lfpnZl3j",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for duplcate check",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMGDWPXQJLE3DGuwydgl4fJtgMa5wyZgI",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+        "properties": {
+          "scope": "local",
+          "name": "Action Sorting Headers",
+          "type": "datatype.table",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMBMW63PGBX1EuUNveEWBh92xWVxbPwjr",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "Service Created from the AO Automation WF",
+          "scope": "local",
+          "name": "Enter the Service Group Description",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMA75C196OI3SCzRbIuxo1ptCkbUKEqwl",
         "object_type": "variable_workflow"
       }
     ],
@@ -1351,7 +1519,7 @@
               "input_json": "$activity.definition_activity_01GMF3S0YPX9E5a2EzrKnJFh1oM0o5Us89i.output.response_body$",
               "jsonpath_queries": [
                 {
-                  "jsonpath_query": "$.name",
+                  "jsonpath_query": "$.service_groups[0].name",
                   "jsonpath_query_name": "name",
                   "jsonpath_query_type": "string"
                 }
@@ -1615,7 +1783,7 @@
               "action_timeout": 180,
               "allow_auto_redirect": true,
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Get ServiceGroups with limit and start ",
               "method": "GET",
               "relative_url": "servicegroups?start=2\u0026limit=2",
@@ -1684,7 +1852,7 @@
               "action_timeout": 180,
               "allow_auto_redirect": true,
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Get ServiceGroups with invalid  limit",
               "method": "GET",
               "relative_url": "servicegroups?start=2\u0026limit=32",
@@ -1731,7 +1899,7 @@
               "action_timeout": 180,
               "allow_auto_redirect": true,
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Get ServiceGroups with invalid  start",
               "method": "GET",
               "relative_url": "servicegroups?start=-1\u0026limit=2",
@@ -1795,7 +1963,7 @@
               "allow_auto_redirect": true,
               "content_type": "application/json",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Get by ID which does not exists",
               "method": "GET",
               "relative_url": "servicegroups/5eea1425c6a5ae7fb34bdd5e",
@@ -1843,7 +2011,7 @@
               "allow_auto_redirect": true,
               "content_type": "application/json",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Get by ID which is invalid",
               "method": "GET",
               "relative_url": "servicegroups/5eea1425c6a5ae7fb34bdd5Z",
@@ -1881,19 +2049,6 @@
             "object_type": "definition_activity"
           }
         ]
-      },
-      {
-        "unique_name": "definition_activity_01GMG0GQ0QDNN6VzUSSiMRFBdaM3gdHmTCt",
-        "name": "Start Point",
-        "title": "Start Point",
-        "type": "logic.start_point",
-        "base_type": "activity",
-        "properties": {
-          "continue_on_failure": false,
-          "display_name": "Start Point",
-          "skip_execution": false
-        },
-        "object_type": "definition_activity"
       },
       {
         "unique_name": "definition_activity_01GMFX7L1UIEW6N1W9hvf63XH8wKHKMlRTj",
@@ -2443,6 +2598,874 @@
                 {
                   "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GMGE3ZLYN9Z6HJWO335YrPaiwuwtrPx1X$",
                   "variable_value_new": "$activity.definition_activity_01GMGRI8DCDX15q6sIuMaAlVf7Oev7K8nw6.output.error.message$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GMKPV8J68JR35BZ4MDgoNhQv6A2zR0PtN",
+            "name": "HTTP Request",
+            "title": "Create a action - for localized  Char",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n\t\t\t\"description\": \"Laptop description\",\n\t\t\t\"name\": \"服务组\",\n\t\t\t\"title\": \"test 服务组\" \n\t\t}",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Create a action - for localized  Char",
+              "method": "POST",
+              "relative_url": "servicegroups",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GMKQFN0CRKU1EAuX8o33PxNRJwS9R9ZH7",
+            "name": "Set Variables",
+            "title": "localizsed  Char Error Message",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "localizsed  Char Error Message",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GMKPRV09WTD2RltJTWpYgcv97Yk9ozJIt$",
+                  "variable_value_new": "$activity.definition_activity_01GMKPV8J68JR35BZ4MDgoNhQv6A2zR0PtN.output.error.message$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GMKXWUDGGZN1YWW9qObeNvmeiAZRPjTEV",
+        "name": "Group",
+        "title": "Update PUT Call- Negative Test Cases",
+        "type": "logic.group",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Update PUT Call- Negative Test Cases",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "actions": [
+          {
+            "unique_name": "definition_activity_01GMKYO9G802404VmvbmKdLkMuiVQVPoXwt",
+            "name": "HTTP Request",
+            "title": "Create A SG for PUT Negative cases",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "accept": "application/json",
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"description\": \"Laptop description\",\n  \"name\": \"SG01-$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.instance_id$\",\n  \"title\": \"title\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Create A SG for PUT Negative cases",
+              "method": "POST",
+              "relative_url": "servicegroups",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GML03D2WZFD6hrL4KtKHepP9kCdwGlAfF",
+            "name": "HTTP Request",
+            "title": "Get ID for above Service Group",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Get ID for above Service Group",
+              "method": "GET",
+              "relative_url": "servicegroups?name=SG01-$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.instance_id$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GML134GJUCL5YmqThMtjau4SLxSFyzFTH",
+            "name": "JSONPath Query",
+            "title": "Extract the ID ",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": true,
+              "display_name": "Extract the ID ",
+              "input_json": "$activity.definition_activity_01GML03D2WZFD6hrL4KtKHepP9kCdwGlAfF.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.service_groups[0]._id",
+                  "jsonpath_query_name": "SG_ID",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GML25JKJV993LJuKO4vKXXaWcEQXAQSO2",
+            "name": "HTTP Request",
+            "title": "Update  a ServiceGroup with ID which not exists",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "accept": "application/json",
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"description\": \"Laptop description\",\n  \"name\": \"SG01-$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.instance_id$\",\n  \"title\": \"title\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Update  a ServiceGroup with ID which not exists",
+              "method": "PUT",
+              "relative_url": "servicegroups/5eea50c67b12aba5d855dc13",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GML87MENMP22OmQvnkHvcJG771IGF5QSn",
+            "name": "Set Variables",
+            "title": "Failed Reason",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": true,
+              "display_name": "Failed Reason",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GML55XPMPGY22FVm4xT6MypRGMHg81ieN$",
+                  "variable_value_new": "$activity.definition_activity_01GML25JKJV993LJuKO4vKXXaWcEQXAQSO2.output.error.message$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GML987E6YKD2Ww9l0aH8yU5bGty7rFXWU",
+            "name": "HTTP Request",
+            "title": "Update  a ServiceGroup with ID which is invalid",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "accept": "application/json",
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"description\": \"Laptop description\",\n  \"name\": \"SG01-$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.instance_id$\",\n  \"title\": \"title\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Update  a ServiceGroup with ID which is invalid",
+              "method": "PUT",
+              "relative_url": "servicegroups/5eea50c67b12aba5d855dc1Z",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GML9TFELJX27CKsxiemoeFnpuc1VMP8El",
+            "name": "Set Variables",
+            "title": "Failed Reason",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": true,
+              "display_name": "Failed Reason",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GMLAETVNKCZ4HnVsyZIxRITlm7kM5qC88$",
+                  "variable_value_new": "$activity.definition_activity_01GML987E6YKD2Ww9l0aH8yU5bGty7rFXWU.output.error.message$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GMLBNKBMSVI5y9mGzIEQWdqOveiymuNCj",
+            "name": "HTTP Request",
+            "title": "Update  a ServiceGroup with empty Name",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "accept": "application/json",
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"description\": \"Laptop description\",\n  \"name\": \"\",\n  \"title\": \"title\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Update  a ServiceGroup with empty Name",
+              "method": "PUT",
+              "relative_url": "servicegroups/$activity.definition_activity_01GML134GJUCL5YmqThMtjau4SLxSFyzFTH.output.jsonpath_queries.SG_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GMLL20TCERJ46zfexNLK9l01ywkljTWrh",
+            "name": "Set Variables",
+            "title": "Failed Reason",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": true,
+              "display_name": "Failed Reason",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GMLH4XRYD5I3xgjAzF7ZwDWJgYzutokj0$",
+                  "variable_value_new": "$activity.definition_activity_01GMLBNKBMSVI5y9mGzIEQWdqOveiymuNCj.output.error.message$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GMLMJMCVI4M20YQUlY0NRntUf8r9VPkjI",
+            "name": "HTTP Request",
+            "title": "Update  a ServiceGroup with empty title",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "accept": "application/json",
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"description\": \"Laptop description\",\n  \"name\": \"name\",\n  \"title\": \"\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Update  a ServiceGroup with empty title",
+              "method": "PUT",
+              "relative_url": "servicegroups/$activity.definition_activity_01GML134GJUCL5YmqThMtjau4SLxSFyzFTH.output.jsonpath_queries.SG_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GMLN3MDZL5F0q2RUQxLWPBiFQw27MBLke",
+            "name": "Set Variables",
+            "title": "Failed Reason",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": true,
+              "display_name": "Failed Reason",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GMLI5L2FREA3Z4eJ5F0Sz3o74THWbOzXt$",
+                  "variable_value_new": "$activity.definition_activity_01GMLMJMCVI4M20YQUlY0NRntUf8r9VPkjI.output.error.message$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GMLO0BHCAZD0SfcVGIzN1yqMqIy5vtwev",
+            "name": "HTTP Request",
+            "title": "Update  a ServiceGroup with name more than 64",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "accept": "application/json",
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"description\": \"Laptop description\",\n  \"name\": \"CatalogItem action name CatalogItem action name CatalogItem action CatalogItem\",\n  \"title\": \"title\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Update  a ServiceGroup with name more than 64",
+              "method": "PUT",
+              "relative_url": "servicegroups/$activity.definition_activity_01GML134GJUCL5YmqThMtjau4SLxSFyzFTH.output.jsonpath_queries.SG_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GMLOXZH6E914Y0MWnD1O9LQye0EODUhSW",
+            "name": "Set Variables",
+            "title": "Failed Reason",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": true,
+              "display_name": "Failed Reason",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GMLIEGELICW3qtJ7v9ETpZbhxSJB5UxHk$",
+                  "variable_value_new": "$activity.definition_activity_01GMLO0BHCAZD0SfcVGIzN1yqMqIy5vtwev.output.error.message$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GMLQ340USK814cP0UAO9HIzbi9qX2LaIO",
+            "name": "HTTP Request",
+            "title": "Update  a ServiceGroup with title more than 64",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "accept": "application/json",
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"description\": \"Laptop description\",\n  \"name\": \"name\",\n  \"title\": \"CatalogItem action name CatalogItem action name CatalogItem action CatalogItem\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Update  a ServiceGroup with title more than 64",
+              "method": "PUT",
+              "relative_url": "servicegroups/$activity.definition_activity_01GML134GJUCL5YmqThMtjau4SLxSFyzFTH.output.jsonpath_queries.SG_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GMLQXTR0BHV3C8DBjlFMRyfYKY2vJTq4b",
+            "name": "Set Variables",
+            "title": "Failed Reason",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": true,
+              "display_name": "Failed Reason",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GMLIPVP44S858ou0u7YJIVRDEmA9rNkKK$",
+                  "variable_value_new": "$activity.definition_activity_01GMLQ340USK814cP0UAO9HIzbi9qX2LaIO.output.error.message$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GMLVDRUZRB759IcqjXgK6wLDnaUMcta68",
+            "name": "HTTP Request",
+            "title": "Update  a ServiceGroup with desc more than 1024",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "accept": "application/json",
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"description\": \"CatalogItem action name CatalogItem action name CatalogItem action CatalogItem CatalogItem action name CatalogItem action name CatalogItem action CatalogItem CatalogItem action name CatalogItem action name CatalogItem action CatalogItem CatalogItem action name CatalogItem action name CatalogItem action CatalogItem CatalogItem action name CatalogItem action name CatalogItem action CatalogItem CatalogItem action name CatalogItem action name CatalogItem action CatalogItem CatalogItem action name CatalogItem action name CatalogItem action CatalogItem CatalogItem action name CatalogItem action name CatalogItem action CatalogItem CatalogItem action name CatalogItem action name CatalogItem action CatalogItem CatalogItem action name CatalogItem action name CatalogItem action CatalogItem CatalogItem action name CatalogItem action name CatalogItem action CatalogItem CatalogItem action name CatalogItem action name CatalogItem action CatalogItem CatalogItem action name CatalogItem action name CatalogItem action CatalogItem CatalogItem action\",\n  \"name\": \"name\",\n  \"title\": \"title\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Update  a ServiceGroup with desc more than 1024",
+              "method": "PUT",
+              "relative_url": "servicegroups/$activity.definition_activity_01GML134GJUCL5YmqThMtjau4SLxSFyzFTH.output.jsonpath_queries.SG_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GMLWFKD0WA731ZZdA7FyHZid5G12fSgyj",
+            "name": "Set Variables",
+            "title": "Failed Reason",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": true,
+              "display_name": "Failed Reason",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GMLIZU2C4WG1WaaKacWsSWio4lfpnZl3j$",
+                  "variable_value_new": "$activity.definition_activity_01GMLVDRUZRB759IcqjXgK6wLDnaUMcta68.output.error.message$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GMLXZ1DKQUP0aHe4TuXzhSZkCEQ1OflWA",
+            "name": "HTTP Request",
+            "title": "Update  a ServiceGroup with special char in name field",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "accept": "application/json",
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"description\": \"desc for a service group\",\n  \"name\": \"Test@!@#1234\",\n  \"title\": \"title\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Update  a ServiceGroup with special char in name field",
+              "method": "PUT",
+              "relative_url": "servicegroups/$activity.definition_activity_01GML134GJUCL5YmqThMtjau4SLxSFyzFTH.output.jsonpath_queries.SG_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GMLZAA1NNZM2EFf3w69LUnNEpc7PkUgQ8",
+            "name": "Set Variables",
+            "title": "Failed Reason",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": true,
+              "display_name": "Failed Reason",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GMLJ8RFL6A964hWoI5xfz1SM5uKFE6sJM$",
+                  "variable_value_new": "$activity.definition_activity_01GMLXZ1DKQUP0aHe4TuXzhSZkCEQ1OflWA.output.error.message$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GMM0VOLZCAP7Gqlw1M6jfDAHaI1gWFLhQ",
+            "name": "HTTP Request",
+            "title": "Update  a ServiceGroup with name key missing in json",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "accept": "application/json",
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"description\": \"desc for a service group\",\n  \"title\": \"title\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Update  a ServiceGroup with name key missing in json",
+              "method": "PUT",
+              "relative_url": "servicegroups/$activity.definition_activity_01GML134GJUCL5YmqThMtjau4SLxSFyzFTH.output.jsonpath_queries.SG_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GMM2UROT8SP6jf2fFimaXElMQjq1scyHt",
+            "name": "Set Variables",
+            "title": "Failed Reason",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": true,
+              "display_name": "Failed Reason",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GMLK0Z4UKPP3ZUNUiuMYqHBSAIS84yBob$",
+                  "variable_value_new": "$activity.definition_activity_01GMM0VOLZCAP7Gqlw1M6jfDAHaI1gWFLhQ.output.error.message$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GMM148IUBK84u5R1LFkMKQUnCl4aw6Gwc",
+            "name": "HTTP Request",
+            "title": "Update  a ServiceGroup with title key missing",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "accept": "application/json",
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"description\": \"desc for a service group\",\n  \"name\": \"Test1234\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Update  a ServiceGroup with title key missing",
+              "method": "PUT",
+              "relative_url": "servicegroups/$activity.definition_activity_01GML134GJUCL5YmqThMtjau4SLxSFyzFTH.output.jsonpath_queries.SG_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GMM2XF4XADO701dH2fehjtW6NuzmCl0ck",
+            "name": "Set Variables",
+            "title": "Failed Reason",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": true,
+              "display_name": "Failed Reason",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GMLJQMP1LUR0yO0fHFABR0beCCgD9q1YC$",
+                  "variable_value_new": "$activity.definition_activity_01GMM148IUBK84u5R1LFkMKQUnCl4aw6Gwc.output.error.message$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GMM7YHN37C93i7fLXSu6rekV9a8b54PDP",
+            "name": "HTTP Request",
+            "title": "Update  a ServiceGroup with name in localised string",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "accept": "application/json",
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"description\": \"desc for a service group\",\n  \"name\": \"Test1234-服务组\",\n  \"title\": \"title\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Update  a ServiceGroup with name in localised string",
+              "method": "PUT",
+              "relative_url": "servicegroups/$activity.definition_activity_01GML134GJUCL5YmqThMtjau4SLxSFyzFTH.output.jsonpath_queries.SG_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GMM9QLAI9NA0fj4PkuZxCAv2yk48m0iYK",
+            "name": "Set Variables",
+            "title": "Failed Reason",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": true,
+              "display_name": "Failed Reason",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GMM6ZQM7UPS1UjlSZ3okyIgiih97b3G5f$",
+                  "variable_value_new": "$activity.definition_activity_01GMM7YHN37C93i7fLXSu6rekV9a8b54PDP.output.error.message$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GMMCUEBCG6614SfyRsZRl8PJjq8mJReHJ",
+            "name": "HTTP Request",
+            "title": "Update  a ServiceGroup with title in localised string",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "accept": "application/json",
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"description\": \"desc for a service group\",\n  \"name\": \"Test1234\",\n  \"title\": \"服务组\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Update  a ServiceGroup with title in localised string",
+              "method": "PUT",
+              "relative_url": "servicegroups/$activity.definition_activity_01GML134GJUCL5YmqThMtjau4SLxSFyzFTH.output.jsonpath_queries.SG_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GMME96ZM0NX0z1aU6buZeVj5EWWU5V3pI",
+        "name": "Group",
+        "title": "Delete Negative Case -",
+        "type": "logic.group",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Delete Negative Case -",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "actions": [
+          {
+            "unique_name": "definition_activity_01GMMEHCU20XE1w8cv7MTLU12l1rPKDZKS8",
+            "name": "HTTP Request",
+            "title": "Delete A SG",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "accept": "application/json",
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Delete A SG",
+              "method": "DELETE",
+              "relative_url": "servicegroups/$activity.definition_activity_01GML134GJUCL5YmqThMtjau4SLxSFyzFTH.output.jsonpath_queries.SG_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GMMG2DFFQRU3lc74klosqxr3wzxPo2uxv",
+            "name": "HTTP Request",
+            "title": "Delete A SG",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "accept": "application/json",
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Delete A SG",
+              "method": "DELETE",
+              "relative_url": "servicegroups/$activity.definition_activity_01GML134GJUCL5YmqThMtjau4SLxSFyzFTH.output.jsonpath_queries.SG_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GMMGACQ6LKO0YGe0Q6T9WNbuLSH6nn2d7",
+            "name": "Set Variables",
+            "title": "Failed Reason",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": true,
+              "display_name": "Failed Reason",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GMM7B3ZPQPV7SY9TqBzaTmCpifrvg8auk$",
+                  "variable_value_new": "$activity.definition_activity_01GMMG2DFFQRU3lc74klosqxr3wzxPo2uxv.output.error.message$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GMMGVLUNVNQ3818UyruX1fifMU6zBtPVg",
+            "name": "HTTP Request",
+            "title": "Delete A SG",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "accept": "application/json",
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Delete A SG",
+              "method": "DELETE",
+              "relative_url": "servicegroups/5eea50c67b12aba5d855dc1Z",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GMMH8RSUYKE55UAeIHlpw6LQKfZODWjUf",
+            "name": "Set Variables",
+            "title": "Failed Reason",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": true,
+              "display_name": "Failed Reason",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GMM7WD2WNO80JLh0vuwhSDThtHmTL9Cvg$",
+                  "variable_value_new": "$activity.definition_activity_01GMMGVLUNVNQ3818UyruX1fifMU6zBtPVg.output.error.message$"
                 }
               ]
             },
