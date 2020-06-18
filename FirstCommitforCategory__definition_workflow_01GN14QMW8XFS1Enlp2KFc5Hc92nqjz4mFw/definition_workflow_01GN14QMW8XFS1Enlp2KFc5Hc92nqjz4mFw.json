@@ -1,0 +1,661 @@
+{
+  "workflow": {
+    "unique_name": "definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw",
+    "name": "Tercel Cataegory API - Automation Positive and Negative UseCases",
+    "title": "Tercel Cataegory API - Automation Positive and Negative UseCases",
+    "type": "generic.workflow",
+    "base_type": "workflow",
+    "variables": [
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "AOCat",
+          "scope": "input",
+          "name": "Enter the CategoryName",
+          "type": "datatype.string",
+          "is_required": true
+        },
+        "unique_name": "variable_workflow_01GN7IFG6POQW0RfxF7fKayezQti7lD2BXJ",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "Category Description",
+          "scope": "input",
+          "name": "Enter the Category Desc",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GN7IUL870Z22rYCGEopaD8ZdeQuBO1Gds",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for invalid limit",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GN3NQBDOT3O2wYH1pzSCjIJKLUDHpNVnM",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Output for Catalog Items",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GN7AMZKL11U0wMMPpnXxujPA0obkXFvTw",
+        "object_type": "variable_workflow"
+      }
+    ],
+    "properties": {
+      "atomic": {
+        "is_atomic": false
+      },
+      "delete_workflow_instance": false,
+      "description": "Tercel Cataegory API - Automation Positive and Negative UseCases",
+      "display_name": "Tercel Cataegory API - Automation Positive and Negative UseCases",
+      "runtime_user": {
+        "override_target_runtime_user": false,
+        "specify_on_workflow_start": false,
+        "target_default": true
+      },
+      "target": {
+        "target_type": "web-service.endpoint",
+        "target_id": "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP",
+        "execute_on_workflow_target": true
+      }
+    },
+    "object_type": "definition_workflow",
+    "actions": [
+      {
+        "unique_name": "definition_activity_01GN15HM7IZMQ4XZAneokCmc3lpHXTjVkUD",
+        "name": "Group",
+        "title": "Category Get API-Verification",
+        "type": "logic.group",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Category Get API-Verification",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "actions": [
+          {
+            "unique_name": "definition_activity_01GN15TQP7SAB26mwUdZwyRS8b2CSi3Cg7B",
+            "name": "HTTP Request",
+            "title": "Get All Categories",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Get All Categories",
+              "method": "GET",
+              "relative_url": "categories",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN3EX7J527R6sQMSbdxCrf71anMAwsNwk",
+            "name": "Find String",
+            "title": "Verify the Status Code",
+            "type": "core.find_string",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Verify the Status Code",
+              "searched_string": "200",
+              "skip_execution": false,
+              "source": "$activity.definition_activity_01GN15TQP7SAB26mwUdZwyRS8b2CSi3Cg7B.output.status_code$"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN3GYGP24E86zBOhDH5uh6GxeGVw96r7J",
+            "name": "JSONPath Query",
+            "title": "Extract the First Category record",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the First Category record",
+              "input_json": "$activity.definition_activity_01GN15TQP7SAB26mwUdZwyRS8b2CSi3Cg7B.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.categories[0]._id",
+                  "jsonpath_query_name": "Cat_ID",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN3KNQHMW8E0PjpUuZZDDE1cYCxz38O5v",
+            "name": "HTTP Request",
+            "title": "Get All Categories with limit and start parameter ",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Get All Categories with limit and start parameter ",
+              "method": "GET",
+              "relative_url": "categories?limit=2\u0026start=10",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN3M76AQJNI7GfXCvorhvOvgCUAmCVoIu",
+            "name": "JSONPath Query",
+            "title": "Extract the Pagination from the Categories ",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the Pagination from the Categories ",
+              "input_json": "$activity.definition_activity_01GN3KNQHMW8E0PjpUuZZDDE1cYCxz38O5v.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$._links",
+                  "jsonpath_query_name": "pagination_Links",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN3N4BINP4A0jVfV5mI2ZSOf8gfqgBPYR",
+            "name": "HTTP Request",
+            "title": "Get All Categories with invlaid  limit and start parameter ",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Get All Categories with invlaid  limit and start parameter ",
+              "method": "GET",
+              "relative_url": "categories?limit=32\u0026start=10",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN3NUPNMW361Hn7Kj0px8jVIOPWoqQyXV",
+            "name": "Set Variables",
+            "title": "Set Variables",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Set Variables",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.output.variable_workflow_01GN3NQBDOT3O2wYH1pzSCjIJKLUDHpNVnM$",
+                  "variable_value_new": "$activity.definition_activity_01GN3N4BINP4A0jVfV5mI2ZSOf8gfqgBPYR.output.error.message$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN3IRYHPU4P7PhCuQNiaDkGIiIsLGVFES",
+            "name": "HTTP Request",
+            "title": "Get Category By ID",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Get Category By ID",
+              "method": "GET",
+              "relative_url": "categories/$activity.definition_activity_01GN3GYGP24E86zBOhDH5uh6GxeGVw96r7J.output.jsonpath_queries.Cat_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN5UFIQGK4911g8Jf2kGhIJ93Loprq5dK",
+            "name": "Find String",
+            "title": "Verify the Status Code",
+            "type": "core.find_string",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Verify the Status Code",
+              "searched_string": "200",
+              "skip_execution": false,
+              "source": "$activity.definition_activity_01GN3IRYHPU4P7PhCuQNiaDkGIiIsLGVFES.output.status_code$"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN5YT0AU6BI6HCaf13yvBhFIevEG5G3X3",
+            "name": "HTTP Request",
+            "title": "Get  Categories ByQuery Param = Name",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Get  Categories ByQuery Param = Name",
+              "method": "GET",
+              "relative_url": "categories?name=K8s Category",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN66Q8P8Z073Slye5QX9oTC6MeZPOEXq7",
+            "name": "JSONPath Query",
+            "title": "Extract Name to Validate",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract Name to Validate",
+              "input_json": "$activity.definition_activity_01GN5YT0AU6BI6HCaf13yvBhFIevEG5G3X3.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.categories[0].name",
+                  "jsonpath_query_name": "Cat_Name",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN69P5IN4O82KeKOllN6AgbByTi2M8c3M",
+            "name": "Find String",
+            "title": "Validate Name",
+            "type": "core.find_string",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Validate Name",
+              "searched_string": "K8s Category",
+              "skip_execution": false,
+              "source": "$activity.definition_activity_01GN66Q8P8Z073Slye5QX9oTC6MeZPOEXq7.output.jsonpath_queries.Cat_Name$"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN6D6MH2TUD3UPHd2Rt0GdNl5nAdZwlJR",
+            "name": "HTTP Request",
+            "title": "Get All Categories with Query Include Catalog_Items",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Get All Categories with Query Include Catalog_Items",
+              "method": "GET",
+              "relative_url": "categories?include_catalog_items=true\u0026name=K8s Category",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN6FKAKGEHB6QVLv1sQdJsTDOJDlZdkJg",
+            "name": "JSONPath Query",
+            "title": "Extract Catalog Items to Validate",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract Catalog Items to Validate",
+              "input_json": "$activity.definition_activity_01GN6D6MH2TUD3UPHd2Rt0GdNl5nAdZwlJR.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.categories[0].catalog_items",
+                  "jsonpath_query_name": "Catlogitems",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN7A30ARJ9O71VoqpCtDBuQi5LvFaGPfG",
+            "name": "Set Variables",
+            "title": "Print Catalog Item",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Print Catalog Item",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.output.variable_workflow_01GN7AMZKL11U0wMMPpnXxujPA0obkXFvTw$",
+                  "variable_value_new": "$activity.definition_activity_01GN6FKAKGEHB6QVLv1sQdJsTDOJDlZdkJg.output.jsonpath_queries.Catlogitems$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GN7NEH7J2CA0LlUjB4uxgZbMj508XstLh",
+        "name": "Start Point",
+        "title": "Start Point",
+        "type": "logic.start_point",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Start Point",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity"
+      },
+      {
+        "unique_name": "definition_activity_01GN6NGL55SCJ1Xg0w1ur1vDXnAiJIvMZmk",
+        "name": "Group",
+        "title": "Category POST API-Verification",
+        "type": "logic.group",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Category POST API-Verification",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "actions": [
+          {
+            "unique_name": "definition_activity_01GN6NGRYR6H10oCcvRyeypDETpZs8OqZ9F",
+            "name": "HTTP Request",
+            "title": "Create Categoy",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n    \"name\": \"$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.input.variable_workflow_01GN7IFG6POQW0RfxF7fKayezQti7lD2BXJ$-$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.output.instance_id$\",\n    \"description\": \"$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.input.variable_workflow_01GN7IUL870Z22rYCGEopaD8ZdeQuBO1Gds$-$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.output.instance_id$\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Create Categoy",
+              "method": "POST",
+              "relative_url": "categories",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN6NGU2QEI00c0URR93ZD0jRUZ2CCXjvJ",
+            "name": "Find String",
+            "title": "Verify the Status Code",
+            "type": "core.find_string",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Verify the Status Code",
+              "searched_string": "201",
+              "skip_execution": false,
+              "source": "$activity.definition_activity_01GN6NGRYR6H10oCcvRyeypDETpZs8OqZ9F.output.status_code$"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN7K8JEUXVA0a0NNbLz8gfs6Mr0AJHuE8",
+            "name": "HTTP Request",
+            "title": "Get Category By Name",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Get Category By Name",
+              "method": "GET",
+              "relative_url": "categories?name=$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.input.variable_workflow_01GN7IFG6POQW0RfxF7fKayezQti7lD2BXJ$-$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.output.instance_id$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN7LBHP189N0XM77ZwhFJqq5ZLgPKijhn",
+            "name": "JSONPath Query",
+            "title": "Extract the Cat ID and cat Name",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the Cat ID and cat Name",
+              "input_json": "$activity.definition_activity_01GN7K8JEUXVA0a0NNbLz8gfs6Mr0AJHuE8.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.categories[0]._id",
+                  "jsonpath_query_name": "Cat_ID",
+                  "jsonpath_query_type": "string"
+                },
+                {
+                  "jsonpath_query": "$.categories[0].name",
+                  "jsonpath_query_name": "cat_name",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN7MSNV0CPA1vxYoOK3xLnjg5y9RNgsX9",
+            "name": "Find String",
+            "title": "validate the Category Name",
+            "type": "core.find_string",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "validate the Category Name",
+              "searched_string": "$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.input.variable_workflow_01GN7IFG6POQW0RfxF7fKayezQti7lD2BXJ$-$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.output.instance_id$",
+              "skip_execution": false,
+              "source": "$activity.definition_activity_01GN7LBHP189N0XM77ZwhFJqq5ZLgPKijhn.output.jsonpath_queries.cat_name$"
+            },
+            "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GN7OV4GSGIH3QbOzRcmq2t6OX7pIdVUVM",
+        "name": "Group",
+        "title": "Group",
+        "type": "logic.group",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Group",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "actions": [
+          {
+            "unique_name": "definition_activity_01GN7P1ZMFEUE3BYS4wIumYnTLW6iRjZsMP",
+            "name": "HTTP Request",
+            "title": "HTTP Request",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "HTTP Request",
+              "method": "GET",
+              "relative_url": "categories/$activity.definition_activity_01GN7LBHP189N0XM77ZwhFJqq5ZLgPKijhn.output.jsonpath_queries.Cat_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          }
+        ]
+      }
+    ],
+    "categories": [
+      "category_01GN2GBI52Y2F1AYT3RDfcwY4odOJfgHjMb"
+    ]
+  },
+  "categories": {
+    "category_01GN2GBI52Y2F1AYT3RDfcwY4odOJfgHjMb": {
+      "unique_name": "category_01GN2GBI52Y2F1AYT3RDfcwY4odOJfgHjMb",
+      "name": "Tercel_Automation_API",
+      "title": "Tercel_Automation_API",
+      "type": "basic.category",
+      "base_type": "category",
+      "description": "Tercel_Automation_API",
+      "category_type": "custom",
+      "object_type": "category"
+    }
+  },
+  "targets": {
+    "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP": {
+      "unique_name": "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP",
+      "name": "Tercel API",
+      "title": "Tercel API",
+      "type": "web-service.endpoint",
+      "base_type": "target",
+      "object_type": "definition_target",
+      "properties": {
+        "description": "test",
+        "disable_certificate_validation": true,
+        "display_name": "Tercel API",
+        "host": "172.23.14.96",
+        "ignore_proxy": false,
+        "no_runtime_user": true,
+        "path": "/api/v1/",
+        "port": 8006,
+        "protocol": "https"
+      }
+    }
+  }
+}
