@@ -28,6 +28,18 @@
         },
         "unique_name": "variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI",
         "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "ServiceGroup_ID",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GN9B0ORUMLA52zdxii7atGlzOXr6EC0q5",
+        "object_type": "variable_workflow"
       }
     ],
     "properties": {
@@ -152,6 +164,25 @@
             }
           ],
           "skip_execution": false
+        },
+        "object_type": "definition_activity"
+      },
+      {
+        "unique_name": "definition_activity_01GN9AQVV898Q3M17FCKUk7MQ4TnuSHkYrQ",
+        "name": "Set Variables",
+        "title": "ServiceGroup_ID",
+        "type": "core.set_multiple_variables",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "ServiceGroup_ID",
+          "skip_execution": false,
+          "variables_to_update": [
+            {
+              "variable_to_update": "$workflow.definition_workflow_01GN6NM7SV0AH2an1wrWtgaAylJZQRL9pmZ.output.variable_workflow_01GN9B0ORUMLA52zdxii7atGlzOXr6EC0q5$",
+              "variable_value_new": "$activity.definition_activity_01GN94DHKRJ512HCI6jP4KTEZkPEn5fAJRo.output.jsonpath_queries.Service_Group_ID$"
+            }
+          ]
         },
         "object_type": "definition_activity"
       },
