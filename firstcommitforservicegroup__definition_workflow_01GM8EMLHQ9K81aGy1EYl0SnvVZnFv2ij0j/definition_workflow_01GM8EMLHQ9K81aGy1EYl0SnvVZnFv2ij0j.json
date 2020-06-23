@@ -11,11 +11,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op for SG when name is empty",
+          "name": "op for SG when title is empty",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMFZJEKCNSK23BlCfdtcutpmcUwxG0SYC",
+        "unique_name": "variable_workflow_01GMFZRH961166wnILvPtVzySyQdMx1RjaL",
         "object_type": "variable_workflow"
       },
       {
@@ -23,11 +23,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "OP for Update SG with ID which does not exists",
+          "name": "op for update - name more than 64",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GML55XPMPGY22FVm4xT6MypRGMHg81ieN",
+        "unique_name": "variable_workflow_01GMLIEGELICW3qtJ7v9ETpZbhxSJB5UxHk",
         "object_type": "variable_workflow"
       },
       {
@@ -35,23 +35,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op when name is not there",
+          "name": "Post - Fetch Service_Group with a service ",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMGDG2MHZOF7BYsp16vTB4vJX1I8VNCYU",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "SGTitle",
-          "scope": "local",
-          "name": "Enter the Service Group Title",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMA7QJ6PU8M3gt6rSIlPTvRda8Gkhgz8w",
+        "unique_name": "variable_workflow_01GRBKMUWMP8D21o497UXvZLR7pgrwFqUFy",
         "object_type": "variable_workflow"
       },
       {
@@ -59,82 +47,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op for update - empty name",
+          "name": "op for update -special char",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMLH4XRYD5I3xgjAzF7ZwDWJgYzutokj0",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-        "properties": {
-          "scope": "local",
-          "name": "Service Sorting Headers",
-          "type": "datatype.table",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMBZ8WX1YRO3NecW5KnHC2CyCxxhNmTC1",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for update - localised string",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMM6ZQM7UPS1UjlSZ3okyIgiih97b3G5f",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for update - without title ",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMLJQMP1LUR0yO0fHFABR0beCCgD9q1YC",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for ID which does not exists",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMFQ3CHS8L526UzqsAqugnVxg8JilQHm2",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for when name is more than 64",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMG5D43E5UZ1cHw5zHxJGzL7pDg9x7ZsY",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for delete - ID is Invalid",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMM7WD2WNO80JLh0vuwhSDThtHmTL9Cvg",
+        "unique_name": "variable_workflow_01GMLJ8RFL6A964hWoI5xfz1SM5uKFE6sJM",
         "object_type": "variable_workflow"
       },
       {
@@ -152,13 +69,13 @@
       {
         "schema_id": "datatype.string",
         "properties": {
-          "value": "SGAO",
-          "scope": "local",
-          "name": "Enter the Service Group name",
+          "value": "",
+          "scope": "output",
+          "name": "op when title is not there",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMA65U8ODND3mPCShoq1ESUepLu42EvhM",
+        "unique_name": "variable_workflow_01GMGDNY5Q0I12KelmGm9ttqyG0dZ8SybGD",
         "object_type": "variable_workflow"
       },
       {
@@ -190,107 +107,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op for update - without name",
+          "name": "op for when title is more than 64",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMLK0Z4UKPP3ZUNUiuMYqHBSAIS84yBob",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for delete - id does not exists",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMM7B3ZPQPV7SY9TqBzaTmCpifrvg8auk",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for invalid limit",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMFHA1KKSCT4kdVPShLrg0l4kmwImCy4y",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for localised string",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMKPRV09WTD2RltJTWpYgcv97Yk9ozJIt",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for ID which is Invalid",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMFQEXCMT7T4FILay7o3PnPGAsCunPPBl",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Pagination_Links",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMFFUZ7DBP334OR40UFFFrATuCz1Kbz0E",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for update - name more than 64",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMLIEGELICW3qtJ7v9ETpZbhxSJB5UxHk",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for when name is special char",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMGE3ZLYN9Z6HJWO335YrPaiwuwtrPx1X",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for when desc is more than 1024",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMG5QXRHL2Y4aywC4kyps3Zkhdx2uJ6tP",
+        "unique_name": "variable_workflow_01GMG5JDIG6J724UGnNCxMHOoYBjcYtkMCb",
         "object_type": "variable_workflow"
       },
       {
@@ -307,6 +128,78 @@
       {
         "schema_id": "datatype.string",
         "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "PUT Call Negative Test Cases - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GRCNJUI7G6Z5HfLV0xesixTk0dwDV9tMu",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Post Call Negative Test Cases - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GRCN9LWDKG76MjpYz06KN9MqsVOxEQdIL",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for delete - ID is Invalid",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMM7WD2WNO80JLh0vuwhSDThtHmTL9Cvg",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "POST Call Service Group - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GRALDHJPQF67Tlztan0i5D1ZEK8WOjDmp",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for SG when name is empty",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMFZJEKCNSK23BlCfdtcutpmcUwxG0SYC",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "DEL Call Service Group - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GRATSFM6JCS1QkRNmctRHesFqrjG1842o",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
           "value": "tercel",
           "scope": "local",
           "name": "WFCategory",
@@ -317,15 +210,14 @@
         "object_type": "variable_workflow"
       },
       {
-        "schema_id": "datatype.string",
+        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
         "properties": {
-          "value": "Tercel_AutomationWF",
           "scope": "local",
-          "name": "WFName",
-          "type": "datatype.string",
+          "name": "Service Sorting Headers",
+          "type": "datatype.table",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMAXKNT0FXQ0l90EMGMZQxBnUlB9OFTAl",
+        "unique_name": "variable_workflow_01GMBZ8WX1YRO3NecW5KnHC2CyCxxhNmTC1",
         "object_type": "variable_workflow"
       },
       {
@@ -333,11 +225,23 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op for update - title more the 64",
+          "name": "PUT Call Service Group - Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMLIPVP44S858ou0u7YJIVRDEmA9rNkKK",
+        "unique_name": "variable_workflow_01GRATKHGHCDR7BFElUrKdcJBapaLKUiOdS",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for duplcate check",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMGDWPXQJLE3DGuwydgl4fJtgMa5wyZgI",
         "object_type": "variable_workflow"
       },
       {
@@ -357,11 +261,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op when title is not there",
+          "name": "op for when name is special char",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMGDNY5Q0I12KelmGm9ttqyG0dZ8SybGD",
+        "unique_name": "variable_workflow_01GMGE3ZLYN9Z6HJWO335YrPaiwuwtrPx1X",
         "object_type": "variable_workflow"
       },
       {
@@ -369,11 +273,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op for when title is more than 64",
+          "name": "op for ID which does not exists",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMG5JDIG6J724UGnNCxMHOoYBjcYtkMCb",
+        "unique_name": "variable_workflow_01GMFQ3CHS8L526UzqsAqugnVxg8JilQHm2",
         "object_type": "variable_workflow"
       },
       {
@@ -381,11 +285,12 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op for SG when title is empty",
+          "name": "GET All Service Groups - Pass/Fail",
           "type": "datatype.string",
+          "description": "GET All Service Groups - Pass/Fail",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMFZRH961166wnILvPtVzySyQdMx1RjaL",
+        "unique_name": "variable_workflow_01GRAL2CJPUTM6Zrk3NBHO61lQetDzNWelk",
         "object_type": "variable_workflow"
       },
       {
@@ -393,11 +298,23 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op for update -special char",
+          "name": "op for update - without name",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMLJ8RFL6A964hWoI5xfz1SM5uKFE6sJM",
+        "unique_name": "variable_workflow_01GMLK0Z4UKPP3ZUNUiuMYqHBSAIS84yBob",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "Tercel_AutomationWF",
+          "scope": "local",
+          "name": "WFName",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMAXKNT0FXQ0l90EMGMZQxBnUlB9OFTAl",
         "object_type": "variable_workflow"
       },
       {
@@ -405,11 +322,12 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op for update - desc more the 1024",
+          "name": "GET  Service Group by Name - Pass/Fail",
           "type": "datatype.string",
+          "description": "GET  Service Group by Name - Pass/Fail",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMLIZU2C4WG1WaaKacWsSWio4lfpnZl3j",
+        "unique_name": "variable_workflow_01GRBSHHLGGRL6fbokByblIB2el0Bz2e3VG",
         "object_type": "variable_workflow"
       },
       {
@@ -417,11 +335,131 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op for duplcate check",
+          "name": "op for when name is more than 64",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMGDWPXQJLE3DGuwydgl4fJtgMa5wyZgI",
+        "unique_name": "variable_workflow_01GMG5D43E5UZ1cHw5zHxJGzL7pDg9x7ZsY",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for update - title more the 64",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMLIPVP44S858ou0u7YJIVRDEmA9rNkKK",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Get Service Group ID Inavlid and Not Exists - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GRC3CM4YWAT3yP02lVgpXnelXK9pvlTM2",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for localised string",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMKPRV09WTD2RltJTWpYgcv97Yk9ozJIt",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for update - localised string",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMM6ZQM7UPS1UjlSZ3okyIgiih97b3G5f",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for invalid limit",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMFHA1KKSCT4kdVPShLrg0l4kmwImCy4y",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "OP for Update SG with ID which does not exists",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GML55XPMPGY22FVm4xT6MypRGMHg81ieN",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Pagination_Links",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMFFUZ7DBP334OR40UFFFrATuCz1Kbz0E",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Delete Call Negative Test Cases - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GRCNS2YXQSY5IfjsP8Su2pYAOtbIJw1U2",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Get Pagination Links - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GRC2QRZBB7G6iufgeEKFNJqv9mkg7flfd",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for when desc is more than 1024",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMG5QXRHL2Y4aywC4kyps3Zkhdx2uJ6tP",
         "object_type": "variable_workflow"
       },
       {
@@ -438,6 +476,42 @@
       {
         "schema_id": "datatype.string",
         "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for ID which is Invalid",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMFQEXCMT7T4FILay7o3PnPGAsCunPPBl",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op when name is not there",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMGDG2MHZOF7BYsp16vTB4vJX1I8VNCYU",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for update - without title ",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMLJQMP1LUR0yO0fHFABR0beCCgD9q1YC",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
           "value": "Service Created from the AO Automation WF",
           "scope": "local",
           "name": "Enter the Service Group Description",
@@ -445,6 +519,78 @@
           "is_required": false
         },
         "unique_name": "variable_workflow_01GMA75C196OI3SCzRbIuxo1ptCkbUKEqwl",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for update - empty name",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMLH4XRYD5I3xgjAzF7ZwDWJgYzutokj0",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "SGAO",
+          "scope": "local",
+          "name": "Enter the Service Group name",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMA65U8ODND3mPCShoq1ESUepLu42EvhM",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "SGTitle",
+          "scope": "local",
+          "name": "Enter the Service Group Title",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMA7QJ6PU8M3gt6rSIlPTvRda8Gkhgz8w",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for delete - id does not exists",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMM7B3ZPQPV7SY9TqBzaTmCpifrvg8auk",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Mapping a Service_Group to a Service",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GRAZCIHKUR52LaZWIYfQlPhEndG4MhOWl",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for update - desc more the 1024",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMLIZU2C4WG1WaaKacWsSWio4lfpnZl3j",
         "object_type": "variable_workflow"
       }
     ],
@@ -594,6 +740,116 @@
               "source": "$activity.definition_activity_01GM8TG6ICKUX3ZEBC36DKnO5iEABMFeYDS.output.status_code$"
             },
             "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GRAOPGP90K14lvT4DCumR5BJTgjWm9LJ3",
+        "name": "Condition Block",
+        "title": "Verify the GET API Staus Codes",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": true,
+          "description": "Verify the GET API Staus Codes",
+          "display_name": "Verify the GET API Staus Codes",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01GRAOPSGEGM34C7g1LGRrYo0bgyxZMo8rp",
+            "name": "Condition Branch",
+            "title": "Pass Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": "$activity.definition_activity_01GM8JPHPMYYQ10Rio4mTGPzhIY7VTJz70M.output.status_code$",
+                  "operator": "eq",
+                  "right_operand": 200
+                },
+                "operator": "and",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GM8TG6ICKUX3ZEBC36DKnO5iEABMFeYDS.output.status_code$",
+                  "operator": "eq",
+                  "right_operand": 200
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Pass Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GRAP5EK7LMJ4B8aHtGDHrhdkLvhltNZgL",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GRAL2CJPUTM6Zrk3NBHO61lQetDzNWelk$",
+                      "variable_value_new": "✔✅All Get ALL API for Service_Groups are Passed - 100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GRAOPV0HO0M4SINbM6rm5ktKFnnnEbW9T",
+            "name": "Condition Branch",
+            "title": "Fail Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": "$activity.definition_activity_01GM8JPHPMYYQ10Rio4mTGPzhIY7VTJz70M.output.error.code$",
+                  "operator": "ne",
+                  "right_operand": "200"
+                },
+                "operator": "or",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GM8TG6ICKUX3ZEBC36DKnO5iEABMFeYDS.output.error.code$",
+                  "operator": "ne",
+                  "right_operand": "200"
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Fail Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GRAP6TKUID71K8zITRT6n974i2lYfgH3x",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GRAL2CJPUTM6Zrk3NBHO61lQetDzNWelk$",
+                      "variable_value_new": "❌⭕ Some Test Cases are Failed for GET  Service_Groups-Negative Test Case, please check the instance -https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.instance_id$"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
           }
         ]
       },
@@ -856,6 +1112,116 @@
               "source": "$activity.definition_activity_01GMAFWC769TP5LrffelrHn9bAQ1tfjFxT5.output.jsonpath_queries.Service_Group_Title$"
             },
             "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GRAU5US1WD27InMXOl7tS9CBttR0gFG9q",
+        "name": "Condition Block",
+        "title": "Verify the Post API Staus Codes",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": true,
+          "description": "Verify the Post API Staus Codes",
+          "display_name": "Verify the Post API Staus Codes",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01GRAU60I52KX0jkL1b4jx1mzhs5kAANCNo",
+            "name": "Condition Branch",
+            "title": "Pass Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": "$activity.definition_activity_01GMA4V4RBM085LS6dEeERFRHxckC5Sslx0.output.status_code$",
+                  "operator": "eq",
+                  "right_operand": 201
+                },
+                "operator": "and",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GMAF52ND6NH5MWwh2wZZEP29PLikr6Tzv.output.status_code$",
+                  "operator": "eq",
+                  "right_operand": 200
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Pass Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GRAU63MPBC34usTsXCfDUP4js8nkJuY82",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GRALDHJPQF67Tlztan0i5D1ZEK8WOjDmp$",
+                      "variable_value_new": "✔✅All Post Call  for Service_Groups are Passed - 100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GRAU666H2PT2R3Jzir2iAekFviDsE8tNs",
+            "name": "Condition Branch",
+            "title": "Fail Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": "$activity.definition_activity_01GMA4V4RBM085LS6dEeERFRHxckC5Sslx0.output.error.code$",
+                  "operator": "ne",
+                  "right_operand": "201"
+                },
+                "operator": "or",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GMAF52ND6NH5MWwh2wZZEP29PLikr6Tzv.output.error.code$",
+                  "operator": "ne",
+                  "right_operand": "200"
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Fail Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GRAU68SHOWF4p9H2PeMM7qFr9HMXxFgS2",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GRALDHJPQF67Tlztan0i5D1ZEK8WOjDmp$",
+                      "variable_value_new": "❌⭕ Some Test Cases are Failed for Post  Service_Groups-Negative Test Case, please check the instance -https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.instance_id$"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
           }
         ]
       },
@@ -1227,6 +1593,132 @@
         ]
       },
       {
+        "unique_name": "definition_activity_01GRB0F8AA0EL36aQUKj6BrAhRrwXjDbx3S",
+        "name": "Condition Block",
+        "title": "Verify the Mapping a Service_Group to a Service statuc code",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": true,
+          "description": "Verify the Mapping a Service_Group to a Service statuc code",
+          "display_name": "Verify the Mapping a Service_Group to a Service statuc code",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01GRB0FDIA0AG6Ad5zBp59WOEQGz0ibDq3L",
+            "name": "Condition Branch",
+            "title": "Pass Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": "$activity.definition_activity_01GMAVGZW7UTT5QEvFAtxAEJY1rOYMu6BZZ.output.status_code$",
+                    "operator": "eq",
+                    "right_operand": 200
+                  },
+                  "operator": "and",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01GMBC6P856JL57Tt7O0vxPXiMnWNv48rBM.output.status_code$",
+                    "operator": "eq",
+                    "right_operand": 201
+                  }
+                },
+                "operator": "and",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GMBRMO1IDGU6PAbAOEuLMlOYPMULkecI6.output.status_code$",
+                  "operator": "eq",
+                  "right_operand": 201
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Pass Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GRB0FFSQR3T1qNIb4cscXIuvSigBoSmkU",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GRAZCIHKUR52LaZWIYfQlPhEndG4MhOWl$",
+                      "variable_value_new": "✔✅All Post Call  for Service_Groups Mapping to a Service  is  Passed - 100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GRB9JNFBBPA4LgXLPFTzDCWNjvUmsdyjO",
+            "name": "Condition Branch",
+            "title": "Fail Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": "$activity.definition_activity_01GMAVGZW7UTT5QEvFAtxAEJY1rOYMu6BZZ.output.error.code$",
+                    "operator": "ne",
+                    "right_operand": "200"
+                  },
+                  "operator": "or",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01GMBC6P856JL57Tt7O0vxPXiMnWNv48rBM.output.error.code$",
+                    "operator": "ne",
+                    "right_operand": "201"
+                  }
+                },
+                "operator": "or",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GMBRMO1IDGU6PAbAOEuLMlOYPMULkecI6.output.error.code$",
+                  "operator": "ne",
+                  "right_operand": "201"
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Fail Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GRB9JRBGZR71w47oEGDah8vCR4566Ls2K",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GRAZCIHKUR52LaZWIYfQlPhEndG4MhOWl$",
+                      "variable_value_new": "❌⭕ Some Test Cases are Failed for Post a Mapping a service to  Service_Groups-Negative Test Case, please check the instance -https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.instance_id$"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "unique_name": "definition_activity_01GMCB587IDP54GQxyd9TwG3OExCDm5iqsU",
         "name": "Group",
         "title": "Get by ID Service - to fetch the mapped services",
@@ -1307,6 +1799,100 @@
               "source": "$activity.definition_activity_01GMDYSGZ2GEJ1BoREolMKCgXmqekVUuz0B.output.jsonpath_queries.Service_ID_whenIncludeService is true$"
             },
             "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GRBEHQNX9T21HYUoT4ug0g2qBFwUIVBWa",
+        "name": "Condition Block",
+        "title": "Verify the Get S_Group to Fetch the Mapped Service status Code",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": true,
+          "description": "Verify the Get S_Group to Fetch the Mapped Service status Code",
+          "display_name": "Verify the Get S_Group to Fetch the Mapped Service status Code",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01GRBEHXAXPW96ooR7CQyJxbqt6LEQsuoHJ",
+            "name": "Condition Branch",
+            "title": "Pass Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": "$activity.definition_activity_01GMCBM37OFYQ43TuMXc1Newuw7UN13mUhj.output.status_code$",
+                "operator": "eq",
+                "right_operand": 200
+              },
+              "continue_on_failure": false,
+              "display_name": "Pass Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GRBJL7HE0OX07kEGq5iYEprU9H3lpvA1u",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GRBKMUWMP8D21o497UXvZLR7pgrwFqUFy$",
+                      "variable_value_new": "✔✅ Get Fetch Service Goup with a service , Include_service filte test is Passed - 100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GRBEHZI4ZTQ1DctX8v1c0Vb0l4lkznVvb",
+            "name": "Condition Branch",
+            "title": "Fail Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": "$activity.definition_activity_01GMCBM37OFYQ43TuMXc1Newuw7UN13mUhj.output.error.code$",
+                "operator": "eq",
+                "right_operand": "200"
+              },
+              "continue_on_failure": false,
+              "display_name": "Fail Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GRBJMSYPOWC79rYEaUnYtpYmbutqhdS2N",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GRBKMUWMP8D21o497UXvZLR7pgrwFqUFy$",
+                      "variable_value_new": "❌⭕ Get Fetch Service Goup with a service , Include_service filte test is Failed, please check the instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.instance_id$"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
           }
         ]
       },
@@ -1450,6 +2036,100 @@
         ]
       },
       {
+        "unique_name": "definition_activity_01GRBNJDEEC7K5NPiV6nz2XqUOmGjLkqfh5",
+        "name": "Condition Block",
+        "title": "Verify the Put Call Service status Code",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": true,
+          "description": "Verify the Put Call Service status Code",
+          "display_name": "Verify the Put Call Service status Code",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01GRBNJH4C7P22dtBuUvMl1hVbCnkAViY9o",
+            "name": "Condition Branch",
+            "title": "Pass Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": "$activity.definition_activity_01GMAPBFP691D0lyd0cHMYY6aSIoZoFkH2O.output.status_code$",
+                "operator": "eq",
+                "right_operand": 200
+              },
+              "continue_on_failure": false,
+              "display_name": "Pass Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GRBNJJLHCBP3LCPhAZccHHkULJHmV0rEO",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GRATKHGHCDR7BFElUrKdcJBapaLKUiOdS$",
+                      "variable_value_new": "✔✅ Put Call for  Service Goup  is Passed - 100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GRBNJLYATVT6MQhSFrecN7qqBBEKEyIeG",
+            "name": "Condition Branch",
+            "title": "Fail Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": "$activity.definition_activity_01GMAPBFP691D0lyd0cHMYY6aSIoZoFkH2O.output.error.code$",
+                "operator": "ne",
+                "right_operand": "200"
+              },
+              "continue_on_failure": false,
+              "display_name": "Fail Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GRBNJO3SDNX5bMB8ohzAivBgxmUq1PaGi",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GRATKHGHCDR7BFElUrKdcJBapaLKUiOdS$",
+                      "variable_value_new": "❌⭕ Put Call for a Service  is Failed. Please check the instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.instance_id$"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "unique_name": "definition_activity_01GMF2MR4CZW75RqIIZsFTbFzyEPfeflRhm",
         "name": "Group",
         "title": "Service Group by ID - with Name filter ",
@@ -1542,6 +2222,100 @@
               "source": "$activity.definition_activity_01GMF6DP9ZJBL5GW1HEZSbdHPrSAaeUHZgZ.output.jsonpath_queries.name$"
             },
             "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GRBSKHYKFAR1dJuInYbaC02oSboQVaXca",
+        "name": "Condition Block",
+        "title": "Verify the Get Service Group by name status Code",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": true,
+          "description": "Verify the Get Service Group by name status Code",
+          "display_name": "Verify the Get Service Group by name status Code",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01GRBSKMMN11X0vREYlD2z57P3M43V0AJIj",
+            "name": "Condition Branch",
+            "title": "Pass Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": "$activity.definition_activity_01GMF3S0YPX9E5a2EzrKnJFh1oM0o5Us89i.output.status_code$",
+                "operator": "eq",
+                "right_operand": 200
+              },
+              "continue_on_failure": false,
+              "display_name": "Pass Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GRBSKP6M0BF2jtUJWeYKGfpDHhM6XTtC7",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GRBSHHLGGRL6fbokByblIB2el0Bz2e3VG$",
+                      "variable_value_new": "✔✅ Get a Service Group by Name  is Passed - 100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GRBSKRW03G36hWmfUAH8MzdbjXtKUP0Hx",
+            "name": "Condition Branch",
+            "title": "Fail Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": "$activity.definition_activity_01GMF3S0YPX9E5a2EzrKnJFh1oM0o5Us89i.output.error.code$",
+                "operator": "ne",
+                "right_operand": "200"
+              },
+              "continue_on_failure": false,
+              "display_name": "Fail Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GRBSKUAKQJA3NcN5UZZO0eTpyaQISoEWH",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GRBSHHLGGRL6fbokByblIB2el0Bz2e3VG$",
+                      "variable_value_new": "❌⭕ Get a Service Group by name  is Failed. Please check the instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.instance_id$"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
           }
         ]
       },
@@ -1760,6 +2534,132 @@
         ]
       },
       {
+        "unique_name": "definition_activity_01GRBX3DDMVFF7G1QllN1eQH7pAFtN2bR3R",
+        "name": "Condition Block",
+        "title": "Verify the Delete Service Group  status Code",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": true,
+          "description": "Verify the Delete Service Group  status Code",
+          "display_name": "Verify the Delete Service Group  status Code",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01GRBX3IFGFC16uX08dPDfrNfcSugGHmY89",
+            "name": "Condition Branch",
+            "title": "Pass Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": "$activity.definition_activity_01GMEEKLULJ7R0KTOQPEoryTVlt0pcmmuZU.output.error.code$",
+                    "operator": "eq",
+                    "right_operand": "400"
+                  },
+                  "operator": "and",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01GMELHXR2PDW44ZUvhW53yXgQp0lhBGE7c.output.error.code$",
+                    "operator": "eq",
+                    "right_operand": "204"
+                  }
+                },
+                "operator": "and",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GMEMXER7Z7S1AbgfMpnfMyC4o69A92CZO.output.error.code$",
+                  "operator": "eq",
+                  "right_operand": "404"
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Pass Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GRBX3L3JYS93UcgItNsoI5sgqct6eo3yA",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GRATSFM6JCS1QkRNmctRHesFqrjG1842o$",
+                      "variable_value_new": "✔✅ Delete  a Service Group  is Passed - 100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GRBX3NC0TRV6VS8zoqm5EBLmxO5IiHU3C",
+            "name": "Condition Branch",
+            "title": "Fail Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": "$activity.definition_activity_01GMEEKLULJ7R0KTOQPEoryTVlt0pcmmuZU.output.error.code$",
+                    "operator": "ne",
+                    "right_operand": "400"
+                  },
+                  "operator": "or",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01GMELHXR2PDW44ZUvhW53yXgQp0lhBGE7c.output.error.code$",
+                    "operator": "ne",
+                    "right_operand": "204"
+                  }
+                },
+                "operator": "or",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GMEMXER7Z7S1AbgfMpnfMyC4o69A92CZO.output.error.code$",
+                  "operator": "ne",
+                  "right_operand": "404"
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Fail Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GRBX3PL8ODF2P7SagA4StMX3l0dEUVHXS",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GRATSFM6JCS1QkRNmctRHesFqrjG1842o$",
+                      "variable_value_new": "❌⭕ Delete a Service Group  is Failed. Please check the instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.instance_id$"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "unique_name": "definition_activity_01GMFCVUSS50Z1jpvfeKGufwka5P5FRhFpq",
         "name": "Group",
         "title": "Verify the Pagination for ServiceGroups",
@@ -1939,6 +2839,132 @@
         ]
       },
       {
+        "unique_name": "definition_activity_01GRC6LTYPU172gDl6pFojWbMGiYD7xghwM",
+        "name": "Condition Block",
+        "title": "Verify the Pagination for  Service Group  status Code",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": true,
+          "description": "Verify the Pagination for  Service Group  status Code",
+          "display_name": "Verify the Pagination for  Service Group  status Code",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01GRC6LYCC2JH26rIAmDZJjisj9YJQLvJqb",
+            "name": "Condition Branch",
+            "title": "Pass Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": "$activity.definition_activity_01GMFDJ2JT10Y4rAiwEs9qs1zv3zWgP7262.output.status_code$",
+                    "operator": "eq",
+                    "right_operand": 200
+                  },
+                  "operator": "and",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01GMFGMYQAVXC1WjYUTmh5Oho3folrr9IWV.output.error.code$",
+                    "operator": "eq",
+                    "right_operand": "400"
+                  }
+                },
+                "operator": "and",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GMFHIT1TW233WLypGmzln54qjwOaPrdPk.output.error.code$",
+                  "operator": "eq",
+                  "right_operand": "400"
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Pass Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GRC6M0XTRPL6hYJ2viIobM5lfosvhpPQL",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GRC2QRZBB7G6iufgeEKFNJqv9mkg7flfd$",
+                      "variable_value_new": "✔✅ Get pagination for  Service Group with Valid and Invalid start,Limit Paramters case   is Passed - 100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GRC6M39TGAU7gIVG7Kp4EK4InNrWf53Kk",
+            "name": "Condition Branch",
+            "title": "Fail Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": "$activity.definition_activity_01GMFDJ2JT10Y4rAiwEs9qs1zv3zWgP7262.output.error.code$",
+                    "operator": "ne",
+                    "right_operand": "200"
+                  },
+                  "operator": "or",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01GMFGMYQAVXC1WjYUTmh5Oho3folrr9IWV.output.error.code$",
+                    "operator": "ne",
+                    "right_operand": "400"
+                  }
+                },
+                "operator": "or",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GMFHIT1TW233WLypGmzln54qjwOaPrdPk.output.error.code$",
+                  "operator": "ne",
+                  "right_operand": "400"
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Fail Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GRC6M6DH6DB4pgUAkYSLc6QfmURKTI5cd",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GRC2QRZBB7G6iufgeEKFNJqv9mkg7flfd$",
+                      "variable_value_new": "❌⭕ Get pagination for  Service Group with Valid and Invalid start,Limit Paramters case is failed . Please check the instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.instance_id$"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "unique_name": "definition_activity_01GMFO5AHHCDQ5CjNulBDQeipScP8zB6e6E",
         "name": "Group",
         "title": "Get by ID with Invalid and nonexists ID",
@@ -2047,6 +3073,116 @@
               ]
             },
             "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GRCD83MZDH21x9SKEEIDNSikILiPE0SDd",
+        "name": "Condition Block",
+        "title": "Verify the Get for SG with invalid and not exist ID  status Code",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": true,
+          "description": "Verify the Get  for Service_Group with invalid and not exist ID  status Code",
+          "display_name": "Verify the Get for SG with invalid and not exist ID  status Code",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01GRCD87ZN0676rMMoCZqoHY1Sl9pQPVY0f",
+            "name": "Condition Branch",
+            "title": "Pass Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": "$activity.definition_activity_01GMFOXGT707C36EKRDxGadVtTxEjpbZzaH.output.error.code$",
+                  "operator": "eq",
+                  "right_operand": "404"
+                },
+                "operator": "and",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GMFQP1808YA4skPIcY3GQTiDRzf3SUXiB.output.error.code$",
+                  "operator": "eq",
+                  "right_operand": "400"
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Pass Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GRCD8A03U442UbjlpyaekaaB88v8lrcUC",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GRC3CM4YWAT3yP02lVgpXnelXK9pvlTM2$",
+                      "variable_value_new": "✔✅ Get  Service Group by ID  with  not exist  and Invalid Service_Group ID case   is Passed - 100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GRCD8CRSYX963JPVEKPj6odbSbqU00V0X",
+            "name": "Condition Branch",
+            "title": "Fail Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": "$activity.definition_activity_01GMFOXGT707C36EKRDxGadVtTxEjpbZzaH.output.error.code$",
+                  "operator": "ne",
+                  "right_operand": "404"
+                },
+                "operator": "or",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GMFQP1808YA4skPIcY3GQTiDRzf3SUXiB.output.status_code$",
+                  "operator": "ne",
+                  "right_operand": 400
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Fail Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GRCD8EWIECF1eJyoAaOOJYW9srvhbmlo8",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GRC3CM4YWAT3yP02lVgpXnelXK9pvlTM2$",
+                      "variable_value_new": "❌⭕ Get  Service Group by ID  with  not exist  and Invalid Service_Group ID case   is is failed . Please check the instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.instance_id$"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
           }
         ]
       },
@@ -2403,7 +3539,7 @@
           {
             "unique_name": "definition_activity_01GMGJ35DRQP61pHkqRZ8uw9svHpvXsIUAX",
             "name": "HTTP Request",
-            "title": "Create a action - for duplicate check",
+            "title": "Create a Service_Group - for duplicate check",
             "type": "web-service.http_request",
             "base_type": "activity",
             "properties": {
@@ -2412,7 +3548,7 @@
               "body": "{\n\t\t\t\"description\": \"Laptop description\",\n\t\t\t\"name\": \"SG-$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.instance_id$\",\n\t\t\t\"title\": \"title-$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.instance_id$\" \n\t\t}",
               "continue_on_error_status_code": false,
               "continue_on_failure": false,
-              "display_name": "Create a action - for duplicate check",
+              "display_name": "Create a Service_Group - for duplicate check",
               "method": "POST",
               "relative_url": "servicegroups",
               "runtime_user": {
@@ -2482,7 +3618,7 @@
           {
             "unique_name": "definition_activity_01GMGP25UERNM1mNqLcHSDxpIYs955ML8Jz",
             "name": "HTTP Request",
-            "title": "Create a action - for duplicate check",
+            "title": "Create a Service_Group - for duplicate check",
             "type": "web-service.http_request",
             "base_type": "activity",
             "properties": {
@@ -2491,7 +3627,7 @@
               "body": "{\n\t\t\t\"description\": \"Laptop description\",\n\t\t\t\"name\": \"SG-$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.instance_id$\",\n\t\t\t\"title\": \"title-$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.instance_id$\" \n\t\t}",
               "continue_on_error_status_code": false,
               "continue_on_failure": true,
-              "display_name": "Create a action - for duplicate check",
+              "display_name": "Create a Service_Group - for duplicate check",
               "method": "POST",
               "relative_url": "servicegroups",
               "runtime_user": {
@@ -2530,7 +3666,7 @@
           {
             "unique_name": "definition_activity_01GMGQ487BY6Q7jGnIsRRFeOZQhbSoyIkgM",
             "name": "HTTP Request",
-            "title": "delete a action - for cleanup Process",
+            "title": "Delete a Service_Group - for cleanup Process",
             "type": "web-service.http_request",
             "base_type": "activity",
             "properties": {
@@ -2538,7 +3674,7 @@
               "allow_auto_redirect": true,
               "continue_on_error_status_code": false,
               "continue_on_failure": true,
-              "display_name": "delete a action - for cleanup Process",
+              "display_name": "Delete a Service_Group - for cleanup Process",
               "method": "DELETE",
               "relative_url": "servicegroups/$activity.definition_activity_01GMGN277DWKX4xWUzTF3GAO5TCMo2NIwpx.output.jsonpath_queries.ID$",
               "runtime_user": {
@@ -2558,7 +3694,7 @@
           {
             "unique_name": "definition_activity_01GMGRI8DCDX15q6sIuMaAlVf7Oev7K8nw6",
             "name": "HTTP Request",
-            "title": "Create a action - for special Char",
+            "title": "Create a Service_Group - for special Char",
             "type": "web-service.http_request",
             "base_type": "activity",
             "properties": {
@@ -2567,7 +3703,7 @@
               "body": "{\n\t\t\t\"description\": \"Laptop description\",\n\t\t\t\"name\": \"Test @ 123\",\n\t\t\t\"title\": \"test @ 123\" \n\t\t}",
               "continue_on_error_status_code": false,
               "continue_on_failure": true,
-              "display_name": "Create a action - for special Char",
+              "display_name": "Create a Service_Group - for special Char",
               "method": "POST",
               "relative_url": "servicegroups",
               "runtime_user": {
@@ -2650,6 +3786,180 @@
               ]
             },
             "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GRCOFY62IBS3XB2otvdNu8NirOtOebUbH",
+        "name": "Condition Block",
+        "title": "Verify the Post Call - Negative Cases  for SG Status Code",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": true,
+          "description": "Verify the Post Call - Negative Cases  for SG Status Code",
+          "display_name": "Verify the Post Call - Negative Cases  for SG Status Code",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01GRCOG2LEUL20YVMdd5g1jp3PSDWmFi0j3",
+            "name": "Condition Branch",
+            "title": "Pass Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": {
+                      "left_operand": {
+                        "left_operand": {
+                          "left_operand": {
+                            "left_operand": {
+                              "left_operand": {
+                                "left_operand": {
+                                  "left_operand": "$activity.definition_activity_01GMFXMIGVCZG4jSfOw5ug5pfVoFElJzQVv.output.error.code$",
+                                  "operator": "eq",
+                                  "right_operand": "400"
+                                },
+                                "operator": "and",
+                                "right_operand": {
+                                  "left_operand": "$activity.definition_activity_01GMG1NBOG4JM2BKqiZnXokZa63nXYHXY7A.output.error.code$",
+                                  "operator": "eq",
+                                  "right_operand": "400"
+                                }
+                              },
+                              "operator": "and",
+                              "right_operand": {
+                                "left_operand": "$activity.definition_activity_01GMG2YT9EVY97RFxeI7X7D8h9T9y6bEjyM.output.error.code$",
+                                "operator": "eq",
+                                "right_operand": "400"
+                              }
+                            },
+                            "operator": "and",
+                            "right_operand": {
+                              "left_operand": "$activity.definition_activity_01GMG8VCWDL4I7OowZilBnUTgqeWzMlDuwq.output.error.code$",
+                              "operator": "eq",
+                              "right_operand": "400"
+                            }
+                          },
+                          "operator": "and",
+                          "right_operand": {
+                            "left_operand": "$activity.definition_activity_01GMG5UPW5YUI3VvFPOPOJf9dsKEf6VLM6d.output.error.code$",
+                            "operator": "eq",
+                            "right_operand": "400"
+                          }
+                        },
+                        "operator": "and",
+                        "right_operand": {
+                          "left_operand": "$activity.definition_activity_01GMGEUZUTFK53DoCw634fkKUhs7ppdk2pn.output.error.code$",
+                          "operator": "eq",
+                          "right_operand": "400"
+                        }
+                      },
+                      "operator": "and",
+                      "right_operand": {
+                        "left_operand": "$activity.definition_activity_01GMGGV5ITPEQ7CNA6UCWjJ1hLIkBsLmHDe.output.error.code$",
+                        "operator": "eq",
+                        "right_operand": "400"
+                      }
+                    },
+                    "operator": "and",
+                    "right_operand": {
+                      "left_operand": "$activity.definition_activity_01GMGP25UERNM1mNqLcHSDxpIYs955ML8Jz.output.error.code$",
+                      "operator": "eq",
+                      "right_operand": "400"
+                    }
+                  },
+                  "operator": "and",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01GMGRI8DCDX15q6sIuMaAlVf7Oev7K8nw6.output.error.code$",
+                    "operator": "eq",
+                    "right_operand": "400"
+                  }
+                },
+                "operator": "and",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GMKPV8J68JR35BZ4MDgoNhQv6A2zR0PtN.output.error.code$",
+                  "operator": "eq",
+                  "right_operand": "400"
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Pass Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GRCOG4ZWOJJ2GGzu7OxBEoRbIGDbLBv4G",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GRCN9LWDKG76MjpYz06KN9MqsVOxEQdIL$",
+                      "variable_value_new": "✔✅ All Post Call For Service Group - Negative Test Cases are Passed - 100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GRCOG7B8OVA2OvreCmw0Tb4B3BtJqbz1a",
+            "name": "Condition Branch",
+            "title": "Fail Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": "$activity.definition_activity_01GMFOXGT707C36EKRDxGadVtTxEjpbZzaH.output.error.code$",
+                  "operator": "ne",
+                  "right_operand": "404"
+                },
+                "operator": "or",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GMFQP1808YA4skPIcY3GQTiDRzf3SUXiB.output.status_code$",
+                  "operator": "ne",
+                  "right_operand": 400
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Fail Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GRCOG9TPCKL07bOKPSrkzCM7Zrq6KfZuU",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.variable_workflow_01GRCN9LWDKG76MjpYz06KN9MqsVOxEQdIL$",
+                      "variable_value_new": "❌⭕ All Post Call For Service Group - Negative Test Cases are Failed. Please check the instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GM8EMLHQ9K81aGy1EYl0SnvVZnFv2ij0j.output.instance_id$"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
           }
         ]
       },
@@ -3475,8 +4785,20 @@
       }
     ],
     "categories": [
-      "category_1BMfMXSnJMyt5Ihqi7rWJr5N8cf"
+      "category_01GN2GBI52Y2F1AYT3RDfcwY4odOJfgHjMb"
     ]
+  },
+  "categories": {
+    "category_01GN2GBI52Y2F1AYT3RDfcwY4odOJfgHjMb": {
+      "unique_name": "category_01GN2GBI52Y2F1AYT3RDfcwY4odOJfgHjMb",
+      "name": "Tercel_Automation_API",
+      "title": "Tercel_Automation_API",
+      "type": "basic.category",
+      "base_type": "category",
+      "description": "Tercel_Automation_API",
+      "category_type": "custom",
+      "object_type": "category"
+    }
   },
   "targets": {
     "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP": {
