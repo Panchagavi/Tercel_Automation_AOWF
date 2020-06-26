@@ -11,11 +11,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op for invalid start",
+          "name": "EmailTable",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GNC9XACZ8KH75AQpIFdeHvkMjQvkyVvZz",
+        "unique_name": "variable_workflow_01GU8ICE8INI63xKbdchW27TdX39duP5eRU",
         "object_type": "variable_workflow"
       },
       {
@@ -23,11 +23,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Delete Service Negative Test Case - Pass/Fail",
+          "name": "op for invalid serviceGroup",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GU36VS3Q9KH7kkzGGR5FfRxF5WQ1ugsta",
+        "unique_name": "variable_workflow_01GUAFXUEBIY02PsyfsW63hbuWf21eSedGS",
         "object_type": "variable_workflow"
       },
       {
@@ -35,35 +35,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op for Update Verification",
+          "name": "PUT Service Negative Test Case - Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GS991WZIXVQ1rmBKLOE04RpoI5O9uNYVf",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "POST PUT DEL Positive Cases - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GS9ISH42XGJ2Np3g1it2UpRDssH49EWsw",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "GET Service Negative Test Case - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GU36D619R755yTEjKP9eKJWzNQ6rfsKFT",
+        "unique_name": "variable_workflow_01GU36PUY4UU15ubkRpn6oE6pIFZFcJeCKb",
         "object_type": "variable_workflow"
       },
       {
@@ -83,65 +59,6 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "GET Positive Cases - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GS9ONQ9WY570VqbJFMqXd9WY6fm9K0g1x",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-        "properties": {
-          "scope": "local",
-          "name": "Service without name Sorting Headers",
-          "type": "datatype.table",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GNCU3413EMW5bVlHEoImN08OUGiI84jFM",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for ID which is Invalid",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GNCC78W9WPQ5Ym5ss7m37a5aiU78jRYCW",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for when name is empty",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GND9T03YSDE7VxyYGi06QLeZHP61Bss22",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for Service group update operation",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GU7672CEDNE4N50Jwwoicg1j5mN7sGT4X",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
           "name": "op for set group by name and service group",
           "type": "datatype.string",
           "is_required": false
@@ -154,23 +71,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "EmailTable",
+          "name": "Delete Service Negative Test Case - Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GU8ICE8INI63xKbdchW27TdX39duP5eRU",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for a service when name  Length",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GS6JCSUGG5I0iU7U2LyKzqW6J8dWLKi09",
+        "unique_name": "variable_workflow_01GU36VS3Q9KH7kkzGGR5FfRxF5WQ1ugsta",
         "object_type": "variable_workflow"
       },
       {
@@ -190,11 +95,46 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op for ID which does not exists",
+          "name": "op for invalid lifecycle post",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GNCCI5B32874opSo4sesKT0WjwKKEuyLA",
+        "unique_name": "variable_workflow_01GUAD81J0DDY57ikmzWom5dSkMgitkNJ6d",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+        "properties": {
+          "scope": "local",
+          "name": "Service without name Sorting Headers",
+          "type": "datatype.table",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GNCU3413EMW5bVlHEoImN08OUGiI84jFM",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for put invalid service group and lifecycle",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GUAIZPU8OBI3cV12kUvzRDfSyaV7BkQZ2",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "GET Service Negative Test Case - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GU36D619R755yTEjKP9eKJWzNQ6rfsKFT",
         "object_type": "variable_workflow"
       },
       {
@@ -214,6 +154,66 @@
         "properties": {
           "value": "",
           "scope": "output",
+          "name": "op for Update Verification",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GS991WZIXVQ1rmBKLOE04RpoI5O9uNYVf",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for invalid start",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GNC9XACZ8KH75AQpIFdeHvkMjQvkyVvZz",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for ID which is Invalid",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GNCC78W9WPQ5Ym5ss7m37a5aiU78jRYCW",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "GET Positive Cases - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GS9ONQ9WY570VqbJFMqXd9WY6fm9K0g1x",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for when name is empty",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GND9T03YSDE7VxyYGi06QLeZHP61Bss22",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
           "name": "op for a service when desc  Length",
           "type": "datatype.string",
           "is_required": false
@@ -226,11 +226,47 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "PUT Service Negative Test Case - Pass/Fail",
+          "name": "op for Service group update operation",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GU36PUY4UU15ubkRpn6oE6pIFZFcJeCKb",
+        "unique_name": "variable_workflow_01GU7672CEDNE4N50Jwwoicg1j5mN7sGT4X",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "POST PUT DEL Positive Cases - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GS9ISH42XGJ2Np3g1it2UpRDssH49EWsw",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for ID which does not exists",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GNCCI5B32874opSo4sesKT0WjwKKEuyLA",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for a service when name  Length",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GS6JCSUGG5I0iU7U2LyKzqW6J8dWLKi09",
         "object_type": "variable_workflow"
       }
     ],
@@ -2153,7 +2189,7 @@
               "body": "{\n\t\"description\": \"Service Description \",\n\t\"lifecycle_actions\": [\n\t\t\"5ef5f8e203c65c9b786c7f97\"\n\t],\n\t\"name\": \"Tercel-Service01-Length-Check Test-\",\n\t\"title\": \"Title for Service\",\n\t\"version\": {\n\t\t\"build\": 0,\n\t\t\"identifier\": \"string\",\n\t\t\"major\": 0,\n\t\t\"minor\": 0\n\t}\n}",
               "content_type": "application/json",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Create a Service with Invalid Lifecylce",
               "method": "POST",
               "relative_url": "services",
@@ -2172,41 +2208,19 @@
             "object_type": "definition_activity"
           },
           {
-            "unique_name": "definition_activity_01GU40UUKPD6070XGRrb80Pu3PLRhXomWNi",
-            "name": "JSONPath Query",
-            "title": "Extract the Invalid List when LifeCycle is Invalid",
-            "type": "corejava.jsonpathquery",
-            "base_type": "activity",
-            "properties": {
-              "action_timeout": 180,
-              "continue_on_failure": false,
-              "display_name": "Extract the Invalid List when LifeCycle is Invalid",
-              "input_json": "$activity.definition_activity_01GU3R364ZGWV6mysHsovDOW4X9yaw64DHI.output.response_body$",
-              "jsonpath_queries": [
-                {
-                  "jsonpath_query": "$.details",
-                  "jsonpath_query_name": "Invalid List",
-                  "jsonpath_query_type": "string"
-                }
-              ],
-              "skip_execution": false
-            },
-            "object_type": "definition_activity"
-          },
-          {
-            "unique_name": "definition_activity_01GU42EDNGRMT5puuFkZ9Q9l9571T07UXyz",
+            "unique_name": "definition_activity_01GUACBAY4EPK5SSLrNWzGKeGYECMmtX6t5",
             "name": "Set Variables",
-            "title": "Print the Invalid Properties when Inavlid Action is Passed",
+            "title": "Extract the Invalid List when LifeCycle is Invalid",
             "type": "core.set_multiple_variables",
             "base_type": "activity",
             "properties": {
               "continue_on_failure": false,
-              "display_name": "Print the Invalid Properties when Inavlid Action is Passed",
+              "display_name": "Extract the Invalid List when LifeCycle is Invalid",
               "skip_execution": false,
               "variables_to_update": [
                 {
-                  "variable_to_update": "$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.variable_workflow_01GU429USQ78L3nvpHCliIvhryApsa7mLqQ$",
-                  "variable_value_new": "$activity.definition_activity_01GU40UUKPD6070XGRrb80Pu3PLRhXomWNi.output.jsonpath_queries.Invalid List$"
+                  "variable_to_update": "$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.variable_workflow_01GUAD81J0DDY57ikmzWom5dSkMgitkNJ6d$",
+                  "variable_value_new": "$activity.definition_activity_01GU3R364ZGWV6mysHsovDOW4X9yaw64DHI.output.error.code$"
                 }
               ]
             },
@@ -2565,7 +2579,7 @@
               "body": "{\n\t\"description\": \"Service Description \",\n\t\"lifecycle_actions\": [\n\t\t\"$activity.definition_activity_01GNCPZURKWMJ3r5ETMA7gZ9wmhkH2RQm7E.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$\"\n\t],\n\t\"name\": \"Tercel-Service01-$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.instance_id$\",\n\"service_group\": \"5ef5f8e203c65c9b786c7f97\",\n\t\"title\": \"Title for Service\",\n\t\"version\": {\n\t\t\"build\": 0,\n\t\t\"identifier\": \"string\",\n\t\t\"major\": 0,\n\t\t\"minor\": 0\n\t}\n}",
               "content_type": "application/json",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Create a Service with InValid Service Group",
               "method": "POST",
               "relative_url": "services",
@@ -2584,24 +2598,21 @@
             "object_type": "definition_activity"
           },
           {
-            "unique_name": "definition_activity_01GU5RKYPX8KT73f5GxJMa1e8SVtpoDOgo2",
-            "name": "JSONPath Query",
-            "title": "Extract the Invalid Properties when Service Group is invalid",
-            "type": "corejava.jsonpathquery",
+            "unique_name": "definition_activity_01GUAF210RV0B770prpaibpeuTvUvSpHxQD",
+            "name": "Set Variables",
+            "title": "Set Variables",
+            "type": "core.set_multiple_variables",
             "base_type": "activity",
             "properties": {
-              "action_timeout": 180,
               "continue_on_failure": false,
-              "display_name": "Extract the Invalid Properties when Service Group is invalid",
-              "input_json": "$activity.definition_activity_01GU5PPBPCGRH4VeuLXLs6RM1DdC6VpWpqt.output.response_body$",
-              "jsonpath_queries": [
+              "display_name": "Set Variables",
+              "skip_execution": false,
+              "variables_to_update": [
                 {
-                  "jsonpath_query": "$.details",
-                  "jsonpath_query_name": "invalid_properties_ServiceGroup_ID",
-                  "jsonpath_query_type": "string"
+                  "variable_to_update": "$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.variable_workflow_01GUAFXUEBIY02PsyfsW63hbuWf21eSedGS$",
+                  "variable_value_new": "$activity.definition_activity_01GU5PPBPCGRH4VeuLXLs6RM1DdC6VpWpqt.output.error.code$"
                 }
-              ],
-              "skip_execution": false
+              ]
             },
             "object_type": "definition_activity"
           }
@@ -2946,7 +2957,7 @@
               "allow_auto_redirect": true,
               "body": "{\n\t\"description\": \"Tercel Service Desc\",\n\t\"lifecycle_actions\": [\n\t\t\"5ef618e8c8cc676db2f5d196\"\n\t],\n\t\"name\": \"TercelService\",\n\"service_group\": \"5ef618e8c8cc676db2f5d196\",\n\t\"title\": \"TercelService-Title\",\n\t\"version\": {\n\t\t\"build\": 0,\n\t\t\"identifier\": \"string\",\n\t\t\"major\": 0,\n\t\t\"minor\": 0\n\t}\n}",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Update Service with invalid Service Group and Lifecycle",
               "method": "PUT",
               "relative_url": "services/$activity.definition_activity_01GND57X55SOE5pFzFs6QIrvjhYeLYYKzud.output.result_string$",
@@ -2965,24 +2976,21 @@
             "object_type": "definition_activity"
           },
           {
-            "unique_name": "definition_activity_01GU6X937LVEU1x7kU88ov66XbLPAoa5ncB",
-            "name": "JSONPath Query",
-            "title": "Extract the Invalid Properties",
-            "type": "corejava.jsonpathquery",
+            "unique_name": "definition_activity_01GUAH6IRH1K21HI2N8rxAArHqmIkDu006P",
+            "name": "Set Variables",
+            "title": "Set Variables",
+            "type": "core.set_multiple_variables",
             "base_type": "activity",
             "properties": {
-              "action_timeout": 180,
               "continue_on_failure": false,
-              "display_name": "Extract the Invalid Properties",
-              "input_json": "$activity.definition_activity_01GU6QWNXA2H65vZaWe2YyxPfvPdggqnf1s.output.response_body$",
-              "jsonpath_queries": [
+              "display_name": "Set Variables",
+              "skip_execution": false,
+              "variables_to_update": [
                 {
-                  "jsonpath_query": "$.details",
-                  "jsonpath_query_name": "invalid_properties_For_servicePUT",
-                  "jsonpath_query_type": "string"
+                  "variable_to_update": "$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.variable_workflow_01GUAIZPU8OBI3cV12kUvzRDfSyaV7BkQZ2$",
+                  "variable_value_new": "$activity.definition_activity_01GU6TQQJ9RDN45vKUKdNsCm3Im9NrgXMy4.output.error.code$"
                 }
-              ],
-              "skip_execution": false
+              ]
             },
             "object_type": "definition_activity"
           },
@@ -3197,7 +3205,7 @@
               "action_timeout": 180,
               "allow_auto_redirect": true,
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Delete the Service created in the POST Group- Cleanup Process",
               "method": "DELETE",
               "relative_url": "services/$activity.definition_activity_01GND57X55SOE5pFzFs6QIrvjhYeLYYKzud.output.result_string$",
@@ -3225,7 +3233,7 @@
               "action_timeout": 180,
               "allow_auto_redirect": true,
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Delete the Action created in Post Group - Cleanup Process",
               "method": "DELETE",
               "relative_url": "actions/$activity.definition_activity_01GNCPZURKWMJ3r5ETMA7gZ9wmhkH2RQm7E.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$",
@@ -3253,7 +3261,7 @@
               "action_timeout": 180,
               "allow_auto_redirect": true,
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Delete the Service Group created in the PUT - Cleanup",
               "method": "DELETE",
               "relative_url": "servicegroups/$activity.definition_activity_01GU721I5BMGW6ETrRGfUoV1NBHNKs6bbik.output.jsonpath_queries.SG_ID$",
