@@ -11,11 +11,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op for Update Verification",
+          "name": "GET Service Negative Test Case - Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GS991WZIXVQ1rmBKLOE04RpoI5O9uNYVf",
+        "unique_name": "variable_workflow_01GU36D619R755yTEjKP9eKJWzNQ6rfsKFT",
         "object_type": "variable_workflow"
       },
       {
@@ -23,71 +23,22 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "POST PUT DEL Positive Cases - Pass/Fail",
+          "name": "op for set group by name and service group",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GS9ISH42XGJ2Np3g1it2UpRDssH49EWsw",
+        "unique_name": "variable_workflow_01GU5JL0NM5161ccn16Hynf5RRsHP9l59M4",
         "object_type": "variable_workflow"
       },
       {
-        "schema_id": "datatype.string",
+        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
         "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for invalid start",
-          "type": "datatype.string",
+          "scope": "local",
+          "name": "Service without name Sorting Headers",
+          "type": "datatype.table",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GNC9XACZ8KH75AQpIFdeHvkMjQvkyVvZz",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for invalid limit",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GNC9QWAYDFY3zbhE1JuXyBPGDJGQmDtRu",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for a service when desc  Length",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GS7KM7FYG7K1cj3XdYcoWyIqJupgHyNAe",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for when name is empty",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GND9T03YSDE7VxyYGi06QLeZHP61Bss22",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for a service when name  Length",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GS6JCSUGG5I0iU7U2LyKzqW6J8dWLKi09",
+        "unique_name": "variable_workflow_01GNCU3413EMW5bVlHEoImN08OUGiI84jFM",
         "object_type": "variable_workflow"
       },
       {
@@ -107,6 +58,66 @@
         "properties": {
           "value": "",
           "scope": "output",
+          "name": "Delete Service Negative Test Case - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GU36VS3Q9KH7kkzGGR5FfRxF5WQ1ugsta",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "PUT Service Negative Test Case - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GU36PUY4UU15ubkRpn6oE6pIFZFcJeCKb",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for Update Verification",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GS991WZIXVQ1rmBKLOE04RpoI5O9uNYVf",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for invalid limit",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GNC9QWAYDFY3zbhE1JuXyBPGDJGQmDtRu",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for invalid lifecycle",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GU429USQ78L3nvpHCliIvhryApsa7mLqQ",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
           "name": "op for ID which is Invalid",
           "type": "datatype.string",
           "is_required": false
@@ -115,14 +126,63 @@
         "object_type": "variable_workflow"
       },
       {
-        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+        "schema_id": "datatype.string",
         "properties": {
-          "scope": "local",
-          "name": "Service without name Sorting Headers",
-          "type": "datatype.table",
+          "value": "",
+          "scope": "output",
+          "name": "op for Service group update operation",
+          "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GNCU3413EMW5bVlHEoImN08OUGiI84jFM",
+        "unique_name": "variable_workflow_01GU7672CEDNE4N50Jwwoicg1j5mN7sGT4X",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "POST Service Negative Test Case - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GU36JLEHHZB4KOAjZYQEF0HulWFlEGIxO",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for a service when name  Length",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GS6JCSUGG5I0iU7U2LyKzqW6J8dWLKi09",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for invalid start",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GNC9XACZ8KH75AQpIFdeHvkMjQvkyVvZz",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "POST PUT DEL Positive Cases - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GS9ISH42XGJ2Np3g1it2UpRDssH49EWsw",
         "object_type": "variable_workflow"
       },
       {
@@ -135,6 +195,30 @@
           "is_required": false
         },
         "unique_name": "variable_workflow_01GNCCI5B32874opSo4sesKT0WjwKKEuyLA",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for when name is empty",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GND9T03YSDE7VxyYGi06QLeZHP61Bss22",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for a service when desc  Length",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GS7KM7FYG7K1cj3XdYcoWyIqJupgHyNAe",
         "object_type": "variable_workflow"
       }
     ],
@@ -717,7 +801,7 @@
               "continue_on_failure": false,
               "display_name": "Get Service Group by Name",
               "method": "GET",
-              "relative_url": "services?name=TercelService-$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.instance_id$",
+              "relative_url": "services?name=TercelService-name-$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.instance_id$",
               "runtime_user": {
                 "override_target_runtime_user": false,
                 "target_default": true
@@ -869,12 +953,12 @@
           {
             "unique_name": "definition_activity_01GS97VGRY1N33OR8ZMhXnpppIQkf8CsNbt",
             "name": "Condition Block",
-            "title": "Condition Block",
+            "title": "Verify the Service Updated or Not ? ",
             "type": "logic.if_else",
             "base_type": "activity",
             "properties": {
               "continue_on_failure": false,
-              "display_name": "Condition Block",
+              "display_name": "Verify the Service Updated or Not ? ",
               "skip_execution": false
             },
             "object_type": "definition_activity",
@@ -910,7 +994,7 @@
                       "variables_to_update": [
                         {
                           "variable_to_update": "$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.variable_workflow_01GS991WZIXVQ1rmBKLOE04RpoI5O9uNYVf$",
-                          "variable_value_new": "✔✅ Update is sucessfull for a Service"
+                          "variable_value_new": "✔✅ Update is sucessfull for a Service - 100%"
                         }
                       ]
                     },
@@ -1280,20 +1364,6 @@
         ]
       },
       {
-        "unique_name": "definition_activity_01GS9V7O4C52L7Y9jg74Wh6bOCMiYdlEMUc",
-        "name": "Completed",
-        "title": "Completed",
-        "type": "logic.completed",
-        "base_type": "activity",
-        "properties": {
-          "completion_type": "succeeded",
-          "continue_on_failure": false,
-          "display_name": "Completed",
-          "skip_execution": false
-        },
-        "object_type": "definition_activity"
-      },
-      {
         "unique_name": "definition_activity_01GNC427C38U24itIl3wnV8UeBOzDyQEm4T",
         "name": "Group",
         "title": "GET API-Negative TestCases",
@@ -1497,6 +1567,147 @@
               ]
             },
             "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GU31ZMXIJFI7GX458ggBk1IhfCGX6ETYI",
+        "name": "Condition Block",
+        "title": "Verify the GET Negative Test Case status Code",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Verify the GET Negative Test Case status Code",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01GU31ZSP1JWR4FAflOAEIywS74fBfzaF2E",
+            "name": "Condition Branch",
+            "title": "Pass Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": {
+                      "left_operand": "$activity.definition_activity_01GNC60KP063Y13hrHNdL9432nHsjkjZ4Qk.output.error.code$",
+                      "operator": "eq",
+                      "right_operand": "400"
+                    },
+                    "operator": "and",
+                    "right_operand": {
+                      "left_operand": "$activity.definition_activity_01GNCACH9J6L67ZiItoPLc5787zxpGKZqj5.output.error.code$",
+                      "operator": "eq",
+                      "right_operand": "400"
+                    }
+                  },
+                  "operator": "and",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01GNCD76U3CFE71ocYjRh31gj7EfYVdEHDb.output.error.code$",
+                    "operator": "eq",
+                    "right_operand": "404"
+                  }
+                },
+                "operator": "and",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GNCEC706S5S3svUyHQgqbk3fLyO13dO54.output.error.code$",
+                  "operator": "eq",
+                  "right_operand": "400"
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Pass Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GU3BMPS325Y2LAKfFJAp5BsPmZU0zJVml",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.variable_workflow_01GU36D619R755yTEjKP9eKJWzNQ6rfsKFT$",
+                      "variable_value_new": "✔✅ All GET API Negative Cases are Passed 100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GU31ZV62CD54wdxacXD6FPLgpurtp74Iy",
+            "name": "Condition Branch",
+            "title": "Fail Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": {
+                      "left_operand": "$activity.definition_activity_01GNC60KP063Y13hrHNdL9432nHsjkjZ4Qk.output.error.code$",
+                      "operator": "ne",
+                      "right_operand": "400"
+                    },
+                    "operator": "or",
+                    "right_operand": {
+                      "left_operand": "$activity.definition_activity_01GNCACH9J6L67ZiItoPLc5787zxpGKZqj5.output.error.code$",
+                      "operator": "eq",
+                      "right_operand": "400"
+                    }
+                  },
+                  "operator": "or",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01GNCD76U3CFE71ocYjRh31gj7EfYVdEHDb.output.error.code$",
+                    "operator": "eq",
+                    "right_operand": "404"
+                  }
+                },
+                "operator": "or",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GNCEC706S5S3svUyHQgqbk3fLyO13dO54.output.error.code$",
+                  "operator": "eq",
+                  "right_operand": "400"
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Fail Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GU3BOH0GD3F1umpHoZWVThyTvXWpkWLkG",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.variable_workflow_01GU36D619R755yTEjKP9eKJWzNQ6rfsKFT$",
+                      "variable_value_new": "❌⭕ Get API Negative test case are failed, please refer run instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.instance_id$/"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
           }
         ]
       },
@@ -1746,37 +1957,9 @@
             "object_type": "definition_activity"
           },
           {
-            "unique_name": "definition_activity_01GS6FB1F3PK95WpnanGPrN2fHvbXjVjC5q",
-            "name": "HTTP Request",
-            "title": "Delete the Service - Cleanup Process",
-            "type": "web-service.http_request",
-            "base_type": "activity",
-            "properties": {
-              "action_timeout": 180,
-              "allow_auto_redirect": true,
-              "continue_on_error_status_code": false,
-              "continue_on_failure": false,
-              "display_name": "Delete the Service - Cleanup Process",
-              "method": "DELETE",
-              "relative_url": "services/$activity.definition_activity_01GND57X55SOE5pFzFs6QIrvjhYeLYYKzud.output.result_string$",
-              "runtime_user": {
-                "override_target_runtime_user": false,
-                "target_default": true
-              },
-              "skip_execution": false,
-              "target": {
-                "override_workflow_target": false,
-                "override_workflow_target_group_criteria": false,
-                "use_workflow_target": true,
-                "use_workflow_target_group": false
-              }
-            },
-            "object_type": "definition_activity"
-          },
-          {
             "unique_name": "definition_activity_01GNDEW0KKYH41MODHLo51MaHyKM49472QW",
             "name": "HTTP Request",
-            "title": "Create a Service with Name more than 64",
+            "title": "Create a Service with Name more than 64 and desc more than 1024",
             "type": "web-service.http_request",
             "base_type": "activity",
             "properties": {
@@ -1786,7 +1969,7 @@
               "content_type": "application/json",
               "continue_on_error_status_code": false,
               "continue_on_failure": false,
-              "display_name": "Create a Service with Name more than 64",
+              "display_name": "Create a Service with Name more than 64 and desc more than 1024",
               "method": "POST",
               "relative_url": "services",
               "runtime_user": {
@@ -1932,12 +2115,1170 @@
               ]
             },
             "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU6CYOEPG1727CuE2QPxSRsywHlJdvuSQ",
+            "name": "HTTP Request",
+            "title": "Delete the Service - Cleanup Process",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Delete the Service - Cleanup Process",
+              "method": "DELETE",
+              "relative_url": "services/$activity.definition_activity_01GS6DNBPS6VI2LaveBOc5L1f6Oq4i0lVhW.output.jsonpath_queries.service_id$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU3R364ZGWV6mysHsovDOW4X9yaw64DHI",
+            "name": "HTTP Request",
+            "title": "Create a Service with Invalid Lifecylce",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n\t\"description\": \"Service Description \",\n\t\"lifecycle_actions\": [\n\t\t\"5ef5f8e203c65c9b786c7f97\"\n\t],\n\t\"name\": \"Tercel-Service01-Length-Check Test-\",\n\t\"title\": \"Title for Service\",\n\t\"version\": {\n\t\t\"build\": 0,\n\t\t\"identifier\": \"string\",\n\t\t\"major\": 0,\n\t\t\"minor\": 0\n\t}\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Create a Service with Invalid Lifecylce",
+              "method": "POST",
+              "relative_url": "services",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU40UUKPD6070XGRrb80Pu3PLRhXomWNi",
+            "name": "JSONPath Query",
+            "title": "Extract the Invalid List when LifeCycle is Invalid",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the Invalid List when LifeCycle is Invalid",
+              "input_json": "$activity.definition_activity_01GU3R364ZGWV6mysHsovDOW4X9yaw64DHI.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.details",
+                  "jsonpath_query_name": "Invalid List",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU42EDNGRMT5puuFkZ9Q9l9571T07UXyz",
+            "name": "Set Variables",
+            "title": "Print the Invalid Properties when Inavlid Action is Passed",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Print the Invalid Properties when Inavlid Action is Passed",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.variable_workflow_01GU429USQ78L3nvpHCliIvhryApsa7mLqQ$",
+                  "variable_value_new": "$activity.definition_activity_01GU40UUKPD6070XGRrb80Pu3PLRhXomWNi.output.jsonpath_queries.Invalid List$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU554H2DRLF5GzcB5vJmYii2VnWAAUcQj",
+            "name": "HTTP Request",
+            "title": "Create a Service Group",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"description\": \"Service Group description\",\n  \"name\": \"SG01-$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.instance_id$\",\n  \"title\": \"Title for ServiceGrouo\"\n}",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Create a Service Group",
+              "method": "POST",
+              "relative_url": "servicegroups",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU58BBVMQZM4OAXcsWQQmbRVKkeqIie7K",
+            "name": "HTTP Request",
+            "title": "Get ServiceGroup by Name",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"description\": \"Service Group description\",\n  \"name\": \"SG01-$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.instance_id$\",\n  \"title\": \"Title for ServiceGrouo\"\n}",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Get ServiceGroup by Name",
+              "method": "POST",
+              "relative_url": "servicegroups?name=SG01-$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.instance_id$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU59EBB8XI77fr3JDb8JLQvxTm5oTa4Fz",
+            "name": "JSONPath Query",
+            "title": "Extract the Service Group ID",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the Service Group ID",
+              "input_json": "$activity.definition_activity_01GU58BBVMQZM4OAXcsWQQmbRVKkeqIie7K.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.service_groups._id",
+                  "jsonpath_query_name": "ServiceGroup_ID",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU53XL0ZDLP4xHBSG7ysr0Grcp3EI2pya",
+            "name": "HTTP Request",
+            "title": "Create a Service with Valid Service Group",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n\t\"description\": \"Service Description \",\n\t\"lifecycle_actions\": [\n\t\t\"$activity.definition_activity_01GNCPZURKWMJ3r5ETMA7gZ9wmhkH2RQm7E.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$\"\n\t],\n\t\"name\": \"Tercel-Service01-$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.instance_id$\",\n\"service_group\": \"$activity.definition_activity_01GU59EBB8XI77fr3JDb8JLQvxTm5oTa4Fz.output.jsonpath_queries.ServiceGroup_ID$\",\n\t\"title\": \"Title for Service\",\n\t\"version\": {\n\t\t\"build\": 0,\n\t\t\"identifier\": \"string\",\n\t\t\"major\": 0,\n\t\t\"minor\": 0\n\t}\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Create a Service with Valid Service Group",
+              "method": "POST",
+              "relative_url": "services",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU5D3VE9VGV02ITPU7QsKdYc0nbOK4ZZq",
+            "name": "HTTP Request",
+            "title": "Service Get By Name",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n\t\"description\": \"Service Description \",\n\t\"lifecycle_actions\": [\n\t\t\"$activity.definition_activity_01GNCPZURKWMJ3r5ETMA7gZ9wmhkH2RQm7E.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$\"\n\t],\n\t\"name\": \"Tercel-Service01-$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.instance_id$\",\n\"service_group\": \"$activity.definition_activity_01GU59EBB8XI77fr3JDb8JLQvxTm5oTa4Fz.output.jsonpath_queries.ServiceGroup_ID$\",\n\t\"title\": \"Title for Service\",\n\t\"version\": {\n\t\t\"build\": 0,\n\t\t\"identifier\": \"string\",\n\t\t\"major\": 0,\n\t\t\"minor\": 0\n\t}\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Service Get By Name",
+              "method": "POST",
+              "relative_url": "services?name=Tercel-Service01-$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.instance_id$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU5M2XKFRAB1fwpDXFLeA5mmxS4CF7uWj",
+            "name": "JSONPath Query",
+            "title": "Extract the service ID",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the service ID",
+              "input_json": "$activity.definition_activity_01GU5D3VE9VGV02ITPU7QsKdYc0nbOK4ZZq.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.services[0]._id",
+                  "jsonpath_query_name": "Service_ID",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU5GNXL27WP6svEbnzeJbihV3xXkknKnn",
+            "name": "HTTP Request",
+            "title": "Service Get By ServiceGroup",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n\t\"description\": \"Service Description \",\n\t\"lifecycle_actions\": [\n\t\t\"$activity.definition_activity_01GNCPZURKWMJ3r5ETMA7gZ9wmhkH2RQm7E.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$\"\n\t],\n\t\"name\": \"Tercel-Service01-$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.instance_id$\",\n\"service_group\": \"$activity.definition_activity_01GU59EBB8XI77fr3JDb8JLQvxTm5oTa4Fz.output.jsonpath_queries.ServiceGroup_ID$\",\n\t\"title\": \"Title for Service\",\n\t\"version\": {\n\t\t\"build\": 0,\n\t\t\"identifier\": \"string\",\n\t\t\"major\": 0,\n\t\t\"minor\": 0\n\t}\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Service Get By ServiceGroup",
+              "method": "POST",
+              "relative_url": "services?service_group=$activity.definition_activity_01GU59EBB8XI77fr3JDb8JLQvxTm5oTa4Fz.output.jsonpath_queries.ServiceGroup_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU5HZ3Z1LO537CJf5dsh4XushLMhDcNIc",
+            "name": "Condition Block",
+            "title": "Verify the service by Service Group and service name",
+            "type": "logic.if_else",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Verify the service by Service Group and service name",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "blocks": [
+              {
+                "unique_name": "definition_activity_01GU5HYTJG6QL3cN2QEsYG9VBUD1T7zm8Nw",
+                "name": "Condition Branch",
+                "title": "Condition Branch",
+                "type": "logic.condition_block",
+                "base_type": "activity",
+                "properties": {
+                  "condition": {
+                    "left_operand": "$activity.definition_activity_01GU5D3VE9VGV02ITPU7QsKdYc0nbOK4ZZq.output.response_body$",
+                    "operator": "eq",
+                    "right_operand": "$activity.definition_activity_01GU5GNXL27WP6svEbnzeJbihV3xXkknKnn.output.response_body$"
+                  },
+                  "continue_on_failure": false,
+                  "display_name": "Condition Branch",
+                  "skip_execution": false
+                },
+                "object_type": "definition_activity",
+                "actions": [
+                  {
+                    "unique_name": "definition_activity_01GU5J2HLC8JL39EPizPd1sh0Tn3gsa0nB4",
+                    "name": "Set Variables",
+                    "title": "Set Variables",
+                    "type": "core.set_multiple_variables",
+                    "base_type": "activity",
+                    "properties": {
+                      "continue_on_failure": false,
+                      "display_name": "Set Variables",
+                      "skip_execution": false,
+                      "variables_to_update": [
+                        {
+                          "variable_to_update": "$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.variable_workflow_01GU5JL0NM5161ccn16Hynf5RRsHP9l59M4$",
+                          "variable_value_new": "Passed"
+                        }
+                      ]
+                    },
+                    "object_type": "definition_activity"
+                  }
+                ]
+              },
+              {
+                "unique_name": "definition_activity_01GU5HYVNNRVB4Zl3sUF7a2VyYY2QfxIPaT",
+                "name": "Condition Branch",
+                "title": "Condition Branch",
+                "type": "logic.condition_block",
+                "base_type": "activity",
+                "properties": {
+                  "condition": {
+                    "left_operand": "$activity.definition_activity_01GU5GNXL27WP6svEbnzeJbihV3xXkknKnn.output.response_body$",
+                    "operator": "ne",
+                    "right_operand": "$activity.definition_activity_01GU5D3VE9VGV02ITPU7QsKdYc0nbOK4ZZq.output.response_body$"
+                  },
+                  "continue_on_failure": false,
+                  "display_name": "Condition Branch",
+                  "skip_execution": false
+                },
+                "object_type": "definition_activity",
+                "actions": [
+                  {
+                    "unique_name": "definition_activity_01GU5K5O3MF1M6Qv3d1N0CpWG7UQrU7RRHW",
+                    "name": "Set Variables",
+                    "title": "Set Variables",
+                    "type": "core.set_multiple_variables",
+                    "base_type": "activity",
+                    "properties": {
+                      "continue_on_failure": false,
+                      "display_name": "Set Variables",
+                      "skip_execution": false,
+                      "variables_to_update": [
+                        {
+                          "variable_to_update": "$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.variable_workflow_01GU5JL0NM5161ccn16Hynf5RRsHP9l59M4$",
+                          "variable_value_new": "Failed"
+                        }
+                      ]
+                    },
+                    "object_type": "definition_activity"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GU5KYODVLP456swzgazAMsuPxdpUJhAiV",
+            "name": "HTTP Request",
+            "title": "Delete a Service - CleanUP",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Delete a Service - CleanUP",
+              "method": "DELETE",
+              "relative_url": "services/$activity.definition_activity_01GU5M2XKFRAB1fwpDXFLeA5mmxS4CF7uWj.output.jsonpath_queries.Service_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU5NE7D7FS84hdSVnrHr9EcXFYfhAGynI",
+            "name": "HTTP Request",
+            "title": "Delete a ServiceGroups - CleanUP",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Delete a ServiceGroups - CleanUP",
+              "method": "DELETE",
+              "relative_url": "servicegroups/$activity.definition_activity_01GU59EBB8XI77fr3JDb8JLQvxTm5oTa4Fz.output.jsonpath_queries.ServiceGroup_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU5PPBPCGRH4VeuLXLs6RM1DdC6VpWpqt",
+            "name": "HTTP Request",
+            "title": "Create a Service with InValid Service Group",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n\t\"description\": \"Service Description \",\n\t\"lifecycle_actions\": [\n\t\t\"$activity.definition_activity_01GNCPZURKWMJ3r5ETMA7gZ9wmhkH2RQm7E.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$\"\n\t],\n\t\"name\": \"Tercel-Service01-$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.instance_id$\",\n\"service_group\": \"5ef5f8e203c65c9b786c7f97\",\n\t\"title\": \"Title for Service\",\n\t\"version\": {\n\t\t\"build\": 0,\n\t\t\"identifier\": \"string\",\n\t\t\"major\": 0,\n\t\t\"minor\": 0\n\t}\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Create a Service with InValid Service Group",
+              "method": "POST",
+              "relative_url": "services",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU5RKYPX8KT73f5GxJMa1e8SVtpoDOgo2",
+            "name": "JSONPath Query",
+            "title": "Extract the Invalid Properties when Service Group is invalid",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the Invalid Properties when Service Group is invalid",
+              "input_json": "$activity.definition_activity_01GU5PPBPCGRH4VeuLXLs6RM1DdC6VpWpqt.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.details",
+                  "jsonpath_query_name": "invalid_properties_ServiceGroup_ID",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GU5T3S2CR7666rY3oMrglivxWP3yFGuKW",
+        "name": "Condition Block",
+        "title": "Verify the PUT Negative Test Case ",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Verify the PUT Negative Test Case ",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01GU5T3Y8C5DI5Eorn3ZUvhAueJfk0u4YUK",
+            "name": "Condition Branch",
+            "title": "Condition Branch",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": {
+                      "left_operand": {
+                        "left_operand": {
+                          "left_operand": {
+                            "left_operand": {
+                              "left_operand": "$activity.definition_activity_01GNCNC8BDWMN3liMlVb6XZuvC3H8HlqmJA.output.status_code$",
+                              "operator": "eq",
+                              "right_operand": 201
+                            },
+                            "operator": "and",
+                            "right_operand": {
+                              "left_operand": "$activity.definition_activity_01GND5Y4FAZWY3LK5hvw09d3tx8mb2ltaDf.output.status_code$",
+                              "operator": "eq",
+                              "right_operand": 200
+                            }
+                          },
+                          "operator": "and",
+                          "right_operand": {
+                            "left_operand": "$activity.definition_activity_01GNDEW0KKYH41MODHLo51MaHyKM49472QW.output.status_code$",
+                            "operator": "eq",
+                            "right_operand": 201
+                          }
+                        },
+                        "operator": "and",
+                        "right_operand": {
+                          "left_operand": "$activity.definition_activity_01GS6CVPAKDK43IpM3wOTsKWgRT0S2LbJMV.output.status_code$",
+                          "operator": "eq",
+                          "right_operand": 200
+                        }
+                      },
+                      "operator": "and",
+                      "right_operand": {
+                        "left_operand": "$activity.definition_activity_01GU3R364ZGWV6mysHsovDOW4X9yaw64DHI.output.error.code$",
+                        "operator": "eq",
+                        "right_operand": "400"
+                      }
+                    },
+                    "operator": "and",
+                    "right_operand": {
+                      "left_operand": "$activity.definition_activity_01GU53XL0ZDLP4xHBSG7ysr0Grcp3EI2pya.output.status_code$",
+                      "operator": "eq",
+                      "right_operand": 201
+                    }
+                  },
+                  "operator": "and",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01GU5GNXL27WP6svEbnzeJbihV3xXkknKnn.output.status_code$",
+                    "operator": "eq",
+                    "right_operand": 200
+                  }
+                },
+                "operator": "and",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GU5PPBPCGRH4VeuLXLs6RM1DdC6VpWpqt.output.error.code$",
+                  "operator": "eq",
+                  "right_operand": "400"
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Condition Branch",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GU6GRIXDNVF0ZV7AjVXCFEx9I7WPlNxzD",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.variable_workflow_01GU36JLEHHZB4KOAjZYQEF0HulWFlEGIxO$",
+                      "variable_value_new": "✔✅ All Negative Testcase For Services POST Call are passed - 100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GU5T40W4J0V74c9CWqldcNe4XybjwwYRS",
+            "name": "Condition Branch",
+            "title": "Condition Branch",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": {
+                      "left_operand": {
+                        "left_operand": {
+                          "left_operand": {
+                            "left_operand": {
+                              "left_operand": {
+                                "left_operand": "$activity.definition_activity_01GNCNC8BDWMN3liMlVb6XZuvC3H8HlqmJA.output.error.code$",
+                                "operator": "ne",
+                                "right_operand": "201"
+                              },
+                              "operator": "or",
+                              "right_operand": {
+                                "left_operand": "$activity.definition_activity_01GND5Y4FAZWY3LK5hvw09d3tx8mb2ltaDf.output.error.code$",
+                                "operator": "ne",
+                                "right_operand": "200"
+                              }
+                            },
+                            "operator": "or",
+                            "right_operand": {
+                              "left_operand": "$activity.definition_activity_01GNDEW0KKYH41MODHLo51MaHyKM49472QW.output.error.code$",
+                              "operator": "ne",
+                              "right_operand": "200"
+                            }
+                          },
+                          "operator": "or",
+                          "right_operand": {
+                            "left_operand": "$activity.definition_activity_01GS6CVPAKDK43IpM3wOTsKWgRT0S2LbJMV.output.error.code$",
+                            "operator": "ne",
+                            "right_operand": "200"
+                          }
+                        },
+                        "operator": "or",
+                        "right_operand": {
+                          "left_operand": "$activity.definition_activity_01GS6EQ63PBQ375lyMU79yTqJlIG100wki5.output.error.code$",
+                          "operator": "ne",
+                          "right_operand": "200"
+                        }
+                      },
+                      "operator": "or",
+                      "right_operand": {
+                        "left_operand": "$activity.definition_activity_01GU3R364ZGWV6mysHsovDOW4X9yaw64DHI.output.error.code$",
+                        "operator": "ne",
+                        "right_operand": "400"
+                      }
+                    },
+                    "operator": "or",
+                    "right_operand": {
+                      "left_operand": "$activity.definition_activity_01GU53XL0ZDLP4xHBSG7ysr0Grcp3EI2pya.output.error.code$",
+                      "operator": "ne",
+                      "right_operand": "201"
+                    }
+                  },
+                  "operator": "or",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01GU5GNXL27WP6svEbnzeJbihV3xXkknKnn.output.error.code$",
+                    "operator": "ne",
+                    "right_operand": "200"
+                  }
+                },
+                "operator": "or",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GU5PPBPCGRH4VeuLXLs6RM1DdC6VpWpqt.output.error.code$",
+                  "operator": "ne",
+                  "right_operand": "400"
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Condition Branch",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GU6I9CJ2PX75ci83K3QCN3NXUjShZQtBx",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.variable_workflow_01GU36JLEHHZB4KOAjZYQEF0HulWFlEGIxO$",
+                      "variable_value_new": "❌⭕ Some  Negative Testcase For Services POST Call are failed  - Please check the instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.instance_id$/"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GU6KEKV6ZTK6AJlLRQZ6EjmvZFI6yFgxX",
+        "name": "Group",
+        "title": "PUT Negative Cases ",
+        "type": "logic.group",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "PUT Negative Cases ",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "actions": [
+          {
+            "unique_name": "definition_activity_01GU6KN1DK4KM5CR7mV5b9BGxQKyNyffvFQ",
+            "name": "HTTP Request",
+            "title": "PUT - Update Service with Empty Name",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n\t\"description\": \"TercelService-Description\",\n\t\"lifecycle_actions\": [\n\t\t\"$activity.definition_activity_01GNCPZURKWMJ3r5ETMA7gZ9wmhkH2RQm7E.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$\"\n\t],\n\t\"name\": \"\",\n\t\"title\": \"TercelService-Title\",\n\t\"version\": {\n\t\t\"build\": 0,\n\t\t\"identifier\": \"string\",\n\t\t\"major\": 0,\n\t\t\"minor\": 0\n\t}\n}",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "PUT - Update Service with Empty Name",
+              "method": "PUT",
+              "relative_url": "services/$activity.definition_activity_01GND57X55SOE5pFzFs6QIrvjhYeLYYKzud.output.result_string$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU6PBI82O6R1Qpp9Mjc3Sx95KSDUpuwoN",
+            "name": "JSONPath Query",
+            "title": "Extract the Invalid Properties",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the Invalid Properties",
+              "input_json": "$activity.definition_activity_01GU6KN1DK4KM5CR7mV5b9BGxQKyNyffvFQ.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.invalid_properties",
+                  "jsonpath_query_name": "invalid_properties_For_servicePUT",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU6QWNXA2H65vZaWe2YyxPfvPdggqnf1s",
+            "name": "HTTP Request",
+            "title": "Update Service with Name more than 64  and Dec more than 1024",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n\t\"description\": \"TercelService-Tercel CatalogItems API - Automation Positive and Negative Tests TercelService-Tercel CatalogItems API - TercelService-Tercel CatalogItems API - Automation Positive and Negative Tests TercelService-Tercel CatalogItems API - TercelService-Tercel CatalogItems API - Automation Positive and Negative Tests TercelService-Tercel CatalogItems API - TercelService-Tercel CatalogItems API - Automation Positive and Negative Tests TercelService-Tercel CatalogItems API - TercelService-Tercel CatalogItems API - Automation Positive and Negative Tests TercelService-Tercel CatalogItems API - TercelService-Tercel CatalogItems API - Automation Positive and Negative Tests TercelService-Tercel CatalogItems API - TercelService-Tercel CatalogItems API - Automation Positive and Negative Tests TercelService-Tercel CatalogItems API - TercelService-Tercel CatalogItems API - Automation Positive and Negative Tests TercelService-Tercel CatalogItems API - TercelService-Tercel CatalogItems API - Automation Positive and Negative Tests TercelService-Tercel CatalogItems API -\",\n\t\"lifecycle_actions\": [\n\t\t\"$activity.definition_activity_01GNCPZURKWMJ3r5ETMA7gZ9wmhkH2RQm7E.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$\"\n\t],\n\t\"name\": \"TercelService-Tercel CatalogItems API - Automation Positive and Negative\",\n\t\"title\": \"TercelService-Title\",\n\t\"version\": {\n\t\t\"build\": 0,\n\t\t\"identifier\": \"string\",\n\t\t\"major\": 0,\n\t\t\"minor\": 0\n\t}\n}",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Update Service with Name more than 64  and Dec more than 1024",
+              "method": "PUT",
+              "relative_url": "services/$activity.definition_activity_01GND57X55SOE5pFzFs6QIrvjhYeLYYKzud.output.result_string$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU6S13SBZZ12TJQEETgjIv2FSMqZD2Z0g",
+            "name": "JSONPath Query",
+            "title": "Extract the Invalid Properties",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the Invalid Properties",
+              "input_json": "$activity.definition_activity_01GU6QWNXA2H65vZaWe2YyxPfvPdggqnf1s.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.invalid_properties",
+                  "jsonpath_query_name": "invalid_properties_For_servicePUT",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU6TQQJ9RDN45vKUKdNsCm3Im9NrgXMy4",
+            "name": "HTTP Request",
+            "title": "Update Service with invalid Service Group and Lifecycle",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n\t\"description\": \"Tercel Service Desc\",\n\t\"lifecycle_actions\": [\n\t\t\"5ef618e8c8cc676db2f5d196\"\n\t],\n\t\"name\": \"TercelService\",\n\"service_group\": \"5ef618e8c8cc676db2f5d196\",\n\t\"title\": \"TercelService-Title\",\n\t\"version\": {\n\t\t\"build\": 0,\n\t\t\"identifier\": \"string\",\n\t\t\"major\": 0,\n\t\t\"minor\": 0\n\t}\n}",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Update Service with invalid Service Group and Lifecycle",
+              "method": "PUT",
+              "relative_url": "services/$activity.definition_activity_01GND57X55SOE5pFzFs6QIrvjhYeLYYKzud.output.result_string$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU6X937LVEU1x7kU88ov66XbLPAoa5ncB",
+            "name": "JSONPath Query",
+            "title": "Extract the Invalid Properties",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the Invalid Properties",
+              "input_json": "$activity.definition_activity_01GU6QWNXA2H65vZaWe2YyxPfvPdggqnf1s.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.details",
+                  "jsonpath_query_name": "invalid_properties_For_servicePUT",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU6Z9LXDCQT57X3RCnNpW895smAJS6QNk",
+            "name": "HTTP Request",
+            "title": "Create a Service Group for Update",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"description\": \"Description\",\n  \"name\": \"SG-$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.instance_id$\",\n  \"title\": \"Title\"\n}",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Create a Service Group for Update",
+              "method": "POST",
+              "relative_url": "servicegroups",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU7100M1B351YFwcydXSsp5diGzzuPpYh",
+            "name": "HTTP Request",
+            "title": "Get Service Group by Name",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Get Service Group by Name",
+              "method": "GET",
+              "relative_url": "servicegroups?name=SG-$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.instance_id$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU721I5BMGW6ETrRGfUoV1NBHNKs6bbik",
+            "name": "JSONPath Query",
+            "title": "Extract the Service Group ID",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the Service Group ID",
+              "input_json": "$activity.definition_activity_01GU7100M1B351YFwcydXSsp5diGzzuPpYh.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.service_groups[0]._id",
+                  "jsonpath_query_name": "SG_ID",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU6Y0G74MAR2CDcV71ikhYgquvMjSHPCK",
+            "name": "HTTP Request",
+            "title": "PUT - Update Service with valid ServiceGroup",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"description\": \"TercelService-Description\",\n  \"lifecycle_actions\": [\n    \"$activity.definition_activity_01GNCPZURKWMJ3r5ETMA7gZ9wmhkH2RQm7E.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$\"\n  ],\n  \"name\": \"TestService-$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.instance_id$\",\n  \"service_group\": \"$activity.definition_activity_01GU721I5BMGW6ETrRGfUoV1NBHNKs6bbik.output.jsonpath_queries.SG_ID$\",\n  \"title\": \"TercelService-Title\",\n  \"version\": {\n    \"build\": 0,\n    \"identifier\": \"string\",\n    \"major\": 0,\n    \"minor\": 0\n  }\n}",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "PUT - Update Service with valid ServiceGroup",
+              "method": "PUT",
+              "relative_url": "services/$activity.definition_activity_01GND57X55SOE5pFzFs6QIrvjhYeLYYKzud.output.result_string$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU73RHCC0I07bdYLPdi8lJ3YZtKGB6MQ5",
+            "name": "Condition Block",
+            "title": "Verify the Update operatin for Service Group",
+            "type": "logic.if_else",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Verify the Update operatin for Service Group",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "blocks": [
+              {
+                "unique_name": "definition_activity_01GU73RO86TZ13y2H1UPVKKcIbfEePxqzyU",
+                "name": "Condition Branch",
+                "title": "Condition Branch",
+                "type": "logic.condition_block",
+                "base_type": "activity",
+                "properties": {
+                  "condition": {
+                    "left_operand": "$activity.definition_activity_01GU6KN1DK4KM5CR7mV5b9BGxQKyNyffvFQ.output.response_body$",
+                    "operator": "ne",
+                    "right_operand": "$activity.definition_activity_01GU6Y0G74MAR2CDcV71ikhYgquvMjSHPCK.output.response_body$"
+                  },
+                  "continue_on_failure": false,
+                  "display_name": "Condition Branch",
+                  "skip_execution": false
+                },
+                "object_type": "definition_activity",
+                "actions": [
+                  {
+                    "unique_name": "definition_activity_01GU76A9F80JG3ab2ltF9pawb0RdfDwWEWh",
+                    "name": "Set Variables",
+                    "title": "Set Variables",
+                    "type": "core.set_multiple_variables",
+                    "base_type": "activity",
+                    "properties": {
+                      "continue_on_failure": false,
+                      "display_name": "Set Variables",
+                      "skip_execution": false,
+                      "variables_to_update": [
+                        {
+                          "variable_to_update": "$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.variable_workflow_01GU7672CEDNE4N50Jwwoicg1j5mN7sGT4X$",
+                          "variable_value_new": "passed"
+                        }
+                      ]
+                    },
+                    "object_type": "definition_activity"
+                  }
+                ]
+              },
+              {
+                "unique_name": "definition_activity_01GU73RQOREKL5KecIqGXNe4H9PIStZ5Sa0",
+                "name": "Condition Branch",
+                "title": "Condition Branch",
+                "type": "logic.condition_block",
+                "base_type": "activity",
+                "properties": {
+                  "condition": {
+                    "left_operand": "$activity.definition_activity_01GU6Y0G74MAR2CDcV71ikhYgquvMjSHPCK.output.response_body$",
+                    "operator": "eq",
+                    "right_operand": "$activity.definition_activity_01GU6KN1DK4KM5CR7mV5b9BGxQKyNyffvFQ.output.response_body$"
+                  },
+                  "continue_on_failure": false,
+                  "display_name": "Condition Branch",
+                  "skip_execution": false
+                },
+                "object_type": "definition_activity",
+                "actions": [
+                  {
+                    "unique_name": "definition_activity_01GU76J1784N05IW3uulD89FhktojLIJyxJ",
+                    "name": "Set Variables",
+                    "title": "Set Variables",
+                    "type": "core.set_multiple_variables",
+                    "base_type": "activity",
+                    "properties": {
+                      "continue_on_failure": false,
+                      "display_name": "Set Variables",
+                      "skip_execution": false,
+                      "variables_to_update": [
+                        {
+                          "variable_to_update": "$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.variable_workflow_01GU7672CEDNE4N50Jwwoicg1j5mN7sGT4X$",
+                          "variable_value_new": "Failed"
+                        }
+                      ]
+                    },
+                    "object_type": "definition_activity"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GS6FB1F3PK95WpnanGPrN2fHvbXjVjC5q",
+            "name": "HTTP Request",
+            "title": "Delete the Service created in the POST Group- Cleanup Process",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Delete the Service created in the POST Group- Cleanup Process",
+              "method": "DELETE",
+              "relative_url": "services/$activity.definition_activity_01GND57X55SOE5pFzFs6QIrvjhYeLYYKzud.output.result_string$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU6NC045ZHF2sH1S3sHe5s1HeQztKIjPc",
+            "name": "HTTP Request",
+            "title": "Delete the Action created in Post Group - Cleanup Process",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Delete the Action created in Post Group - Cleanup Process",
+              "method": "DELETE",
+              "relative_url": "actions/$activity.definition_activity_01GNCPZURKWMJ3r5ETMA7gZ9wmhkH2RQm7E.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GU7780Z539C6Hm4kSw9pqgYMZAHyYsc2s",
+            "name": "HTTP Request",
+            "title": "Delete the Service Group created in the PUT - Cleanup",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Delete the Service Group created in the PUT - Cleanup",
+              "method": "DELETE",
+              "relative_url": "servicegroups/$activity.definition_activity_01GU721I5BMGW6ETrRGfUoV1NBHNKs6bbik.output.jsonpath_queries.SG_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
           }
         ]
       }
     ],
     "categories": [
-      "category_1BMfMXSnJMyt5Ihqi7rWJr5N8cf"
+      "category_01GN2GBI52Y2F1AYT3RDfcwY4odOJfgHjMb"
     ]
   },
   "categories": {
@@ -2008,6 +3349,18 @@
             "properties": {
               "value": "",
               "scope": "output",
+              "name": "Service_ID",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
               "name": "ServiceGroup_ID",
               "type": "datatype.string",
               "is_required": false
@@ -2024,18 +3377,6 @@
               "is_required": false
             },
             "unique_name": "variable_workflow_01GN6W1U5YMHU3xnwlkVbeN5aV4COFg8bA4",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Service_ID",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI",
             "object_type": "variable_workflow"
           }
         ],
