@@ -1,0 +1,3636 @@
+{
+  "workflow": {
+    "unique_name": "definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY",
+    "name": "Tercel Forms Automation CRUD and Negative Test Cases",
+    "title": "Tercel Forms Automation CRUD and Negative Test Cases",
+    "type": "generic.workflow",
+    "base_type": "workflow",
+    "variables": [
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Update form with updated action ",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWQ44QEO9DI6IHolHM4E2ZyWK5RfTVTmw",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "GET/POST - Positive Case- Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWJS7GX0JW45JaJBBZztNsMhK7mLGDUdc",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "FormFields",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWPRTUCO4J04ytMy1LGflIBUSX287tk8r",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "POST Negative Cases - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWJU6A2IQW70BZShmUs94SbEEzmAI2AWt",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "DEL Negative Cases - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWJV4FGFG8W5HUp8U1IkBqyZuIOA36bfJ",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "EmailTable",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWQ63UYNHF147RvK6UzZC08YFBuaXffl1",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "PUT/DEL Positive Cases - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWJTQT24L9B0yPHhEGxLOAuaNZEUdrNkb",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "GET Negative Cases- Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWJTYIDVKZL1IexipfcO8ZJz6LlifoZeI",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Pagination_Links",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWKS5B4X6KD6Se08fQ1HszDPWR5KjwLvi",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "PUT Negative Cases- Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWJUW7ALTEX3x9CbDhs2FXJjvQnZYafdb",
+        "object_type": "variable_workflow"
+      }
+    ],
+    "properties": {
+      "atomic": {
+        "is_atomic": false
+      },
+      "delete_workflow_instance": false,
+      "description": "Tercel Forms Automation CRUD and Negative Test Cases",
+      "display_name": "Tercel Forms Automation CRUD and Negative Test Cases",
+      "runtime_user": {
+        "override_target_runtime_user": false,
+        "specify_on_workflow_start": false,
+        "target_default": true
+      },
+      "target": {
+        "target_type": "web-service.endpoint",
+        "target_id": "definition_target_01GSJUSLNKC6X3V87R7SkO6VzEyeIOTZZER",
+        "execute_on_workflow_target": true
+      }
+    },
+    "object_type": "definition_workflow",
+    "actions": [
+      {
+        "unique_name": "definition_activity_01GWDN5TWY1752RiEWEi9noO4oWwuugL8BC",
+        "name": "Group",
+        "title": "POST/GET- Positive Cases for Form API",
+        "type": "logic.group",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "description": "POST/GET- Positive Cases for Form API",
+          "display_name": "POST/GET- Positive Cases for Form API",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "actions": [
+          {
+            "unique_name": "definition_activity_01GWDGV5QS0MV3hyKsU8QFPpgv7GYAuBzDv",
+            "name": "Tercel Action Creation Atomic",
+            "title": "Tercel Action Creation Atomic",
+            "type": "workflow.atomic_workflow",
+            "base_type": "subworkflow",
+            "properties": {
+              "display_name": "Tercel Action Creation Atomic",
+              "input": {
+                "variable_workflow_01GN65RVL49Q22OUGuvaRSLA0dIlMdZXBD5": "Tercel_AutomationWF",
+                "variable_workflow_01GN662SOX5ED15imLREyXo8hC4c4ubEngK": "tercel"
+              },
+              "runtime_user": {
+                "target_default": true
+              },
+              "target": {
+                "execute_on_this_target": true,
+                "target_id": "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP",
+                "target_type": "web-service.endpoint"
+              },
+              "workflow_id": "definition_workflow_01GN6386122JS6sHfTaXknPpC3Hyqmtld5p"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWDGZZAD58V4mJ9yOFMsRIUbryDl3s9kz",
+            "name": "HTTP Request",
+            "title": "Create a Form - Post Call",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n\"name\":\"Form-$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$\",\n\"action_id\":\"$activity.definition_activity_01GWDGV5QS0MV3hyKsU8QFPpgv7GYAuBzDv.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Create a Form - Post Call",
+              "method": "POST",
+              "relative_url": "forms",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWHXVQ72HCP2bIcIHXaY6DahjhMBDW9qA",
+            "name": "JSONPath Query",
+            "title": "Extract the FormID",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the FormID",
+              "input_json": "$activity.definition_activity_01GWDGZZAD58V4mJ9yOFMsRIUbryDl3s9kz.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$._id",
+                  "jsonpath_query_name": "Form_ID",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWI0SDD2FIQ02cd2jB7eSzIRwnqfpXcXk",
+            "name": "HTTP Request",
+            "title": "Get by ID for a Form",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Get by ID for a Form",
+              "method": "GET",
+              "relative_url": "forms/$activity.definition_activity_01GWHXVQ72HCP2bIcIHXaY6DahjhMBDW9qA.output.jsonpath_queries.Form_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWNY0IL852A2uQu6qfKViUBJgIoyCb4L4",
+            "name": "JSONPath Query",
+            "title": "Extract the Form Fields",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the Form Fields",
+              "input_json": "$activity.definition_activity_01GWI0SDD2FIQ02cd2jB7eSzIRwnqfpXcXk.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.form_fields[0].form_fields",
+                  "jsonpath_query_name": "form_Fields",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWK7A2XQ9G75s5DbXArdQqPN9QDsnAQFc",
+            "name": "HTTP Request",
+            "title": "Validate the Form by ID",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Validate the Form by ID",
+              "method": "POST",
+              "relative_url": "forms/$activity.definition_activity_01GWHXVQ72HCP2bIcIHXaY6DahjhMBDW9qA.output.jsonpath_queries.Form_ID$/validate",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWK7WV6HQWB6yYVbbTeacf2R1Ism8EmKm",
+            "name": "HTTP Request",
+            "title": "GET Schema by the  FormID",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "GET Schema by the  FormID",
+              "method": "GET",
+              "relative_url": "forms/$activity.definition_activity_01GWHXVQ72HCP2bIcIHXaY6DahjhMBDW9qA.output.jsonpath_queries.Form_ID$/schemas",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWI34C6IT6B4Bl4Bx3oJlDved5yuabp0T",
+            "name": "HTTP Request",
+            "title": "Get All Forms",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Get All Forms",
+              "method": "GET",
+              "relative_url": "forms",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWI3HNEGRUV36D7ByLoexmkWGZHGQIQzV",
+            "name": "HTTP Request",
+            "title": "Get All Forms with limit and start Headers",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Get All Forms with limit and start Headers",
+              "method": "GET",
+              "relative_url": "forms?start=0\u0026limit=1",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWKPSM8CC7G2xZsHqnwjiFCHp3dBZhct5",
+            "name": "JSONPath Query",
+            "title": "Extract the Pagination Links",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "description": "Extract the Pagination Links",
+              "display_name": "Extract the Pagination Links",
+              "input_json": "$activity.definition_activity_01GWI3HNEGRUV36D7ByLoexmkWGZHGQIQzV.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$._links",
+                  "jsonpath_query_name": "pagination_Links",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWJ9LMER2LE1ajaD2xSk6Y37lzf11w7St",
+            "name": "HTTP Request",
+            "title": "Get All Forms with limit and start Headers",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Get All Forms with limit and start Headers",
+              "method": "GET",
+              "relative_url": "forms?start=2\u0026limit=1",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWKR29IOV7F4UADfxXY1l2nOKsyOjUsbp",
+            "name": "JSONPath Query",
+            "title": "Extract the Pagination Links",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "description": "Extract the Pagination Links",
+              "display_name": "Extract the Pagination Links",
+              "input_json": "$activity.definition_activity_01GWJ9LMER2LE1ajaD2xSk6Y37lzf11w7St.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$._links",
+                  "jsonpath_query_name": "pagination_Links",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWKRMENDZ9X2cdX13M7P5288tu6cGJwwp",
+            "name": "Condition Block",
+            "title": "verify the Pagination Links",
+            "type": "logic.if_else",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "verify the Pagination Links",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "blocks": [
+              {
+                "unique_name": "definition_activity_01GWKRMMT4YQX7RMKG5uzzpSRI8Yb8XcMvM",
+                "name": "Condition Branch",
+                "title": "Pass Case",
+                "type": "logic.condition_block",
+                "base_type": "activity",
+                "properties": {
+                  "condition": {
+                    "left_operand": "$activity.definition_activity_01GWI3HNEGRUV36D7ByLoexmkWGZHGQIQzV.output.response_body$",
+                    "operator": "ne",
+                    "right_operand": "$activity.definition_activity_01GWJ9LMER2LE1ajaD2xSk6Y37lzf11w7St.output.response_body$"
+                  },
+                  "continue_on_failure": false,
+                  "display_name": "Pass Case",
+                  "skip_execution": false
+                },
+                "object_type": "definition_activity",
+                "actions": [
+                  {
+                    "unique_name": "definition_activity_01GWKTDQQ3WE34AyO5X7KapXzBfvi2yldRN",
+                    "name": "Set Variables",
+                    "title": "Set Variables",
+                    "type": "core.set_multiple_variables",
+                    "base_type": "activity",
+                    "properties": {
+                      "continue_on_failure": false,
+                      "display_name": "Set Variables",
+                      "skip_execution": false,
+                      "variables_to_update": [
+                        {
+                          "variable_to_update": "$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.variable_workflow_01GWKS5B4X6KD6Se08fQ1HszDPWR5KjwLvi$",
+                          "variable_value_new": "✔✅ pagination for GET API with parametrs are passed -100%"
+                        }
+                      ]
+                    },
+                    "object_type": "definition_activity"
+                  }
+                ]
+              },
+              {
+                "unique_name": "definition_activity_01GWKRMPG9KU94XaDISFahASENyAx5ev6ZN",
+                "name": "Condition Branch",
+                "title": "Condition Branch",
+                "type": "logic.condition_block",
+                "base_type": "activity",
+                "properties": {
+                  "condition": {
+                    "left_operand": "$activity.definition_activity_01GWI3HNEGRUV36D7ByLoexmkWGZHGQIQzV.output.response_body$",
+                    "operator": "eq",
+                    "right_operand": "$activity.definition_activity_01GWJ9LMER2LE1ajaD2xSk6Y37lzf11w7St.output.response_body$"
+                  },
+                  "continue_on_failure": false,
+                  "display_name": "Condition Branch",
+                  "skip_execution": false
+                },
+                "object_type": "definition_activity",
+                "actions": [
+                  {
+                    "unique_name": "definition_activity_01GWKTYPIR4M74ss8p6GJLqo6zPEjMimZ9b",
+                    "name": "Set Variables",
+                    "title": "Set Variables",
+                    "type": "core.set_multiple_variables",
+                    "base_type": "activity",
+                    "properties": {
+                      "continue_on_failure": false,
+                      "display_name": "Set Variables",
+                      "skip_execution": false,
+                      "variables_to_update": [
+                        {
+                          "variable_to_update": "$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.variable_workflow_01GWKS5B4X6KD6Se08fQ1HszDPWR5KjwLvi$",
+                          "variable_value_new": "❌⭕ pagination for GET API with parametrs are failed  -Please check the instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$/"
+                        }
+                      ]
+                    },
+                    "object_type": "definition_activity"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GWJRGNJF01P6fRnCgIhKQzFRP1CbqYdIe",
+        "name": "Condition Block",
+        "title": "Verify the GET/POST Status Code",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Verify the GET/POST Status Code",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01GWJRGUDCEGU0WSYLJ1fSO4HXFieaUgiUK",
+            "name": "Condition Branch",
+            "title": "Pass Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": {
+                      "left_operand": {
+                        "left_operand": {
+                          "left_operand": {
+                            "left_operand": "$activity.definition_activity_01GWDGZZAD58V4mJ9yOFMsRIUbryDl3s9kz.output.status_code$",
+                            "operator": "eq",
+                            "right_operand": 201
+                          },
+                          "operator": "and",
+                          "right_operand": {
+                            "left_operand": "$activity.definition_activity_01GWI0SDD2FIQ02cd2jB7eSzIRwnqfpXcXk.output.status_code$",
+                            "operator": "eq",
+                            "right_operand": 200
+                          }
+                        },
+                        "operator": "and",
+                        "right_operand": {
+                          "left_operand": "$activity.definition_activity_01GWI34C6IT6B4Bl4Bx3oJlDved5yuabp0T.output.status_code$",
+                          "operator": "eq",
+                          "right_operand": 200
+                        }
+                      },
+                      "operator": "and",
+                      "right_operand": {
+                        "left_operand": "$activity.definition_activity_01GWI3HNEGRUV36D7ByLoexmkWGZHGQIQzV.output.status_code$",
+                        "operator": "eq",
+                        "right_operand": 200
+                      }
+                    },
+                    "operator": "and",
+                    "right_operand": {
+                      "left_operand": "$activity.definition_activity_01GWJ9LMER2LE1ajaD2xSk6Y37lzf11w7St.output.status_code$",
+                      "operator": "eq",
+                      "right_operand": 200
+                    }
+                  },
+                  "operator": "and",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01GWK7A2XQ9G75s5DbXArdQqPN9QDsnAQFc.output.status_code$",
+                    "operator": "eq",
+                    "right_operand": 200
+                  }
+                },
+                "operator": "and",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GWK7WV6HQWB6yYVbbTeacf2R1Ism8EmKm.output.status_code$",
+                  "operator": "eq",
+                  "right_operand": 200
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Pass Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWJW9HFY4AQ5gvBiXav2hX20HMlbOalIB",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.variable_workflow_01GWJS7GX0JW45JaJBBZztNsMhK7mLGDUdc$",
+                      "variable_value_new": "✔✅ All Cases are Passed for GET and Post API - 100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GWJRGWJO4101jLHJIujunOplK1KHLKqia",
+            "name": "Condition Branch",
+            "title": "Fail Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": {
+                      "left_operand": {
+                        "left_operand": {
+                          "left_operand": {
+                            "left_operand": "$activity.definition_activity_01GWDGZZAD58V4mJ9yOFMsRIUbryDl3s9kz.output.error.code$",
+                            "operator": "ne",
+                            "right_operand": "201"
+                          },
+                          "operator": "or",
+                          "right_operand": {
+                            "left_operand": "$activity.definition_activity_01GWI0SDD2FIQ02cd2jB7eSzIRwnqfpXcXk.output.error.code$",
+                            "operator": "ne",
+                            "right_operand": "200"
+                          }
+                        },
+                        "operator": "or",
+                        "right_operand": {
+                          "left_operand": "$activity.definition_activity_01GWI34C6IT6B4Bl4Bx3oJlDved5yuabp0T.output.error.code$",
+                          "operator": "ne",
+                          "right_operand": "200"
+                        }
+                      },
+                      "operator": "or",
+                      "right_operand": {
+                        "left_operand": "$activity.definition_activity_01GWI3HNEGRUV36D7ByLoexmkWGZHGQIQzV.output.error.code$",
+                        "operator": "ne",
+                        "right_operand": "200"
+                      }
+                    },
+                    "operator": "or",
+                    "right_operand": {
+                      "left_operand": "$activity.definition_activity_01GWJ9LMER2LE1ajaD2xSk6Y37lzf11w7St.output.error.code$",
+                      "operator": "ne",
+                      "right_operand": "200"
+                    }
+                  },
+                  "operator": "or",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01GWK7A2XQ9G75s5DbXArdQqPN9QDsnAQFc.output.error.code$",
+                    "operator": "ne",
+                    "right_operand": "200"
+                  }
+                },
+                "operator": "or",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GWK7WV6HQWB6yYVbbTeacf2R1Ism8EmKm.output.error.code$",
+                  "operator": "ne",
+                  "right_operand": "200"
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Fail Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWJWZO7YCV13uKHV4OAoQkN3RGCHI1yfB",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.variable_workflow_01GWJS7GX0JW45JaJBBZztNsMhK7mLGDUdc$",
+                      "variable_value_new": "❌⭕ Some  Cases are Failed for GET and Post API - please check the instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$/"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GWJKDK6QKV40yFbodJzqgfzet8NiQw0U7",
+        "name": "Group",
+        "title": "PUT/DEL - Update and Del a Form",
+        "type": "logic.group",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "PUT/DEL - Update and Del a Form",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "actions": [
+          {
+            "unique_name": "definition_activity_01GWJKMWL098V1rqrfkF7ggXM6J3nqZbBnt",
+            "name": "HTTP Request",
+            "title": "Update a Form - PUT Call",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n\"name\":\"Form-Update-$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$\",\n\"action_id\":\"$activity.definition_activity_01GWDGV5QS0MV3hyKsU8QFPpgv7GYAuBzDv.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Update a Form - PUT Call",
+              "method": "PUT",
+              "relative_url": "forms/$activity.definition_activity_01GWHXVQ72HCP2bIcIHXaY6DahjhMBDW9qA.output.jsonpath_queries.Form_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWNZWSXY63W3MtxhrFPeKroniPH5Oh9jt",
+            "name": "JSONPath Query",
+            "title": "Extract the Form Fields",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the Form Fields",
+              "input_json": "$activity.definition_activity_01GWJKMWL098V1rqrfkF7ggXM6J3nqZbBnt.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.form_fields[0].form_fields",
+                  "jsonpath_query_name": "form_Fields",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWJLLIUHMUT6yJy9ngYen4TcUl98aJrZm",
+            "name": "HTTP Request",
+            "title": "Get by ID for a Form after the update",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Get by ID for a Form after the update",
+              "method": "GET",
+              "relative_url": "forms/$activity.definition_activity_01GWHXVQ72HCP2bIcIHXaY6DahjhMBDW9qA.output.jsonpath_queries.Form_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWKA291HGGU1LM7rM69RNbPQ2Ty0XB7A2",
+            "name": "HTTP Request",
+            "title": "Validate the Form by ID",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Validate the Form by ID",
+              "method": "POST",
+              "relative_url": "forms/$activity.definition_activity_01GWHXVQ72HCP2bIcIHXaY6DahjhMBDW9qA.output.jsonpath_queries.Form_ID$/validate",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWKABM58EI66OmbUJdAkRXROmBIT6vQiw",
+            "name": "HTTP Request",
+            "title": "GET Schema by the  FormID",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "GET Schema by the  FormID",
+              "method": "GET",
+              "relative_url": "forms/$activity.definition_activity_01GWHXVQ72HCP2bIcIHXaY6DahjhMBDW9qA.output.jsonpath_queries.Form_ID$/schemas",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWJP639EHWO5O1Ikz9mxRlha0FTXiHv1W",
+            "name": "HTTP Request",
+            "title": "Delete Form -Should not delete as Form is Assosiated to a action",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "description": "Delete Form -Should not delete as Form is Assosiated to a action",
+              "display_name": "Delete Form -Should not delete as Form is Assosiated to a action",
+              "method": "DELETE",
+              "relative_url": "forms/$activity.definition_activity_01GWHXVQ72HCP2bIcIHXaY6DahjhMBDW9qA.output.jsonpath_queries.Form_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWJPEXNT36B2AOQDOPL2iZKPXbbrDdx5V",
+            "name": "HTTP Request",
+            "title": "Delete a Action",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Delete a Action",
+              "method": "DELETE",
+              "relative_url": "actions/$activity.definition_activity_01GWDGV5QS0MV3hyKsU8QFPpgv7GYAuBzDv.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": true,
+                "target_id": "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP"
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWJPWRRD72H2Y5O78jKVl2e5faBxNOq7R",
+            "name": "HTTP Request",
+            "title": "Delete a Form",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Delete a Form",
+              "method": "DELETE",
+              "relative_url": "forms/$activity.definition_activity_01GWHXVQ72HCP2bIcIHXaY6DahjhMBDW9qA.output.jsonpath_queries.Form_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWJR0ZZG25H1TXzxOirsZLmqaWzKjX5Dz",
+            "name": "HTTP Request",
+            "title": "Verify the form is Deleted or not ?",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Verify the form is Deleted or not ?",
+              "method": "DELETE",
+              "relative_url": "forms/$activity.definition_activity_01GWHXVQ72HCP2bIcIHXaY6DahjhMBDW9qA.output.jsonpath_queries.Form_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GWK13WEO46M2ndq97gDo1LYW1N7p7ksTf",
+        "name": "Condition Block",
+        "title": "Verify the PUT and DEL Status Code",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Verify the PUT and DEL Status Code",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01GWK142E7LEW3Yswl1phMMisJrinIAnG86",
+            "name": "Condition Branch",
+            "title": "Pass Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": {
+                      "left_operand": {
+                        "left_operand": {
+                          "left_operand": {
+                            "left_operand": "$activity.definition_activity_01GWJKMWL098V1rqrfkF7ggXM6J3nqZbBnt.output.status_code$",
+                            "operator": "eq",
+                            "right_operand": 200
+                          },
+                          "operator": "and",
+                          "right_operand": {
+                            "left_operand": "$activity.definition_activity_01GWJLLIUHMUT6yJy9ngYen4TcUl98aJrZm.output.status_code$",
+                            "operator": "eq",
+                            "right_operand": 200
+                          }
+                        },
+                        "operator": "and",
+                        "right_operand": {
+                          "left_operand": "$activity.definition_activity_01GWJP639EHWO5O1Ikz9mxRlha0FTXiHv1W.output.error.code$",
+                          "operator": "eq",
+                          "right_operand": "400"
+                        }
+                      },
+                      "operator": "and",
+                      "right_operand": {
+                        "left_operand": "$activity.definition_activity_01GWJPWRRD72H2Y5O78jKVl2e5faBxNOq7R.output.status_code$",
+                        "operator": "eq",
+                        "right_operand": 204
+                      }
+                    },
+                    "operator": "and",
+                    "right_operand": {
+                      "left_operand": "$activity.definition_activity_01GWJR0ZZG25H1TXzxOirsZLmqaWzKjX5Dz.output.error.code$",
+                      "operator": "eq",
+                      "right_operand": "404"
+                    }
+                  },
+                  "operator": "and",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01GWKA291HGGU1LM7rM69RNbPQ2Ty0XB7A2.output.status_code$",
+                    "operator": "eq",
+                    "right_operand": 200
+                  }
+                },
+                "operator": "and",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GWKABM58EI66OmbUJdAkRXROmBIT6vQiw.output.status_code$",
+                  "operator": "eq",
+                  "right_operand": 200
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Pass Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWK17QJA4BS19n4QUwrtSW31MDFKytyFh",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.variable_workflow_01GWJTQT24L9B0yPHhEGxLOAuaNZEUdrNkb$",
+                      "variable_value_new": "✔✅ All Cases are Passed for PUT and DEL API Cases - 100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GWK144WW7KR7TmVfbFkJSJmjVzKKqOUjq",
+            "name": "Condition Branch",
+            "title": "Faile Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": {
+                      "left_operand": {
+                        "left_operand": {
+                          "left_operand": {
+                            "left_operand": "$activity.definition_activity_01GWJKMWL098V1rqrfkF7ggXM6J3nqZbBnt.output.error.code$",
+                            "operator": "ne",
+                            "right_operand": "200"
+                          },
+                          "operator": "or",
+                          "right_operand": {
+                            "left_operand": "$activity.definition_activity_01GWJLLIUHMUT6yJy9ngYen4TcUl98aJrZm.output.error.code$",
+                            "operator": "eq",
+                            "right_operand": "200"
+                          }
+                        },
+                        "operator": "or",
+                        "right_operand": {
+                          "left_operand": "$activity.definition_activity_01GWJP639EHWO5O1Ikz9mxRlha0FTXiHv1W.output.error.code$",
+                          "operator": "ne",
+                          "right_operand": "200"
+                        }
+                      },
+                      "operator": "or",
+                      "right_operand": {
+                        "left_operand": "$activity.definition_activity_01GWJPWRRD72H2Y5O78jKVl2e5faBxNOq7R.output.error.code$",
+                        "operator": "ne",
+                        "right_operand": "204"
+                      }
+                    },
+                    "operator": "or",
+                    "right_operand": {
+                      "left_operand": "$activity.definition_activity_01GWJR0ZZG25H1TXzxOirsZLmqaWzKjX5Dz.output.error.code$",
+                      "operator": "ne",
+                      "right_operand": "404"
+                    }
+                  },
+                  "operator": "or",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01GWKA291HGGU1LM7rM69RNbPQ2Ty0XB7A2.output.error.code$",
+                    "operator": "ne",
+                    "right_operand": "200"
+                  }
+                },
+                "operator": "or",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GWKABM58EI66OmbUJdAkRXROmBIT6vQiw.output.error.code$",
+                  "operator": "ne",
+                  "right_operand": "200"
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Faile Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWK19KQPIR53zJOhrAsdIhrfLTqDMyPlO",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.variable_workflow_01GWJTQT24L9B0yPHhEGxLOAuaNZEUdrNkb$",
+                      "variable_value_new": "❌⭕ Some cases are failed for PUT/DEL Cases, please check the instance -https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$/"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GWKF50EZN9F2s69qRZJHU8T3EcHLFAd6C",
+        "name": "Group",
+        "title": "Get Negative Test Cases",
+        "type": "logic.group",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Get Negative Test Cases",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "actions": [
+          {
+            "unique_name": "definition_activity_01GWKFE53V1401sRTzjY2WevGZzDHVcPM8h",
+            "name": "HTTP Request",
+            "title": "Get by ID which does not exists",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Get by ID which does not exists",
+              "method": "GET",
+              "relative_url": "forms/5ef9c79b6319864e3dcb9e8e",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWKGLGIG0451elvk7dpzN8Un4gM0OR9NY",
+            "name": "HTTP Request",
+            "title": "Get by ID which is invalid",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Get by ID which is invalid",
+              "method": "GET",
+              "relative_url": "forms/5ef9c79b6319864e3dcb9e8Z",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWKHUHIZEJ22yulnKAtLyEoucSerKGQVo",
+            "name": "HTTP Request",
+            "title": "Get a Schema by FormID which Does not exists",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Get a Schema by FormID which Does not exists",
+              "method": "GET",
+              "relative_url": "forms/5ef9c79b6319864e3dcb9e8e/schemas",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWKIIK3NCLW3kgdiTrztR95FYJKlP6Yow",
+            "name": "HTTP Request",
+            "title": "Get a Schema by FormID which is Invalid",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Get a Schema by FormID which is Invalid",
+              "method": "GET",
+              "relative_url": "forms/5ef9c79b6319864e3dcb9e8Z/schemas",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWKGT5ACCTK1ykG5xnJwhaaOLGJ4Wgbi8",
+            "name": "HTTP Request",
+            "title": "Get ALL with Invalid Limit",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Get ALL with Invalid Limit",
+              "method": "GET",
+              "relative_url": "forms?limit=32",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWKHD5686WX1Q8Aec5KW52TtnpZpreFHI",
+            "name": "HTTP Request",
+            "title": "Get ALL with Invalid Start",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Get ALL with Invalid Start",
+              "method": "GET",
+              "relative_url": "forms?startt=-1",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GWKIURUEZCW63chWcU2O8E8hct7hkRLed",
+        "name": "Condition Block",
+        "title": "Verify the GET Negative Status Codes",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Verify the GET Negative Status Codes",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01GWKIUWNDUNO6HmsxayXjoydAOkttXajF1",
+            "name": "Condition Branch",
+            "title": "Pass Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": {
+                      "left_operand": {
+                        "left_operand": {
+                          "left_operand": "$activity.definition_activity_01GWKFE53V1401sRTzjY2WevGZzDHVcPM8h.output.error.code$",
+                          "operator": "eq",
+                          "right_operand": "404"
+                        },
+                        "operator": "and",
+                        "right_operand": {
+                          "left_operand": "$activity.definition_activity_01GWKGLGIG0451elvk7dpzN8Un4gM0OR9NY.output.error.code$",
+                          "operator": "eq",
+                          "right_operand": "400"
+                        }
+                      },
+                      "operator": "and",
+                      "right_operand": {
+                        "left_operand": "$activity.definition_activity_01GWKHUHIZEJ22yulnKAtLyEoucSerKGQVo.output.error.code$",
+                        "operator": "eq",
+                        "right_operand": "404"
+                      }
+                    },
+                    "operator": "and",
+                    "right_operand": {
+                      "left_operand": "$activity.definition_activity_01GWKIIK3NCLW3kgdiTrztR95FYJKlP6Yow.output.error.code$",
+                      "operator": "eq",
+                      "right_operand": "400"
+                    }
+                  },
+                  "operator": "and",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01GWKGT5ACCTK1ykG5xnJwhaaOLGJ4Wgbi8.output.error.code$",
+                    "operator": "eq",
+                    "right_operand": "400"
+                  }
+                },
+                "operator": "and",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GWKHD5686WX1Q8Aec5KW52TtnpZpreFHI.output.error.code$",
+                  "operator": "eq",
+                  "right_operand": "400"
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Pass Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWKNSIWLI584wRytp5JxA5M9jZglo93Hs",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.variable_workflow_01GWJUW7ALTEX3x9CbDhs2FXJjvQnZYafdb$",
+                      "variable_value_new": "✔✅ All Cases for GET API Negative Case are passed -100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GWKIUZ5QT2B7Krqgwni4ftQOmJ0XFGD25",
+            "name": "Condition Branch",
+            "title": "Fail Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": {
+                      "left_operand": {
+                        "left_operand": {
+                          "left_operand": "$activity.definition_activity_01GWKFE53V1401sRTzjY2WevGZzDHVcPM8h.output.error.code$",
+                          "operator": "ne",
+                          "right_operand": "404"
+                        },
+                        "operator": "or",
+                        "right_operand": {
+                          "left_operand": "$activity.definition_activity_01GWKGLGIG0451elvk7dpzN8Un4gM0OR9NY.output.error.code$",
+                          "operator": "ne",
+                          "right_operand": "400"
+                        }
+                      },
+                      "operator": "or",
+                      "right_operand": {
+                        "left_operand": "$activity.definition_activity_01GWKHUHIZEJ22yulnKAtLyEoucSerKGQVo.output.error.code$",
+                        "operator": "ne",
+                        "right_operand": "404"
+                      }
+                    },
+                    "operator": "or",
+                    "right_operand": {
+                      "left_operand": "$activity.definition_activity_01GWKIIK3NCLW3kgdiTrztR95FYJKlP6Yow.output.error.code$",
+                      "operator": "ne",
+                      "right_operand": "400"
+                    }
+                  },
+                  "operator": "or",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01GWKGT5ACCTK1ykG5xnJwhaaOLGJ4Wgbi8.output.error.code$",
+                    "operator": "ne",
+                    "right_operand": "400"
+                  }
+                },
+                "operator": "or",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GWKHD5686WX1Q8Aec5KW52TtnpZpreFHI.output.error.code$",
+                  "operator": "ne",
+                  "right_operand": "400"
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Fail Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWKOAZT8W9V0Fy74ySf8JqVIpgWuSt0dd",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.variable_workflow_01GWJUW7ALTEX3x9CbDhs2FXJjvQnZYafdb$",
+                      "variable_value_new": "❌⭕ Some Test Cases are Failed for GET API Negative test Cases - please refer the instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$/"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GWL2HA8I6HC6OqEQAJN93ZeiSBMUoDU6y",
+        "name": "Group",
+        "title": "Post - Negative Cases ",
+        "type": "logic.group",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Post - Negative Cases ",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "actions": [
+          {
+            "unique_name": "definition_activity_01GWL2S8WBWWX0VYxDzP3f5XulBHQJo8fKX",
+            "name": "HTTP Request",
+            "title": "Create a Form with Action ID which does not exists",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n\t\"action_id\": \"5ef9c79b6319864e3dcb9e8e\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "description": "Create a Form with Action ID which does not exists",
+              "display_name": "Create a Form with Action ID which does not exists",
+              "method": "POST",
+              "relative_url": "forms",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWLHYFMZY5S6Dd5i949cUPMGSK1BhNNMx",
+            "name": "HTTP Request",
+            "title": "Create a Form with Action ID which is Invalid",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n\t\"action_id\": \"5ef9c79b6319864e3dcb9e8Z\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "description": "Create a Form with Action ID which does not exists",
+              "display_name": "Create a Form with Action ID which is Invalid",
+              "method": "POST",
+              "relative_url": "forms",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWLI9NU27ST0FSsC1UOBwI1PXuXeHTAZq",
+            "name": "HTTP Request",
+            "title": "Create a Action without WF",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"description\": \"Action Description-withoutWF\",\n  \"name\": \"TercelService-WithoutWF-$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "description": "Create a Form with Action ID which does not exists",
+              "display_name": "Create a Action without WF",
+              "method": "POST",
+              "relative_url": "actions",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": true,
+                "target_id": "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP"
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWLJOHJHJKX6Ui5d5CM9pdJ3zLbodcmxY",
+            "name": "HTTP Request",
+            "title": "Get action by Name",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "description": "Create a Form with Action ID which does not exists",
+              "display_name": "Get action by Name",
+              "method": "GET",
+              "relative_url": "actons?name=TercelService-WithoutWF-$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWLKI9L7EZI23yKeQA2bCIf5GzUbC0omM",
+            "name": "JSONPath Query",
+            "title": "Extract the ActionID",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the ActionID",
+              "input_json": "$activity.definition_activity_01GWLJOHJHJKX6Ui5d5CM9pdJ3zLbodcmxY.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$._id",
+                  "jsonpath_query_name": "action_id",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWLL7UV2FN92nMLszqcSb75YufPWVh6oX",
+            "name": "HTTP Request",
+            "title": "Create a Form with Action ID which not mapped  a WF",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n\t\"action_id\": \"$activity.definition_activity_01GWLKI9L7EZI23yKeQA2bCIf5GzUbC0omM.output.jsonpath_queries.action_id$\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "description": "Create a Form with Action ID which not mapped  a WF",
+              "display_name": "Create a Form with Action ID which not mapped  a WF",
+              "method": "POST",
+              "relative_url": "forms",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWMUP4IJVTK3YqtK978lcB9tfNhXigU1z",
+            "name": "Tercel Action Creation Atomic",
+            "title": "Tercel Action Creation Atomic",
+            "type": "workflow.atomic_workflow",
+            "base_type": "subworkflow",
+            "properties": {
+              "display_name": "Tercel Action Creation Atomic",
+              "input": {
+                "variable_workflow_01GN65RVL49Q22OUGuvaRSLA0dIlMdZXBD5": "Tercel_AutomationWF",
+                "variable_workflow_01GN662SOX5ED15imLREyXo8hC4c4ubEngK": "tercel"
+              },
+              "runtime_user": {
+                "target_default": true
+              },
+              "target": {
+                "execute_on_this_target": true,
+                "target_id": "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP",
+                "target_type": "web-service.endpoint"
+              },
+              "workflow_id": "definition_workflow_01GN6386122JS6sHfTaXknPpC3Hyqmtld5p"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWMU1OOPKEC0s8n7J2AGK5zc3KTfS3CAv",
+            "name": "HTTP Request",
+            "title": "Create a Form with Empty Name",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n\"name\":\"\",\n\t\"action_id\": \"$activity.definition_activity_01GWMUP4IJVTK3YqtK978lcB9tfNhXigU1z.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "description": "Create a Form with Action ID which not mapped  a WF",
+              "display_name": "Create a Form with Empty Name",
+              "method": "POST",
+              "relative_url": "forms",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWNKDDYPBIT6uatIccGY8novHPO3wbUqh",
+            "name": "JSONPath Query",
+            "title": "Extract the FormID",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the FormID",
+              "input_json": "$activity.definition_activity_01GWMU1OOPKEC0s8n7J2AGK5zc3KTfS3CAv.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$._id",
+                  "jsonpath_query_name": "FormID",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWN74KO5HUB4iUsYV2rpKmlrtZOu9fOC1",
+            "name": "JSONPath Query",
+            "title": "Extract the invalid_properties",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the invalid_properties",
+              "input_json": "$activity.definition_activity_01GWMU1OOPKEC0s8n7J2AGK5zc3KTfS3CAv.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.invalid_properties",
+                  "jsonpath_query_name": "invalid_properties",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWN85JCLDEY1x0DGdWPgrNkihm4bLhglg",
+            "name": "HTTP Request",
+            "title": "Create a Form with name more than 64",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"name\": \"Form created to check the length Form created to check the length\",\n  \"action_id\": \"$activity.definition_activity_01GWMUP4IJVTK3YqtK978lcB9tfNhXigU1z.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "description": "Create a Form with Action ID which not mapped  a WF",
+              "display_name": "Create a Form with name more than 64",
+              "method": "POST",
+              "relative_url": "forms",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWNKZ6JDJHF0Kob8H1dFA8A627d9bAgqg",
+            "name": "JSONPath Query",
+            "title": "Extract the FormID",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the FormID",
+              "input_json": "$activity.definition_activity_01GWN85JCLDEY1x0DGdWPgrNkihm4bLhglg.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$._id",
+                  "jsonpath_query_name": "FormID",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWNIX75L6MP232LuKXacGur8S5aWlsp9t",
+            "name": "JSONPath Query",
+            "title": "Extract the invalid_properties",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the invalid_properties",
+              "input_json": "$activity.definition_activity_01GWN85JCLDEY1x0DGdWPgrNkihm4bLhglg.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.invalid_properties",
+                  "jsonpath_query_name": "invalid_properties",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWNJKCN7WZV3UZ1aFmmLt9jx74fcrGHXG",
+            "name": "HTTP Request",
+            "title": "Delect Action - clean UP",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "description": "Create a Form with Action ID which not mapped  a WF",
+              "display_name": "Delect Action - clean UP",
+              "method": "DELETE",
+              "relative_url": "actions/$activity.definition_activity_01GWMUP4IJVTK3YqtK978lcB9tfNhXigU1z.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": true,
+                "target_id": "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP"
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWNLAL6JEV919Dscs5HmSoWq1fMVdWGtj",
+            "name": "HTTP Request",
+            "title": "Delect a form with empty Name - cleanup",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "description": "Create a Form with Action ID which not mapped  a WF",
+              "display_name": "Delect a form with empty Name - cleanup",
+              "method": "DELETE",
+              "relative_url": "forms/$activity.definition_activity_01GWNKDDYPBIT6uatIccGY8novHPO3wbUqh.output.jsonpath_queries.FormID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWNLY9FGOO91bFCl7VZHVwuIbyEa59MXD",
+            "name": "HTTP Request",
+            "title": "Delect a form with Name more than 64 - cleanup",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "description": "Create a Form with Action ID which not mapped  a WF",
+              "display_name": "Delect a form with Name more than 64 - cleanup",
+              "method": "DELETE",
+              "relative_url": "forms/$activity.definition_activity_01GWNKZ6JDJHF0Kob8H1dFA8A627d9bAgqg.output.jsonpath_queries.FormID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GWNO37UZ4U02fOH60YjjxiLhfdbBEiqI1",
+        "name": "Condition Block",
+        "title": "Verify the Post Negative Cases status Code",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Verify the Post Negative Cases status Code",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01GWNO3E2IAUQ0pqOIroO2sgWQLb4Dv7MMI",
+            "name": "Condition Branch",
+            "title": "Pass Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": {
+                      "left_operand": {
+                        "left_operand": "$activity.definition_activity_01GWL2S8WBWWX0VYxDzP3f5XulBHQJo8fKX.output.error.code$",
+                        "operator": "eq",
+                        "right_operand": "404"
+                      },
+                      "operator": "and",
+                      "right_operand": {
+                        "left_operand": "$activity.definition_activity_01GWLHYFMZY5S6Dd5i949cUPMGSK1BhNNMx.output.error.code$",
+                        "operator": "eq",
+                        "right_operand": "400"
+                      }
+                    },
+                    "operator": "and",
+                    "right_operand": {
+                      "left_operand": "$activity.definition_activity_01GWLL7UV2FN92nMLszqcSb75YufPWVh6oX.output.error.code$",
+                      "operator": "eq",
+                      "right_operand": "400"
+                    }
+                  },
+                  "operator": "and",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01GWMU1OOPKEC0s8n7J2AGK5zc3KTfS3CAv.output.status_code$",
+                    "operator": "eq",
+                    "right_operand": 201
+                  }
+                },
+                "operator": "and",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GWN85JCLDEY1x0DGdWPgrNkihm4bLhglg.output.status_code$",
+                  "operator": "eq",
+                  "right_operand": 201
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Pass Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWNT6XYSOVX7O3mUO8K8KeH52ksXcHRXd",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.variable_workflow_01GWJU6A2IQW70BZShmUs94SbEEzmAI2AWt$",
+                      "variable_value_new": "✔✅ All test cases are passed for the POST API Negative test case - 100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GWNO3GS5KXS7XsWZob9sGiEJ27iQrDrac",
+            "name": "Condition Branch",
+            "title": "Fail Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": {
+                      "left_operand": {
+                        "left_operand": "$activity.definition_activity_01GWL2S8WBWWX0VYxDzP3f5XulBHQJo8fKX.output.error.code$",
+                        "operator": "ne",
+                        "right_operand": "404"
+                      },
+                      "operator": "or",
+                      "right_operand": {
+                        "left_operand": "$activity.definition_activity_01GWLHYFMZY5S6Dd5i949cUPMGSK1BhNNMx.output.error.code$",
+                        "operator": "ne",
+                        "right_operand": "400"
+                      }
+                    },
+                    "operator": "or",
+                    "right_operand": {
+                      "left_operand": "$activity.definition_activity_01GWLL7UV2FN92nMLszqcSb75YufPWVh6oX.output.error.code$",
+                      "operator": "ne",
+                      "right_operand": "400"
+                    }
+                  },
+                  "operator": "or",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01GWMU1OOPKEC0s8n7J2AGK5zc3KTfS3CAv.output.error.code$",
+                    "operator": "ne",
+                    "right_operand": "201"
+                  }
+                },
+                "operator": "or",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GWN85JCLDEY1x0DGdWPgrNkihm4bLhglg.output.error.code$",
+                  "operator": "ne",
+                  "right_operand": "201"
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Fail Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWNT8YMKD2C3SVBTVQRxX5etYOze0pRgX",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.variable_workflow_01GWJU6A2IQW70BZShmUs94SbEEzmAI2AWt$",
+                      "variable_value_new": "❌⭕ some  Negative Case are passed for the Post Negative cases , please check the instance - $workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GWNV1JTJQQN4Oly1u5qgNbbEgsKd1S4S2",
+        "name": "Group",
+        "title": "PUT Call - Negative Test Cases",
+        "type": "logic.group",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "PUT Call - Negative Test Cases",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "actions": [
+          {
+            "unique_name": "definition_activity_01GWO444Z96TM6FPmWl6aIVtiI18rSem7Cl",
+            "name": "Tercel Action Creation Atomic",
+            "title": "Tercel Action Creation Atomic",
+            "type": "workflow.atomic_workflow",
+            "base_type": "subworkflow",
+            "properties": {
+              "display_name": "Tercel Action Creation Atomic",
+              "input": {
+                "variable_workflow_01GN65RVL49Q22OUGuvaRSLA0dIlMdZXBD5": "Tercel_AutomationWF",
+                "variable_workflow_01GN662SOX5ED15imLREyXo8hC4c4ubEngK": "tercel"
+              },
+              "runtime_user": {
+                "target_default": true
+              },
+              "target": {
+                "execute_on_this_target": true,
+                "target_id": "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP",
+                "target_type": "web-service.endpoint"
+              },
+              "workflow_id": "definition_workflow_01GN6386122JS6sHfTaXknPpC3Hyqmtld5p"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWO4EBGBZIK5og6Pm9aYRCqeeSB3Z5DDk",
+            "name": "HTTP Request",
+            "title": "Create a Form",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n\"name\":\"Form-$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$\",\n\t\"action_id\": \"$activity.definition_activity_01GWO444Z96TM6FPmWl6aIVtiI18rSem7Cl.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Create a Form",
+              "method": "POST",
+              "relative_url": "forms",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWO5YAB0L016drOfK1GEcbGOeVH5rCKPn",
+            "name": "JSONPath Query",
+            "title": "Extract the FormID",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the FormID",
+              "input_json": "$activity.definition_activity_01GWO4EBGBZIK5og6Pm9aYRCqeeSB3Z5DDk.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$._id",
+                  "jsonpath_query_name": "FormID",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWO6FIL0P6J4OS8jpAmqVZXUQ4QKpV0EJ",
+            "name": "HTTP Request",
+            "title": "Update  a Form with ID which does not exists",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"name\": \"Form-$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$\",\n  \"action_id\": \"$activity.definition_activity_01GWO444Z96TM6FPmWl6aIVtiI18rSem7Cl.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Update  a Form with ID which does not exists",
+              "method": "PUT",
+              "relative_url": "forms/5ef9f0d5e0d7127baa21c549",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWO79BUF4QH2nNKSLHghUwxP5c85kwYzW",
+            "name": "HTTP Request",
+            "title": "Update  a Form with ID which is invalid",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"name\": \"Form-$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$\",\n  \"action_id\": \"$activity.definition_activity_01GWO444Z96TM6FPmWl6aIVtiI18rSem7Cl.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Update  a Form with ID which is invalid",
+              "method": "PUT",
+              "relative_url": "forms/5ef9f0d5e0d7127baa21c54Z",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWO7XE2SNWE3z2vxAC4urKlGhJwVm7ZLp",
+            "name": "HTTP Request",
+            "title": "Update  a Form with ActionId which is not exists",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"name\": \"Form-$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$\",\n  \"action_id\": \"5ef9f0d5e0d7127baa21c549\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Update  a Form with ActionId which is not exists",
+              "method": "PUT",
+              "relative_url": "forms/$activity.definition_activity_01GWO5YAB0L016drOfK1GEcbGOeVH5rCKPn.output.jsonpath_queries.FormID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWO8SXR0Q9L2MUa0n5NZDXdgOd3UzBdpx",
+            "name": "HTTP Request",
+            "title": "Update  a Form with ActionId which is invalid",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"name\": \"Form-$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$\",\n  \"action_id\": \"5ef9f0d5e0d7127baa21c54Z\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Update  a Form with ActionId which is invalid",
+              "method": "PUT",
+              "relative_url": "forms/$activity.definition_activity_01GWO5YAB0L016drOfK1GEcbGOeVH5rCKPn.output.jsonpath_queries.FormID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWO9FGPWE781xIeBVLQmtSZlQDO3zjpvk",
+            "name": "HTTP Request",
+            "title": "Update  a Form with Empty Name",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"name\": \"\",\n  \"action_id\": \"$activity.definition_activity_01GWO444Z96TM6FPmWl6aIVtiI18rSem7Cl.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Update  a Form with Empty Name",
+              "method": "PUT",
+              "relative_url": "forms/$activity.definition_activity_01GWO5YAB0L016drOfK1GEcbGOeVH5rCKPn.output.jsonpath_queries.FormID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWOKBZ10QET7Y6IYScw5WAwPAjRnBKQSZ",
+            "name": "JSONPath Query",
+            "title": "Extract the Invalid Properties",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the Invalid Properties",
+              "input_json": "$activity.definition_activity_01GWO9FGPWE781xIeBVLQmtSZlQDO3zjpvk.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.invalid_properties",
+                  "jsonpath_query_name": "invalid_properties",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWOA9WHUS1K1cj7wEUK9lTUQ893vYwf1T",
+            "name": "HTTP Request",
+            "title": "Update  a Form with Name more than 64",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"name\": \"Form created to check the length Form created to check the length test\",\n  \"action_id\": \"$activity.definition_activity_01GWO444Z96TM6FPmWl6aIVtiI18rSem7Cl.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Update  a Form with Name more than 64",
+              "method": "PUT",
+              "relative_url": "forms/$activity.definition_activity_01GWO5YAB0L016drOfK1GEcbGOeVH5rCKPn.output.jsonpath_queries.FormID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWOL08SWSY11KDDWeO8c7HfcmRu2ZOb9w",
+            "name": "JSONPath Query",
+            "title": "Extract the Invalid Properties",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the Invalid Properties",
+              "input_json": "$activity.definition_activity_01GWOA9WHUS1K1cj7wEUK9lTUQ893vYwf1T.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.invalid_properties",
+                  "jsonpath_query_name": "invalid_properties",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWOBGL4EWJ75COahgkYka0UD5klTemy6q",
+            "name": "HTTP Request",
+            "title": "Delete Action - Clean UP",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Delete Action - Clean UP",
+              "method": "DELETE",
+              "relative_url": "actions/$activity.definition_activity_01GWO444Z96TM6FPmWl6aIVtiI18rSem7Cl.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$",
+              "runtime_user": {
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": true,
+                "target_id": "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP"
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWOCAPCTV4I2W5N3hLYCFTAo8xZy2rKO1",
+            "name": "HTTP Request",
+            "title": "Delete Form - Clean UP",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Delete Form - Clean UP",
+              "method": "DELETE",
+              "relative_url": "forms/$activity.definition_activity_01GWO5YAB0L016drOfK1GEcbGOeVH5rCKPn.output.jsonpath_queries.FormID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GWOFIOVABQZ1mvf13IJ5uRWTAhBNWxHoa",
+        "name": "Condition Block",
+        "title": "Verify the PUT Negative test Cases status Code",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Verify the PUT Negative test Cases status Code",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01GWOFIU3YSW17HtRVHLdcFIzQrrv6eNtXc",
+            "name": "Condition Branch",
+            "title": "Pass Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": {
+                      "left_operand": {
+                        "left_operand": {
+                          "left_operand": "$activity.definition_activity_01GWO6FIL0P6J4OS8jpAmqVZXUQ4QKpV0EJ.output.error.code$",
+                          "operator": "eq",
+                          "right_operand": "404"
+                        },
+                        "operator": "and",
+                        "right_operand": {
+                          "left_operand": "$activity.definition_activity_01GWO79BUF4QH2nNKSLHghUwxP5c85kwYzW.output.error.code$",
+                          "operator": "eq",
+                          "right_operand": "400"
+                        }
+                      },
+                      "operator": "and",
+                      "right_operand": {
+                        "left_operand": "$activity.definition_activity_01GWO7XE2SNWE3z2vxAC4urKlGhJwVm7ZLp.output.error.code$",
+                        "operator": "eq",
+                        "right_operand": "404"
+                      }
+                    },
+                    "operator": "and",
+                    "right_operand": {
+                      "left_operand": "$activity.definition_activity_01GWO8SXR0Q9L2MUa0n5NZDXdgOd3UzBdpx.output.error.code$",
+                      "operator": "eq",
+                      "right_operand": "400"
+                    }
+                  },
+                  "operator": "and",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01GWOA9WHUS1K1cj7wEUK9lTUQ893vYwf1T.output.status_code$",
+                    "operator": "eq",
+                    "right_operand": 200
+                  }
+                },
+                "operator": "and",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GWO9FGPWE781xIeBVLQmtSZlQDO3zjpvk.output.status_code$",
+                  "operator": "eq",
+                  "right_operand": 200
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Pass Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWOZ4B5I3J92zcI9kXObQ0aHEaCGRUy1K",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.variable_workflow_01GWJUW7ALTEX3x9CbDhs2FXJjvQnZYafdb$",
+                      "variable_value_new": "✔✅ All PUT  API Negative test Cases  for Forms  are Passed - 100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GWOFIWZNC080gOgkwNzBfESB47TJEm4Qk",
+            "name": "Condition Branch",
+            "title": "Fail Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": {
+                      "left_operand": {
+                        "left_operand": {
+                          "left_operand": "$activity.definition_activity_01GWO6FIL0P6J4OS8jpAmqVZXUQ4QKpV0EJ.output.error.code$",
+                          "operator": "ne",
+                          "right_operand": "404"
+                        },
+                        "operator": "or",
+                        "right_operand": {
+                          "left_operand": "$activity.definition_activity_01GWO79BUF4QH2nNKSLHghUwxP5c85kwYzW.output.error.code$",
+                          "operator": "ne",
+                          "right_operand": "400"
+                        }
+                      },
+                      "operator": "or",
+                      "right_operand": {
+                        "left_operand": "$activity.definition_activity_01GWO7XE2SNWE3z2vxAC4urKlGhJwVm7ZLp.output.error.code$",
+                        "operator": "ne",
+                        "right_operand": "404"
+                      }
+                    },
+                    "operator": "or",
+                    "right_operand": {
+                      "left_operand": "$activity.definition_activity_01GWO8SXR0Q9L2MUa0n5NZDXdgOd3UzBdpx.output.error.code$",
+                      "operator": "ne",
+                      "right_operand": "400"
+                    }
+                  },
+                  "operator": "or",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01GWO9FGPWE781xIeBVLQmtSZlQDO3zjpvk.output.error.code$",
+                    "operator": "ne",
+                    "right_operand": "201"
+                  }
+                },
+                "operator": "or",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GWOA9WHUS1K1cj7wEUK9lTUQ893vYwf1T.output.error.code$",
+                  "operator": "ne",
+                  "right_operand": "201"
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Fail Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWOZZ6ADRZW5cOw5cI4TVmt6bjXWuAutX",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.variable_workflow_01GWJUW7ALTEX3x9CbDhs2FXJjvQnZYafdb$",
+                      "variable_value_new": "❌⭕ Some test case are failed for PUT Negative test Cases - please check the instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$/"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GWP13AR9YOC6xY5NfvU7hDP5Mtk6qMrU3",
+        "name": "Group",
+        "title": "DEL Negative Test Cases ",
+        "type": "logic.group",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "DEL Negative Test Cases ",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "actions": [
+          {
+            "unique_name": "definition_activity_01GWP1E9P7ON91U8bsBz9JtCPmyvoB2tOyD",
+            "name": "HTTP Request",
+            "title": "Delete with FormID which is not exists",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Delete with FormID which is not exists",
+              "method": "DELETE",
+              "relative_url": "forms/5ef9fa30a15d49e7d8c810f7",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWP20BLV2UW1bfdlj9hcW02WZLhwSUJtk",
+            "name": "HTTP Request",
+            "title": "Delete with FormID which is invalid",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Delete with FormID which is invalid",
+              "method": "DELETE",
+              "relative_url": "forms/5ef9fa30a15d49e7d8c810fZ",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GWP2JGJA41E71BGwhB3OFc3Wj5zGMruI1",
+        "name": "Condition Block",
+        "title": "Verify the Del status Codes",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Verify the Del status Codes",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01GWP2JMUG1GK2jwC6dfgBUhsPjqb1eCCnh",
+            "name": "Condition Branch",
+            "title": "Pass Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": "$activity.definition_activity_01GWP1E9P7ON91U8bsBz9JtCPmyvoB2tOyD.output.error.code$",
+                  "operator": "eq",
+                  "right_operand": "404"
+                },
+                "operator": "and",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GWP20BLV2UW1bfdlj9hcW02WZLhwSUJtk.output.error.code$",
+                  "operator": "eq",
+                  "right_operand": "400"
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Pass Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWP47MKMBUP4PNb4zryRbg52bUnauNVWn",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.variable_workflow_01GWJV4FGFG8W5HUp8U1IkBqyZuIOA36bfJ$",
+                      "variable_value_new": "✔✅ All Negative test cases for DELETE API got Passed - 100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GWP2JPVESQB3scvaF9DlZJAR6661pnFsv",
+            "name": "Condition Branch",
+            "title": "Fail Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": "$activity.definition_activity_01GWP1E9P7ON91U8bsBz9JtCPmyvoB2tOyD.output.error.code$",
+                  "operator": "ne",
+                  "right_operand": "404"
+                },
+                "operator": "or",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GWP20BLV2UW1bfdlj9hcW02WZLhwSUJtk.output.error.code$",
+                  "operator": "ne",
+                  "right_operand": "400"
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Fail Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWP4U0H0XSL5X22nl4r5oho8ZcmqQYeTU",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.variable_workflow_01GWJV4FGFG8W5HUp8U1IkBqyZuIOA36bfJ$",
+                      "variable_value_new": "❌⭕ Some Negative test cases for DELETE API got Failed, please check the instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$/"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GWP68C1PT7A2WEajVzt1nOyAPht99EpnP",
+        "name": "Group",
+        "title": "Update a Form with Updated Action",
+        "type": "logic.group",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "description": "Update a Form with Updated Action",
+          "display_name": "Update a Form with Updated Action",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "actions": [
+          {
+            "unique_name": "definition_activity_01GWP766EI5KC5Zs0zeGzsUuaGl4QnDtTXG",
+            "name": "Generic CCS API Request",
+            "title": "Import a WF",
+            "type": "ccs.api_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "api_body": "{\n  \"workflow\": {\n    \"unique_name\": \"definition_workflow_01GT86WCRHSIT11UjeelEruJQVfRFqQ9ult\",\n    \"name\": \"TestWF\",\n    \"title\": \"TestWF\",\n    \"type\": \"generic.workflow\",\n    \"base_type\": \"workflow\",\n    \"variables\": null,\n    \"properties\": {\n      \"atomic\": {\n        \"is_atomic\": false\n      },\n      \"delete_workflow_instance\": false,\n      \"display_name\": \"TestWF\",\n      \"runtime_user\": {\n        \"override_target_runtime_user\": false,\n        \"specify_on_workflow_start\": false,\n        \"target_default\": true\n      },\n      \"target\": {\n        \"execute_on_target_group\": false,\n        \"execute_on_workflow_target\": false,\n        \"no_target\": true,\n        \"specify_on_workflow_start\": false\n      }\n    },\n    \"object_type\": \"definition_workflow\",\n    \"actions\": [\n      {\n        \"unique_name\": \"definition_activity_01GT86ZNDD04O0RKqdn3TbyCVFO5Vlc8ttD\",\n        \"name\": \"To Lower\",\n        \"title\": \"To Lower\",\n        \"type\": \"core.string2lower\",\n        \"base_type\": \"activity\",\n        \"properties\": {\n          \"continue_on_failure\": false,\n          \"display_name\": \"To Lower\",\n          \"skip_execution\": false,\n          \"source\": \"ABC\"\n        },\n        \"object_type\": \"definition_activity\"\n      },\n      {\n        \"unique_name\": \"definition_activity_01GT872DJ96ME0zA5WU801faLNWcTUj2oQc\",\n        \"name\": \"Sleep\",\n        \"title\": \"Sleep\",\n        \"type\": \"core.sleep\",\n        \"base_type\": \"activity\",\n        \"properties\": {\n          \"continue_on_failure\": false,\n          \"display_name\": \"Sleep\",\n          \"skip_execution\": false,\n          \"sleep_interval\": 1\n        },\n        \"object_type\": \"definition_activity\"\n      }\n    ],\n    \"categories\": [\n      \"category_1BMfMXSnJMyt5Ihqi7rWJr5N8cf\"\n    ]\n  }\n}",
+              "api_call_method": "POST",
+              "continue_on_failure": false,
+              "display_name": "Import a WF",
+              "relative_url": "be-importexport/api/v1/workflows/import?create_new=true\u0026overwrite=true\u0026workflow_unique_name=definition_workflow_01GT86WCRHSIT11UjeelEruJQVfRFqQ9ult",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": true,
+                "target_id": "definition_target_01f9IQgvQRJv3tvlqwR145Bbrye0toH0Q"
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWP8DLHWV370sy3liHzrmqzXXABdQm4CM",
+            "name": "JSONPath Query",
+            "title": "Extract the WFID",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the WFID",
+              "input_json": "$activity.definition_activity_01GWP766EI5KC5Zs0zeGzsUuaGl4QnDtTXG.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.id",
+                  "jsonpath_query_name": "WFID",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWP959DZ4IA4WqLV6QgIIYQM0mPt3fDBC",
+            "name": "Sleep",
+            "title": "Sleep",
+            "type": "core.sleep",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Sleep",
+              "skip_execution": false,
+              "sleep_interval": 10
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWP9WBZ6FXU0mtrxcpQpdcZBfk6ZsIPLB",
+            "name": "HTTP Request",
+            "title": "Create A action Using above action",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"description\": \"Action Description\",\n  \"name\": \"Action01-$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$\",\n  \"workflows\": [\n    \"$activity.definition_activity_01GWP8DLHWV370sy3liHzrmqzXXABdQm4CM.output.jsonpath_queries.WFID$\"\n  ]\n}",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Create A action Using above action",
+              "method": "POST",
+              "relative_url": "actions",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": true,
+                "target_id": "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP"
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWPBXPY4QF82e77rAkfrDSCkd8vSorm1Q",
+            "name": "HTTP Request",
+            "title": "Acton Get by Name",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Acton Get by Name",
+              "method": "GET",
+              "relative_url": "actions?name=Action01-$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": true,
+                "target_id": "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP"
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWPDIW2E0G75dpjjLR9F1W3smhmYqGVr6",
+            "name": "JSONPath Query",
+            "title": "Extract the ActionID",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the ActionID",
+              "input_json": "$activity.definition_activity_01GWPBXPY4QF82e77rAkfrDSCkd8vSorm1Q.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$._id",
+                  "jsonpath_query_name": "actionid",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWPFUYIRBLB5Giw5jSdRxmgQO5hbNJmvA",
+            "name": "HTTP Request",
+            "title": "Create A form Using above action",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"name\": \"form01-$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$\",\n  \"action_id\": \"$activity.definition_activity_01GWPDIW2E0G75dpjjLR9F1W3smhmYqGVr6.output.jsonpath_queries.actionid$\"\n}",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Create A form Using above action",
+              "method": "POST",
+              "relative_url": "forms",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWPIGX1RX702ku8mm0VooqqvnSGMUpZZ2",
+            "name": "JSONPath Query",
+            "title": "Extract the FormID",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the FormID",
+              "input_json": "$activity.definition_activity_01GWPFUYIRBLB5Giw5jSdRxmgQO5hbNJmvA.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$._id",
+                  "jsonpath_query_name": "FormID",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWPJ4AQ494R11yVzgPfcNOqPbkhwL20pu",
+            "name": "JSONPath Query",
+            "title": "Fetch the FormFields",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Fetch the FormFields",
+              "input_json": "$activity.definition_activity_01GWPFUYIRBLB5Giw5jSdRxmgQO5hbNJmvA.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.form_fields[0].form_fields",
+                  "jsonpath_query_name": "FormFields",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWPK2BAJG4H3Wo8B0l5zCqItw7OVxwKV6",
+            "name": "Generic CCS API Request",
+            "title": "Update a WF",
+            "type": "ccs.api_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "api_body": "{\n  \"id\": \"$activity.definition_activity_01GWP8DLHWV370sy3liHzrmqzXXABdQm4CM.output.jsonpath_queries.WFID$\",\n  \"schema_id\": \"01GAQ2T0WWJ3E6Lnp3YpzvGl401BuxAgoXB\",\n  \"type\": \"generic.workflow\",\n  \"base_type\": \"workflow\",\n  \"name\": \"TestWF_Change01\",\n  \"title\": \"TestWF_Change01\",\n  \"valid\": true,\n  \"properties\": {\n    \"atomic\": {\n      \"is_atomic\": false\n    },\n    \"delete_workflow_instance\": false,\n    \"runtime_user\": {\n      \"override_target_runtime_user\": false,\n      \"specify_on_workflow_start\": false,\n      \"target_default\": true\n    },\n    \"target\": {\n      \"execute_on_target_group\": false,\n      \"execute_on_workflow_target\": false,\n      \"no_target\": true,\n      \"specify_on_workflow_start\": false\n    },\n    \"description\": \"Updated Test from Form API Script\",\n    \"display_name\": \"TestWF_Change01\"\n  },\n  \"categories\": [\n    \"01GAQD6MCM0WF4wNYfFe1AfpWGgsreIKwI9\"\n  ],\n  \"variables\": [\n    {\n      \"id\": \"01GT7JYJ9VHJ84hx58oU8tVMsNB7oGQdlcT\",\n      \"schema_id\": \"01GAQ379D2BWX5Msi4yHeWPKMpgT8uXhXRr\",\n      \"properties\": {\n        \"value\": \"\",\n        \"scope\": \"input\",\n        \"name\": \"String\",\n        \"type\": \"datatype.string\",\n        \"is_required\": false\n      },\n      \"created_by\": \"3\",\n      \"created_on\": \"2020-06-25T12:06:29Z\",\n      \"updated_by\": \"3\",\n      \"updated_on\": \"2020-06-25T12:06:58Z\",\n      \"object_type\": \"variable_workflow\",\n      \"unique_name\": \"variable_workflow_01GT7JYMHBDPK0zkHjeJWdZ8E48AALaziij\"\n    },\n    {\n      \"id\": \"01GT7KBWMTYXA0D6gPMVT5IgQhCKG6T9hHQ\",\n      \"schema_id\": \"01GAQ36TG00BH2MILRRF21r3tNJs3qNlQay\",\n      \"properties\": {\n        \"value\": 0,\n        \"scope\": \"input\",\n        \"name\": \"integer\",\n        \"type\": \"datatype.integer\",\n        \"is_required\": false\n      },\n      \"created_by\": \"3\",\n      \"created_on\": \"2020-06-25T12:06:58Z\",\n      \"updated_by\": \"3\",\n      \"updated_on\": \"2020-06-25T12:06:58Z\",\n      \"object_type\": \"variable_workflow\",\n      \"unique_name\": \"variable_workflow_01GT7KBYIEU8Z0txQaIIfbQiZcFJJFa0BfO\"\n    },\n    {\n      \"schema_id\": \"01GAQ379D2BWX5Msi4yHeWPKMpgT8uXhXRr\",\n      \"title\": \"string1\",\n      \"properties\": {\n        \"scope\": \"input\",\n        \"is_required\": true,\n        \"name\": \"string1\",\n        \"value\": \"\"\n      }\n    }\n  ]\n}",
+              "api_call_method": "PUT",
+              "continue_on_failure": false,
+              "display_name": "Update a WF",
+              "relative_url": "/be-console/api/v1/workflows/$activity.definition_activity_01GWP8DLHWV370sy3liHzrmqzXXABdQm4CM.output.jsonpath_queries.WFID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": true,
+                "target_id": "definition_target_01f9IQgvQRJv3tvlqwR145Bbrye0toH0Q"
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWPMHPJDIMO0Xb5vmokrM8AWSwNrOt0uh",
+            "name": "Sleep",
+            "title": "Sleep",
+            "type": "core.sleep",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Sleep",
+              "skip_execution": false,
+              "sleep_interval": 20
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWPMN70XE9W0jhSfF08BJAV970YJt2jZG",
+            "name": "HTTP Request",
+            "title": "Update A action Using above WF",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"description\": \"Action Description\",\n  \"name\": \"Action01-$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$\",\n  \"workflows\": [\n    \"$activity.definition_activity_01GWP8DLHWV370sy3liHzrmqzXXABdQm4CM.output.jsonpath_queries.WFID$\"\n  ]\n}",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Update A action Using above WF",
+              "method": "PUT",
+              "relative_url": "actions/$activity.definition_activity_01GWPDIW2E0G75dpjjLR9F1W3smhmYqGVr6.output.jsonpath_queries.actionid$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": true,
+                "target_id": "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP"
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWPNWG1JW6A5xe3vKI9nKUlZQRPff4m6P",
+            "name": "HTTP Request",
+            "title": "Update A form Using above action",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"name\": \"form01-$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$\",\n  \"action_id\": \"$activity.definition_activity_01GWPDIW2E0G75dpjjLR9F1W3smhmYqGVr6.output.jsonpath_queries.actionid$\"\n}",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Update A form Using above action",
+              "method": "PUT",
+              "relative_url": "forms/$activity.definition_activity_01GWPIGX1RX702ku8mm0VooqqvnSGMUpZZ2.output.jsonpath_queries.FormID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWPQ7ZKEMLB3v3zaUZsOLWlHP9VSzgCzM",
+            "name": "JSONPath Query",
+            "title": "Fetch the FormFields",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Fetch the FormFields",
+              "input_json": "$activity.definition_activity_01GWPNWG1JW6A5xe3vKI9nKUlZQRPff4m6P.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.form_fields[0].form_fields",
+                  "jsonpath_query_name": "FormFields",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWPQO9A89PO68LrzRtCImltEd7Cif4skZ",
+            "name": "Condition Block",
+            "title": "Condition Block",
+            "type": "logic.if_else",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Condition Block",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "blocks": [
+              {
+                "unique_name": "definition_activity_01GWPQOF83RCF68JB4qLxpNDQTzIjXazEvw",
+                "name": "Condition Branch",
+                "title": "Condition Branch",
+                "type": "logic.condition_block",
+                "base_type": "activity",
+                "properties": {
+                  "condition": {
+                    "left_operand": "$activity.definition_activity_01GWPJ4AQ494R11yVzgPfcNOqPbkhwL20pu.output.jsonpath_queries.FormFields$",
+                    "operator": "ne",
+                    "right_operand": "$activity.definition_activity_01GWPQ7ZKEMLB3v3zaUZsOLWlHP9VSzgCzM.output.jsonpath_queries.FormFields$"
+                  },
+                  "continue_on_failure": false,
+                  "display_name": "Condition Branch",
+                  "skip_execution": false
+                },
+                "object_type": "definition_activity",
+                "actions": [
+                  {
+                    "unique_name": "definition_activity_01GWPRY11ALJD17X4EG1XEc301NpirISyet",
+                    "name": "Set Variables",
+                    "title": "Set Variables",
+                    "type": "core.set_multiple_variables",
+                    "base_type": "activity",
+                    "properties": {
+                      "continue_on_failure": false,
+                      "display_name": "Set Variables",
+                      "skip_execution": false,
+                      "variables_to_update": [
+                        {
+                          "variable_to_update": "$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.variable_workflow_01GWPRTUCO4J04ytMy1LGflIBUSX287tk8r$",
+                          "variable_value_new": "Passed"
+                        }
+                      ]
+                    },
+                    "object_type": "definition_activity"
+                  }
+                ]
+              },
+              {
+                "unique_name": "definition_activity_01GWPQOIG9FH14Li3ZhrHaq2yXxW2kjNz2V",
+                "name": "Condition Branch",
+                "title": "Condition Branch",
+                "type": "logic.condition_block",
+                "base_type": "activity",
+                "properties": {
+                  "condition": {
+                    "left_operand": "$activity.definition_activity_01GWPJ4AQ494R11yVzgPfcNOqPbkhwL20pu.output.jsonpath_queries.FormFields$",
+                    "operator": "eq",
+                    "right_operand": "$activity.definition_activity_01GWPQ7ZKEMLB3v3zaUZsOLWlHP9VSzgCzM.output.jsonpath_queries.FormFields$"
+                  },
+                  "continue_on_failure": false,
+                  "display_name": "Condition Branch",
+                  "skip_execution": false
+                },
+                "object_type": "definition_activity",
+                "actions": [
+                  {
+                    "unique_name": "definition_activity_01GWPS6MKNSSD0SJCjjvo8njvKqEMJSFqn6",
+                    "name": "Set Variables",
+                    "title": "Set Variables",
+                    "type": "core.set_multiple_variables",
+                    "base_type": "activity",
+                    "properties": {
+                      "continue_on_failure": false,
+                      "display_name": "Set Variables",
+                      "skip_execution": false,
+                      "variables_to_update": [
+                        {
+                          "variable_to_update": "$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.variable_workflow_01GWPRTUCO4J04ytMy1LGflIBUSX287tk8r$",
+                          "variable_value_new": "Failed"
+                        }
+                      ]
+                    },
+                    "object_type": "definition_activity"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GWPSJ481Z1A3AsjN8I3gnY5A8Blxciz2S",
+            "name": "HTTP Request",
+            "title": "Delete Actions - CleanUP",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Delete Actions - CleanUP",
+              "method": "DELETE",
+              "relative_url": "actions/$activity.definition_activity_01GWPDIW2E0G75dpjjLR9F1W3smhmYqGVr6.output.jsonpath_queries.actionid$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": true,
+                "target_id": "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP"
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWPTM1EMTZ73AEddTVRevyZaPpDIo0t2s",
+            "name": "HTTP Request",
+            "title": "Delete Forms - CleanUP",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Delete Forms - CleanUP",
+              "method": "DELETE",
+              "relative_url": "forms/$activity.definition_activity_01GWPIGX1RX702ku8mm0VooqqvnSGMUpZZ2.output.jsonpath_queries.FormID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "use_workflow_target": true
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWPV4YOJMMY5aNO3DxfyNn8TObkvYeYmD",
+            "name": "Generic CCS API Request",
+            "title": "Delete a WF",
+            "type": "ccs.api_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "api_call_method": "DELETE",
+              "continue_on_failure": false,
+              "display_name": "Delete a WF",
+              "relative_url": "be-console/api/v1/workflows/$activity.definition_activity_01GWP8DLHWV370sy3liHzrmqzXXABdQm4CM.output.jsonpath_queries.WFID$?force=true",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": true,
+                "target_id": "definition_target_01f9IQgvQRJv3tvlqwR145Bbrye0toH0Q"
+              }
+            },
+            "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GWPWBSPWX484lmVxAt7A4u0Wz2xR6QC44",
+        "name": "Condition Block",
+        "title": "Verify the Updating form with action status code",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Verify the Updating form with action status code",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01GWPWBZE9ZN62HAIFxG0fxTq7Sv6khAVE7",
+            "name": "Condition Branch",
+            "title": "Pass Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": {
+                      "left_operand": "$activity.definition_activity_01GWPFUYIRBLB5Giw5jSdRxmgQO5hbNJmvA.output.status_code$",
+                      "operator": "eq",
+                      "right_operand": 201
+                    },
+                    "operator": "and",
+                    "right_operand": {
+                      "left_operand": "$activity.definition_activity_01GWPMN70XE9W0jhSfF08BJAV970YJt2jZG.output.status_code$",
+                      "operator": "eq",
+                      "right_operand": 200
+                    }
+                  },
+                  "operator": "and",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01GWPNWG1JW6A5xe3vKI9nKUlZQRPff4m6P.output.status_code$",
+                    "operator": "eq",
+                    "right_operand": 200
+                  }
+                },
+                "operator": "and",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GWP9WBZ6FXU0mtrxcpQpdcZBfk6ZsIPLB.output.error.code$",
+                  "operator": "eq",
+                  "right_operand": "201"
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Pass Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWQ48DUCBVJ03cP8Yvxgq5nMTQBLCt214",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.variable_workflow_01GWQ44QEO9DI6IHolHM4E2ZyWK5RfTVTmw$",
+                      "variable_value_new": "✔✅ Updated WF sucessfully mapped to action and Form also modified accordingly - Case is passed 100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GWPWC2H7PS22Irr2b4mzPX6LFxu8J0tML",
+            "name": "Condition Branch",
+            "title": "Condition Branch",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": {
+                      "left_operand": "$activity.definition_activity_01GWPFUYIRBLB5Giw5jSdRxmgQO5hbNJmvA.output.error.code$",
+                      "operator": "ne",
+                      "right_operand": "201"
+                    },
+                    "operator": "or",
+                    "right_operand": {
+                      "left_operand": "$activity.definition_activity_01GWP9WBZ6FXU0mtrxcpQpdcZBfk6ZsIPLB.output.error.code$",
+                      "operator": "ne",
+                      "right_operand": "201"
+                    }
+                  },
+                  "operator": "or",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01GWPMN70XE9W0jhSfF08BJAV970YJt2jZG.output.error.code$",
+                    "operator": "ne",
+                    "right_operand": "200"
+                  }
+                },
+                "operator": "or",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GWPNWG1JW6A5xe3vKI9nKUlZQRPff4m6P.output.error.code$",
+                  "operator": "ne",
+                  "right_operand": "200"
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Condition Branch",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWQ54YXLP894tqzSraeFHQRlwkWAmepTJ",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.variable_workflow_01GWQ44QEO9DI6IHolHM4E2ZyWK5RfTVTmw$",
+                      "variable_value_new": "❌⭕ Updated WF sucessfully mapped to action and Form also modified accordingly - Case is Failed, please check the instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$/"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GWQ66AKLDT90Fag4ivGc1tzeQ4pHuA180",
+        "name": "Set Variables",
+        "title": "Email Table",
+        "type": "core.set_multiple_variables",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Email Table",
+          "skip_execution": false,
+          "variables_to_update": [
+            {
+              "variable_to_update": "$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.variable_workflow_01GWQ63UYNHF147RvK6UzZC08YFBuaXffl1$",
+              "variable_value_new": ""
+            }
+          ]
+        },
+        "object_type": "definition_activity"
+      }
+    ],
+    "categories": [
+      "category_1BMfMXSnJMyt5Ihqi7rWJr5N8cf"
+    ]
+  },
+  "targets": {
+    "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP": {
+      "unique_name": "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP",
+      "name": "Tercel API",
+      "title": "Tercel API",
+      "type": "web-service.endpoint",
+      "base_type": "target",
+      "object_type": "definition_target",
+      "properties": {
+        "description": "test",
+        "disable_certificate_validation": true,
+        "display_name": "Tercel API",
+        "host": "172.23.14.96",
+        "ignore_proxy": false,
+        "no_runtime_user": true,
+        "path": "/api/v1/",
+        "port": 8006,
+        "protocol": "https"
+      }
+    },
+    "definition_target_01GSJUSLNKC6X3V87R7SkO6VzEyeIOTZZER": {
+      "unique_name": "definition_target_01GSJUSLNKC6X3V87R7SkO6VzEyeIOTZZER",
+      "name": "Tercel API Form Builder SVC",
+      "title": "Tercel API Form Builder SVC",
+      "type": "web-service.endpoint",
+      "base_type": "target",
+      "object_type": "definition_target",
+      "properties": {
+        "disable_certificate_validation": true,
+        "display_name": "Tercel API Form Builder SVC",
+        "host": "172.23.14.96",
+        "ignore_proxy": false,
+        "no_runtime_user": true,
+        "path": "/api/v1/",
+        "port": 8009,
+        "protocol": "https"
+      }
+    }
+  },
+  "atomic_workflows": [
+    "definition_workflow_01GN6386122JS6sHfTaXknPpC3Hyqmtld5p"
+  ]
+}
