@@ -11,35 +11,23 @@
         "properties": {
           "value": "",
           "scope": "output",
+          "name": "FormFields",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWPRTUCO4J04ytMy1LGflIBUSX287tk8r",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
           "name": "POST Negative Cases - Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
         "unique_name": "variable_workflow_01GWJU6A2IQW70BZShmUs94SbEEzmAI2AWt",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "DEL Negative Cases - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GWJV4FGFG8W5HUp8U1IkBqyZuIOA36bfJ",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Update form with updated action ",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GWQ44QEO9DI6IHolHM4E2ZyWK5RfTVTmw",
         "object_type": "variable_workflow"
       },
       {
@@ -59,35 +47,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "EmailTable",
+          "name": "Update form with updated action ",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GWQ63UYNHF147RvK6UzZC08YFBuaXffl1",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "PUT Negative Cases- Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GWJUW7ALTEX3x9CbDhs2FXJjvQnZYafdb",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "FormFields",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GWPRTUCO4J04ytMy1LGflIBUSX287tk8r",
+        "unique_name": "variable_workflow_01GWQ44QEO9DI6IHolHM4E2ZyWK5RfTVTmw",
         "object_type": "variable_workflow"
       },
       {
@@ -107,11 +71,47 @@
         "properties": {
           "value": "",
           "scope": "output",
+          "name": "PUT Negative Cases- Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWJUW7ALTEX3x9CbDhs2FXJjvQnZYafdb",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
           "name": "GET Negative Cases- Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
         "unique_name": "variable_workflow_01GWJTYIDVKZL1IexipfcO8ZJz6LlifoZeI",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "EmailTable",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWQ63UYNHF147RvK6UzZC08YFBuaXffl1",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "DEL Negative Cases - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWJV4FGFG8W5HUp8U1IkBqyZuIOA36bfJ",
         "object_type": "variable_workflow"
       },
       {
@@ -279,7 +279,7 @@
               "input_json": "$activity.definition_activity_01GWI0SDD2FIQ02cd2jB7eSzIRwnqfpXcXk.output.response_body$",
               "jsonpath_queries": [
                 {
-                  "jsonpath_query": "$.form_fields[0].form_fields",
+                  "jsonpath_query": "$.form_fields",
                   "jsonpath_query_name": "form_Fields",
                   "jsonpath_query_type": "string"
                 }
@@ -328,7 +328,7 @@
               "allow_auto_redirect": true,
               "content_type": "application/json",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "GET Schema by the  FormID",
               "method": "GET",
               "relative_url": "forms/$activity.definition_activity_01GWHXVQ72HCP2bIcIHXaY6DahjhMBDW9qA.output.jsonpath_queries.Form_ID$/schemas",
@@ -642,9 +642,9 @@
                 },
                 "operator": "and",
                 "right_operand": {
-                  "left_operand": "$activity.definition_activity_01GWK7WV6HQWB6yYVbbTeacf2R1Ism8EmKm.output.status_code$",
+                  "left_operand": "$activity.definition_activity_01GWK7WV6HQWB6yYVbbTeacf2R1Ism8EmKm.output.error.code$",
                   "operator": "eq",
-                  "right_operand": 200
+                  "right_operand": "200"
                 }
               },
               "continue_on_failure": false,
@@ -814,12 +814,12 @@
             "base_type": "activity",
             "properties": {
               "action_timeout": 180,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Extract the Form Fields",
               "input_json": "$activity.definition_activity_01GWJKMWL098V1rqrfkF7ggXM6J3nqZbBnt.output.response_body$",
               "jsonpath_queries": [
                 {
-                  "jsonpath_query": "$.form_fields[0].form_fields",
+                  "jsonpath_query": "$.form_fields",
                   "jsonpath_query_name": "form_Fields",
                   "jsonpath_query_type": "string"
                 }
@@ -839,7 +839,7 @@
               "allow_auto_redirect": true,
               "content_type": "application/json",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Get by ID for a Form after the update",
               "method": "GET",
               "relative_url": "forms/$activity.definition_activity_01GWHXVQ72HCP2bIcIHXaY6DahjhMBDW9qA.output.jsonpath_queries.Form_ID$",
@@ -897,7 +897,7 @@
               "allow_auto_redirect": true,
               "content_type": "application/json",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "GET Schema by the  FormID",
               "method": "GET",
               "relative_url": "forms/$activity.definition_activity_01GWHXVQ72HCP2bIcIHXaY6DahjhMBDW9qA.output.jsonpath_queries.Form_ID$/schemas",
@@ -1079,9 +1079,9 @@
                       },
                       "operator": "and",
                       "right_operand": {
-                        "left_operand": "$activity.definition_activity_01GWJPWRRD72H2Y5O78jKVl2e5faBxNOq7R.output.status_code$",
+                        "left_operand": "$activity.definition_activity_01GWJPWRRD72H2Y5O78jKVl2e5faBxNOq7R.output.error.code$",
                         "operator": "eq",
-                        "right_operand": 204
+                        "right_operand": "204"
                       }
                     },
                     "operator": "and",
@@ -1100,9 +1100,9 @@
                 },
                 "operator": "and",
                 "right_operand": {
-                  "left_operand": "$activity.definition_activity_01GWKABM58EI66OmbUJdAkRXROmBIT6vQiw.output.status_code$",
+                  "left_operand": "$activity.definition_activity_01GWKABM58EI66OmbUJdAkRXROmBIT6vQiw.output.error.code$",
                   "operator": "eq",
-                  "right_operand": 200
+                  "right_operand": "200"
                 }
               },
               "continue_on_failure": false,
@@ -1760,17 +1760,15 @@
               "description": "Create a Form with Action ID which does not exists",
               "display_name": "Get action by Name",
               "method": "GET",
-              "relative_url": "actons?name=TercelService-WithoutWF-$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$",
+              "relative_url": "actions?name=TercelService-WithoutWF-$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$",
               "runtime_user": {
                 "override_target_runtime_user": false,
                 "target_default": true
               },
               "skip_execution": false,
               "target": {
-                "override_workflow_target": false,
-                "override_workflow_target_group_criteria": false,
-                "use_workflow_target": true,
-                "use_workflow_target_group": false
+                "override_workflow_target": true,
+                "target_id": "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP"
               }
             },
             "object_type": "definition_activity"
@@ -1788,7 +1786,7 @@
               "input_json": "$activity.definition_activity_01GWLJOHJHJKX6Ui5d5CM9pdJ3zLbodcmxY.output.response_body$",
               "jsonpath_queries": [
                 {
-                  "jsonpath_query": "$._id",
+                  "jsonpath_query": "$[0]._id",
                   "jsonpath_query_name": "action_id",
                   "jsonpath_query_type": "string"
                 }
@@ -1913,7 +1911,7 @@
             "base_type": "activity",
             "properties": {
               "action_timeout": 180,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Extract the invalid_properties",
               "input_json": "$activity.definition_activity_01GWMU1OOPKEC0s8n7J2AGK5zc3KTfS3CAv.output.response_body$",
               "jsonpath_queries": [
@@ -1988,7 +1986,7 @@
             "base_type": "activity",
             "properties": {
               "action_timeout": 180,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Extract the invalid_properties",
               "input_json": "$activity.definition_activity_01GWN85JCLDEY1x0DGdWPgrNkihm4bLhglg.output.response_body$",
               "jsonpath_queries": [
@@ -2041,7 +2039,7 @@
               "allow_auto_redirect": true,
               "content_type": "application/json",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "description": "Create a Form with Action ID which not mapped  a WF",
               "display_name": "Delect a form with empty Name - cleanup",
               "method": "DELETE",
@@ -2071,7 +2069,7 @@
               "allow_auto_redirect": true,
               "content_type": "application/json",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "description": "Create a Form with Action ID which not mapped  a WF",
               "display_name": "Delect a form with Name more than 64 - cleanup",
               "method": "DELETE",
@@ -2580,7 +2578,7 @@
             "base_type": "activity",
             "properties": {
               "action_timeout": 180,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Extract the Invalid Properties",
               "input_json": "$activity.definition_activity_01GWOA9WHUS1K1cj7wEUK9lTUQ893vYwf1T.output.response_body$",
               "jsonpath_queries": [
@@ -3028,11 +3026,11 @@
             "base_type": "activity",
             "properties": {
               "action_timeout": 180,
-              "api_body": "{\n  \"workflow\": {\n    \"unique_name\": \"definition_workflow_01GT86WCRHSIT11UjeelEruJQVfRFqQ9ult\",\n    \"name\": \"TestWF\",\n    \"title\": \"TestWF\",\n    \"type\": \"generic.workflow\",\n    \"base_type\": \"workflow\",\n    \"variables\": null,\n    \"properties\": {\n      \"atomic\": {\n        \"is_atomic\": false\n      },\n      \"delete_workflow_instance\": false,\n      \"display_name\": \"TestWF\",\n      \"runtime_user\": {\n        \"override_target_runtime_user\": false,\n        \"specify_on_workflow_start\": false,\n        \"target_default\": true\n      },\n      \"target\": {\n        \"execute_on_target_group\": false,\n        \"execute_on_workflow_target\": false,\n        \"no_target\": true,\n        \"specify_on_workflow_start\": false\n      }\n    },\n    \"object_type\": \"definition_workflow\",\n    \"actions\": [\n      {\n        \"unique_name\": \"definition_activity_01GT86ZNDD04O0RKqdn3TbyCVFO5Vlc8ttD\",\n        \"name\": \"To Lower\",\n        \"title\": \"To Lower\",\n        \"type\": \"core.string2lower\",\n        \"base_type\": \"activity\",\n        \"properties\": {\n          \"continue_on_failure\": false,\n          \"display_name\": \"To Lower\",\n          \"skip_execution\": false,\n          \"source\": \"ABC\"\n        },\n        \"object_type\": \"definition_activity\"\n      },\n      {\n        \"unique_name\": \"definition_activity_01GT872DJ96ME0zA5WU801faLNWcTUj2oQc\",\n        \"name\": \"Sleep\",\n        \"title\": \"Sleep\",\n        \"type\": \"core.sleep\",\n        \"base_type\": \"activity\",\n        \"properties\": {\n          \"continue_on_failure\": false,\n          \"display_name\": \"Sleep\",\n          \"skip_execution\": false,\n          \"sleep_interval\": 1\n        },\n        \"object_type\": \"definition_activity\"\n      }\n    ],\n    \"categories\": [\n      \"category_1BMfMXSnJMyt5Ihqi7rWJr5N8cf\"\n    ]\n  }\n}",
+              "api_body": "{\n  \"workflow\": {\n    \"unique_name\": \"definition_workflow_01GT86WCRHSIT11UjeelEruJQVfRFqQ9ult\",\n    \"name\": \"TestWF_Form\",\n    \"title\": \"TestWF_Form\",\n    \"type\": \"generic.workflow\",\n    \"base_type\": \"workflow\",\n    \"variables\": null,\n    \"properties\": {\n      \"atomic\": {\n        \"is_atomic\": false\n      },\n      \"delete_workflow_instance\": false,\n      \"display_name\": \"TestWF_Form\",\n      \"runtime_user\": {\n        \"override_target_runtime_user\": false,\n        \"specify_on_workflow_start\": false,\n        \"target_default\": true\n      },\n      \"target\": {\n        \"execute_on_target_group\": false,\n        \"execute_on_workflow_target\": false,\n        \"no_target\": true,\n        \"specify_on_workflow_start\": false\n      }\n    },\n    \"object_type\": \"definition_workflow\",\n    \"actions\": [\n      {\n        \"unique_name\": \"definition_activity_01GT86ZNDD04O0RKqdn3TbyCVFO5Vlc8ttD\",\n        \"name\": \"To Lower\",\n        \"title\": \"To Lower\",\n        \"type\": \"core.string2lower\",\n        \"base_type\": \"activity\",\n        \"properties\": {\n          \"continue_on_failure\": false,\n          \"display_name\": \"To Lower\",\n          \"skip_execution\": false,\n          \"source\": \"ABC\"\n        },\n        \"object_type\": \"definition_activity\"\n      },\n      {\n        \"unique_name\": \"definition_activity_01GT872DJ96ME0zA5WU801faLNWcTUj2oQc\",\n        \"name\": \"Sleep\",\n        \"title\": \"Sleep\",\n        \"type\": \"core.sleep\",\n        \"base_type\": \"activity\",\n        \"properties\": {\n          \"continue_on_failure\": false,\n          \"display_name\": \"Sleep\",\n          \"skip_execution\": false,\n          \"sleep_interval\": 1\n        },\n        \"object_type\": \"definition_activity\"\n      }\n    ],\n    \"categories\": [\n      \"category_1BMfMXSnJMyt5Ihqi7rWJr5N8cf\"\n    ]\n  }\n}",
               "api_call_method": "POST",
               "continue_on_failure": false,
               "display_name": "Import a WF",
-              "relative_url": "be-importexport/api/v1/workflows/import?create_new=true\u0026overwrite=true\u0026workflow_unique_name=definition_workflow_01GT86WCRHSIT11UjeelEruJQVfRFqQ9ult",
+              "relative_url": "be-importexport/api/v1/workflows/import?create_new=true\u0026overwrite=false\u0026workflow_unique_name=definition_workflow_01GT86WCRHSIT11UjeelEruJQVfRFqQ9ult",
               "runtime_user": {
                 "override_target_runtime_user": false,
                 "target_default": true
@@ -3147,7 +3145,7 @@
               "input_json": "$activity.definition_activity_01GWPBXPY4QF82e77rAkfrDSCkd8vSorm1Q.output.response_body$",
               "jsonpath_queries": [
                 {
-                  "jsonpath_query": "$._id",
+                  "jsonpath_query": "$[0]._id",
                   "jsonpath_query_name": "actionid",
                   "jsonpath_query_type": "string"
                 }
@@ -3215,12 +3213,12 @@
             "base_type": "activity",
             "properties": {
               "action_timeout": 180,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Fetch the FormFields",
               "input_json": "$activity.definition_activity_01GWPFUYIRBLB5Giw5jSdRxmgQO5hbNJmvA.output.response_body$",
               "jsonpath_queries": [
                 {
-                  "jsonpath_query": "$.form_fields[0].form_fields",
+                  "jsonpath_query": "$.form_fields",
                   "jsonpath_query_name": "FormFields",
                   "jsonpath_query_type": "string"
                 }
@@ -3277,7 +3275,7 @@
             "properties": {
               "action_timeout": 180,
               "allow_auto_redirect": true,
-              "body": "{\n  \"description\": \"Action Description\",\n  \"name\": \"Action01-$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$\",\n  \"workflows\": [\n    \"$activity.definition_activity_01GWP8DLHWV370sy3liHzrmqzXXABdQm4CM.output.jsonpath_queries.WFID$\"\n  ]\n}",
+              "body": "{\n  \"description\": \"Action Description\",\n  \"name\": \"Action01-$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$\",\n  \"workflows\": [\n    {\n      \"ext_id\": \"$activity.definition_activity_01GWP8DLHWV370sy3liHzrmqzXXABdQm4CM.output.jsonpath_queries.WFID$\"\n    }\n  ]\n}",
               "continue_on_error_status_code": false,
               "continue_on_failure": false,
               "display_name": "Update A action Using above WF",
@@ -3332,12 +3330,12 @@
             "base_type": "activity",
             "properties": {
               "action_timeout": 180,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Fetch the FormFields",
               "input_json": "$activity.definition_activity_01GWPNWG1JW6A5xe3vKI9nKUlZQRPff4m6P.output.response_body$",
               "jsonpath_queries": [
                 {
-                  "jsonpath_query": "$.form_fields[0].form_fields",
+                  "jsonpath_query": "$.form_fields",
                   "jsonpath_query_name": "FormFields",
                   "jsonpath_query_type": "string"
                 }
@@ -3355,7 +3353,7 @@
             "properties": {
               "continue_on_failure": false,
               "display_name": "Condition Block",
-              "skip_execution": false
+              "skip_execution": true
             },
             "object_type": "definition_activity",
             "blocks": [
