@@ -1,0 +1,1625 @@
+{
+  "workflow": {
+    "unique_name": "definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB",
+    "name": "Tercel CatalogItem Actions API -  Positive and Negative Test",
+    "title": "Tercel CatalogItem Actions API -  Positive and Negative Test",
+    "type": "generic.workflow",
+    "base_type": "workflow",
+    "variables": [
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Update State of Catalog Item Output Status - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWMWMCSTRQ10N36q2O13WqUulyfYh1PU0",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Create an Action on Catalog Item Output Status - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWJ1DOXG8JT35MqVdwgRerjqrzmmRIq9G",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Get Actions of a Catalog Item Output Status - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWMB6L3WYWR3RWbCIroLKQGFAmx79uPSO",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Get Action on Catalog Item by ActionID Output Status - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWMF4684CHE3OFOdsFAERjwJW6lEtkyEI",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Update Action on CatalogItem by ActionID OutputSatatus-Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWMHEMSHM4I5wWMSjaLcD7F2AtNNGybw7",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Delete Action on CatalogItem by ActionID Output Status-Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWMLGUSBVZG31giVbXa2qJDPZHgofgkxO",
+        "object_type": "variable_workflow"
+      }
+    ],
+    "properties": {
+      "atomic": {
+        "is_atomic": false
+      },
+      "delete_workflow_instance": false,
+      "display_name": "Tercel CatalogItem Actions API -  Positive and Negative Test",
+      "runtime_user": {
+        "override_target_runtime_user": false,
+        "specify_on_workflow_start": false,
+        "target_default": true
+      },
+      "target": {
+        "target_type": "web-service.endpoint",
+        "target_id": "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP",
+        "execute_on_workflow_target": true
+      }
+    },
+    "object_type": "definition_workflow",
+    "actions": [
+      {
+        "unique_name": "definition_activity_01GTYFNF8YB4Q0v8WNBJuBdEB3MGHvdHfOK",
+        "name": "Group",
+        "title": "Create Catalog Item",
+        "type": "logic.group",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Create Catalog Item",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "actions": [
+          {
+            "unique_name": "definition_activity_01GTYFVHU10KJ31e9mRphki4uvIRi4KGQTx",
+            "name": "Tercel Service Creation- Using Action Atomic",
+            "title": "Tercel Service Creation- Using Action Atomic",
+            "type": "workflow.sub_workflow",
+            "base_type": "subworkflow",
+            "properties": {
+              "display_name": "Tercel Service Creation- Using Action Atomic",
+              "runtime_user": {
+                "target_default": true
+              },
+              "target": {
+                "execute_on_this_target": true,
+                "target_id": "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP",
+                "target_type": "web-service.endpoint"
+              },
+              "workflow_id": "definition_workflow_01GN6NM7SV0AH2an1wrWtgaAylJZQRL9pmZ"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GTYGC9YOKQQ1N6unOt1lEW4WoanlFMhrN",
+            "name": "HTTP Request",
+            "title": "Create a Category",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"description\": \"Category Name description\",\n  \"name\": \"Cat00-$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Create a Category",
+              "method": "POST",
+              "relative_url": "categories",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GTYHU5FBVW10sJShRVuNB5qJo0BeyLDJt",
+            "name": "HTTP Request",
+            "title": "Get Category By Name",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Get Category By Name",
+              "method": "GET",
+              "relative_url": "categories?name=Cat00-$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GTYIXUBVRQM0bXHNsqeirB8azybkXaMlz",
+            "name": "JSONPath Query",
+            "title": "JSONPath Query",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "JSONPath Query",
+              "input_json": "$activity.definition_activity_01GTYHU5FBVW10sJShRVuNB5qJo0BeyLDJt.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.categories[0]._id",
+                  "jsonpath_query_name": "Cat_ID",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GTYJV9N6SRQ0bAcL0sdav3uZtQvZetLft",
+            "name": "HTTP Request",
+            "title": "Create Catalog Item",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n\n\"categories\": [\n\"$activity.definition_activity_01GTYIXUBVRQM0bXHNsqeirB8azybkXaMlz.output.jsonpath_queries.Cat_ID$\"\n],\n\"description\": \"catalogItem Description - $workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$\",\n\"icon\": \"5e9d3ea56a4c6b8651912da7\",\n\"image_gallery\": [\n\"5ef1ef2fe5190afa5110c1c7\"\n],\n\"invalid_properties\": {\n\"additionalProp1\": {},\n\"additionalProp2\": {},\n\"additionalProp3\": {}\n},\n\"is_orderable\": true,\n\"is_orderable_for_others\": true,\n\"links\": [\n{\n\"link_text\": \"PSC_URL\",\n\"url\": \"http://172.21.37.22:8080/RequestCenter\"\n}\n],\n\"name\": \"CatalogItem00-$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$\",\n\"object_type\": \"catalog_item\",\n\n\"service_definitions\": [\n\"$activity.definition_activity_01GTYFVHU10KJ31e9mRphki4uvIRi4KGQTx.output.variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI$\"\n\n],\n\n\"tags\": [\n\"TercelTag\"\n],\n\"terms_and_conditions\": \"terms\",\n\"title\": \"catalogitem\",\n\"type\": \"catalogitem\",\n\"unique_name\": \"CatalogItem Unique Name - $workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$\",\n\"version\": {\n\"build\": 0,\n\"major\": 0,\n\"minor\": 0\n}\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Create Catalog Item",
+              "method": "POST",
+              "relative_url": "catalogitems",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GTYNC6WXXOC04FV4ocwSDnYmLHMLOsu30",
+            "name": "HTTP Request",
+            "title": "Get CatalogItem by Name",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Get CatalogItem by Name",
+              "method": "GET",
+              "relative_url": "catalogitems?name=CatalogItem00-$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GTYO3710TNV19P6Uz55etyLcvMxBT41zx",
+            "name": "JSONPath Query",
+            "title": "Extract CatalogItem ID",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract CatalogItem ID",
+              "input_json": "$activity.definition_activity_01GTYNC6WXXOC04FV4ocwSDnYmLHMLOsu30.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.catalog_items[0]._id",
+                  "jsonpath_query_name": "CatalogItem_ID",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GTZ9BL61AVO5iB7cd6k3mvLErp048yoLN",
+        "name": "Group",
+        "title": "Create an Action on Catalog Item",
+        "type": "logic.group",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Create an Action on Catalog Item",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "actions": [
+          {
+            "unique_name": "definition_activity_01GTZ6G4XVO3X0YYCA2WJzPC28P69Kro4o4",
+            "name": "Tercel Action Creation Atomic",
+            "title": "Tercel Action Creation Atomic",
+            "type": "workflow.atomic_workflow",
+            "base_type": "subworkflow",
+            "properties": {
+              "display_name": "Tercel Action Creation Atomic",
+              "input": {
+                "variable_workflow_01GN65RVL49Q22OUGuvaRSLA0dIlMdZXBD5": "Tercel_AutomationWF",
+                "variable_workflow_01GN662SOX5ED15imLREyXo8hC4c4ubEngK": "tercel"
+              },
+              "runtime_user": {
+                "target_default": true
+              },
+              "target": {
+                "execute_on_this_target": true,
+                "target_id": "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP",
+                "target_type": "web-service.endpoint"
+              },
+              "workflow_id": "definition_workflow_01GN6386122JS6sHfTaXknPpC3Hyqmtld5p"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GTZ9LQ3HAQX4zLvdUTaWke50I5pCb4cio",
+            "name": "HTTP Request",
+            "title": "Create an Action on Catalog Item",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"is_custom\": true,\n  \"lifecycle_actions\": [\n    {\n      \"action_id\": \"$activity.definition_activity_01GTZ6G4XVO3X0YYCA2WJzPC28P69Kro4o4.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$\",\n      \"sequence\": 0,\n      \"service_definition_id\": \"$activity.definition_activity_01GTYFVHU10KJ31e9mRphki4uvIRi4KGQTx.output.variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI$\"\n    }\n  ],\n  \"name\": \"TAction-$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$\"\n}",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Create an Action on Catalog Item",
+              "method": "POST",
+              "relative_url": "catalogitems/$activity.definition_activity_01GTYO3710TNV19P6Uz55etyLcvMxBT41zx.output.jsonpath_queries.CatalogItem_ID$/actions",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GWIU6Q2Y4X54K8c6R5s9OEsibpRBYMWCt",
+        "name": "Condition Block",
+        "title": "Condition Block",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Condition Block",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01GWIU6X8AIQU2nquJFUSn1LifymSPEiKVK",
+            "name": "Condition Branch",
+            "title": "Condition Branch",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": "$activity.definition_activity_01GTZ9LQ3HAQX4zLvdUTaWke50I5pCb4cio.output.status_code$",
+                "operator": "eq",
+                "right_operand": 201
+              },
+              "continue_on_failure": false,
+              "display_name": "Condition Branch",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWJ1H96UHMN6oMwN1Hd9Gx7Dd4S5G5qKD",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.variable_workflow_01GWJ1DOXG8JT35MqVdwgRerjqrzmmRIq9G$",
+                      "variable_value_new": "✔  ✅  Create an Action on Catalog Items  Passed - 100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GWIU704JI7J5ALSrVS65ZldIp10sZN7FW",
+            "name": "Condition Branch",
+            "title": "Condition Branch",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": "$activity.definition_activity_01GTZ9LQ3HAQX4zLvdUTaWke50I5pCb4cio.output.status_code$",
+                "operator": "eq",
+                "right_operand": 201
+              },
+              "continue_on_failure": false,
+              "display_name": "Condition Branch",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWJ1JB1ODXQ6qhdYGs0w9MzIptVRsFMAy",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.variable_workflow_01GWJ1DOXG8JT35MqVdwgRerjqrzmmRIq9G$",
+                      "variable_value_new": "Test Cases for Create an Action on Catalog Item  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GWJ4EK3RN4A2cpdvamNqvXJTE6vats22a",
+        "name": "Group",
+        "title": "Get Actions of a Catalog Item",
+        "type": "logic.group",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Get Actions of a Catalog Item",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "actions": [
+          {
+            "unique_name": "definition_activity_01GWJ4PCT1SQ51lPirtR5x2xFQFYUvIFXZM",
+            "name": "HTTP Request",
+            "title": "Get Actions of a Catalog Item",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Get Actions of a Catalog Item",
+              "method": "GET",
+              "relative_url": "catalogitems/$activity.definition_activity_01GTYO3710TNV19P6Uz55etyLcvMxBT41zx.output.jsonpath_queries.CatalogItem_ID$/actions",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWLK7ITGAUA16x1MwqQP9Vphr71sbkRQJ",
+            "name": "JSONPath Query",
+            "title": "Extract Action ID",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract Action ID",
+              "input_json": "$activity.definition_activity_01GWJ4PCT1SQ51lPirtR5x2xFQFYUvIFXZM.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.actions[0]._id",
+                  "jsonpath_query_name": "action_id",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GWJ892TE4Z71ddo7VUr9mNH5mPVLsAPHM",
+        "name": "Condition Block",
+        "title": "Condition Block",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Condition Block",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01GWJ898BOBU64t7QV9dUBG0L2EmRHbbGIR",
+            "name": "Condition Branch",
+            "title": "Condition Branch",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": "$activity.definition_activity_01GWJ4PCT1SQ51lPirtR5x2xFQFYUvIFXZM.output.status_code$",
+                "operator": "eq",
+                "right_operand": 200
+              },
+              "continue_on_failure": false,
+              "display_name": "Condition Branch",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWMBLNR6L0I4cQe2HVLJeZ2C5kzLhKAoB",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.variable_workflow_01GWMB6L3WYWR3RWbCIroLKQGFAmx79uPSO$",
+                      "variable_value_new": "✔  ✅  Get Actions of a Catalog Items  Passed - 100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GWJ89AWGO2N3EjGI1p54P7zfRYDDYGduo",
+            "name": "Condition Branch",
+            "title": "Condition Branch",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": "$activity.definition_activity_01GWJ4PCT1SQ51lPirtR5x2xFQFYUvIFXZM.output.status_code$",
+                "operator": "eq",
+                "right_operand": 200
+              },
+              "continue_on_failure": false,
+              "display_name": "Condition Branch",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWMBNKZ0R7G569gO6A1B58VW1kjSVr1RT",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.variable_workflow_01GWMB6L3WYWR3RWbCIroLKQGFAmx79uPSO$",
+                      "variable_value_new": "Test Cases for Get Actions of a Catalog Item  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GWLLNV5315R6D1TupOJZFguNV3KDKr1Ep",
+        "name": "Group",
+        "title": "Get Action of a Catalog Item by Action ID",
+        "type": "logic.group",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Get Action of a Catalog Item by Action ID",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "actions": [
+          {
+            "unique_name": "definition_activity_01GWLM3M4AMZM4tWdDvLQaFJAdSP7s7rr8D",
+            "name": "HTTP Request",
+            "title": "Get Action on a Catlog Item by Action ID",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Get Action on a Catlog Item by Action ID",
+              "method": "GET",
+              "relative_url": "catalogitems/$activity.definition_activity_01GTYO3710TNV19P6Uz55etyLcvMxBT41zx.output.jsonpath_queries.CatalogItem_ID$/actions/$activity.definition_activity_01GWLK7ITGAUA16x1MwqQP9Vphr71sbkRQJ.output.jsonpath_queries.action_id$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GWLN783V0PV5da4nPcFYJ1apjmn4flskz",
+        "name": "Condition Block",
+        "title": "Condition Block",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Condition Block",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01GWLN7E84FEZ1iqtCBYKIrwi8QDm6ImLq7",
+            "name": "Condition Branch",
+            "title": "Condition Branch",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": "$activity.definition_activity_01GWLM3M4AMZM4tWdDvLQaFJAdSP7s7rr8D.output.status_code$",
+                "operator": "eq",
+                "right_operand": 200
+              },
+              "continue_on_failure": false,
+              "display_name": "Condition Branch",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWMCTVCQ4KT27nWk3oaEj0h5FkzUpySxt",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.variable_workflow_01GWMF4684CHE3OFOdsFAERjwJW6lEtkyEI$",
+                      "variable_value_new": "✔  ✅  Get Action on a Catalog Item by Action ID  Passed - 100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GWLN7GLKW8T1sdc3yYsaKWqW8Yl5138wM",
+            "name": "Condition Branch",
+            "title": "Condition Branch",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": "$activity.definition_activity_01GWLM3M4AMZM4tWdDvLQaFJAdSP7s7rr8D.output.status_code$",
+                "operator": "ne",
+                "right_operand": 200
+              },
+              "continue_on_failure": false,
+              "display_name": "Condition Branch",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWMCWOZY2YC7LWl5oNbLlgCRDiiu1zXH2",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.variable_workflow_01GWMF4684CHE3OFOdsFAERjwJW6lEtkyEI$",
+                      "variable_value_new": "Test Cases for Get Action on a Catalog Item by Action ID  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GWLOQHOSORV20VH3frDb7Gf8tJEoBpz5X",
+        "name": "Group",
+        "title": "Update an Action on a Catalog Item by Action ID",
+        "type": "logic.group",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Update an Action on a Catalog Item by Action ID",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "actions": [
+          {
+            "unique_name": "definition_activity_01GWLOQNU6NEQ3rvEqXgn7Cy6f62D53BVS3",
+            "name": "HTTP Request",
+            "title": "Update Action on a Catlog Item by Action ID",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"is_custom\": true,\n  \"lifecycle_actions\": [\n    {\n      \"action_id\": \"[$activity.Tercel Action Creation Atomic.output.Action_ID$]\",\n      \"sequence\": 0,\n      \"service_definition_id\": \"[$activity.Tercel Service Creation- Using Action Atomic.output.Service_ID$]\"\n    }\n  ],\n  \"name\": \"TActionUPdated-[$workflow.Tercel CatalogItem Actions API -  Positive and Negative Test.output.Instance Id$]\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Update Action on a Catlog Item by Action ID",
+              "method": "PUT",
+              "relative_url": "catalogitems/$activity.definition_activity_01GTYO3710TNV19P6Uz55etyLcvMxBT41zx.output.jsonpath_queries.CatalogItem_ID$/actions/$activity.definition_activity_01GWLK7ITGAUA16x1MwqQP9Vphr71sbkRQJ.output.jsonpath_queries.action_id$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GWM531QJO5W5NbSbYDh4aMaGyW0OIzjRN",
+        "name": "Condition Block",
+        "title": "Condition Block",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Condition Block",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01GWM536UD5WX4nhBl0ZX2JwWE2yJUZKE8n",
+            "name": "Condition Branch",
+            "title": "Condition Branch",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": "$activity.definition_activity_01GWLOQNU6NEQ3rvEqXgn7Cy6f62D53BVS3.output.status_code$",
+                "operator": "eq",
+                "right_operand": 200
+              },
+              "continue_on_failure": false,
+              "display_name": "Condition Branch",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWMHHB3BOOA5DtmYKiyECY0ktsfmyvExj",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.variable_workflow_01GWMHEMSHM4I5wWMSjaLcD7F2AtNNGybw7$",
+                      "variable_value_new": "✔  ✅  Update an Action on Catalog Items  Passed - 100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GWM538Z5E6F6EwydOMSJIGifVmQWIIpFX",
+            "name": "Condition Branch",
+            "title": "Condition Branch",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": "$activity.definition_activity_01GWLOQNU6NEQ3rvEqXgn7Cy6f62D53BVS3.output.status_code$",
+                "operator": "ne",
+                "right_operand": 200
+              },
+              "continue_on_failure": false,
+              "display_name": "Condition Branch",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWMHJO1QFC90NcsAhpZFyDKLGqEWxyVT8",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.variable_workflow_01GWMHEMSHM4I5wWMSjaLcD7F2AtNNGybw7$",
+                      "variable_value_new": "Test Cases for Update an Action on Catalog Item  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GWM6CVD0PMY3z1dpijk4bSlLV0RsxPzWt",
+        "name": "Group",
+        "title": "Delete Action on a Catlog Item by Action ID",
+        "type": "logic.group",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Delete Action on a Catlog Item by Action ID",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "actions": [
+          {
+            "unique_name": "definition_activity_01GWM65S6DPFN4ttDgqLFie1PvhuIGyKUAa",
+            "name": "HTTP Request",
+            "title": "Delete Action on a Catlog Item by Action ID",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Delete Action on a Catlog Item by Action ID",
+              "method": "DELETE",
+              "relative_url": "catalogitems/$activity.definition_activity_01GTYO3710TNV19P6Uz55etyLcvMxBT41zx.output.jsonpath_queries.CatalogItem_ID$/actions/$activity.definition_activity_01GWLK7ITGAUA16x1MwqQP9Vphr71sbkRQJ.output.jsonpath_queries.action_id$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GWM726Y2YGB609Fa2n855woHdC20LVpB9",
+        "name": "Condition Block",
+        "title": "Condition Block",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Condition Block",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01GWM72D5XMJL1wrRQu4juwye6QZ3hCKr7P",
+            "name": "Condition Branch",
+            "title": "Condition Branch",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": "$activity.definition_activity_01GWM65S6DPFN4ttDgqLFie1PvhuIGyKUAa.output.status_code$",
+                "operator": "eq",
+                "right_operand": 204
+              },
+              "continue_on_failure": false,
+              "display_name": "Condition Branch",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWMKECAGQ8V3kAsZ99vTaq7ncLEuJmeR1",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.variable_workflow_01GWMLGUSBVZG31giVbXa2qJDPZHgofgkxO$",
+                      "variable_value_new": "✔  ✅  Delete an Action on Catalog Items  Passed - 100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GWM72GD9GU20IEPoMT109MvYhwQcsDJY2",
+            "name": "Condition Branch",
+            "title": "Condition Branch",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": "$activity.definition_activity_01GWM65S6DPFN4ttDgqLFie1PvhuIGyKUAa.output.status_code$",
+                "operator": "eq",
+                "right_operand": 204
+              },
+              "continue_on_failure": false,
+              "display_name": "Condition Branch",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWMKG8Y71YT7FrLwKPZ7Kt5SXiPtPHbYD",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.variable_workflow_01GWMLGUSBVZG31giVbXa2qJDPZHgofgkxO$",
+                      "variable_value_new": "Test Cases for Delete an Action on Catalog Item  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GWMQ3UIKBYU6v30xVxCCYMb4WZle4Q5ON",
+        "name": "Group",
+        "title": "Update State of Catalog Item",
+        "type": "logic.group",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Update State of Catalog Item",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "actions": [
+          {
+            "unique_name": "definition_activity_01GWMQOC7F5AW0S7og6Ay7IZfWMP3ijYHks",
+            "name": "HTTP Request",
+            "title": "Update Catalog Item State to PUBLISHED",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n\"state\": \"PUBLISHED\"\n}",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Update Catalog Item State to PUBLISHED",
+              "method": "PUT",
+              "relative_url": "catalogitems/$activity.definition_activity_01GTYO3710TNV19P6Uz55etyLcvMxBT41zx.output.jsonpath_queries.CatalogItem_ID$/state",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GWMT3N45PH73bPBUEVDFnYuZlbGpIv2qQ",
+            "name": "HTTP Request",
+            "title": "Update Catalog Item State to DRAFT",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n\"state\": \"DRAFT\"\n}",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Update Catalog Item State to DRAFT",
+              "method": "PUT",
+              "relative_url": "catalogitems/$activity.definition_activity_01GTYO3710TNV19P6Uz55etyLcvMxBT41zx.output.jsonpath_queries.CatalogItem_ID$/state",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01GWMWSIB93P07CMi0b1S6mDFB5telFq54e",
+        "name": "Condition Block",
+        "title": "Condition Block",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Condition Block",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01GWMWSO16RP26GyDxQaVdUIulSFvWVO7K2",
+            "name": "Condition Branch",
+            "title": "Condition Branch",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": "$activity.definition_activity_01GWMQOC7F5AW0S7og6Ay7IZfWMP3ijYHks.output.status_code$",
+                  "operator": "eq",
+                  "right_operand": 200
+                },
+                "operator": "and",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GWMT3N45PH73bPBUEVDFnYuZlbGpIv2qQ.output.status_code$",
+                  "operator": "eq",
+                  "right_operand": 200
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Condition Branch",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWMY2I6U6PB3rBrtMuHqVNldTFPaYQFiU",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.variable_workflow_01GWMWMCSTRQ10N36q2O13WqUulyfYh1PU0$",
+                      "variable_value_new": "✔  ✅  Update State of Catalog Items  Passed - 100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GWMWSQK72LT2eAaJzcAh2GUObWY1LqJWw",
+            "name": "Condition Branch",
+            "title": "Condition Branch",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": "$activity.definition_activity_01GWMQOC7F5AW0S7og6Ay7IZfWMP3ijYHks.output.status_code$",
+                  "operator": "ne",
+                  "right_operand": 200
+                },
+                "operator": "or",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01GWMT3N45PH73bPBUEVDFnYuZlbGpIv2qQ.output.status_code$",
+                  "operator": "ne",
+                  "right_operand": 200
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Condition Branch",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GWMY4U8JAEH7n2FUKEErTrDrMrOc71HQy",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.variable_workflow_01GWMWMCSTRQ10N36q2O13WqUulyfYh1PU0$",
+                      "variable_value_new": "Test Cases for Update State of a Catalog Item  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "categories": [
+      "category_01GN2GBI52Y2F1AYT3RDfcwY4odOJfgHjMb"
+    ]
+  },
+  "categories": {
+    "category_01GN2GBI52Y2F1AYT3RDfcwY4odOJfgHjMb": {
+      "unique_name": "category_01GN2GBI52Y2F1AYT3RDfcwY4odOJfgHjMb",
+      "name": "Tercel_Automation_API",
+      "title": "Tercel_Automation_API",
+      "type": "basic.category",
+      "base_type": "category",
+      "description": "Tercel_Automation_API",
+      "category_type": "custom",
+      "object_type": "category"
+    }
+  },
+  "targets": {
+    "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP": {
+      "unique_name": "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP",
+      "name": "Tercel API",
+      "title": "Tercel API",
+      "type": "web-service.endpoint",
+      "base_type": "target",
+      "object_type": "definition_target",
+      "properties": {
+        "description": "test",
+        "disable_certificate_validation": true,
+        "display_name": "Tercel API",
+        "host": "172.23.14.96",
+        "ignore_proxy": false,
+        "no_runtime_user": true,
+        "path": "/api/v1/",
+        "port": 8006,
+        "protocol": "https"
+      }
+    }
+  },
+  "table_types": {
+    "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5": {
+      "unique_name": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+      "data_type": "datatype.tabletype",
+      "display_name": "Headers Table",
+      "columns": [
+        {
+          "name": "Value",
+          "title": "Value",
+          "type": "string"
+        },
+        {
+          "name": "Name",
+          "title": "Name",
+          "type": "string"
+        }
+      ],
+      "base_type": "datatype",
+      "object_type": "tabletype"
+    }
+  },
+  "subworkflows": [
+    {
+      "workflow": {
+        "unique_name": "definition_workflow_01GN6NM7SV0AH2an1wrWtgaAylJZQRL9pmZ",
+        "name": "Tercel Service Creation- Using Action Atomic",
+        "title": "Tercel Service Creation- Using Action Atomic",
+        "type": "generic.workflow",
+        "base_type": "workflow",
+        "variables": [
+          {
+            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+            "properties": {
+              "scope": "local",
+              "name": "Service Sorting Headers",
+              "type": "datatype.table",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GN6W1U5YMHU3xnwlkVbeN5aV4COFg8bA4",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Service_ID",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "ServiceGroup_ID",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GN9B0ORUMLA52zdxii7atGlzOXr6EC0q5",
+            "object_type": "variable_workflow"
+          }
+        ],
+        "properties": {
+          "atomic": {
+            "is_atomic": false
+          },
+          "delete_workflow_instance": false,
+          "display_name": "Tercel Service Creation- Using Action Atomic",
+          "runtime_user": {
+            "override_target_runtime_user": false,
+            "specify_on_workflow_start": false,
+            "target_default": true
+          },
+          "target": {
+            "target_type": "web-service.endpoint",
+            "target_id": "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP",
+            "execute_on_workflow_target": true
+          }
+        },
+        "object_type": "definition_workflow",
+        "actions": [
+          {
+            "unique_name": "definition_activity_01GN6ODU71I397SlTUWVJshmNRNscLSdEfg",
+            "name": "Tercel Action Creation Atomic",
+            "title": "Tercel Action Creation Atomic",
+            "type": "workflow.atomic_workflow",
+            "base_type": "subworkflow",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Tercel Action Creation Atomic",
+              "input": {
+                "variable_workflow_01GN65RVL49Q22OUGuvaRSLA0dIlMdZXBD5": "Tercel_AutomationWF",
+                "variable_workflow_01GN662SOX5ED15imLREyXo8hC4c4ubEngK": "tercel"
+              },
+              "runtime_user": {
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "execute_on_this_target": true,
+                "target_id": "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP",
+                "target_type": "web-service.endpoint"
+              },
+              "workflow_id": "definition_workflow_01GN6386122JS6sHfTaXknPpC3Hyqmtld5p"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN92M35QG183jtdlNHcRm83R6i6q3ejhE",
+            "name": "HTTP Request",
+            "title": "Create a Service Group",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n  \"description\": \"SG description\",\n  \"name\": \"SG-$workflow.definition_workflow_01GN6NM7SV0AH2an1wrWtgaAylJZQRL9pmZ.output.instance_id$\",\n  \"title\": \"SG-Title\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Create a Service Group",
+              "method": "POST",
+              "relative_url": "servicegroups",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN93QJ2D67X0BjNnhfmPXRzTyLhDi0Cvl",
+            "name": "HTTP Request",
+            "title": "Service Group by Name",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Service Group by Name",
+              "method": "GET",
+              "relative_url": "servicegroups?name=SG-$workflow.definition_workflow_01GN6NM7SV0AH2an1wrWtgaAylJZQRL9pmZ.output.instance_id$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN94DHKRJ512HCI6jP4KTEZkPEn5fAJRo",
+            "name": "JSONPath Query",
+            "title": "Extract the Service Group ID",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the Service Group ID",
+              "input_json": "$activity.definition_activity_01GN93QJ2D67X0BjNnhfmPXRzTyLhDi0Cvl.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.service_groups[0]._id",
+                  "jsonpath_query_name": "Service_Group_ID",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN9AQVV898Q3M17FCKUk7MQ4TnuSHkYrQ",
+            "name": "Set Variables",
+            "title": "ServiceGroup_ID",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "ServiceGroup_ID",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01GN6NM7SV0AH2an1wrWtgaAylJZQRL9pmZ.output.variable_workflow_01GN9B0ORUMLA52zdxii7atGlzOXr6EC0q5$",
+                  "variable_value_new": "$activity.definition_activity_01GN94DHKRJ512HCI6jP4KTEZkPEn5fAJRo.output.jsonpath_queries.Service_Group_ID$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN6OUQMFYXQ7ZDchO3FWnKEzbSWuxs3Bs",
+            "name": "HTTP Request",
+            "title": "Create a Service - Post Call",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n\t\"description\": \"TercelService-$workflow.definition_workflow_01GN6NM7SV0AH2an1wrWtgaAylJZQRL9pmZ.output.instance_id$\",\n\t\"lifecycle_actions\": [\n\t\t\"$activity.definition_activity_01GN6ODU71I397SlTUWVJshmNRNscLSdEfg.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$\"\n\t],\n\t\"name\": \"TercelService-$workflow.definition_workflow_01GN6NM7SV0AH2an1wrWtgaAylJZQRL9pmZ.output.instance_id$\",\n\t\"service_group\": \"$activity.definition_activity_01GN94DHKRJ512HCI6jP4KTEZkPEn5fAJRo.output.jsonpath_queries.Service_Group_ID$\",\n\t\"title\": \"TercelService-$workflow.definition_workflow_01GN6NM7SV0AH2an1wrWtgaAylJZQRL9pmZ.output.instance_id$\",\n\t\"version\": {\n\t\t\"build\": 0,\n\t\t\"identifier\": \"string\",\n\t\t\"major\": 0,\n\t\t\"minor\": 0\n\t}\n}",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Create a Service - Post Call",
+              "method": "POST",
+              "relative_url": "services",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN6WMG3EP7K2PGSF8uyz6EiRTqbG5r3QR",
+            "name": "For Each",
+            "title": "For Each",
+            "type": "logic.for_each",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "For Each",
+              "skip_execution": false,
+              "source_array": "$activity.definition_activity_01GN6OUQMFYXQ7ZDchO3FWnKEzbSWuxs3Bs.output.response_headers$"
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01GN6WT3ADX5X70meu96ldiuWNUsAkaoYjl",
+                "name": "Add Row to Table",
+                "title": "Add Row to Table",
+                "type": "core.addrowtotable",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "continue_on_failure": false,
+                  "display_name": "Add Row to Table",
+                  "input_table": "$workflow.definition_workflow_01GN6NM7SV0AH2an1wrWtgaAylJZQRL9pmZ.local.variable_workflow_01GN6W1U5YMHU3xnwlkVbeN5aV4COFg8bA4$",
+                  "row": [
+                    {
+                      "key": "Name",
+                      "type": "string",
+                      "value": "$activity.definition_activity_01GN6WMG3EP7K2PGSF8uyz6EiRTqbG5r3QR.input.source_array[@].name$"
+                    },
+                    {
+                      "key": "Value",
+                      "type": "string",
+                      "value": "$activity.definition_activity_01GN6WMG3EP7K2PGSF8uyz6EiRTqbG5r3QR.input.source_array[@].value$"
+                    }
+                  ],
+                  "skip_execution": false
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01GN6YHB9EJ510bUtEbvV2o746f9wNLVeZ2",
+            "name": "Select from Table",
+            "title": "Select from Table",
+            "type": "core.selectfromtable",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Select from Table",
+              "input_table": "$workflow.definition_workflow_01GN6NM7SV0AH2an1wrWtgaAylJZQRL9pmZ.local.variable_workflow_01GN6W1U5YMHU3xnwlkVbeN5aV4COFg8bA4$",
+              "number_of_rows": {
+                "all_rows": true,
+                "at_most": false
+              },
+              "persist_output": false,
+              "skip_execution": false,
+              "sorting": {
+                "no_sort": true,
+                "sort_by": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN6Z4R73CBU2KaDtjecJQx5R35D7ShpMD",
+            "name": "JSONPath Query",
+            "title": "Extract the Location Headers",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the Location Headers",
+              "input_json": "$activity.definition_activity_01GN6YHB9EJ510bUtEbvV2o746f9wNLVeZ2.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$..[?(@.Name=='Location')].Value",
+                  "jsonpath_query_name": "service_id",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN71A9BN1QP5GTkTOnYl3chQHOKy3bxwi",
+            "name": "Replace String",
+            "title": "Extract the Service ID",
+            "type": "core.replacestring",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Extract the Service ID",
+              "input_string": "$activity.definition_activity_01GN6Z4R73CBU2KaDtjecJQx5R35D7ShpMD.output.jsonpath_queries.service_id$",
+              "replace_list": [
+                {
+                  "replaced_string": "/api/v1/services/",
+                  "replacement_string": ""
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01GN71TR99KVN22MQTfK2sO7cXTjZcLV7oZ",
+            "name": "Set Variables",
+            "title": "Service ID",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Service ID",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01GN6NM7SV0AH2an1wrWtgaAylJZQRL9pmZ.output.variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI$",
+                  "variable_value_new": "$activity.definition_activity_01GN71A9BN1QP5GTkTOnYl3chQHOKy3bxwi.output.result_string$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          }
+        ],
+        "categories": [
+          "category_01GN2GBI52Y2F1AYT3RDfcwY4odOJfgHjMb"
+        ]
+      }
+    }
+  ],
+  "atomic_workflows": [
+    "definition_workflow_01GN6386122JS6sHfTaXknPpC3Hyqmtld5p"
+  ]
+}
