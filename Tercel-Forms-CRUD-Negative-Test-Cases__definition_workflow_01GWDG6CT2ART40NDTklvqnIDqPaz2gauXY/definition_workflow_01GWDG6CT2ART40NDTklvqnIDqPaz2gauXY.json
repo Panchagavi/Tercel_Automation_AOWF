@@ -23,23 +23,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Update form with updated action ",
+          "name": "PUT/DEL Positive Cases - Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GWQ44QEO9DI6IHolHM4E2ZyWK5RfTVTmw",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "GET Negative Cases- Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GWJTYIDVKZL1IexipfcO8ZJz6LlifoZeI",
+        "unique_name": "variable_workflow_01GWJTQT24L9B0yPHhEGxLOAuaNZEUdrNkb",
         "object_type": "variable_workflow"
       },
       {
@@ -59,23 +47,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "FormFields",
+          "name": "PUT Negative Cases- Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GWPRTUCO4J04ytMy1LGflIBUSX287tk8r",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "GET/POST - Positive Case- Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GWJS7GX0JW45JaJBBZztNsMhK7mLGDUdc",
+        "unique_name": "variable_workflow_01GWJUW7ALTEX3x9CbDhs2FXJjvQnZYafdb",
         "object_type": "variable_workflow"
       },
       {
@@ -95,6 +71,18 @@
         "properties": {
           "value": "",
           "scope": "output",
+          "name": "FormFields",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWPRTUCO4J04ytMy1LGflIBUSX287tk8r",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
           "name": "POST Negative Cases - Pass/Fail",
           "type": "datatype.string",
           "is_required": false
@@ -107,11 +95,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "PUT Negative Cases- Pass/Fail",
+          "name": "GET/POST - Positive Case- Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GWJUW7ALTEX3x9CbDhs2FXJjvQnZYafdb",
+        "unique_name": "variable_workflow_01GWJS7GX0JW45JaJBBZztNsMhK7mLGDUdc",
         "object_type": "variable_workflow"
       },
       {
@@ -119,11 +107,23 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "PUT/DEL Positive Cases - Pass/Fail",
+          "name": "GET Negative Cases- Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GWJTQT24L9B0yPHhEGxLOAuaNZEUdrNkb",
+        "unique_name": "variable_workflow_01GWJTYIDVKZL1IexipfcO8ZJz6LlifoZeI",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Update form with updated action ",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWQ44QEO9DI6IHolHM4E2ZyWK5RfTVTmw",
         "object_type": "variable_workflow"
       }
     ],
@@ -1493,7 +1493,7 @@
                   "skip_execution": false,
                   "variables_to_update": [
                     {
-                      "variable_to_update": "$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.variable_workflow_01GWJUW7ALTEX3x9CbDhs2FXJjvQnZYafdb$",
+                      "variable_to_update": "$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.variable_workflow_01GWJTYIDVKZL1IexipfcO8ZJz6LlifoZeI$",
                       "variable_value_new": "✔✅ All Cases for GET API Negative Case are passed -100%"
                     }
                   ]
@@ -1572,7 +1572,7 @@
                   "skip_execution": false,
                   "variables_to_update": [
                     {
-                      "variable_to_update": "$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.variable_workflow_01GWJUW7ALTEX3x9CbDhs2FXJjvQnZYafdb$",
+                      "variable_to_update": "$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.variable_workflow_01GWJTYIDVKZL1IexipfcO8ZJz6LlifoZeI$",
                       "variable_value_new": "❌⭕ Some Test Cases are Failed for GET API Negative test Cases - please refer the instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$/"
                     }
                   ]
