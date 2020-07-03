@@ -9,30 +9,6 @@
       {
         "schema_id": "datatype.string",
         "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "WFID",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GT1O8217A3G7FyRx6Fu1uWzmLeztBRcyg",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "Tercel_AutomationWF",
-          "scope": "input",
-          "name": "WFName",
-          "type": "datatype.string",
-          "is_required": true
-        },
-        "unique_name": "variable_workflow_01GN65RVL49Q22OUGuvaRSLA0dIlMdZXBD5",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
           "value": "tercel",
           "scope": "input",
           "name": "WFCategory",
@@ -63,6 +39,30 @@
           "is_required": false
         },
         "unique_name": "variable_workflow_01GN6DSMPNCVZ0ozBg7NJGKa9iogsncl5Ki",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "WFID",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GT1O8217A3G7FyRx6Fu1uWzmLeztBRcyg",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "Tercel_AutomationWF",
+          "scope": "input",
+          "name": "WFName",
+          "type": "datatype.string",
+          "is_required": true
+        },
+        "unique_name": "variable_workflow_01GN65RVL49Q22OUGuvaRSLA0dIlMdZXBD5",
         "object_type": "variable_workflow"
       }
     ],
