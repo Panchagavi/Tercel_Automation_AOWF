@@ -693,6 +693,7 @@
             "properties": {
               "action_timeout": 180,
               "allow_auto_redirect": true,
+              "content_type": "application/json",
               "continue_on_error_status_code": false,
               "continue_on_failure": false,
               "display_name": "Get Images",
@@ -907,7 +908,7 @@
               "continue_on_failure": false,
               "display_name": "Create a CatalogItemAction",
               "method": "POST",
-              "relative_url": "catalog_items/$activity.definition_activity_01GYFAWKW9J572agNgsGae3aeBAQMtfcaGJ.output.jsonpath_queries.CatalogItem_ID$/actions",
+              "relative_url": "catalogitems/$activity.definition_activity_01GYFAWKW9J572agNgsGae3aeBAQMtfcaGJ.output.jsonpath_queries.CatalogItem_ID$/actions",
               "runtime_user": {
                 "override_target_runtime_user": false,
                 "target_default": true
@@ -935,7 +936,7 @@
               "continue_on_failure": false,
               "display_name": "Get a action for a catalogitem",
               "method": "GET",
-              "relative_url": "catalog_items/$activity.definition_activity_01GYFAWKW9J572agNgsGae3aeBAQMtfcaGJ.output.jsonpath_queries.CatalogItem_ID$/actions",
+              "relative_url": "catalogitems/$activity.definition_activity_01GYFAWKW9J572agNgsGae3aeBAQMtfcaGJ.output.jsonpath_queries.CatalogItem_ID$/actions",
               "runtime_user": {
                 "override_target_runtime_user": false,
                 "target_default": true
@@ -1012,22 +1013,22 @@
               "input_json": "$activity.definition_activity_01GYFSPQUSTFV2YV6cSHctuUDSREUEWbCAm.output.response_body$",
               "jsonpath_queries": [
                 {
-                  "jsonpath_query": "$.form_fields[0]._id",
+                  "jsonpath_query": "$.form_fields[?(@.properties.title == \"DeploymentName\" )].properties.name",
                   "jsonpath_query_name": "Filed_DeploymentName",
                   "jsonpath_query_type": "string"
                 },
                 {
-                  "jsonpath_query": "$.form_fields[1]._id",
+                  "jsonpath_query": "$.form_fields[?(@.properties.title == \"Metadata\" )].properties.name",
                   "jsonpath_query_name": "Filed_Metadata",
                   "jsonpath_query_type": "string"
                 },
                 {
-                  "jsonpath_query": "$.form_fields[2]._id",
+                  "jsonpath_query": "$.form_fields[?(@.properties.title == \"VMDisk\" )].properties.name",
                   "jsonpath_query_name": "Filed_VMDisk",
-                  "jsonpath_query_type": "integer"
+                  "jsonpath_query_type": "string"
                 },
                 {
-                  "jsonpath_query": "$.form_fields[3]._id",
+                  "jsonpath_query": "$.form_fields[?(@.properties.title == \"SnapShotName\" )].properties.name",
                   "jsonpath_query_name": "Field_SnapshotName",
                   "jsonpath_query_type": "string"
                 }
@@ -1360,7 +1361,7 @@
         "type": "logic.group",
         "base_type": "activity",
         "properties": {
-          "continue_on_failure": false,
+          "continue_on_failure": true,
           "display_name": "Place order for a CatalogItem - End User Use Case",
           "skip_execution": false
         },
@@ -1470,7 +1471,7 @@
         "type": "logic.if_else",
         "base_type": "activity",
         "properties": {
-          "continue_on_failure": false,
+          "continue_on_failure": true,
           "description": "Verify the Place Order Use Case Status Codes",
           "display_name": "Verify the Place Order Use Case Status Codes",
           "skip_execution": false
@@ -1935,7 +1936,7 @@
         "properties": {
           "continue_on_failure": false,
           "display_name": "Email Table",
-          "skip_execution": false,
+          "skip_execution": true,
           "variables_to_update": [
             {
               "variable_to_update": "$workflow.definition_workflow_01GYAIQNTLBGZ7l7k2yDV73mLD0JS7Nqj9A.output.variable_workflow_01GYYKCY2U2910vcLzcbZsmUmYyaswktPbH$",
