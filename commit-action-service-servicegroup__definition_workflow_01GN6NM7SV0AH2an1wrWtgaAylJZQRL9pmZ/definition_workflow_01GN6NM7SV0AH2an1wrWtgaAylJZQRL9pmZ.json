@@ -7,6 +7,18 @@
     "base_type": "workflow",
     "variables": [
       {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "ServiceGroup_ID",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GN9B0ORUMLA52zdxii7atGlzOXr6EC0q5",
+        "object_type": "variable_workflow"
+      },
+      {
         "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
         "properties": {
           "scope": "local",
@@ -27,18 +39,6 @@
           "is_required": false
         },
         "unique_name": "variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "ServiceGroup_ID",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GN9B0ORUMLA52zdxii7atGlzOXr6EC0q5",
         "object_type": "variable_workflow"
       }
     ],
@@ -388,13 +388,13 @@
       "display_name": "Headers Table",
       "columns": [
         {
-          "name": "Value",
-          "title": "Value",
+          "name": "Name",
+          "title": "Name",
           "type": "string"
         },
         {
-          "name": "Name",
-          "title": "Name",
+          "name": "Value",
+          "title": "Value",
           "type": "string"
         }
       ],
