@@ -363,7 +363,7 @@
         "base_type": "activity",
         "properties": {
           "action_timeout": 180,
-          "body": "\u003c!DOCTYPE html\u003e\n\u003chtml\u003e\n  \u003chead\u003e\n    \u003cstyle\u003e\ntable {\nfont-family: cambria;\nborder-collapse: collapse;\nwidth: 100%;\n}\n\ntd, th {\nborder: 3px solid LightSlateGray;\ntext-align: left;\npadding: 2px;\n}\n\ntr:nth-child(even) {\nbackground-color: #dddddd;\n}\n\nh1{font-family: Lato,Arial;\ndisplay: flex;\nwebkit-box-align: center;\nalign-items: center;\ncolor: rgb(127, 127, 134);\nfont-size: 14px;\nfont-weight: 900;\nletter-spacing: 1px;\nline-height: 14px;\ntext-transform: uppercase;\nmargin: 0px 0px 0px 24px;\nalign=\"middle\";\n}\n\n\u003c/style\u003e\n  \u003c/head\u003e\n  \u003cbody\u003e\n    \u003cdiv\u003e\n      \u003ch1\u003e\n        \u003cImg src= \"https://images.g2crowd.com/uploads/vendor/image/262/large_detail_1527083662.png\"  alt=\"Cloud Center Suite - Tercel\" align=\"left\"  height= 26 width= 48 \u003e Cloud Center Suite - Tercel  \n        \n        \n\t\t\t\t\n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \u003c/h1\u003e\n      \u003c/Img\u003e\n    \u003c/div\u003e\n    \u003ch2\u003e\n      \u003ccenter\u003e Tercel API Automation Status\u003c/center\u003e\n    \u003c/h2\u003e\n    \u003ch3\u003e User Details\u003c/h3\u003e\n    \u003ctable\u003e\n      \u003ctr\u003e\n        \u003cth\u003eTenant Name\u003c/th\u003e\n        \u003cth\u003eLogin User Email\u003c/th\u003e\n        \u003cth\u003eWorkflow Started By\u003c/th\u003e\n        \u003cth\u003eLogin Tenant Id\u003c/th\u003e\n        \u003cth\u003eWorkflow Instance ID\u003c/th\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003etercelqa\u003c/td\u003e\n        \u003ctd\u003evspancha@cisco.com\u003c/td\u003e\n        \u003ctd\u003e$workflow.definition_workflow_01GM8CGN8K3VT6SXRMENZtqlnBmZK6PtQGt.output.started_by$\u003c/td\u003e\n        \u003ctd\u003e1234\u003c/td\u003e\n        \u003ctd\u003eInstacne id-https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GM8CGN8K3VT6SXRMENZtqlnBmZK6PtQGt.output.instance_id$\u003c/td\u003e\n      \u003c/tr\u003e\n    \u003c/table\u003e\n    \u003ch2\u003ePreview1 Use Case for Service Desinger and EndUser\u003c/h2\u003e\n    \u003ctable\u003e\n      \u003ctr\u003e\n        \u003cth\u003eTercel API\u003c/th\u003e\n        \u003cth\u003eResults\u003c/th\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Desginer - Use Case\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GZ0BLKDA1OX0cV5glMm64b63h3SHnd0bV.output.variable_workflow_01GYYH15RV2U61ef7DM4agTI0IXwFl5QNsw$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eEnd User -Use Case\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GZ0BLKDA1OX0cV5glMm64b63h3SHnd0bV.output.variable_workflow_01GYYHCQDWI676SmbZaYgHaXlxZ2NqWEmoc$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eDelete All Instances Created During the Service Desinger Flow - \u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GZ0BLKDA1OX0cV5glMm64b63h3SHnd0bV.output.variable_workflow_01GYYHICKHBCO0DGb3y6c9y0unPFmxlgQps$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePrint the Order Details - \u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GZ0BLKDA1OX0cV5glMm64b63h3SHnd0bV.output.variable_workflow_01GYGCT5ZSUX72OHUcwFv8hq9oyF0MoeeLw$\u003c/td\u003e\n      \u003c/tr\u003e\n    \u003c/table\u003e\n\n$activity.definition_activity_01GZ0BLKDA1OX0cV5glMm64b63h3SHnd0bV.output.variable_workflow_01GYYKCY2U2910vcLzcbZsmUmYyaswktPbH$\n\n    \n    \n    \n    \n    \n    \n    \n    \u003ch2\u003eAction API - Use Cases\u003c/h2\u003e\n    \u003ctable\u003e\n      \u003ctr\u003e\n        \u003cth\u003eTercel API\u003c/th\u003e\n        \u003cth\u003eResults\u003c/th\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eActions GET ALL API\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GNDY65ESE7E6EjODC5Bo6EwFL0Uv4UZfB$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eActions Post\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GNIG389OFO53iAFYZhMatwp4EXmkqufAI$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eActions PUT\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GNIGI9Q4TT805irqwKdkzOnB9vTCcIKPF$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eActions Delete\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GNIGZ75OY5J06vbzvuZarV9OoBz8lqCRa$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePagination Links\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNU4FL62I94ndfuTio5BfYM0PH4lPKa7$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePagination Links - When Invalid start and Limit\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQSLVZ5RVVO2B9vcBN13XbQDYo4l5ZHsO$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eGet by ID - Not exists and Invalid\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNV3JGXAC21o1xN6y6ZcUH8OEoiffLj9$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePost - Empty Name\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNPDQC9FDF6nFOlW2kKBEAr8B3jmjGak$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePost - Name Lenght\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNPQO52HQP0k6NYOYe5tA5T5sGpmQq83$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePost - Invalid WFID\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNQFSVK6DP0McM8vrByrij1UVLRXzSgY$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePost - WFID which is Doesnot Exists\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNQFSVK6DP0McM8vrByrij1UVLRXzSgY$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePut - Empty Name\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNRVCUZ9B96FY0gFMVPXWksMY1icS4lW$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePut - Length of the Name and Desc\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNS5VTIN6A4kXqatpEFRlW5a96rJ9YN0$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePut - Update with action ID does not Exists\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNRACZNASK5EX8fCkUGCpxSUKkUMACah$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePut - Update with actionID which is invalid\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNRKUPXJRO1X29WPZpJfFEyLwcY2WDzx$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePut -  Update with WFID which does not exists\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNSGJ22T513ts9is3uop2OYRO73Sv2YX$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePut -  Update with WFID which is invalid\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNSOOTKG560J4zI8u2fHpPTAJTY2rS3C$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eDelete Action with ID which does not exists\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNT01DEISW3D7ctUQ74DmVE4r7ybN3hO$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eDelete Action with ID which is invalid\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNT8KZAXPJ4ysLjhHaWmmNvwrNcs0mxU$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eUpdating a action with Valid Form and Negative Test Cases\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GSKV5W9ZK3K1bOqSZv9ElKF2lqpLjE9rT$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCreate/Update a WF in AO and Use same WF for Create/Update a Action\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GTAW7CM7OQ32eJ1XJwfzwlfWSGrnlDdiA$\u003c/td\u003e\n      \u003c/tr\u003e\n    \u003c/table\u003e\n    \n       $activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GNDNJOISZVD6HYtx9GkRzxk9dQINmbBti$\n   \n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \u003ch2\u003eService Group API - Use Cases\u003c/h2\u003e\n    \u003ctable\u003e\n      \u003ctr\u003e\n        \u003cth\u003eTercel API\u003c/th\u003e\n        \u003cth\u003eResults\u003c/th\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Groups  GET API\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRAL2CJPUTM6Zrk3NBHO61lQetDzNWelk$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Groups  POST API\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRALDHJPQF67Tlztan0i5D1ZEK8WOjDmp$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Groups  PUT API\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRATKHGHCDR7BFElUrKdcJBapaLKUiOdS$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Groups  DEL API\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRATSFM6JCS1QkRNmctRHesFqrjG1842o$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Groups  GET API - Negative\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRC3CM4YWAT3yP02lVgpXnelXK9pvlTM2$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Groups - Mapping Service Group to a Service\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRAZCIHKUR52LaZWIYfQlPhEndG4MhOWl$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Groups Get Pagination Negative Test Cases\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRC2QRZBB7G6iufgeEKFNJqv9mkg7flfd$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Groups - Fetch the Mapped Service\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRBKMUWMP8D21o497UXvZLR7pgrwFqUFy$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Groups - Get by Name Filter\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRBSHHLGGRL6fbokByblIB2el0Bz2e3VG$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Groups Post Negative Test Cases\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRCN9LWDKG76MjpYz06KN9MqsVOxEQdIL$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Groups PUT Negative Test Cases\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRCNJUI7G6Z5HfLV0xesixTk0dwDV9tMu$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Groups DEL Negative Test Cases\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRCNS2YXQSY5IfjsP8Su2pYAOtbIJw1U2$\u003c/td\u003e\n      \u003c/tr\u003e\n    \u003c/table\u003e\n    \n     $activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRFXA6LMWYC5VW4I3pHJJIcMZSpoIbSWJ$       \n\t\n  \n    \n    \n    \n    \n    \n    \n    \n    \u003ch2\u003eServices API- Use Cases\u003c/h2\u003e\n    \u003ctable\u003e\n      \u003ctr\u003e\n        \u003cth\u003eTercel API\u003c/th\u003e\n        \u003cth\u003eResults\u003c/th\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService GET API\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GUBNM76C6OJ6FTfzjWnqaMSJfmAviPqDk.output.variable_workflow_01GS9ONQ9WY570VqbJFMqXd9WY6fm9K0g1x$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService POST/PUT/DELETE API Verification\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GUBNM76C6OJ6FTfzjWnqaMSJfmAviPqDk.output.variable_workflow_01GS9ISH42XGJ2Np3g1it2UpRDssH49EWsw$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService POST Negative API Verification\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GUBNM76C6OJ6FTfzjWnqaMSJfmAviPqDk.output.variable_workflow_01GU36JLEHHZB4KOAjZYQEF0HulWFlEGIxO$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService PUT Negative  API Verification\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GUBNM76C6OJ6FTfzjWnqaMSJfmAviPqDk.output.variable_workflow_01GU36PUY4UU15ubkRpn6oE6pIFZFcJeCKb$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService DELETE Negative API Verification\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GUBNM76C6OJ6FTfzjWnqaMSJfmAviPqDk.output.variable_workflow_01GU36VS3Q9KH7kkzGGR5FfRxF5WQ1ugsta$\u003c/td\u003e\n      \u003c/tr\u003e\n    \u003c/table\u003e\n\n  $activity.definition_activity_01GUBNM76C6OJ6FTfzjWnqaMSJfmAviPqDk.output.variable_workflow_01GU8ICE8INI63xKbdchW27TdX39duP5eRU$\n \n\n    \n    \n    \n    \n    \n    \n    \n    \u003ch2\u003eForms API- Use Cases\u003c/h2\u003e\n    \u003ctable\u003e\n      \u003ctr\u003e\n        \u003cth\u003eTercel API\u003c/th\u003e\n        \u003cth\u003eResults\u003c/th\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eForms GET and POST API Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GXA54930YNA4pOweOswgDRpIZwksH5lpI.output.variable_workflow_01GWJS7GX0JW45JaJBBZztNsMhK7mLGDUdc$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eForms PUT and DELETE API Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GXA54930YNA4pOweOswgDRpIZwksH5lpI.output.variable_workflow_01GWJTQT24L9B0yPHhEGxLOAuaNZEUdrNkb$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eForms Get Negative test case Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GXA54930YNA4pOweOswgDRpIZwksH5lpI.output.variable_workflow_01GWJTYIDVKZL1IexipfcO8ZJz6LlifoZeI$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eForms POST Negative test case Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GXA54930YNA4pOweOswgDRpIZwksH5lpI.output.variable_workflow_01GWJU6A2IQW70BZShmUs94SbEEzmAI2AWt$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eForms PUT Negative test case Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GXA54930YNA4pOweOswgDRpIZwksH5lpI.output.variable_workflow_01GWJUW7ALTEX3x9CbDhs2FXJjvQnZYafdb$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eForms DELETE Negative test case Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GXA54930YNA4pOweOswgDRpIZwksH5lpI.output.variable_workflow_01GWJV4FGFG8W5HUp8U1IkBqyZuIOA36bfJ$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eUpdate a WF, Update action then Update a Form- test case Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GXA54930YNA4pOweOswgDRpIZwksH5lpI.output.variable_workflow_01GWQ44QEO9DI6IHolHM4E2ZyWK5RfTVTmw$\u003c/td\u003e\n      \u003c/tr\u003e\n    \u003c/table\u003e\n\n$activity.definition_activity_01GXA54930YNA4pOweOswgDRpIZwksH5lpI.output.variable_workflow_01GWQ63UYNHF147RvK6UzZC08YFBuaXffl1$\n \n    \n    \n    \n    \n    \n    \u003ch2\u003eCategory API- Use Cases\u003c/h2\u003e\n    \u003ctable\u003e\n      \u003ctr\u003e\n        \u003cth\u003eTercel API\u003c/th\u003e\n        \u003cth\u003eResults\u003c/th\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCategory GET Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4LAFGL2H1JjnqSmgs3nQYbTpkG6qc2.output.variable_workflow_01GQHD3PLCTER6vwMDbLDg5KjRUx1n9HMZp$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCategory POST and PUT Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4LAFGL2H1JjnqSmgs3nQYbTpkG6qc2.output.variable_workflow_01GQJROGADAQU4A1wq8qzg25b0SvqXJViGG$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCategory Delete Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4LAFGL2H1JjnqSmgs3nQYbTpkG6qc2.output.variable_workflow_01GQJJLVK63P23HjqxhCd3Rpa9fS96OBKXx$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCategory Post Negative test Case Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4LAFGL2H1JjnqSmgs3nQYbTpkG6qc2.output.variable_workflow_01GQNITUOWA232OLdZ7NJPCIhuBxsAfeHAK$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCategory PUT Negative test Case Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4LAFGL2H1JjnqSmgs3nQYbTpkG6qc2.output.variable_workflow_01GRC5ZBMNPVM4V6BRz32oWU2H5rLgI4eiQ$\u003c/td\u003e\n      \u003c/tr\u003e\n    \u003c/table\u003e\n$activity.definition_activity_01H3A4LAFGL2H1JjnqSmgs3nQYbTpkG6qc2.output.variable_workflow_01GQHDFN0H0N22jMAC5hzM8VWZvN5sbeICy$\n  \n    \n    \n    \n    \u003ch2\u003eCatalogItems API- Use Cases\u003c/h2\u003e\n    \u003ctable\u003e\n      \u003ctr\u003e\n        \u003cth\u003eTercel API\u003c/th\u003e\n        \u003cth\u003eResults\u003c/th\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItems GET Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4P4AOAOW5a09wiAgYYmKe4ipIKRWZn.output.variable_workflow_01GRH1KF7I3EY1mLDdJYmT3HrT2Hy5SKBEH$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItems GET Pagination Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4P4AOAOW5a09wiAgYYmKe4ipIKRWZn.output.variable_workflow_01GRH2JU295WZ6vMEG44EiIfQGIDUpmtHb4$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItems POST and PUT Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4P4AOAOW5a09wiAgYYmKe4ipIKRWZn.output.variable_workflow_01GS5J3JQLC8L0J360u45CHEgU4Ry240Jiq$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItems POST Negative Test Case - Create without Name Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4P4AOAOW5a09wiAgYYmKe4ipIKRWZn.output.variable_workflow_01GS6I07P0Z071BkGCxjzkF6VmEXnD3DnUo$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItems Post Negative Ttest Case - name and Desc more than specified Length check Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4P4AOAOW5a09wiAgYYmKe4ipIKRWZn.output.variable_workflow_01GS92O9YO54H5yBz9wHEHydLPuFRN4EXVr$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItems GET Negative Test Case Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4P4AOAOW5a09wiAgYYmKe4ipIKRWZn.output.variable_workflow_01GS9GOJWN6FC2FEXONBiDvXQ5jfVHcp2TH$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItems POST - Create With Invalid ServiceID Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4P4AOAOW5a09wiAgYYmKe4ipIKRWZn.output.variable_workflow_01GSA5HXPSWML2Q7UxmJYEPuEagkNdcpXrl$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItems PUT Negative Test Case- Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4P4AOAOW5a09wiAgYYmKe4ipIKRWZn.output.variable_workflow_01GT3FCDMQ9MQ3Y71bCsgSTj6FWdcB8SReG$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItems Delete Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4P4AOAOW5a09wiAgYYmKe4ipIKRWZn.output.variable_workflow_01GT3RTJCTQF613DmhxWohRprQBcGNPD1o3$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItems GET Pagination Link Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4P4AOAOW5a09wiAgYYmKe4ipIKRWZn.output.variable_workflow_01GTBEMHG09E80zTbYcuTPIbl04p8cJNUDf$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItems POST - Create with Invalid CategoryID Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4P4AOAOW5a09wiAgYYmKe4ipIKRWZn.output.variable_workflow_01GTVLCFRQT6V5sYAJfBQQLVdr2pDnhU9u7$\u003c/td\u003e\n      \u003c/tr\u003e\n    \u003c/table\u003e\n \n$activity.definition_activity_01H3A4P4AOAOW5a09wiAgYYmKe4ipIKRWZn.output.variable_workflow_01GTVPFKNF2NV2UfWh1VS2RcFXbUIDM6661$\n\n\n    \n    \n    \u003ch2\u003eCatalogItemsActions API- Use Cases\u003c/h2\u003e\n    \u003ctable\u003e\n      \u003ctr\u003e\n        \u003cth\u003eTercel API\u003c/th\u003e\n        \u003cth\u003eResults\u003c/th\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItemsAction GET Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A59V71L8T59RAQgSjnYIlKTLmskkpe6.output.variable_workflow_01GWMB6L3WYWR3RWbCIroLKQGFAmx79uPSO$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItemsAction POST Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A59V71L8T59RAQgSjnYIlKTLmskkpe6.output.variable_workflow_01GWJ1DOXG8JT35MqVdwgRerjqrzmmRIq9G$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItemsAction GET by ActionID Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A59V71L8T59RAQgSjnYIlKTLmskkpe6.output.variable_workflow_01GWMF4684CHE3OFOdsFAERjwJW6lEtkyEI$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItemsAction Post- Update CatalogItemAction by ActionID Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A59V71L8T59RAQgSjnYIlKTLmskkpe6.output.variable_workflow_01GWMHEMSHM4I5wWMSjaLcD7F2AtNNGybw7$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItemsAction Delete - Del a CatalogItemAction by ActionID Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A59V71L8T59RAQgSjnYIlKTLmskkpe6.output.variable_workflow_01GWMLGUSBVZG31giVbXa2qJDPZHgofgkxO$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItemsAction PUT- Update State of the CatalogItem Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A59V71L8T59RAQgSjnYIlKTLmskkpe6.output.variable_workflow_01GWMWMCSTRQ10N36q2O13WqUulyfYh1PU0$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItemsAction Delete Negative Test Case Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A59V71L8T59RAQgSjnYIlKTLmskkpe6.output.variable_workflow_01GXEQ50KJJ505TTwf36gy0drXaQ3Do5Tci$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItemsAction GET Negative Test Case - Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A59V71L8T59RAQgSjnYIlKTLmskkpe6.output.variable_workflow_01GXFHTCM19OT44m8cWx3LIyMVo9eP6cHpf$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItemsAction POST - Negative Test Case Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A59V71L8T59RAQgSjnYIlKTLmskkpe6.output.variable_workflow_01GXFTJL849KD6wYlvaJB6ejK6DYMOQCT0e$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItemsAction PUT - Negative Test Case Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A59V71L8T59RAQgSjnYIlKTLmskkpe6.output.variable_workflow_01GXGI4IZO2KM6Hfcm7Bjj7ubMlQhLd2PEm$\u003c/td\u003e\n      \u003c/tr\u003e\n    \u003c/table\u003e\n\n$activity.definition_activity_01H3A59V71L8T59RAQgSjnYIlKTLmskkpe6.output.variable_workflow_01GY81QFL4A5I31UI5E7FySQ70noxLEmcEJ$\n\n\n\n  \n  \u003c/body\u003e\n\u003c/html\u003e",
+          "body": "\u003c!DOCTYPE html\u003e\n\u003chtml\u003e\n  \u003chead\u003e\n    \u003cstyle\u003e\ntable {\nfont-family: cambria;\nborder-collapse: collapse;\nwidth: 100%;\n}\n\ntd, th {\nborder: 3px solid LightSlateGray;\ntext-align: left;\npadding: 2px;\n}\n\ntr:nth-child(even) {\nbackground-color: #dddddd;\n}\n\nh1{font-family: Lato,Arial;\ndisplay: flex;\nwebkit-box-align: center;\nalign-items: center;\ncolor: rgb(127, 127, 134);\nfont-size: 14px;\nfont-weight: 900;\nletter-spacing: 1px;\nline-height: 14px;\ntext-transform: uppercase;\nmargin: 0px 0px 0px 24px;\nalign=\"middle\";\n}\n\n\u003c/style\u003e\n  \u003c/head\u003e\n  \u003cbody\u003e\n    \u003cdiv\u003e\n      \u003ch1\u003e\n        \u003cImg src= \"https://images.g2crowd.com/uploads/vendor/image/262/large_detail_1527083662.png\"  alt=\"Cloud Center Suite - Tercel\" align=\"left\"  height= 26 width= 48 \u003e Cloud Center Suite - Tercel  \n        \n        \n\t\t\t\t\n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \u003c/h1\u003e\n      \u003c/Img\u003e\n    \u003c/div\u003e\n    \u003ch2\u003e\n      \u003ccenter\u003e Tercel API Automation Status\u003c/center\u003e\n    \u003c/h2\u003e\n    \u003ch3\u003e User Details\u003c/h3\u003e\n    \u003ctable\u003e\n      \u003ctr\u003e\n        \u003cth\u003eTenant Name\u003c/th\u003e\n        \u003cth\u003eLogin User Email\u003c/th\u003e\n        \u003cth\u003eWorkflow Started By\u003c/th\u003e\n        \u003cth\u003eLogin Tenant Id\u003c/th\u003e\n        \u003cth\u003eWorkflow Instance ID\u003c/th\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003etercelqa\u003c/td\u003e\n        \u003ctd\u003evspancha@cisco.com\u003c/td\u003e\n        \u003ctd\u003e$workflow.definition_workflow_01GM8CGN8K3VT6SXRMENZtqlnBmZK6PtQGt.output.started_by$\u003c/td\u003e\n        \u003ctd\u003e1234\u003c/td\u003e\n        \u003ctd\u003eInstacne id-https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GM8CGN8K3VT6SXRMENZtqlnBmZK6PtQGt.output.instance_id$\u003c/td\u003e\n      \u003c/tr\u003e\n    \u003c/table\u003e\n    \u003ch2\u003ePreview1 Use Case for Service Desinger and EndUser\u003c/h2\u003e\n    \u003ctable\u003e\n      \u003ctr\u003e\n        \u003cth\u003eTercel API\u003c/th\u003e\n        \u003cth\u003eResults\u003c/th\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Desginer - Use Case\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GZ0BLKDA1OX0cV5glMm64b63h3SHnd0bV.output.variable_workflow_01GYYH15RV2U61ef7DM4agTI0IXwFl5QNsw$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eEnd User -Use Case\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GZ0BLKDA1OX0cV5glMm64b63h3SHnd0bV.output.variable_workflow_01GYYHCQDWI676SmbZaYgHaXlxZ2NqWEmoc$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eDelete All Instances Created During the Service Desinger Flow - \u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GZ0BLKDA1OX0cV5glMm64b63h3SHnd0bV.output.variable_workflow_01GYYHICKHBCO0DGb3y6c9y0unPFmxlgQps$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePrint the Order Details - \u003c/td\u003e\n        \u003ctd width=\"50\"\u003e$activity.definition_activity_01GZ0BLKDA1OX0cV5glMm64b63h3SHnd0bV.output.variable_workflow_01GYGCT5ZSUX72OHUcwFv8hq9oyF0MoeeLw$\u003c/td\u003e\n      \u003c/tr\u003e\n    \u003c/table\u003e\n\n$activity.definition_activity_01GZ0BLKDA1OX0cV5glMm64b63h3SHnd0bV.output.variable_workflow_01GYYKCY2U2910vcLzcbZsmUmYyaswktPbH$\n\n    \n    \n    \n    \n    \n    \n    \n    \u003ch2\u003eAction API - Use Cases\u003c/h2\u003e\n    \u003ctable\u003e\n      \u003ctr\u003e\n        \u003cth\u003eTercel API\u003c/th\u003e\n        \u003cth\u003eResults\u003c/th\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eActions GET ALL API\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GNDY65ESE7E6EjODC5Bo6EwFL0Uv4UZfB$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eActions Post\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GNIG389OFO53iAFYZhMatwp4EXmkqufAI$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eActions PUT\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GNIGI9Q4TT805irqwKdkzOnB9vTCcIKPF$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eActions Delete\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GNIGZ75OY5J06vbzvuZarV9OoBz8lqCRa$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePagination Links\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNU4FL62I94ndfuTio5BfYM0PH4lPKa7$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePagination Links - When Invalid start and Limit\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQSLVZ5RVVO2B9vcBN13XbQDYo4l5ZHsO$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eGet by ID - Not exists and Invalid\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNV3JGXAC21o1xN6y6ZcUH8OEoiffLj9$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePost - Empty Name\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNPDQC9FDF6nFOlW2kKBEAr8B3jmjGak$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePost - Name Lenght\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNPQO52HQP0k6NYOYe5tA5T5sGpmQq83$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePost - Invalid WFID\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNQFSVK6DP0McM8vrByrij1UVLRXzSgY$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePost - WFID which is Doesnot Exists\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNQFSVK6DP0McM8vrByrij1UVLRXzSgY$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePut - Empty Name\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNRVCUZ9B96FY0gFMVPXWksMY1icS4lW$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePut - Length of the Name and Desc\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNS5VTIN6A4kXqatpEFRlW5a96rJ9YN0$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePut - Update with action ID does not Exists\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNRACZNASK5EX8fCkUGCpxSUKkUMACah$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePut - Update with actionID which is invalid\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNRKUPXJRO1X29WPZpJfFEyLwcY2WDzx$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePut -  Update with WFID which does not exists\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNSGJ22T513ts9is3uop2OYRO73Sv2YX$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003ePut -  Update with WFID which is invalid\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNSOOTKG560J4zI8u2fHpPTAJTY2rS3C$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eDelete Action with ID which does not exists\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNT01DEISW3D7ctUQ74DmVE4r7ybN3hO$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eDelete Action with ID which is invalid\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GQNT8KZAXPJ4ysLjhHaWmmNvwrNcs0mxU$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eUpdating a action with Valid Form and Negative Test Cases\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GSKV5W9ZK3K1bOqSZv9ElKF2lqpLjE9rT$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCreate/Update a WF in AO and Use same WF for Create/Update a Action\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GTAW7CM7OQ32eJ1XJwfzwlfWSGrnlDdiA$\u003c/td\u003e\n      \u003c/tr\u003e\n    \u003c/table\u003e\n    \n       $activity.definition_activity_01GQVHGKRGHLX5ZwGi5wjlK7brkxV99MVKA.output.variable_workflow_01GNDNJOISZVD6HYtx9GkRzxk9dQINmbBti$\n   \n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \u003ch2\u003eService Group API - Use Cases\u003c/h2\u003e\n    \u003ctable\u003e\n      \u003ctr\u003e\n        \u003cth\u003eTercel API\u003c/th\u003e\n        \u003cth\u003eResults\u003c/th\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Groups  GET API\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRAL2CJPUTM6Zrk3NBHO61lQetDzNWelk$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Groups  POST API\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRALDHJPQF67Tlztan0i5D1ZEK8WOjDmp$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Groups  PUT API\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRATKHGHCDR7BFElUrKdcJBapaLKUiOdS$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Groups  DEL API\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRATSFM6JCS1QkRNmctRHesFqrjG1842o$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Groups  GET API - Negative\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRC3CM4YWAT3yP02lVgpXnelXK9pvlTM2$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Groups - Mapping Service Group to a Service\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRAZCIHKUR52LaZWIYfQlPhEndG4MhOWl$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Groups Get Pagination Negative Test Cases\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRC2QRZBB7G6iufgeEKFNJqv9mkg7flfd$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Groups - Fetch the Mapped Service\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRBKMUWMP8D21o497UXvZLR7pgrwFqUFy$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Groups - Get by Name Filter\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRBSHHLGGRL6fbokByblIB2el0Bz2e3VG$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Groups Post Negative Test Cases\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRCN9LWDKG76MjpYz06KN9MqsVOxEQdIL$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Groups PUT Negative Test Cases\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRCNJUI7G6Z5HfLV0xesixTk0dwDV9tMu$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService Groups DEL Negative Test Cases\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRCNS2YXQSY5IfjsP8Su2pYAOtbIJw1U2$\u003c/td\u003e\n      \u003c/tr\u003e\n    \u003c/table\u003e\n    \n     $activity.definition_activity_01GRL481EH9UC3L5mr6R1K1FcyYesX1hNKE.output.variable_workflow_01GRFXA6LMWYC5VW4I3pHJJIcMZSpoIbSWJ$       \n\t\n  \n    \n    \n    \n    \n    \n    \n    \n    \u003ch2\u003eServices API- Use Cases\u003c/h2\u003e\n    \u003ctable\u003e\n      \u003ctr\u003e\n        \u003cth\u003eTercel API\u003c/th\u003e\n        \u003cth\u003eResults\u003c/th\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService GET API\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GUBNM76C6OJ6FTfzjWnqaMSJfmAviPqDk.output.variable_workflow_01GS9ONQ9WY570VqbJFMqXd9WY6fm9K0g1x$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService POST/PUT/DELETE API Verification\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GUBNM76C6OJ6FTfzjWnqaMSJfmAviPqDk.output.variable_workflow_01GS9ISH42XGJ2Np3g1it2UpRDssH49EWsw$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService POST Negative API Verification\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GUBNM76C6OJ6FTfzjWnqaMSJfmAviPqDk.output.variable_workflow_01GU36JLEHHZB4KOAjZYQEF0HulWFlEGIxO$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService PUT Negative  API Verification\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GUBNM76C6OJ6FTfzjWnqaMSJfmAviPqDk.output.variable_workflow_01GU36PUY4UU15ubkRpn6oE6pIFZFcJeCKb$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eService DELETE Negative API Verification\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GUBNM76C6OJ6FTfzjWnqaMSJfmAviPqDk.output.variable_workflow_01GU36VS3Q9KH7kkzGGR5FfRxF5WQ1ugsta$\u003c/td\u003e\n      \u003c/tr\u003e\n    \u003c/table\u003e\n\n  $activity.definition_activity_01GUBNM76C6OJ6FTfzjWnqaMSJfmAviPqDk.output.variable_workflow_01GU8ICE8INI63xKbdchW27TdX39duP5eRU$\n \n\n    \n    \n    \n    \n    \n    \n    \n    \u003ch2\u003eForms API- Use Cases\u003c/h2\u003e\n    \u003ctable\u003e\n      \u003ctr\u003e\n        \u003cth\u003eTercel API\u003c/th\u003e\n        \u003cth\u003eResults\u003c/th\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eForms GET and POST API Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GXA54930YNA4pOweOswgDRpIZwksH5lpI.output.variable_workflow_01GWJS7GX0JW45JaJBBZztNsMhK7mLGDUdc$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eForms PUT and DELETE API Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GXA54930YNA4pOweOswgDRpIZwksH5lpI.output.variable_workflow_01GWJTQT24L9B0yPHhEGxLOAuaNZEUdrNkb$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eForms Get Negative test case Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GXA54930YNA4pOweOswgDRpIZwksH5lpI.output.variable_workflow_01GWJTYIDVKZL1IexipfcO8ZJz6LlifoZeI$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eForms POST Negative test case Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GXA54930YNA4pOweOswgDRpIZwksH5lpI.output.variable_workflow_01GWJU6A2IQW70BZShmUs94SbEEzmAI2AWt$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eForms PUT Negative test case Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GXA54930YNA4pOweOswgDRpIZwksH5lpI.output.variable_workflow_01GWJUW7ALTEX3x9CbDhs2FXJjvQnZYafdb$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eForms DELETE Negative test case Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GXA54930YNA4pOweOswgDRpIZwksH5lpI.output.variable_workflow_01GWJV4FGFG8W5HUp8U1IkBqyZuIOA36bfJ$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eUpdate a WF, Update action then Update a Form- test case Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01GXA54930YNA4pOweOswgDRpIZwksH5lpI.output.variable_workflow_01GWQ44QEO9DI6IHolHM4E2ZyWK5RfTVTmw$\u003c/td\u003e\n      \u003c/tr\u003e\n    \u003c/table\u003e\n\n$activity.definition_activity_01GXA54930YNA4pOweOswgDRpIZwksH5lpI.output.variable_workflow_01GWQ63UYNHF147RvK6UzZC08YFBuaXffl1$\n \n    \n    \n    \n    \n    \n    \u003ch2\u003eCategory API- Use Cases\u003c/h2\u003e\n    \u003ctable\u003e\n      \u003ctr\u003e\n        \u003cth\u003eTercel API\u003c/th\u003e\n        \u003cth\u003eResults\u003c/th\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCategory GET Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4LAFGL2H1JjnqSmgs3nQYbTpkG6qc2.output.variable_workflow_01GQHD3PLCTER6vwMDbLDg5KjRUx1n9HMZp$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCategory POST and PUT Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4LAFGL2H1JjnqSmgs3nQYbTpkG6qc2.output.variable_workflow_01GQJROGADAQU4A1wq8qzg25b0SvqXJViGG$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCategory Delete Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4LAFGL2H1JjnqSmgs3nQYbTpkG6qc2.output.variable_workflow_01GQJJLVK63P23HjqxhCd3Rpa9fS96OBKXx$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCategory Post Negative test Case Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4LAFGL2H1JjnqSmgs3nQYbTpkG6qc2.output.variable_workflow_01GQNITUOWA232OLdZ7NJPCIhuBxsAfeHAK$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCategory PUT Negative test Case Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4LAFGL2H1JjnqSmgs3nQYbTpkG6qc2.output.variable_workflow_01GRC5ZBMNPVM4V6BRz32oWU2H5rLgI4eiQ$\u003c/td\u003e\n      \u003c/tr\u003e\n    \u003c/table\u003e\n$activity.definition_activity_01H3A4LAFGL2H1JjnqSmgs3nQYbTpkG6qc2.output.variable_workflow_01GQHDFN0H0N22jMAC5hzM8VWZvN5sbeICy$\n  \n    \n    \n    \n    \u003ch2\u003eCatalogItems API- Use Cases\u003c/h2\u003e\n    \u003ctable\u003e\n      \u003ctr\u003e\n        \u003cth\u003eTercel API\u003c/th\u003e\n        \u003cth\u003eResults\u003c/th\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItems GET Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4P4AOAOW5a09wiAgYYmKe4ipIKRWZn.output.variable_workflow_01GRH1KF7I3EY1mLDdJYmT3HrT2Hy5SKBEH$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItems GET Pagination Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4P4AOAOW5a09wiAgYYmKe4ipIKRWZn.output.variable_workflow_01GRH2JU295WZ6vMEG44EiIfQGIDUpmtHb4$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItems POST and PUT Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4P4AOAOW5a09wiAgYYmKe4ipIKRWZn.output.variable_workflow_01GS5J3JQLC8L0J360u45CHEgU4Ry240Jiq$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItems POST Negative Test Case - Create without Name Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4P4AOAOW5a09wiAgYYmKe4ipIKRWZn.output.variable_workflow_01GS6I07P0Z071BkGCxjzkF6VmEXnD3DnUo$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItems Post Negative Ttest Case - name and Desc more than specified Length check Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4P4AOAOW5a09wiAgYYmKe4ipIKRWZn.output.variable_workflow_01GS92O9YO54H5yBz9wHEHydLPuFRN4EXVr$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItems GET Negative Test Case Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4P4AOAOW5a09wiAgYYmKe4ipIKRWZn.output.variable_workflow_01GS9GOJWN6FC2FEXONBiDvXQ5jfVHcp2TH$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItems POST - Create With Invalid ServiceID Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4P4AOAOW5a09wiAgYYmKe4ipIKRWZn.output.variable_workflow_01GSA5HXPSWML2Q7UxmJYEPuEagkNdcpXrl$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItems PUT Negative Test Case- Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4P4AOAOW5a09wiAgYYmKe4ipIKRWZn.output.variable_workflow_01GT3FCDMQ9MQ3Y71bCsgSTj6FWdcB8SReG$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItems Delete Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4P4AOAOW5a09wiAgYYmKe4ipIKRWZn.output.variable_workflow_01GT3RTJCTQF613DmhxWohRprQBcGNPD1o3$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItems GET Pagination Link Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4P4AOAOW5a09wiAgYYmKe4ipIKRWZn.output.variable_workflow_01GTBEMHG09E80zTbYcuTPIbl04p8cJNUDf$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItems POST - Create with Invalid CategoryID Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A4P4AOAOW5a09wiAgYYmKe4ipIKRWZn.output.variable_workflow_01GTVLCFRQT6V5sYAJfBQQLVdr2pDnhU9u7$\u003c/td\u003e\n      \u003c/tr\u003e\n    \u003c/table\u003e\n \n$activity.definition_activity_01H3A4P4AOAOW5a09wiAgYYmKe4ipIKRWZn.output.variable_workflow_01GTVPFKNF2NV2UfWh1VS2RcFXbUIDM6661$\n\n\n    \n    \n    \u003ch2\u003eCatalogItemsActions API- Use Cases\u003c/h2\u003e\n    \u003ctable\u003e\n      \u003ctr\u003e\n        \u003cth\u003eTercel API\u003c/th\u003e\n        \u003cth\u003eResults\u003c/th\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItemsAction GET Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A59V71L8T59RAQgSjnYIlKTLmskkpe6.output.variable_workflow_01GWMB6L3WYWR3RWbCIroLKQGFAmx79uPSO$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItemsAction POST Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A59V71L8T59RAQgSjnYIlKTLmskkpe6.output.variable_workflow_01GWJ1DOXG8JT35MqVdwgRerjqrzmmRIq9G$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItemsAction GET by ActionID Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A59V71L8T59RAQgSjnYIlKTLmskkpe6.output.variable_workflow_01GWMF4684CHE3OFOdsFAERjwJW6lEtkyEI$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItemsAction Post- Update CatalogItemAction by ActionID Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A59V71L8T59RAQgSjnYIlKTLmskkpe6.output.variable_workflow_01GWMHEMSHM4I5wWMSjaLcD7F2AtNNGybw7$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItemsAction Delete - Del a CatalogItemAction by ActionID Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A59V71L8T59RAQgSjnYIlKTLmskkpe6.output.variable_workflow_01GWMLGUSBVZG31giVbXa2qJDPZHgofgkxO$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItemsAction PUT- Update State of the CatalogItem Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A59V71L8T59RAQgSjnYIlKTLmskkpe6.output.variable_workflow_01GWMWMCSTRQ10N36q2O13WqUulyfYh1PU0$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItemsAction Delete Negative Test Case Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A59V71L8T59RAQgSjnYIlKTLmskkpe6.output.variable_workflow_01GXEQ50KJJ505TTwf36gy0drXaQ3Do5Tci$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItemsAction GET Negative Test Case - Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A59V71L8T59RAQgSjnYIlKTLmskkpe6.output.variable_workflow_01GXFHTCM19OT44m8cWx3LIyMVo9eP6cHpf$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItemsAction POST - Negative Test Case Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A59V71L8T59RAQgSjnYIlKTLmskkpe6.output.variable_workflow_01GXFTJL849KD6wYlvaJB6ejK6DYMOQCT0e$\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eCatalogItemsAction PUT - Negative Test Case Results\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01H3A59V71L8T59RAQgSjnYIlKTLmskkpe6.output.variable_workflow_01GXGI4IZO2KM6Hfcm7Bjj7ubMlQhLd2PEm$\u003c/td\u003e\n      \u003c/tr\u003e\n    \u003c/table\u003e\n\n$activity.definition_activity_01H3A59V71L8T59RAQgSjnYIlKTLmskkpe6.output.variable_workflow_01GY81QFL4A5I31UI5E7FySQ70noxLEmcEJ$\n\n\n\n  \n  \u003c/body\u003e\n\u003c/html\u003e",
           "cc": "sanjms@cisco.com",
           "continue_if_one_address_valid": true,
           "continue_on_failure": false,
@@ -519,12 +519,11 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "Email Table",
+              "name": "Output for Catalog Items",
               "type": "datatype.string",
-              "description": "Email Table for GEt Categoires",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GQHDFN0H0N22jMAC5hzM8VWZvN5sbeICy",
+            "unique_name": "variable_workflow_01GN7AMZKL11U0wMMPpnXxujPA0obkXFvTw",
             "object_type": "variable_workflow"
           },
           {
@@ -532,36 +531,24 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "Category PUT API Negative  Cases - Pass/Fail",
+              "name": "DELETE Category API Status - Pass/Fail",
               "type": "datatype.string",
-              "description": "Category PUT API Negative  Cases Description",
+              "description": "DELETE Category API Status  Description",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GRC5ZBMNPVM4V6BRz32oWU2H5rLgI4eiQ",
+            "unique_name": "variable_workflow_01GQJJLVK63P23HjqxhCd3Rpa9fS96OBKXx",
             "object_type": "variable_workflow"
           },
           {
             "schema_id": "datatype.string",
             "properties": {
-              "value": "Category Description",
+              "value": "AOCat",
               "scope": "input",
-              "name": "Enter the Category Desc",
+              "name": "Enter the CategoryName",
               "type": "datatype.string",
-              "is_required": false
+              "is_required": true
             },
-            "unique_name": "variable_workflow_01GN7IUL870Z22rYCGEopaD8ZdeQuBO1Gds",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for invalid limit",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GN3NQBDOT3O2wYH1pzSCjIJKLUDHpNVnM",
+            "unique_name": "variable_workflow_01GN7IFG6POQW0RfxF7fKayezQti7lD2BXJ",
             "object_type": "variable_workflow"
           },
           {
@@ -582,23 +569,11 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "CREATE and UPDATE Category Status - Pass/Fail",
+              "name": "op for invalid limit",
               "type": "datatype.string",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GQJROGADAQU4A1wq8qzg25b0SvqXJViGG",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "AOCat",
-              "scope": "input",
-              "name": "Enter the CategoryName",
-              "type": "datatype.string",
-              "is_required": true
-            },
-            "unique_name": "variable_workflow_01GN7IFG6POQW0RfxF7fKayezQti7lD2BXJ",
+            "unique_name": "variable_workflow_01GN3NQBDOT3O2wYH1pzSCjIJKLUDHpNVnM",
             "object_type": "variable_workflow"
           },
           {
@@ -606,12 +581,37 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "DELETE Category API Status - Pass/Fail",
+              "name": "Email Table",
               "type": "datatype.string",
-              "description": "DELETE Category API Status  Description",
+              "description": "Email Table for GEt Categoires",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GQJJLVK63P23HjqxhCd3Rpa9fS96OBKXx",
+            "unique_name": "variable_workflow_01GQHDFN0H0N22jMAC5hzM8VWZvN5sbeICy",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "Category Description",
+              "scope": "input",
+              "name": "Enter the Category Desc",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GN7IUL870Z22rYCGEopaD8ZdeQuBO1Gds",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Category PUT API Negative  Cases - Pass/Fail",
+              "type": "datatype.string",
+              "description": "Category PUT API Negative  Cases Description",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GRC5ZBMNPVM4V6BRz32oWU2H5rLgI4eiQ",
             "object_type": "variable_workflow"
           },
           {
@@ -632,11 +632,11 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "Output for Catalog Items",
+              "name": "CREATE and UPDATE Category Status - Pass/Fail",
               "type": "datatype.string",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GN7AMZKL11U0wMMPpnXxujPA0obkXFvTw",
+            "unique_name": "variable_workflow_01GQJROGADAQU4A1wq8qzg25b0SvqXJViGG",
             "object_type": "variable_workflow"
           }
         ],
@@ -1347,21 +1347,6 @@
                     "use_workflow_target": true,
                     "use_workflow_target_group": false
                   }
-                },
-                "object_type": "definition_activity"
-              },
-              {
-                "unique_name": "definition_activity_01GQH3UG4UVQ11WuWQ4PKYhDOXG8l3EECxd",
-                "name": "Find String",
-                "title": "Verify the Status Code",
-                "type": "core.find_string",
-                "base_type": "activity",
-                "properties": {
-                  "continue_on_failure": false,
-                  "display_name": "Verify the Status Code",
-                  "searched_string": "200",
-                  "skip_execution": false,
-                  "source": "$activity.definition_activity_01GQH0SMVADRE5Ah6prLNDjbriyYKtlbmCS.output.status_code$"
                 },
                 "object_type": "definition_activity"
               }
@@ -2403,6 +2388,30 @@
             "properties": {
               "value": "",
               "scope": "output",
+              "name": "Place Order - End User Use Case-Pass/Fail",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GYYHCQDWI676SmbZaYgHaXlxZ2NqWEmoc",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Delete Instance ",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GYYHICKHBCO0DGb3y6c9y0unPFmxlgQps",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
               "name": "EmailTable",
               "type": "datatype.string",
               "is_required": false
@@ -2467,30 +2476,6 @@
               "is_required": false
             },
             "unique_name": "variable_workflow_01GYYH15RV2U61ef7DM4agTI0IXwFl5QNsw",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Place Order - End User Use Case-Pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GYYHCQDWI676SmbZaYgHaXlxZ2NqWEmoc",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Delete Instance ",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GYYHICKHBCO0DGb3y6c9y0unPFmxlgQps",
             "object_type": "variable_workflow"
           }
         ],
@@ -4399,226 +4384,11 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "op for set group by name and service group",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GU5JL0NM5161ccn16Hynf5RRsHP9l59M4",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "PUT Service Negative Test Case - Pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GU36PUY4UU15ubkRpn6oE6pIFZFcJeCKb",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for invalid lifecycle post",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GUAD81J0DDY57ikmzWom5dSkMgitkNJ6d",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "EmailTable",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GU8ICE8INI63xKbdchW27TdX39duP5eRU",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for invalid lifecycle",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GU429USQ78L3nvpHCliIvhryApsa7mLqQ",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "POST PUT DEL Positive Cases - Pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GS9ISH42XGJ2Np3g1it2UpRDssH49EWsw",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-            "properties": {
-              "scope": "local",
-              "name": "Service without name Sorting Headers",
-              "type": "datatype.table",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GNCU3413EMW5bVlHEoImN08OUGiI84jFM",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for when name is empty",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GND9T03YSDE7VxyYGi06QLeZHP61Bss22",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "GET Service Negative Test Case - Pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GU36D619R755yTEjKP9eKJWzNQ6rfsKFT",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
               "name": "op for a service when name  Length",
               "type": "datatype.string",
               "is_required": false
             },
             "unique_name": "variable_workflow_01GS6JCSUGG5I0iU7U2LyKzqW6J8dWLKi09",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for invalid start",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GNC9XACZ8KH75AQpIFdeHvkMjQvkyVvZz",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for ID which is Invalid",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GNCC78W9WPQ5Ym5ss7m37a5aiU78jRYCW",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "POST Service Negative Test Case - Pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GU36JLEHHZB4KOAjZYQEF0HulWFlEGIxO",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "GET Positive Cases - Pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GS9ONQ9WY570VqbJFMqXd9WY6fm9K0g1x",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for invalid serviceGroup",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GUAFXUEBIY02PsyfsW63hbuWf21eSedGS",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for ID which does not exists",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GNCCI5B32874opSo4sesKT0WjwKKEuyLA",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for invalid limit",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GNC9QWAYDFY3zbhE1JuXyBPGDJGQmDtRu",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Delete Service Negative Test Case - Pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GU36VS3Q9KH7kkzGGR5FfRxF5WQ1ugsta",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for put invalid service group and lifecycle",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GUAIZPU8OBI3cV12kUvzRDfSyaV7BkQZ2",
             "object_type": "variable_workflow"
           },
           {
@@ -4638,6 +4408,137 @@
             "properties": {
               "value": "",
               "scope": "output",
+              "name": "EmailTable",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GU8ICE8INI63xKbdchW27TdX39duP5eRU",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "POST PUT DEL Positive Cases - Pass/Fail",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GS9ISH42XGJ2Np3g1it2UpRDssH49EWsw",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for invalid serviceGroup",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GUAFXUEBIY02PsyfsW63hbuWf21eSedGS",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "GET Positive Cases - Pass/Fail",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GS9ONQ9WY570VqbJFMqXd9WY6fm9K0g1x",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for when name is empty",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GND9T03YSDE7VxyYGi06QLeZHP61Bss22",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for ID which does not exists",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GNCCI5B32874opSo4sesKT0WjwKKEuyLA",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Delete Service Negative Test Case - Pass/Fail",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GU36VS3Q9KH7kkzGGR5FfRxF5WQ1ugsta",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for ID which is Invalid",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GNCC78W9WPQ5Ym5ss7m37a5aiU78jRYCW",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+            "properties": {
+              "scope": "local",
+              "name": "Service without name Sorting Headers",
+              "type": "datatype.table",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GNCU3413EMW5bVlHEoImN08OUGiI84jFM",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for invalid start",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GNC9XACZ8KH75AQpIFdeHvkMjQvkyVvZz",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for invalid limit",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GNC9QWAYDFY3zbhE1JuXyBPGDJGQmDtRu",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
               "name": "op for Service group update operation",
               "type": "datatype.string",
               "is_required": false
@@ -4650,11 +4551,95 @@
             "properties": {
               "value": "",
               "scope": "output",
+              "name": "POST Service Negative Test Case - Pass/Fail",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GU36JLEHHZB4KOAjZYQEF0HulWFlEGIxO",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for invalid lifecycle",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GU429USQ78L3nvpHCliIvhryApsa7mLqQ",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
               "name": "op for a service when desc  Length",
               "type": "datatype.string",
               "is_required": false
             },
             "unique_name": "variable_workflow_01GS7KM7FYG7K1cj3XdYcoWyIqJupgHyNAe",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "GET Service Negative Test Case - Pass/Fail",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GU36D619R755yTEjKP9eKJWzNQ6rfsKFT",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for set group by name and service group",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GU5JL0NM5161ccn16Hynf5RRsHP9l59M4",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for invalid lifecycle post",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GUAD81J0DDY57ikmzWom5dSkMgitkNJ6d",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for put invalid service group and lifecycle",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GUAIZPU8OBI3cV12kUvzRDfSyaV7BkQZ2",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "PUT Service Negative Test Case - Pass/Fail",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GU36PUY4UU15ubkRpn6oE6pIFZFcJeCKb",
             "object_type": "variable_workflow"
           }
         ],
@@ -7945,18 +7930,6 @@
             "base_type": "workflow",
             "variables": [
               {
-                "schema_id": "datatype.string",
-                "properties": {
-                  "value": "",
-                  "scope": "output",
-                  "name": "ServiceGroup_ID",
-                  "type": "datatype.string",
-                  "is_required": false
-                },
-                "unique_name": "variable_workflow_01GN9B0ORUMLA52zdxii7atGlzOXr6EC0q5",
-                "object_type": "variable_workflow"
-              },
-              {
                 "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
                 "properties": {
                   "scope": "local",
@@ -7977,6 +7950,18 @@
                   "is_required": false
                 },
                 "unique_name": "variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI",
+                "object_type": "variable_workflow"
+              },
+              {
+                "schema_id": "datatype.string",
+                "properties": {
+                  "value": "",
+                  "scope": "output",
+                  "name": "ServiceGroup_ID",
+                  "type": "datatype.string",
+                  "is_required": false
+                },
+                "unique_name": "variable_workflow_01GN9B0ORUMLA52zdxii7atGlzOXr6EC0q5",
                 "object_type": "variable_workflow"
               }
             ],
@@ -8302,6 +8287,42 @@
             "properties": {
               "value": "",
               "scope": "output",
+              "name": "Get Actions of a Catalog Item Output Status - Pass/Fail",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GWMB6L3WYWR3RWbCIroLKQGFAmx79uPSO",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Email Table",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GY81QFL4A5I31UI5E7FySQ70noxLEmcEJ",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "NegativeTest-Get Actions of  CatalogItem OutputStatus-Pass/Fail",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GXFHTCM19OT44m8cWx3LIyMVo9eP6cHpf",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
               "name": "Get Action on Catalog Item by ActionID Output Status - Pass/Fail",
               "type": "datatype.string",
               "is_required": false
@@ -8326,83 +8347,11 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "NegativeTest-Delete Action on CatlogItem by ActionID OutpuStatus",
+              "name": "Delete Action on CatalogItem by ActionID Output Status-Pass/Fail",
               "type": "datatype.string",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GXEQ50KJJ505TTwf36gy0drXaQ3Do5Tci",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Create an Action on Catalog Item Output Status - Pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GWJ1DOXG8JT35MqVdwgRerjqrzmmRIq9G",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Email Table",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GY81QFL4A5I31UI5E7FySQ70noxLEmcEJ",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Update State of Catalog Item Output Status - Pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GWMWMCSTRQ10N36q2O13WqUulyfYh1PU0",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "NegativeTest-Get Actions of  CatalogItem OutputStatus-Pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GXFHTCM19OT44m8cWx3LIyMVo9eP6cHpf",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Get Actions of a Catalog Item Output Status - Pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GWMB6L3WYWR3RWbCIroLKQGFAmx79uPSO",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Update Action on CatalogItem by ActionID OutputSatatus-Pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GWMHEMSHM4I5wWMSjaLcD7F2AtNNGybw7",
+            "unique_name": "variable_workflow_01GWMLGUSBVZG31giVbXa2qJDPZHgofgkxO",
             "object_type": "variable_workflow"
           },
           {
@@ -8422,11 +8371,47 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "Delete Action on CatalogItem by ActionID Output Status-Pass/Fail",
+              "name": "NegativeTest-Delete Action on CatlogItem by ActionID OutpuStatus",
               "type": "datatype.string",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GWMLGUSBVZG31giVbXa2qJDPZHgofgkxO",
+            "unique_name": "variable_workflow_01GXEQ50KJJ505TTwf36gy0drXaQ3Do5Tci",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Update Action on CatalogItem by ActionID OutputSatatus-Pass/Fail",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GWMHEMSHM4I5wWMSjaLcD7F2AtNNGybw7",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Create an Action on Catalog Item Output Status - Pass/Fail",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GWJ1DOXG8JT35MqVdwgRerjqrzmmRIq9G",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Update State of Catalog Item Output Status - Pass/Fail",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GWMWMCSTRQ10N36q2O13WqUulyfYh1PU0",
             "object_type": "variable_workflow"
           }
         ],
@@ -10376,103 +10361,6 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "Output for Invalid Limit",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GTB86WRFO4X7692RYiIdnaC6sjOBI2odf",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Pagination Link",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GTB4P63LWGF0iBdVbzGIgkaFuM4YnjHtT",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Get Catalog Items Query Params Output Status - Pass/Fail",
-              "type": "datatype.string",
-              "description": "Get Catalog Items Query Params Output Status Description",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GRH2JU295WZ6vMEG44EiIfQGIDUpmtHb4",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Get Pagination Links Output Status - Pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GTBEMHG09E80zTbYcuTPIbl04p8cJNUDf",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Create API with Invalid Category ID Output Status - Pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GTVLCFRQT6V5sYAJfBQQLVdr2pDnhU9u7",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Create(POST) API Name and Desc Length  Output Status - Pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GS92O9YO54H5yBz9wHEHydLPuFRN4EXVr",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Create(POST) API without Name Output Status  - Pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GS6I07P0Z071BkGCxjzkF6VmEXnD3DnUo",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Output for Invalid Start",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GTB8F8MFP0Z12Ijsmxf6KgV23lfmbC56c",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
               "name": "DELETE Catalog Item API Output Status - Pass/Fail",
               "type": "datatype.string",
               "is_required": false
@@ -10485,34 +10373,11 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "Output for Description Length",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GS8XNN0DOJ86hoYdkSmTOvuHi6wldTqxR",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
               "name": "Email Table",
               "type": "datatype.string",
               "is_required": false
             },
             "unique_name": "variable_workflow_01GTVPFKNF2NV2UfWh1VS2RcFXbUIDM6661",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-            "properties": {
-              "scope": "local",
-              "name": "Sorting Headers1",
-              "type": "datatype.table",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GS62AWYI6C67LSsOJdxDIyCJpoHTRV0LR",
             "object_type": "variable_workflow"
           },
           {
@@ -10532,11 +10397,11 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "Output for Name Length",
+              "name": "Output for Empty Name",
               "type": "datatype.string",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GS8XAIA6RRP6hHamHmbfCIbICBEWTc2TM",
+            "unique_name": "variable_workflow_01GS6WS1A7ATE2Iay7rlFXmma40zf9c5tpw",
             "object_type": "variable_workflow"
           },
           {
@@ -10544,11 +10409,107 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "Output for Empty Name",
+              "name": "Create API with Invalid Category ID Output Status - Pass/Fail",
               "type": "datatype.string",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GS6WS1A7ATE2Iay7rlFXmma40zf9c5tpw",
+            "unique_name": "variable_workflow_01GTVLCFRQT6V5sYAJfBQQLVdr2pDnhU9u7",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Pagination Link",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GTB4P63LWGF0iBdVbzGIgkaFuM4YnjHtT",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Output for Invalid Start",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GTB8F8MFP0Z12Ijsmxf6KgV23lfmbC56c",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Get Catalog Items Query Params Output Status - Pass/Fail",
+              "type": "datatype.string",
+              "description": "Get Catalog Items Query Params Output Status Description",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GRH2JU295WZ6vMEG44EiIfQGIDUpmtHb4",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+            "properties": {
+              "scope": "local",
+              "name": "Sorting Headers",
+              "type": "datatype.table",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GS604AXWCME3xPudagPpfXNKo73AtdfMY",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Output for Description Length",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GS8XNN0DOJ86hoYdkSmTOvuHi6wldTqxR",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Output for Invalid Limit",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GTB86WRFO4X7692RYiIdnaC6sjOBI2odf",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Create and Update Catalog Item API's Output Status - Pass/Fail",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GS5J3JQLC8L0J360u45CHEgU4Ry240Jiq",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Create(POST) API without Name Output Status  - Pass/Fail",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GS6I07P0Z071BkGCxjzkF6VmEXnD3DnUo",
             "object_type": "variable_workflow"
           },
           {
@@ -10568,22 +10529,23 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "Create and Update Catalog Item API's Output Status - Pass/Fail",
+              "name": "Ouput for Name Length for Update API",
               "type": "datatype.string",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GS5J3JQLC8L0J360u45CHEgU4Ry240Jiq",
+            "unique_name": "variable_workflow_01GT39QDZ9WLG0E8L18zwwVS3HmyUcYAsV9",
             "object_type": "variable_workflow"
           },
           {
-            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+            "schema_id": "datatype.string",
             "properties": {
-              "scope": "local",
-              "name": "Sorting Headers",
-              "type": "datatype.table",
+              "value": "",
+              "scope": "output",
+              "name": "Create(POST) API Name and Desc Length  Output Status - Pass/Fail",
+              "type": "datatype.string",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GS604AXWCME3xPudagPpfXNKo73AtdfMY",
+            "unique_name": "variable_workflow_01GS92O9YO54H5yBz9wHEHydLPuFRN4EXVr",
             "object_type": "variable_workflow"
           },
           {
@@ -10603,12 +10565,47 @@
             "properties": {
               "value": "",
               "scope": "output",
+              "name": "Get Pagination Links Output Status - Pass/Fail",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GTBEMHG09E80zTbYcuTPIbl04p8cJNUDf",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
               "name": "Get Catalog Items Output Status - Pass/Fail",
               "type": "datatype.string",
               "description": "Get Catalog Items Output Status Description",
               "is_required": false
             },
             "unique_name": "variable_workflow_01GRH1KF7I3EY1mLDdJYmT3HrT2Hy5SKBEH",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+            "properties": {
+              "scope": "local",
+              "name": "Sorting Headers1",
+              "type": "datatype.table",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GS62AWYI6C67LSsOJdxDIyCJpoHTRV0LR",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Output for Name Length",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GS8XAIA6RRP6hHamHmbfCIbICBEWTc2TM",
             "object_type": "variable_workflow"
           },
           {
@@ -10621,18 +10618,6 @@
               "is_required": false
             },
             "unique_name": "variable_workflow_01GT3FCDMQ9MQ3Y71bCsgSTj6FWdcB8SReG",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Ouput for Name Length for Update API",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GT39QDZ9WLG0E8L18zwwVS3HmyUcYAsV9",
             "object_type": "variable_workflow"
           }
         ],
@@ -13206,6 +13191,42 @@
             "properties": {
               "value": "",
               "scope": "output",
+              "name": "PUT Negative Cases- Pass/Fail",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GWJUW7ALTEX3x9CbDhs2FXJjvQnZYafdb",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Update form with updated action ",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GWQ44QEO9DI6IHolHM4E2ZyWK5RfTVTmw",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "EmailTable",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GWQ63UYNHF147RvK6UzZC08YFBuaXffl1",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
               "name": "DEL Negative Cases - Pass/Fail",
               "type": "datatype.string",
               "is_required": false
@@ -13226,26 +13247,26 @@
             "object_type": "variable_workflow"
           },
           {
-            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-            "properties": {
-              "scope": "local",
-              "name": "Post Form Resposne Headers",
-              "type": "datatype.table",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GZ6J4FY28CI5JovchN9x2a94wyYl34JaJ",
-            "object_type": "variable_workflow"
-          },
-          {
             "schema_id": "datatype.string",
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "GET Negative Cases- Pass/Fail",
+              "name": "PUT/DEL Positive Cases - Pass/Fail",
               "type": "datatype.string",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GWJTYIDVKZL1IexipfcO8ZJz6LlifoZeI",
+            "unique_name": "variable_workflow_01GWJTQT24L9B0yPHhEGxLOAuaNZEUdrNkb",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+            "properties": {
+              "scope": "local",
+              "name": "PUT Reponse Headers",
+              "type": "datatype.table",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GZ6OC0X7PA14aIatH9VJhhyJSPN3bEgMW",
             "object_type": "variable_workflow"
           },
           {
@@ -13258,6 +13279,17 @@
               "is_required": false
             },
             "unique_name": "variable_workflow_01GWPRTUCO4J04ytMy1LGflIBUSX287tk8r",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+            "properties": {
+              "scope": "local",
+              "name": "Resposne Headers",
+              "type": "datatype.table",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GZ6WMCJ6PC01iWxgQ3KKSYCA1fPkLoz8N",
             "object_type": "variable_workflow"
           },
           {
@@ -13277,47 +13309,22 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "Update form with updated action ",
+              "name": "GET Negative Cases- Pass/Fail",
               "type": "datatype.string",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GWQ44QEO9DI6IHolHM4E2ZyWK5RfTVTmw",
+            "unique_name": "variable_workflow_01GWJTYIDVKZL1IexipfcO8ZJz6LlifoZeI",
             "object_type": "variable_workflow"
           },
           {
-            "schema_id": "datatype.string",
+            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
             "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "PUT Negative Cases- Pass/Fail",
-              "type": "datatype.string",
+              "scope": "local",
+              "name": "Post Form Resposne Headers",
+              "type": "datatype.table",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GWJUW7ALTEX3x9CbDhs2FXJjvQnZYafdb",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "EmailTable",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GWQ63UYNHF147RvK6UzZC08YFBuaXffl1",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "PUT/DEL Positive Cases - Pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GWJTQT24L9B0yPHhEGxLOAuaNZEUdrNkb",
+            "unique_name": "variable_workflow_01GZ6J4FY28CI5JovchN9x2a94wyYl34JaJ",
             "object_type": "variable_workflow"
           },
           {
@@ -13330,28 +13337,6 @@
               "is_required": false
             },
             "unique_name": "variable_workflow_01GWJS7GX0JW45JaJBBZztNsMhK7mLGDUdc",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-            "properties": {
-              "scope": "local",
-              "name": "Resposne Headers",
-              "type": "datatype.table",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GZ6WMCJ6PC01iWxgQ3KKSYCA1fPkLoz8N",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-            "properties": {
-              "scope": "local",
-              "name": "PUT Reponse Headers",
-              "type": "datatype.table",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GZ6OC0X7PA14aIatH9VJhhyJSPN3bEgMW",
             "object_type": "variable_workflow"
           }
         ],
@@ -17278,11 +17263,35 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "OP for Delete SG Failed",
+              "name": "EmailTable",
               "type": "datatype.string",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GMEFTB46BD52g6MQ2sKFqVXGDNg6nOifR",
+            "unique_name": "variable_workflow_01GRFXA6LMWYC5VW4I3pHJJIcMZSpoIbSWJ",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for update - name more than 64",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GMLIEGELICW3qtJ7v9ETpZbhxSJB5UxHk",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for update - without name",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GMLK0Z4UKPP3ZUNUiuMYqHBSAIS84yBob",
             "object_type": "variable_workflow"
           },
           {
@@ -17302,6 +17311,115 @@
             "properties": {
               "value": "",
               "scope": "output",
+              "name": "op for delete - ID is Invalid",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GMM7WD2WNO80JLh0vuwhSDThtHmTL9Cvg",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "POST Call Service Group - Pass/Fail",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GRALDHJPQF67Tlztan0i5D1ZEK8WOjDmp",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op when name is not there",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GMGDG2MHZOF7BYsp16vTB4vJX1I8VNCYU",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Delete Call Negative Test Cases - Pass/Fail",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GRCNS2YXQSY5IfjsP8Su2pYAOtbIJw1U2",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "GET  Service Group by Name - Pass/Fail",
+              "type": "datatype.string",
+              "description": "GET  Service Group by Name - Pass/Fail",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GRBSHHLGGRL6fbokByblIB2el0Bz2e3VG",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Get Pagination Links - Pass/Fail",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GRC2QRZBB7G6iufgeEKFNJqv9mkg7flfd",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "OP for Delete SG Failed",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GMEFTB46BD52g6MQ2sKFqVXGDNg6nOifR",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for when desc is more than 1024",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GMG5QXRHL2Y4aywC4kyps3Zkhdx2uJ6tP",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Post - Fetch Service_Group with a service ",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GRBKMUWMP8D21o497UXvZLR7pgrwFqUFy",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
               "name": "op for delete - id does not exists",
               "type": "datatype.string",
               "is_required": false
@@ -17314,11 +17432,11 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "op for SG when name is empty",
+              "name": "op for ID which does not exists",
               "type": "datatype.string",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GMFZJEKCNSK23BlCfdtcutpmcUwxG0SYC",
+            "unique_name": "variable_workflow_01GMFQ3CHS8L526UzqsAqugnVxg8JilQHm2",
             "object_type": "variable_workflow"
           },
           {
@@ -17338,11 +17456,11 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "op for update - without name",
+              "name": "op for update - desc more the 1024",
               "type": "datatype.string",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GMLK0Z4UKPP3ZUNUiuMYqHBSAIS84yBob",
+            "unique_name": "variable_workflow_01GMLIZU2C4WG1WaaKacWsSWio4lfpnZl3j",
             "object_type": "variable_workflow"
           },
           {
@@ -17354,6 +17472,30 @@
               "is_required": false
             },
             "unique_name": "variable_workflow_01GMABSJ3WQI00tdotdhjAhYMCuIkz9GfGO",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "tercel",
+              "scope": "local",
+              "name": "WFCategory",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GMAX7UD9ELA5PURpQWplN873p5TWJE3Xd",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for update - empty name",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GMLH4XRYD5I3xgjAzF7ZwDWJgYzutokj0",
             "object_type": "variable_workflow"
           },
           {
@@ -17371,13 +17513,25 @@
           {
             "schema_id": "datatype.string",
             "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "PUT Call Service Group - Pass/Fail",
+              "value": "SGTitle",
+              "scope": "local",
+              "name": "Enter the Service Group Title",
               "type": "datatype.string",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GRATKHGHCDR7BFElUrKdcJBapaLKUiOdS",
+            "unique_name": "variable_workflow_01GMA7QJ6PU8M3gt6rSIlPTvRda8Gkhgz8w",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for SG when name is empty",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GMFZJEKCNSK23BlCfdtcutpmcUwxG0SYC",
             "object_type": "variable_workflow"
           },
           {
@@ -17390,6 +17544,125 @@
               "is_required": false
             },
             "unique_name": "variable_workflow_01GMG5JDIG6J724UGnNCxMHOoYBjcYtkMCb",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Mapping a Service_Group to a Service",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GRAZCIHKUR52LaZWIYfQlPhEndG4MhOWl",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for invalid start",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GMFHFSS5TP078ACHZbyVymN4lZa0ipxwl",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for SG when title is empty",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GMFZRH961166wnILvPtVzySyQdMx1RjaL",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "DEL Call Service Group - Pass/Fail",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GRATSFM6JCS1QkRNmctRHesFqrjG1842o",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for when name is special char",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GMGE3ZLYN9Z6HJWO335YrPaiwuwtrPx1X",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for update - without title ",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GMLJQMP1LUR0yO0fHFABR0beCCgD9q1YC",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for update - title more the 64",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GMLIPVP44S858ou0u7YJIVRDEmA9rNkKK",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "PUT Call Service Group - Pass/Fail",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GRATKHGHCDR7BFElUrKdcJBapaLKUiOdS",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+            "properties": {
+              "scope": "local",
+              "name": "Service Sorting Headers",
+              "type": "datatype.table",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GMBZ8WX1YRO3NecW5KnHC2CyCxxhNmTC1",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for update - empty title",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GMLI5L2FREA3Z4eJ5F0Sz3o74THWbOzXt",
             "object_type": "variable_workflow"
           },
           {
@@ -17421,11 +17694,11 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "op for SG when title is empty",
+              "name": "op for invalid limit",
               "type": "datatype.string",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GMFZRH961166wnILvPtVzySyQdMx1RjaL",
+            "unique_name": "variable_workflow_01GMFHA1KKSCT4kdVPShLrg0l4kmwImCy4y",
             "object_type": "variable_workflow"
           },
           {
@@ -17433,119 +17706,22 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "op for update -special char",
+              "name": "Get Service Group ID Inavlid and Not Exists - Pass/Fail",
               "type": "datatype.string",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GMLJ8RFL6A964hWoI5xfz1SM5uKFE6sJM",
+            "unique_name": "variable_workflow_01GRC3CM4YWAT3yP02lVgpXnelXK9pvlTM2",
             "object_type": "variable_workflow"
           },
           {
-            "schema_id": "datatype.string",
+            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
             "properties": {
-              "value": "Tercel_AutomationWF",
               "scope": "local",
-              "name": "WFName",
-              "type": "datatype.string",
+              "name": "Action Sorting Headers",
+              "type": "datatype.table",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GMAXKNT0FXQ0l90EMGMZQxBnUlB9OFTAl",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for when name is special char",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GMGE3ZLYN9Z6HJWO335YrPaiwuwtrPx1X",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "SGTitle",
-              "scope": "local",
-              "name": "Enter the Service Group Title",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GMA7QJ6PU8M3gt6rSIlPTvRda8Gkhgz8w",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for update - empty title",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GMLI5L2FREA3Z4eJ5F0Sz3o74THWbOzXt",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for update - invalid ID",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GMLAETVNKCZ4HnVsyZIxRITlm7kM5qC88",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for ID which does not exists",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GMFQ3CHS8L526UzqsAqugnVxg8JilQHm2",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Get Pagination Links - Pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GRC2QRZBB7G6iufgeEKFNJqv9mkg7flfd",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for update - empty name",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GMLH4XRYD5I3xgjAzF7ZwDWJgYzutokj0",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op when name is not there",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GMGDG2MHZOF7BYsp16vTB4vJX1I8VNCYU",
+            "unique_name": "variable_workflow_01GMBMW63PGBX1EuUNveEWBh92xWVxbPwjr",
             "object_type": "variable_workflow"
           },
           {
@@ -17565,189 +17741,11 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "op for update - without title ",
+              "name": "OP for Update SG with ID which does not exists",
               "type": "datatype.string",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GMLJQMP1LUR0yO0fHFABR0beCCgD9q1YC",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "tercel",
-              "scope": "local",
-              "name": "WFCategory",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GMAX7UD9ELA5PURpQWplN873p5TWJE3Xd",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-            "properties": {
-              "scope": "local",
-              "name": "Action Sorting Headers",
-              "type": "datatype.table",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GMBMW63PGBX1EuUNveEWBh92xWVxbPwjr",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Mapping a Service_Group to a Service",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GRAZCIHKUR52LaZWIYfQlPhEndG4MhOWl",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for invalid limit",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GMFHA1KKSCT4kdVPShLrg0l4kmwImCy4y",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for update - name more than 64",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GMLIEGELICW3qtJ7v9ETpZbhxSJB5UxHk",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "DEL Call Service Group - Pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GRATSFM6JCS1QkRNmctRHesFqrjG1842o",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "Service Created from the AO Automation WF",
-              "scope": "local",
-              "name": "Enter the Service Group Description",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GMA75C196OI3SCzRbIuxo1ptCkbUKEqwl",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "POST Call Service Group - Pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GRALDHJPQF67Tlztan0i5D1ZEK8WOjDmp",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Pagination_Links",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GMFFUZ7DBP334OR40UFFFrATuCz1Kbz0E",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-            "properties": {
-              "scope": "local",
-              "name": "Service Sorting Headers",
-              "type": "datatype.table",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GMBZ8WX1YRO3NecW5KnHC2CyCxxhNmTC1",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Delete Call Negative Test Cases - Pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GRCNS2YXQSY5IfjsP8Su2pYAOtbIJw1U2",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Post - Fetch Service_Group with a service ",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GRBKMUWMP8D21o497UXvZLR7pgrwFqUFy",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Get Service Group ID Inavlid and Not Exists - Pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GRC3CM4YWAT3yP02lVgpXnelXK9pvlTM2",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op when title is not there",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GMGDNY5Q0I12KelmGm9ttqyG0dZ8SybGD",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for update - desc more the 1024",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GMLIZU2C4WG1WaaKacWsSWio4lfpnZl3j",
+            "unique_name": "variable_workflow_01GML55XPMPGY22FVm4xT6MypRGMHg81ieN",
             "object_type": "variable_workflow"
           },
           {
@@ -17767,11 +17765,11 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "OP for Update SG with ID which does not exists",
+              "name": "op for update - invalid ID",
               "type": "datatype.string",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GML55XPMPGY22FVm4xT6MypRGMHg81ieN",
+            "unique_name": "variable_workflow_01GMLAETVNKCZ4HnVsyZIxRITlm7kM5qC88",
             "object_type": "variable_workflow"
           },
           {
@@ -17779,11 +17777,47 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "op for update - title more the 64",
+              "name": "op for update -special char",
               "type": "datatype.string",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GMLIPVP44S858ou0u7YJIVRDEmA9rNkKK",
+            "unique_name": "variable_workflow_01GMLJ8RFL6A964hWoI5xfz1SM5uKFE6sJM",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Pagination_Links",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GMFFUZ7DBP334OR40UFFFrATuCz1Kbz0E",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op when title is not there",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GMGDNY5Q0I12KelmGm9ttqyG0dZ8SybGD",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "Tercel_AutomationWF",
+              "scope": "local",
+              "name": "WFName",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GMAXKNT0FXQ0l90EMGMZQxBnUlB9OFTAl",
             "object_type": "variable_workflow"
           },
           {
@@ -17804,43 +17838,6 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "op for delete - ID is Invalid",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GMM7WD2WNO80JLh0vuwhSDThtHmTL9Cvg",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "GET  Service Group by Name - Pass/Fail",
-              "type": "datatype.string",
-              "description": "GET  Service Group by Name - Pass/Fail",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GRBSHHLGGRL6fbokByblIB2el0Bz2e3VG",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "EmailTable",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GRFXA6LMWYC5VW4I3pHJJIcMZSpoIbSWJ",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
               "name": "op for when name is more than 64",
               "type": "datatype.string",
               "is_required": false
@@ -17851,25 +17848,13 @@
           {
             "schema_id": "datatype.string",
             "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for when desc is more than 1024",
+              "value": "Service Created from the AO Automation WF",
+              "scope": "local",
+              "name": "Enter the Service Group Description",
               "type": "datatype.string",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GMG5QXRHL2Y4aywC4kyps3Zkhdx2uJ6tP",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for invalid start",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GMFHFSS5TP078ACHZbyVymN4lZa0ipxwl",
+            "unique_name": "variable_workflow_01GMA75C196OI3SCzRbIuxo1ptCkbUKEqwl",
             "object_type": "variable_workflow"
           }
         ],
@@ -22591,429 +22576,11 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "op for name length - Put",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GSDXWHWKOUP1nqQhuBLoAwVJ0UnVBsnkl",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for desc length - Post",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GSDXPN5HPVQ50NbZ8N04UrNU1mVBYntAt",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "EmailTable",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GNDNJOISZVD6HYtx9GkRzxk9dQINmbBti",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "PUT Negative - Action ID Invalid",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GQNRKUPXJRO1X29WPZpJfFEyLwcY2WDzx",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for name length - Post",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GSDXI3CC5KC3VR0NfKJfvBNb25e7MkLKD",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Form to a Action - Pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GSKV5W9ZK3K1bOqSZv9ElKF2lqpLjE9rT",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for delete id not exists",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GLJKKVEF9J15pOVKOxDjOrDvQ6dvtWU9A",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "PUT Negative - Empty Name",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GQNRVCUZ9B96FY0gFMVPXWksMY1icS4lW",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for PUT action id doesn not exists",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GLJBPBPM1N95XjXIDq6Yqk1GFtdwbMUV1",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for PUT action id is invalid",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GLJBWWJZIK92WYHEVt4Q1eiwa62AWEuHo",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "OP for PUT when WFID is Invalid",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GLJAFKRF3ZQ4iQVbFYNoIeBBDSmB8LepD",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-            "properties": {
-              "scope": "local",
-              "name": "Sorting Headers3",
-              "type": "datatype.table",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GLIJE1V5RDB6szyUpRraDMggHa2Vf29Tw",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Form Updated Status",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GSKFXN8C6U56E3tNarK1VIWunCP50T1cv",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "PUT Negative - WF ID invalid",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GQNSOOTKG560J4zI8u2fHpPTAJTY2rS3C",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for delete action id which is invalid",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GLJKWUIZ9G356PALwNkWCkDOSReXOv6fj",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "OP for PUT when WFID does not exists",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GLJ8G2TS9SO20qPIOXocBt78q5csolle7",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "PUT Negative - Action ID Does not exists",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GQNRACZNASK5EX8fCkUGCpxSUKkUMACah",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01FZK8QLFFRJN2q0T9OVZdhaLLzkekKEvwo",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "InValidWFID_Error",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GLGQ3Y2FP3C5u9WKIzoetPOu5OTBqSfqY",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "POST PUT WF Update and Then Action Creation ",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GTAW7CM7OQ32eJ1XJwfzwlfWSGrnlDdiA",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Post Negative - Empty name",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GQNPDQC9FDF6nFOlW2kKBEAr8B3jmjGak",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for when modified WF Updated to action ",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GTA07Y5W31P0WWN2Qz9aZiLc2qxkjqHuB",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "NotFoundWFID_Error",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GLGKY8RHP5S778iCuEWT0vPilYDkeWt5Z",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Delete Negative ID Invalid",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GQNT8KZAXPJ4ysLjhHaWmmNvwrNcs0mxU",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Delete Negative ID Does not exists",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GQNT01DEISW3D7ctUQ74DmVE4r7ybN3hO",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "Tercel_AutomationWF",
-              "scope": "input",
-              "name": "WF_SearchQueryforUpdate",
-              "type": "datatype.string",
-              "is_required": true
-            },
-            "unique_name": "variable_workflow_01FZFT4O3693I0oEZCX1JfRDt3TMkQjF9jx",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Get by ID Negative Case",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GQNV3JGXAC21o1xN6y6ZcUH8OEoiffLj9",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "PUT Actions pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GNIGI9Q4TT805irqwKdkzOnB9vTCcIKPF",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
               "name": "Post Actions Pass/Fail",
               "type": "datatype.string",
               "is_required": false
             },
             "unique_name": "variable_workflow_01GNIG389OFO53iAFYZhMatwp4EXmkqufAI",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "Tercel_AutomationWF_UpperCase",
-              "scope": "input",
-              "name": "WF_searchQueryParam",
-              "type": "datatype.string",
-              "is_required": true
-            },
-            "unique_name": "variable_workflow_01FYKDYZV16KO7S7j5IxXLGycKcPjbArzBR",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Post Negative - WFID Invalid and Does not Exists",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GQNQFSVK6DP0McM8vrByrij1UVLRXzSgY",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-            "properties": {
-              "scope": "local",
-              "name": "Sorting Headers2",
-              "type": "datatype.table",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GLFMU8UXI3G35z3facaMG2rjwkg158Rqx",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for formID which is invalid",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GSKRUNVU9VU3NUweQ5qQkWcfMBBWINdzA",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for empty name - Post",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GSDWZF1RK3N54HnQgQBo74IsNnNYWAS1H",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Pagination_Links",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GQNU4FL62I94ndfuTio5BfYM0PH4lPKa7",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "PUT Negative - Name  Length",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GQNS5VTIN6A4kXqatpEFRlW5a96rJ9YN0",
             "object_type": "variable_workflow"
           },
           {
@@ -23033,53 +22600,6 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "PUT Negative - WF ID not exists",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GQNSGJ22T513ts9is3uop2OYRO73Sv2YX",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "op for formID does not exists",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GSKRIN35BQL0tXO4qcLbyLk3YY2yU7Gbx",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-            "properties": {
-              "scope": "local",
-              "name": "Sorting Headers1",
-              "type": "datatype.table",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GLFMMZPOKM67TDjxlAF0vhSxDlEtdaIdh",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Delete Actions pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GNIGZ75OY5J06vbzvuZarV9OoBz8lqCRa",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
               "name": "Verify the WF from the Update Action",
               "type": "datatype.string",
               "is_required": false
@@ -23090,13 +22610,13 @@
           {
             "schema_id": "datatype.string",
             "properties": {
-              "value": "tercel",
-              "scope": "local",
-              "name": "WF_CategoryQueryParam",
+              "value": "",
+              "scope": "output",
+              "name": "op for name length - Post",
               "type": "datatype.string",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01FYKD7K3BHQN2xcA6sYbuWEinZi1fJSTJ8",
+            "unique_name": "variable_workflow_01GSDXI3CC5KC3VR0NfKJfvBNb25e7MkLKD",
             "object_type": "variable_workflow"
           },
           {
@@ -23116,35 +22636,11 @@
             "properties": {
               "value": "",
               "scope": "output",
-              "name": "AO Status Check",
+              "name": "op for PUT action id doesn not exists",
               "type": "datatype.string",
               "is_required": false
             },
-            "unique_name": "variable_workflow_01GLDY0RISJRL1nMcub8QKr6PKBPbOnQL73",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Pagination_Links - Negtive Test Cases",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GQSLVZ5RVVO2B9vcBN13XbQDYo4l5ZHsO",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Get All Actions - Pass/Fail",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GNDY65ESE7E6EjODC5Bo6EwFL0Uv4UZfB",
+            "unique_name": "variable_workflow_01GLJBPBPM1N95XjXIDq6Yqk1GFtdwbMUV1",
             "object_type": "variable_workflow"
           },
           {
@@ -23156,6 +22652,101 @@
               "is_required": false
             },
             "unique_name": "variable_workflow_01FYKXK2G1FLM6H4loujG0pluPIphfqpQRj",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "Tercel_AutomationWF_UpperCase",
+              "scope": "input",
+              "name": "WF_searchQueryParam",
+              "type": "datatype.string",
+              "is_required": true
+            },
+            "unique_name": "variable_workflow_01FYKDYZV16KO7S7j5IxXLGycKcPjbArzBR",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "PUT Negative - WF ID invalid",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GQNSOOTKG560J4zI8u2fHpPTAJTY2rS3C",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Delete Negative ID Does not exists",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GQNT01DEISW3D7ctUQ74DmVE4r7ybN3hO",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Delete Negative ID Invalid",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GQNT8KZAXPJ4ysLjhHaWmmNvwrNcs0mxU",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+            "properties": {
+              "scope": "local",
+              "name": "Sorting Headers3",
+              "type": "datatype.table",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GLIJE1V5RDB6szyUpRraDMggHa2Vf29Tw",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "tercel",
+              "scope": "local",
+              "name": "WF_CategoryQueryParam",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01FYKD7K3BHQN2xcA6sYbuWEinZi1fJSTJ8",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "EmailTable",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GNDNJOISZVD6HYtx9GkRzxk9dQINmbBti",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "PUT Negative - WF ID not exists",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GQNSGJ22T513ts9is3uop2OYRO73Sv2YX",
             "object_type": "variable_workflow"
           },
           {
@@ -23179,6 +22770,400 @@
               "is_required": false
             },
             "unique_name": "variable_workflow_01GSJZ4V32QAC0YTnFQ9KJmdO3h3fsArGDg",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Pagination_Links - Negtive Test Cases",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GQSLVZ5RVVO2B9vcBN13XbQDYo4l5ZHsO",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "POST PUT WF Update and Then Action Creation ",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GTAW7CM7OQ32eJ1XJwfzwlfWSGrnlDdiA",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for desc length - Post",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GSDXPN5HPVQ50NbZ8N04UrNU1mVBYntAt",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "NotFoundWFID_Error",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GLGKY8RHP5S778iCuEWT0vPilYDkeWt5Z",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for formID does not exists",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GSKRIN35BQL0tXO4qcLbyLk3YY2yU7Gbx",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Post Negative - Empty name",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GQNPDQC9FDF6nFOlW2kKBEAr8B3jmjGak",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "PUT Negative - Action ID Does not exists",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GQNRACZNASK5EX8fCkUGCpxSUKkUMACah",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "InValidWFID_Error",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GLGQ3Y2FP3C5u9WKIzoetPOu5OTBqSfqY",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for delete action id which is invalid",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GLJKWUIZ9G356PALwNkWCkDOSReXOv6fj",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Get All Actions - Pass/Fail",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GNDY65ESE7E6EjODC5Bo6EwFL0Uv4UZfB",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "OP for PUT when WFID does not exists",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GLJ8G2TS9SO20qPIOXocBt78q5csolle7",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for PUT action id is invalid",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GLJBWWJZIK92WYHEVt4Q1eiwa62AWEuHo",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for empty name - Post",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GSDWZF1RK3N54HnQgQBo74IsNnNYWAS1H",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Form Updated Status",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GSKFXN8C6U56E3tNarK1VIWunCP50T1cv",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+            "properties": {
+              "scope": "local",
+              "name": "Sorting Headers2",
+              "type": "datatype.table",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GLFMU8UXI3G35z3facaMG2rjwkg158Rqx",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Form to a Action - Pass/Fail",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GSKV5W9ZK3K1bOqSZv9ElKF2lqpLjE9rT",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "PUT Negative - Empty Name",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GQNRVCUZ9B96FY0gFMVPXWksMY1icS4lW",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Pagination_Links",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GQNU4FL62I94ndfuTio5BfYM0PH4lPKa7",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01FZK8QLFFRJN2q0T9OVZdhaLLzkekKEvwo",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for when modified WF Updated to action ",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GTA07Y5W31P0WWN2Qz9aZiLc2qxkjqHuB",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for delete id not exists",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GLJKKVEF9J15pOVKOxDjOrDvQ6dvtWU9A",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for formID which is invalid",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GSKRUNVU9VU3NUweQ5qQkWcfMBBWINdzA",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "PUT Negative - Action ID Invalid",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GQNRKUPXJRO1X29WPZpJfFEyLwcY2WDzx",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "op for name length - Put",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GSDXWHWKOUP1nqQhuBLoAwVJ0UnVBsnkl",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "PUT Negative - Name  Length",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GQNS5VTIN6A4kXqatpEFRlW5a96rJ9YN0",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Delete Actions pass/Fail",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GNIGZ75OY5J06vbzvuZarV9OoBz8lqCRa",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "OP for PUT when WFID is Invalid",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GLJAFKRF3ZQ4iQVbFYNoIeBBDSmB8LepD",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Post Negative - WFID Invalid and Does not Exists",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GQNQFSVK6DP0McM8vrByrij1UVLRXzSgY",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "PUT Actions pass/Fail",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GNIGI9Q4TT805irqwKdkzOnB9vTCcIKPF",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+            "properties": {
+              "scope": "local",
+              "name": "Sorting Headers1",
+              "type": "datatype.table",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GLFMMZPOKM67TDjxlAF0vhSxDlEtdaIdh",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Get by ID Negative Case",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GQNV3JGXAC21o1xN6y6ZcUH8OEoiffLj9",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "AO Status Check",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GLDY0RISJRL1nMcub8QKr6PKBPbOnQL73",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "Tercel_AutomationWF",
+              "scope": "input",
+              "name": "WF_SearchQueryforUpdate",
+              "type": "datatype.string",
+              "is_required": true
+            },
+            "unique_name": "variable_workflow_01FZFT4O3693I0oEZCX1JfRDt3TMkQjF9jx",
             "object_type": "variable_workflow"
           }
         ],
