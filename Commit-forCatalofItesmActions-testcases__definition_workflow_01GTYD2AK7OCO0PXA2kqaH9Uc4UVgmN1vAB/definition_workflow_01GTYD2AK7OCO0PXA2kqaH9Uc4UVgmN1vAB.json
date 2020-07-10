@@ -11,71 +11,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "NegativeTest-Update Action on CatalogItem OutputStatus-Pass/Fail",
+          "name": "Update State of Catalog Item Output Status - Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GXGI4IZO2KM6Hfcm7Bjj7ubMlQhLd2PEm",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Email Table",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GY81QFL4A5I31UI5E7FySQ70noxLEmcEJ",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Get Actions of a Catalog Item Output Status - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GWMB6L3WYWR3RWbCIroLKQGFAmx79uPSO",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Delete Action on CatalogItem by ActionID Output Status-Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GWMLGUSBVZG31giVbXa2qJDPZHgofgkxO",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "NegativeTest-Delete Action on CatlogItem by ActionID OutpuStatus",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GXEQ50KJJ505TTwf36gy0drXaQ3Do5Tci",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "NegativeTest-Get Actions of  CatalogItem OutputStatus-Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GXFHTCM19OT44m8cWx3LIyMVo9eP6cHpf",
+        "unique_name": "variable_workflow_01GWMWMCSTRQ10N36q2O13WqUulyfYh1PU0",
         "object_type": "variable_workflow"
       },
       {
@@ -95,11 +35,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Update Action on CatalogItem by ActionID OutputSatatus-Pass/Fail",
+          "name": "NegativeTest-Delete Action on CatlogItem by ActionID OutpuStatus",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GWMHEMSHM4I5wWMSjaLcD7F2AtNNGybw7",
+        "unique_name": "variable_workflow_01GXEQ50KJJ505TTwf36gy0drXaQ3Do5Tci",
         "object_type": "variable_workflow"
       },
       {
@@ -119,11 +59,47 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Update State of Catalog Item Output Status - Pass/Fail",
+          "name": "NegativeTest-Update Action on CatalogItem OutputStatus-Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GWMWMCSTRQ10N36q2O13WqUulyfYh1PU0",
+        "unique_name": "variable_workflow_01GXGI4IZO2KM6Hfcm7Bjj7ubMlQhLd2PEm",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Get Actions of a Catalog Item Output Status - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWMB6L3WYWR3RWbCIroLKQGFAmx79uPSO",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Update Action on CatalogItem by ActionID OutputSatatus-Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWMHEMSHM4I5wWMSjaLcD7F2AtNNGybw7",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Email Table",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GY81QFL4A5I31UI5E7FySQ70noxLEmcEJ",
         "object_type": "variable_workflow"
       },
       {
@@ -136,6 +112,30 @@
           "is_required": false
         },
         "unique_name": "variable_workflow_01GWMF4684CHE3OFOdsFAERjwJW6lEtkyEI",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "NegativeTest-Get Actions of  CatalogItem OutputStatus-Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GXFHTCM19OT44m8cWx3LIyMVo9eP6cHpf",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Delete Action on CatalogItem by ActionID Output Status-Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWMLGUSBVZG31giVbXa2qJDPZHgofgkxO",
         "object_type": "variable_workflow"
       }
     ],
@@ -567,7 +567,7 @@
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.variable_workflow_01GWJ1DOXG8JT35MqVdwgRerjqrzmmRIq9G$",
-                      "variable_value_new": "Test Cases for Create an Action on Catalog Item  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
+                      "variable_value_new": "❌ ⭕ Test Cases for Create an Action on Catalog Item  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
                     }
                   ]
                 },
@@ -841,7 +841,7 @@
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.variable_workflow_01GXFTJL849KD6wYlvaJB6ejK6DYMOQCT0e$",
-                      "variable_value_new": "Negative Test Cases for Create an Action on Catalog Item  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
+                      "variable_value_new": "❌ ⭕ Negative Test Cases for Create an Action on Catalog Item  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
                     }
                   ]
                 },
@@ -999,7 +999,7 @@
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.variable_workflow_01GWMB6L3WYWR3RWbCIroLKQGFAmx79uPSO$",
-                      "variable_value_new": "Test Cases for Get Actions of a Catalog Item  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
+                      "variable_value_new": "❌ ⭕ Test Cases for Get Actions of a Catalog Item  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
                     }
                   ]
                 },
@@ -1135,7 +1135,7 @@
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.variable_workflow_01GXFHTCM19OT44m8cWx3LIyMVo9eP6cHpf$",
-                      "variable_value_new": "Negative Test Case for Get Actions of a Catalog Item  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
+                      "variable_value_new": "❌ ⭕ Negative Test Case for Get Actions of a Catalog Item  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
                     }
                   ]
                 },
@@ -1271,7 +1271,7 @@
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.variable_workflow_01GWMF4684CHE3OFOdsFAERjwJW6lEtkyEI$",
-                      "variable_value_new": "Test Cases for Get Action on a Catalog Item by Action ID  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
+                      "variable_value_new": "❌ ⭕ Test Cases for Get Action on a Catalog Item by Action ID  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
                     }
                   ]
                 },
@@ -1409,7 +1409,7 @@
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.variable_workflow_01GWMHEMSHM4I5wWMSjaLcD7F2AtNNGybw7$",
-                      "variable_value_new": "Test Cases for Update an Action on Catalog Item  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
+                      "variable_value_new": "❌ ⭕ Test Cases for Update an Action on Catalog Item  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
                     }
                   ]
                 },
@@ -1642,7 +1642,7 @@
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.variable_workflow_01GXGI4IZO2KM6Hfcm7Bjj7ubMlQhLd2PEm$",
-                      "variable_value_new": "Negative Test Cases for Update an Action on Catalog Item  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
+                      "variable_value_new": "❌ ⭕ Negative Test Cases for Update an Action on Catalog Item  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
                     }
                   ]
                 },
@@ -1779,7 +1779,7 @@
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.variable_workflow_01GWMLGUSBVZG31giVbXa2qJDPZHgofgkxO$",
-                      "variable_value_new": "Test Cases for Delete an Action on Catalog Item  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
+                      "variable_value_new": "❌ ⭕ Test Cases for Delete an Action on Catalog Item  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
                     }
                   ]
                 },
@@ -1961,7 +1961,7 @@
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.variable_workflow_01GWMWMCSTRQ10N36q2O13WqUulyfYh1PU0$",
-                      "variable_value_new": "Test Cases for Update State of a Catalog Item  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
+                      "variable_value_new": "❌ ⭕ Test Cases for Update State of a Catalog Item  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
                     }
                   ]
                 },
@@ -2098,7 +2098,7 @@
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.variable_workflow_01GXEQ50KJJ505TTwf36gy0drXaQ3Do5Tci$",
-                      "variable_value_new": "Negative Test  Case for Delete an Action on Catalog Item  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
+                      "variable_value_new": "❌ ⭕ Negative Test  Case for Delete an Action on Catalog Item  API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$"
                     }
                   ]
                 },
@@ -2196,6 +2196,29 @@
         "base_type": "workflow",
         "variables": [
           {
+            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+            "properties": {
+              "scope": "local",
+              "name": "Service Sorting Headers",
+              "type": "datatype.table",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GN6W1U5YMHU3xnwlkVbeN5aV4COFg8bA4",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Service_ID",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI",
+            "object_type": "variable_workflow"
+          },
+          {
             "schema_id": "datatype.string",
             "properties": {
               "value": "",
@@ -2217,29 +2240,6 @@
               "is_required": false
             },
             "unique_name": "variable_workflow_01H5S4A9O8VZP1E3m4of54VdI0WCc82z204",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-            "properties": {
-              "scope": "local",
-              "name": "Service Sorting Headers",
-              "type": "datatype.table",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GN6W1U5YMHU3xnwlkVbeN5aV4COFg8bA4",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Service_ID",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI",
             "object_type": "variable_workflow"
           }
         ],
