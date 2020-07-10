@@ -7,14 +7,15 @@
     "base_type": "workflow",
     "variables": [
       {
-        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+        "schema_id": "datatype.string",
         "properties": {
-          "scope": "local",
-          "name": "Form Resposne Headers",
-          "type": "datatype.table",
+          "value": "",
+          "scope": "output",
+          "name": "JsonOutput",
+          "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01H47HVMK95I45f3bwQuHXhvfHDniKNQ401",
+        "unique_name": "variable_workflow_01H47KP8038UO2nNLFrCL7wpVsvKpCBeXIv",
         "object_type": "variable_workflow"
       },
       {
@@ -44,6 +45,18 @@
       {
         "schema_id": "datatype.string",
         "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Place Order - End User Use Case-Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01H47HVMK87H04LyfZRsqgix5yYPYvwErmR",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
           "value": "tercel",
           "scope": "input",
           "name": "WFCategory_Filter",
@@ -54,15 +67,14 @@
         "object_type": "variable_workflow"
       },
       {
-        "schema_id": "datatype.string",
+        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
         "properties": {
-          "value": "WMOperations",
-          "scope": "input",
-          "name": "WFName_Filter",
-          "type": "datatype.string",
-          "is_required": true
+          "scope": "local",
+          "name": "Form Resposne Headers",
+          "type": "datatype.table",
+          "is_required": false
         },
-        "unique_name": "variable_workflow_01H47HVMK92VD4XnV5okdatDu3z3q2sPDoW",
+        "unique_name": "variable_workflow_01H47HVMK95I45f3bwQuHXhvfHDniKNQ401",
         "object_type": "variable_workflow"
       },
       {
@@ -82,18 +94,6 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Place Order - End User Use Case-Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01H47HVMK87H04LyfZRsqgix5yYPYvwErmR",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
           "name": "Service Desginer Use Case - Pass/Fail",
           "type": "datatype.string",
           "is_required": false
@@ -104,13 +104,13 @@
       {
         "schema_id": "datatype.string",
         "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "JsonOutput",
+          "value": "WMOperations",
+          "scope": "input",
+          "name": "WFName_Filter",
           "type": "datatype.string",
-          "is_required": false
+          "is_required": true
         },
-        "unique_name": "variable_workflow_01H47KP8038UO2nNLFrCL7wpVsvKpCBeXIv",
+        "unique_name": "variable_workflow_01H47HVMK92VD4XnV5okdatDu3z3q2sPDoW",
         "object_type": "variable_workflow"
       }
     ],
