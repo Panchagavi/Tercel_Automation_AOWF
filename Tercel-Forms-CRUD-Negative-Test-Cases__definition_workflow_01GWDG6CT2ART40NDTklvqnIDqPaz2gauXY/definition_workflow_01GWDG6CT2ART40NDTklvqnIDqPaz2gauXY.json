@@ -11,11 +11,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "PUT/DEL Positive Cases - Pass/Fail",
+          "name": "PUT Negative Cases- Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GWJTQT24L9B0yPHhEGxLOAuaNZEUdrNkb",
+        "unique_name": "variable_workflow_01GWJUW7ALTEX3x9CbDhs2FXJjvQnZYafdb",
         "object_type": "variable_workflow"
       },
       {
@@ -23,45 +23,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Pagination_Links",
+          "name": "EmailTable",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GWKS5B4X6KD6Se08fQ1HszDPWR5KjwLvi",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-        "properties": {
-          "scope": "local",
-          "name": "Post Form Resposne Headers",
-          "type": "datatype.table",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GZ6J4FY28CI5JovchN9x2a94wyYl34JaJ",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "FormFields",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GWPRTUCO4J04ytMy1LGflIBUSX287tk8r",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-        "properties": {
-          "scope": "local",
-          "name": "Resposne Headers",
-          "type": "datatype.table",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GZ6WMCJ6PC01iWxgQ3KKSYCA1fPkLoz8N",
+        "unique_name": "variable_workflow_01GWQ63UYNHF147RvK6UzZC08YFBuaXffl1",
         "object_type": "variable_workflow"
       },
       {
@@ -93,6 +59,18 @@
         "properties": {
           "value": "",
           "scope": "output",
+          "name": "GET/POST - Positive Case- Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWJS7GX0JW45JaJBBZztNsMhK7mLGDUdc",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
           "name": "POST Negative Cases - Pass/Fail",
           "type": "datatype.string",
           "is_required": false
@@ -105,23 +83,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "PUT Negative Cases- Pass/Fail",
+          "name": "FormFields",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GWJUW7ALTEX3x9CbDhs2FXJjvQnZYafdb",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "EmailTable",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GWQ63UYNHF147RvK6UzZC08YFBuaXffl1",
+        "unique_name": "variable_workflow_01GWPRTUCO4J04ytMy1LGflIBUSX287tk8r",
         "object_type": "variable_workflow"
       },
       {
@@ -136,15 +102,49 @@
         "object_type": "variable_workflow"
       },
       {
+        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+        "properties": {
+          "scope": "local",
+          "name": "Resposne Headers",
+          "type": "datatype.table",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GZ6WMCJ6PC01iWxgQ3KKSYCA1fPkLoz8N",
+        "object_type": "variable_workflow"
+      },
+      {
         "schema_id": "datatype.string",
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "GET/POST - Positive Case- Pass/Fail",
+          "name": "PUT/DEL Positive Cases - Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GWJS7GX0JW45JaJBBZztNsMhK7mLGDUdc",
+        "unique_name": "variable_workflow_01GWJTQT24L9B0yPHhEGxLOAuaNZEUdrNkb",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+        "properties": {
+          "scope": "local",
+          "name": "Post Form Resposne Headers",
+          "type": "datatype.table",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GZ6J4FY28CI5JovchN9x2a94wyYl34JaJ",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Pagination_Links",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWKS5B4X6KD6Se08fQ1HszDPWR5KjwLvi",
         "object_type": "variable_workflow"
       },
       {
@@ -468,6 +468,36 @@
             "object_type": "definition_activity"
           },
           {
+            "unique_name": "definition_activity_01H5SUEEA5CWC4fHN53oCde0EJQe2K180YQ",
+            "name": "HTTP Request",
+            "title": "GET Schema by the  FormID",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "accept": "application/json",
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "GET Schema by the  FormID",
+              "method": "GET",
+              "relative_url": "forms/$activity.definition_activity_01GZ6JNRRGS6A2ERcDCDYta0ZEr10KTBE6v.output.result_string$/schemas",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
             "unique_name": "definition_activity_01GWI34C6IT6B4Bl4Bx3oJlDved5yuabp0T",
             "name": "HTTP Request",
             "title": "Get All Forms",
@@ -723,57 +753,65 @@
                         "left_operand": {
                           "left_operand": {
                             "left_operand": {
-                              "left_operand": "$activity.definition_activity_01GWDGZZAD58V4mJ9yOFMsRIUbryDl3s9kz.output.status_code$",
-                              "operator": "eq",
-                              "right_operand": 201
+                              "left_operand": {
+                                "left_operand": "$activity.definition_activity_01GWDGZZAD58V4mJ9yOFMsRIUbryDl3s9kz.output.status_code$",
+                                "operator": "eq",
+                                "right_operand": 201
+                              },
+                              "operator": "and",
+                              "right_operand": {
+                                "left_operand": "$activity.definition_activity_01GWI0SDD2FIQ02cd2jB7eSzIRwnqfpXcXk.output.status_code$",
+                                "operator": "eq",
+                                "right_operand": 200
+                              }
                             },
                             "operator": "and",
                             "right_operand": {
-                              "left_operand": "$activity.definition_activity_01GWI0SDD2FIQ02cd2jB7eSzIRwnqfpXcXk.output.status_code$",
+                              "left_operand": "$activity.definition_activity_01GWI34C6IT6B4Bl4Bx3oJlDved5yuabp0T.output.status_code$",
                               "operator": "eq",
                               "right_operand": 200
                             }
                           },
                           "operator": "and",
                           "right_operand": {
-                            "left_operand": "$activity.definition_activity_01GWI34C6IT6B4Bl4Bx3oJlDved5yuabp0T.output.status_code$",
+                            "left_operand": "$activity.definition_activity_01GWI3HNEGRUV36D7ByLoexmkWGZHGQIQzV.output.status_code$",
                             "operator": "eq",
                             "right_operand": 200
                           }
                         },
                         "operator": "and",
                         "right_operand": {
-                          "left_operand": "$activity.definition_activity_01GWI3HNEGRUV36D7ByLoexmkWGZHGQIQzV.output.status_code$",
+                          "left_operand": "$activity.definition_activity_01GWJ9LMER2LE1ajaD2xSk6Y37lzf11w7St.output.status_code$",
                           "operator": "eq",
                           "right_operand": 200
                         }
                       },
                       "operator": "and",
                       "right_operand": {
-                        "left_operand": "$activity.definition_activity_01GWJ9LMER2LE1ajaD2xSk6Y37lzf11w7St.output.status_code$",
+                        "left_operand": "$activity.definition_activity_01GWK7A2XQ9G75s5DbXArdQqPN9QDsnAQFc.output.status_code$",
                         "operator": "eq",
                         "right_operand": 200
                       }
                     },
                     "operator": "and",
                     "right_operand": {
-                      "left_operand": "$activity.definition_activity_01GWK7A2XQ9G75s5DbXArdQqPN9QDsnAQFc.output.status_code$",
+                      "left_operand": "$activity.definition_activity_01GWK7WV6HQWB6yYVbbTeacf2R1Ism8EmKm.output.error.code$",
                       "operator": "eq",
-                      "right_operand": 200
+                      "right_operand": "200"
                     }
                   },
                   "operator": "and",
                   "right_operand": {
-                    "left_operand": "$activity.definition_activity_01GWK7WV6HQWB6yYVbbTeacf2R1Ism8EmKm.output.error.code$",
+                    "left_operand": "$activity.definition_activity_01GWNY0IL852A2uQu6qfKViUBJgIoyCb4L4.output.succeeded$",
                     "operator": "eq",
-                    "right_operand": "200"
+                    "right_operand": true
                   }
                 },
                 "operator": "and",
                 "right_operand": {
-                  "left_operand": "$activity.definition_activity_01GWNY0IL852A2uQu6qfKViUBJgIoyCb4L4.output.succeeded$",
+                  "left_operand": "$activity.definition_activity_01H5SUEEA5CWC4fHN53oCde0EJQe2K180YQ.output.status_code$",
                   "operator": "eq",
-                  "right_operand": true
+                  "right_operand": 200
                 }
               },
               "continue_on_failure": false,
@@ -818,57 +856,65 @@
                         "left_operand": {
                           "left_operand": {
                             "left_operand": {
-                              "left_operand": "$activity.definition_activity_01GWDGZZAD58V4mJ9yOFMsRIUbryDl3s9kz.output.error.code$",
-                              "operator": "ne",
-                              "right_operand": "201"
+                              "left_operand": {
+                                "left_operand": "$activity.definition_activity_01GWDGZZAD58V4mJ9yOFMsRIUbryDl3s9kz.output.error.code$",
+                                "operator": "ne",
+                                "right_operand": "201"
+                              },
+                              "operator": "or",
+                              "right_operand": {
+                                "left_operand": "$activity.definition_activity_01GWI0SDD2FIQ02cd2jB7eSzIRwnqfpXcXk.output.error.code$",
+                                "operator": "ne",
+                                "right_operand": "200"
+                              }
                             },
                             "operator": "or",
                             "right_operand": {
-                              "left_operand": "$activity.definition_activity_01GWI0SDD2FIQ02cd2jB7eSzIRwnqfpXcXk.output.error.code$",
+                              "left_operand": "$activity.definition_activity_01GWI34C6IT6B4Bl4Bx3oJlDved5yuabp0T.output.error.code$",
                               "operator": "ne",
                               "right_operand": "200"
                             }
                           },
                           "operator": "or",
                           "right_operand": {
-                            "left_operand": "$activity.definition_activity_01GWI34C6IT6B4Bl4Bx3oJlDved5yuabp0T.output.error.code$",
+                            "left_operand": "$activity.definition_activity_01GWI3HNEGRUV36D7ByLoexmkWGZHGQIQzV.output.error.code$",
                             "operator": "ne",
                             "right_operand": "200"
                           }
                         },
                         "operator": "or",
                         "right_operand": {
-                          "left_operand": "$activity.definition_activity_01GWI3HNEGRUV36D7ByLoexmkWGZHGQIQzV.output.error.code$",
+                          "left_operand": "$activity.definition_activity_01GWJ9LMER2LE1ajaD2xSk6Y37lzf11w7St.output.error.code$",
                           "operator": "ne",
                           "right_operand": "200"
                         }
                       },
                       "operator": "or",
                       "right_operand": {
-                        "left_operand": "$activity.definition_activity_01GWJ9LMER2LE1ajaD2xSk6Y37lzf11w7St.output.error.code$",
+                        "left_operand": "$activity.definition_activity_01GWK7A2XQ9G75s5DbXArdQqPN9QDsnAQFc.output.error.code$",
                         "operator": "ne",
                         "right_operand": "200"
                       }
                     },
                     "operator": "or",
                     "right_operand": {
-                      "left_operand": "$activity.definition_activity_01GWK7A2XQ9G75s5DbXArdQqPN9QDsnAQFc.output.error.code$",
+                      "left_operand": "$activity.definition_activity_01GWK7WV6HQWB6yYVbbTeacf2R1Ism8EmKm.output.error.code$",
                       "operator": "ne",
                       "right_operand": "200"
                     }
                   },
                   "operator": "or",
                   "right_operand": {
-                    "left_operand": "$activity.definition_activity_01GWK7WV6HQWB6yYVbbTeacf2R1Ism8EmKm.output.error.code$",
-                    "operator": "ne",
-                    "right_operand": "200"
+                    "left_operand": "$activity.definition_activity_01GWNY0IL852A2uQu6qfKViUBJgIoyCb4L4.output.succeeded$",
+                    "operator": "eq",
+                    "right_operand": false
                   }
                 },
                 "operator": "or",
                 "right_operand": {
-                  "left_operand": "$activity.definition_activity_01GWNY0IL852A2uQu6qfKViUBJgIoyCb4L4.output.succeeded$",
-                  "operator": "eq",
-                  "right_operand": false
+                  "left_operand": "$activity.definition_activity_01H5SUEEA5CWC4fHN53oCde0EJQe2K180YQ.output.error.code$",
+                  "operator": "ne",
+                  "right_operand": "200"
                 }
               },
               "continue_on_failure": false,
@@ -1054,6 +1100,36 @@
             "object_type": "definition_activity"
           },
           {
+            "unique_name": "definition_activity_01H5SSC7QGFNE56xGWdLzxF16D7GMomESif",
+            "name": "HTTP Request",
+            "title": "GET Schema by the  FormID",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "accept": "application/json",
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "GET Schema by the  FormID",
+              "method": "GET",
+              "relative_url": "forms/$activity.definition_activity_01GZ6JNRRGS6A2ERcDCDYta0ZEr10KTBE6v.output.result_string$/schemas",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
             "unique_name": "definition_activity_01GWJP639EHWO5O1Ikz9mxRlha0FTXiHv1W",
             "name": "HTTP Request",
             "title": "Delete Form -Should not delete as Form is Assosiated to a action",
@@ -1197,48 +1273,56 @@
                       "left_operand": {
                         "left_operand": {
                           "left_operand": {
-                            "left_operand": "$activity.definition_activity_01GWJKMWL098V1rqrfkF7ggXM6J3nqZbBnt.output.status_code$",
-                            "operator": "eq",
-                            "right_operand": 200
+                            "left_operand": {
+                              "left_operand": "$activity.definition_activity_01GWJKMWL098V1rqrfkF7ggXM6J3nqZbBnt.output.status_code$",
+                              "operator": "eq",
+                              "right_operand": 200
+                            },
+                            "operator": "and",
+                            "right_operand": {
+                              "left_operand": "$activity.definition_activity_01GWJLLIUHMUT6yJy9ngYen4TcUl98aJrZm.output.status_code$",
+                              "operator": "eq",
+                              "right_operand": 200
+                            }
                           },
                           "operator": "and",
                           "right_operand": {
-                            "left_operand": "$activity.definition_activity_01GWJLLIUHMUT6yJy9ngYen4TcUl98aJrZm.output.status_code$",
+                            "left_operand": "$activity.definition_activity_01GWJP639EHWO5O1Ikz9mxRlha0FTXiHv1W.output.error.code$",
                             "operator": "eq",
-                            "right_operand": 200
+                            "right_operand": "400"
                           }
                         },
                         "operator": "and",
                         "right_operand": {
-                          "left_operand": "$activity.definition_activity_01GWJP639EHWO5O1Ikz9mxRlha0FTXiHv1W.output.error.code$",
+                          "left_operand": "$activity.definition_activity_01GWJPWRRD72H2Y5O78jKVl2e5faBxNOq7R.output.error.code$",
                           "operator": "eq",
-                          "right_operand": "400"
+                          "right_operand": "204"
                         }
                       },
                       "operator": "and",
                       "right_operand": {
-                        "left_operand": "$activity.definition_activity_01GWJPWRRD72H2Y5O78jKVl2e5faBxNOq7R.output.error.code$",
+                        "left_operand": "$activity.definition_activity_01GWJR0ZZG25H1TXzxOirsZLmqaWzKjX5Dz.output.error.code$",
                         "operator": "eq",
-                        "right_operand": "204"
+                        "right_operand": "404"
                       }
                     },
                     "operator": "and",
                     "right_operand": {
-                      "left_operand": "$activity.definition_activity_01GWJR0ZZG25H1TXzxOirsZLmqaWzKjX5Dz.output.error.code$",
+                      "left_operand": "$activity.definition_activity_01GWKA291HGGU1LM7rM69RNbPQ2Ty0XB7A2.output.status_code$",
                       "operator": "eq",
-                      "right_operand": "404"
+                      "right_operand": 200
                     }
                   },
                   "operator": "and",
                   "right_operand": {
-                    "left_operand": "$activity.definition_activity_01GWKA291HGGU1LM7rM69RNbPQ2Ty0XB7A2.output.status_code$",
+                    "left_operand": "$activity.definition_activity_01GWKABM58EI66OmbUJdAkRXROmBIT6vQiw.output.error.code$",
                     "operator": "eq",
-                    "right_operand": 200
+                    "right_operand": "200"
                   }
                 },
                 "operator": "and",
                 "right_operand": {
-                  "left_operand": "$activity.definition_activity_01GWKABM58EI66OmbUJdAkRXROmBIT6vQiw.output.error.code$",
+                  "left_operand": "$activity.definition_activity_01H5SSC7QGFNE56xGWdLzxF16D7GMomESif.output.error.code$",
                   "operator": "eq",
                   "right_operand": "200"
                 }
@@ -1284,48 +1368,56 @@
                       "left_operand": {
                         "left_operand": {
                           "left_operand": {
-                            "left_operand": "$activity.definition_activity_01GWJKMWL098V1rqrfkF7ggXM6J3nqZbBnt.output.error.code$",
-                            "operator": "ne",
-                            "right_operand": "200"
+                            "left_operand": {
+                              "left_operand": "$activity.definition_activity_01GWJKMWL098V1rqrfkF7ggXM6J3nqZbBnt.output.error.code$",
+                              "operator": "ne",
+                              "right_operand": "200"
+                            },
+                            "operator": "or",
+                            "right_operand": {
+                              "left_operand": "$activity.definition_activity_01GWJLLIUHMUT6yJy9ngYen4TcUl98aJrZm.output.error.code$",
+                              "operator": "eq",
+                              "right_operand": "200"
+                            }
                           },
                           "operator": "or",
                           "right_operand": {
-                            "left_operand": "$activity.definition_activity_01GWJLLIUHMUT6yJy9ngYen4TcUl98aJrZm.output.error.code$",
-                            "operator": "eq",
+                            "left_operand": "$activity.definition_activity_01GWJP639EHWO5O1Ikz9mxRlha0FTXiHv1W.output.error.code$",
+                            "operator": "ne",
                             "right_operand": "200"
                           }
                         },
                         "operator": "or",
                         "right_operand": {
-                          "left_operand": "$activity.definition_activity_01GWJP639EHWO5O1Ikz9mxRlha0FTXiHv1W.output.error.code$",
+                          "left_operand": "$activity.definition_activity_01GWJPWRRD72H2Y5O78jKVl2e5faBxNOq7R.output.error.code$",
                           "operator": "ne",
-                          "right_operand": "200"
+                          "right_operand": "204"
                         }
                       },
                       "operator": "or",
                       "right_operand": {
-                        "left_operand": "$activity.definition_activity_01GWJPWRRD72H2Y5O78jKVl2e5faBxNOq7R.output.error.code$",
+                        "left_operand": "$activity.definition_activity_01GWJR0ZZG25H1TXzxOirsZLmqaWzKjX5Dz.output.error.code$",
                         "operator": "ne",
-                        "right_operand": "204"
+                        "right_operand": "404"
                       }
                     },
                     "operator": "or",
                     "right_operand": {
-                      "left_operand": "$activity.definition_activity_01GWJR0ZZG25H1TXzxOirsZLmqaWzKjX5Dz.output.error.code$",
+                      "left_operand": "$activity.definition_activity_01GWKA291HGGU1LM7rM69RNbPQ2Ty0XB7A2.output.error.code$",
                       "operator": "ne",
-                      "right_operand": "404"
+                      "right_operand": "200"
                     }
                   },
                   "operator": "or",
                   "right_operand": {
-                    "left_operand": "$activity.definition_activity_01GWKA291HGGU1LM7rM69RNbPQ2Ty0XB7A2.output.error.code$",
+                    "left_operand": "$activity.definition_activity_01GWKABM58EI66OmbUJdAkRXROmBIT6vQiw.output.error.code$",
                     "operator": "ne",
                     "right_operand": "200"
                   }
                 },
                 "operator": "or",
                 "right_operand": {
-                  "left_operand": "$activity.definition_activity_01GWKABM58EI66OmbUJdAkRXROmBIT6vQiw.output.error.code$",
+                  "left_operand": "$activity.definition_activity_01H5SSC7QGFNE56xGWdLzxF16D7GMomESif.output.error.code$",
                   "operator": "ne",
                   "right_operand": "200"
                 }
@@ -3206,7 +3298,7 @@
         "type": "logic.group",
         "base_type": "activity",
         "properties": {
-          "continue_on_failure": false,
+          "continue_on_failure": true,
           "description": "Update a Form with Updated Action",
           "display_name": "Update a Form with Updated Action",
           "skip_execution": false
@@ -3879,7 +3971,7 @@
         "type": "logic.if_else",
         "base_type": "activity",
         "properties": {
-          "continue_on_failure": false,
+          "continue_on_failure": true,
           "display_name": "Verify the Updating form with action status code",
           "skip_execution": false
         },
@@ -3918,7 +4010,7 @@
                     },
                     "operator": "and",
                     "right_operand": {
-                      "left_operand": "$activity.definition_activity_01GWP9WBZ6FXU0mtrxcpQpdcZBfk6ZsIPLB.output.error.code$",
+                      "left_operand": "$activity.definition_activity_01GWP9WBZ6FXU0mtrxcpQpdcZBfk6ZsIPLB.output.status_code$",
                       "operator": "eq",
                       "right_operand": "201"
                     }
@@ -4005,15 +4097,15 @@
                   "operator": "or",
                   "right_operand": {
                     "left_operand": "$activity.definition_activity_01GWPQ7ZKEMLB3v3zaUZsOLWlHP9VSzgCzM.output.succeeded$",
-                    "operator": "eq",
-                    "right_operand": false
+                    "operator": "ne",
+                    "right_operand": true
                   }
                 },
                 "operator": "or",
                 "right_operand": {
                   "left_operand": "$activity.definition_activity_01GWPJ4AQ494R11yVzgPfcNOqPbkhwL20pu.output.succeeded$",
-                  "operator": "eq",
-                  "right_operand": false
+                  "operator": "ne",
+                  "right_operand": true
                 }
               },
               "continue_on_failure": false,
