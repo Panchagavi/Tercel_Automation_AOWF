@@ -11,85 +11,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Get Catalog Items Query Params Output Status - Pass/Fail",
-          "type": "datatype.string",
-          "description": "Get Catalog Items Query Params Output Status Description",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GRH2JU295WZ6vMEG44EiIfQGIDUpmtHb4",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "GET API's Negative Tests Output Status - Pass/Fail",
+          "name": "Ouput for Name Length for Update API",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GS9GOJWN6FC2FEXONBiDvXQ5jfVHcp2TH",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Create API with Invalid Category ID Output Status - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GTVLCFRQT6V5sYAJfBQQLVdr2pDnhU9u7",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Get Pagination Links Output Status - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GTBEMHG09E80zTbYcuTPIbl04p8cJNUDf",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Ouput for Description Length for Update API",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GT39XN2DC6G6FH2kTeB2b1LRIZaTlupID",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Output for Name Length",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GS8XAIA6RRP6hHamHmbfCIbICBEWTc2TM",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Get Catalog Items Output Status - Pass/Fail",
-          "type": "datatype.string",
-          "description": "Get Catalog Items Output Status Description",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GRH1KF7I3EY1mLDdJYmT3HrT2Hy5SKBEH",
+        "unique_name": "variable_workflow_01GT39QDZ9WLG0E8L18zwwVS3HmyUcYAsV9",
         "object_type": "variable_workflow"
       },
       {
@@ -121,11 +47,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Create(POST) API without Name Output Status  - Pass/Fail",
+          "name": "Email Table",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GS6I07P0Z071BkGCxjzkF6VmEXnD3DnUo",
+        "unique_name": "variable_workflow_01GTVPFKNF2NV2UfWh1VS2RcFXbUIDM6661",
         "object_type": "variable_workflow"
       },
       {
@@ -133,11 +59,36 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Create and Update Catalog Item API's Output Status - Pass/Fail",
+          "name": "Output for Invalid Start",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GS5J3JQLC8L0J360u45CHEgU4Ry240Jiq",
+        "unique_name": "variable_workflow_01GTB8F8MFP0Z12Ijsmxf6KgV23lfmbC56c",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Output for Name Length",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GS8XAIA6RRP6hHamHmbfCIbICBEWTc2TM",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Get Catalog Items Query Params Output Status - Pass/Fail",
+          "type": "datatype.string",
+          "description": "Get Catalog Items Query Params Output Status Description",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GRH2JU295WZ6vMEG44EiIfQGIDUpmtHb4",
         "object_type": "variable_workflow"
       },
       {
@@ -157,47 +108,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Create API With Invalid Service Def Output Status - Pass/Fail",
+          "name": "Create and Update Catalog Item API's Output Status - Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GSA5HXPSWML2Q7UxmJYEPuEagkNdcpXrl",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Output for Empty Name",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GS6WS1A7ATE2Iay7rlFXmma40zf9c5tpw",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Pagination Link",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GTB4P63LWGF0iBdVbzGIgkaFuM4YnjHtT",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Create(POST) API Name and Desc Length  Output Status - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GS92O9YO54H5yBz9wHEHydLPuFRN4EXVr",
+        "unique_name": "variable_workflow_01GS5J3JQLC8L0J360u45CHEgU4Ry240Jiq",
         "object_type": "variable_workflow"
       },
       {
@@ -217,11 +132,12 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Email Table",
+          "name": "Get Catalog Items Output Status - Pass/Fail",
           "type": "datatype.string",
+          "description": "Get Catalog Items Output Status Description",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GTVPFKNF2NV2UfWh1VS2RcFXbUIDM6661",
+        "unique_name": "variable_workflow_01GRH1KF7I3EY1mLDdJYmT3HrT2Hy5SKBEH",
         "object_type": "variable_workflow"
       },
       {
@@ -229,11 +145,47 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Ouput for Name Length for Update API",
+          "name": "Create API with Invalid Category ID Output Status - Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GT39QDZ9WLG0E8L18zwwVS3HmyUcYAsV9",
+        "unique_name": "variable_workflow_01GTVLCFRQT6V5sYAJfBQQLVdr2pDnhU9u7",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Create(POST) API Name and Desc Length  Output Status - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GS92O9YO54H5yBz9wHEHydLPuFRN4EXVr",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Get Pagination Links Output Status - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GTBEMHG09E80zTbYcuTPIbl04p8cJNUDf",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Create(POST) API without Name Output Status  - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GS6I07P0Z071BkGCxjzkF6VmEXnD3DnUo",
         "object_type": "variable_workflow"
       },
       {
@@ -263,11 +215,59 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Output for Invalid Start",
+          "name": "Pagination Link",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GTB8F8MFP0Z12Ijsmxf6KgV23lfmbC56c",
+        "unique_name": "variable_workflow_01GTB4P63LWGF0iBdVbzGIgkaFuM4YnjHtT",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Create API With Invalid Service Def Output Status - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GSA5HXPSWML2Q7UxmJYEPuEagkNdcpXrl",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Ouput for Description Length for Update API",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GT39XN2DC6G6FH2kTeB2b1LRIZaTlupID",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Output for Empty Name",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GS6WS1A7ATE2Iay7rlFXmma40zf9c5tpw",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "GET API's Negative Tests Output Status - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GS9GOJWN6FC2FEXONBiDvXQ5jfVHcp2TH",
         "object_type": "variable_workflow"
       }
     ],
@@ -490,7 +490,7 @@
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.variable_workflow_01GRH1KF7I3EY1mLDdJYmT3HrT2Hy5SKBEH$",
-                      "variable_value_new": "Some Test Cases for Get Catalog Items API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.instance_id$"
+                      "variable_value_new": "❌ ⭕ Some Test Cases for Get Catalog Items API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.instance_id$"
                     }
                   ]
                 },
@@ -672,7 +672,7 @@
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.variable_workflow_01GRH2JU295WZ6vMEG44EiIfQGIDUpmtHb4$",
-                      "variable_value_new": "Some Test Cases for Get Category API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.instance_id$"
+                      "variable_value_new": "❌ ⭕ Some Test Cases for Get Category API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.instance_id$"
                     }
                   ]
                 },
@@ -1155,7 +1155,7 @@
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.variable_workflow_01GS9GOJWN6FC2FEXONBiDvXQ5jfVHcp2TH$",
-                      "variable_value_new": "Some Test Cases for Get Catalog Items API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.instance_id$"
+                      "variable_value_new": "❌ ⭕ Some Test Cases for Get Catalog Items API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.instance_id$"
                     }
                   ]
                 },
@@ -1536,7 +1536,7 @@
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.variable_workflow_01GS5J3JQLC8L0J360u45CHEgU4Ry240Jiq$",
-                      "variable_value_new": "Some Test Cases for Get Category API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.instance_id$"
+                      "variable_value_new": "❌ ⭕ Some Test Cases for Get Category API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.instance_id$"
                     }
                   ]
                 },
@@ -1768,7 +1768,7 @@
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.variable_workflow_01GT3FCDMQ9MQ3Y71bCsgSTj6FWdcB8SReG$",
-                      "variable_value_new": "Some Test Cases Failed for Catalog Items PUT API - Name and Description Length Check-Negative Test Case, please check the instance -https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.instance_id$"
+                      "variable_value_new": "❌ ⭕ Some Test Cases Failed for Catalog Items PUT API - Name and Description Length Check-Negative Test Case, please check the instance -https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.instance_id$"
                     }
                   ]
                 },
@@ -2238,7 +2238,7 @@
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.variable_workflow_01GS6I07P0Z071BkGCxjzkF6VmEXnD3DnUo$",
-                      "variable_value_new": "Some Test Cases Failed for Catalog Items Post API - Create Catalog Item without Passing Name -Negative Test Case, please check the instance -https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.instance_id$"
+                      "variable_value_new": "❌ ⭕ Some Test Cases Failed for Catalog Items Post API - Create Catalog Item without Passing Name -Negative Test Case, please check the instance -https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.instance_id$"
                     }
                   ]
                 },
@@ -2471,7 +2471,7 @@
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.variable_workflow_01GS92O9YO54H5yBz9wHEHydLPuFRN4EXVr$",
-                      "variable_value_new": "Some Test Cases Failed for Catalog Items Post API - Name and Description Length Check-Negative Test Case, please check the instance -https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.instance_id$"
+                      "variable_value_new": "❌ ⭕ Some Test Cases Failed for Catalog Items Post API - Name and Description Length Check-Negative Test Case, please check the instance -https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.instance_id$"
                     }
                   ]
                 },
@@ -2655,7 +2655,7 @@
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.variable_workflow_01GSA5HXPSWML2Q7UxmJYEPuEagkNdcpXrl$",
-                      "variable_value_new": "Some Test Cases Failed for Catalog Items Post API - Create Catalog Item with Invalid Service Def ID -Negative Test Case, please check the instance -https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.instance_id$"
+                      "variable_value_new": "❌ ⭕ Some Test Cases Failed for Catalog Items Post API - Create Catalog Item with Invalid Service Def ID -Negative Test Case, please check the instance -https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.instance_id$"
                     }
                   ]
                 },
@@ -2839,7 +2839,7 @@
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.variable_workflow_01GTVLCFRQT6V5sYAJfBQQLVdr2pDnhU9u7$",
-                      "variable_value_new": "Some Test Cases Failed for Catalog Items Post API - Create Catalog Item with Invalid Category ID -Negative Test Case, please check the instance -https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.instance_id$"
+                      "variable_value_new": "❌ ⭕ Some Test Cases Failed for Catalog Items Post API - Create Catalog Item with Invalid Category ID -Negative Test Case, please check the instance -https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.instance_id$"
                     }
                   ]
                 },
@@ -2913,13 +2913,13 @@
       "display_name": "Headers Table",
       "columns": [
         {
-          "name": "Name",
-          "title": "Name",
+          "name": "Value",
+          "title": "Value",
           "type": "string"
         },
         {
-          "name": "Value",
-          "title": "Value",
+          "name": "Name",
+          "title": "Name",
           "type": "string"
         }
       ],
@@ -2936,18 +2936,6 @@
         "type": "generic.workflow",
         "base_type": "workflow",
         "variables": [
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "ServiceGroup_ID",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GN9B0ORUMLA52zdxii7atGlzOXr6EC0q5",
-            "object_type": "variable_workflow"
-          },
           {
             "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
             "properties": {
@@ -2969,6 +2957,30 @@
               "is_required": false
             },
             "unique_name": "variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "ServiceGroup_ID",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GN9B0ORUMLA52zdxii7atGlzOXr6EC0q5",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Action_ID",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01H5S4A9O8VZP1E3m4of54VdI0WCc82z204",
             "object_type": "variable_workflow"
           }
         ],
@@ -3014,6 +3026,25 @@
                 "target_type": "web-service.endpoint"
               },
               "workflow_id": "definition_workflow_01GN6386122JS6sHfTaXknPpC3Hyqmtld5p"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H5S4DJQAG1J6gEybZMkuAha81KBSFFbjf",
+            "name": "Set Variables",
+            "title": "Print ActionID",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Print ActionID",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01GN6NM7SV0AH2an1wrWtgaAylJZQRL9pmZ.output.variable_workflow_01H5S4A9O8VZP1E3m4of54VdI0WCc82z204$",
+                  "variable_value_new": "$activity.definition_activity_01GN6ODU71I397SlTUWVJshmNRNscLSdEfg.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$"
+                }
+              ]
             },
             "object_type": "definition_activity"
           },
