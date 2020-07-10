@@ -11,11 +11,35 @@
         "properties": {
           "value": "",
           "scope": "output",
+          "name": "Service_ID",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
           "name": "ServiceGroup_ID",
           "type": "datatype.string",
           "is_required": false
         },
         "unique_name": "variable_workflow_01GN9B0ORUMLA52zdxii7atGlzOXr6EC0q5",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Action_ID",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01H5S4A9O8VZP1E3m4of54VdI0WCc82z204",
         "object_type": "variable_workflow"
       },
       {
@@ -27,18 +51,6 @@
           "is_required": false
         },
         "unique_name": "variable_workflow_01GN6W1U5YMHU3xnwlkVbeN5aV4COFg8bA4",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Service_ID",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI",
         "object_type": "variable_workflow"
       }
     ],
@@ -84,6 +96,25 @@
             "target_type": "web-service.endpoint"
           },
           "workflow_id": "definition_workflow_01GN6386122JS6sHfTaXknPpC3Hyqmtld5p"
+        },
+        "object_type": "definition_activity"
+      },
+      {
+        "unique_name": "definition_activity_01H5S4DJQAG1J6gEybZMkuAha81KBSFFbjf",
+        "name": "Set Variables",
+        "title": "Print ActionID",
+        "type": "core.set_multiple_variables",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Print ActionID",
+          "skip_execution": false,
+          "variables_to_update": [
+            {
+              "variable_to_update": "$workflow.definition_workflow_01GN6NM7SV0AH2an1wrWtgaAylJZQRL9pmZ.output.variable_workflow_01H5S4A9O8VZP1E3m4of54VdI0WCc82z204$",
+              "variable_value_new": "$activity.definition_activity_01GN6ODU71I397SlTUWVJshmNRNscLSdEfg.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$"
+            }
+          ]
         },
         "object_type": "definition_activity"
       },
