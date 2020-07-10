@@ -9,31 +9,6 @@
       {
         "schema_id": "datatype.string",
         "properties": {
-          "value": "AOCat",
-          "scope": "input",
-          "name": "Enter the CategoryName",
-          "type": "datatype.string",
-          "is_required": true
-        },
-        "unique_name": "variable_workflow_01GN7IFG6POQW0RfxF7fKayezQti7lD2BXJ",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "DELETE Category API Status - Pass/Fail",
-          "type": "datatype.string",
-          "description": "DELETE Category API Status  Description",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GQJJLVK63P23HjqxhCd3Rpa9fS96OBKXx",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
           "value": "",
           "scope": "output",
           "name": "Category PUT API Negative  Cases - Pass/Fail",
@@ -42,30 +17,6 @@
           "is_required": false
         },
         "unique_name": "variable_workflow_01GRC5ZBMNPVM4V6BRz32oWU2H5rLgI4eiQ",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "CREATE and UPDATE Category Status - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GQJROGADAQU4A1wq8qzg25b0SvqXJViGG",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "Category Description",
-          "scope": "input",
-          "name": "Enter the Category Desc",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GN7IUL870Z22rYCGEopaD8ZdeQuBO1Gds",
         "object_type": "variable_workflow"
       },
       {
@@ -85,12 +36,24 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Email Table",
+          "name": "Category POST API Negative Cases - Pass/Fail",
           "type": "datatype.string",
-          "description": "Email Table for GEt Categoires",
+          "description": "Category POST API Negative Cases - Description",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GQHDFN0H0N22jMAC5hzM8VWZvN5sbeICy",
+        "unique_name": "variable_workflow_01GQNITUOWA232OLdZ7NJPCIhuBxsAfeHAK",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "Category Description",
+          "scope": "input",
+          "name": "Enter the Category Desc",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GN7IUL870Z22rYCGEopaD8ZdeQuBO1Gds",
         "object_type": "variable_workflow"
       },
       {
@@ -111,12 +74,49 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Category POST API Negative Cases - Pass/Fail",
+          "name": "CREATE and UPDATE Category Status - Pass/Fail",
           "type": "datatype.string",
-          "description": "Category POST API Negative Cases - Description",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GQNITUOWA232OLdZ7NJPCIhuBxsAfeHAK",
+        "unique_name": "variable_workflow_01GQJROGADAQU4A1wq8qzg25b0SvqXJViGG",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Email Table",
+          "type": "datatype.string",
+          "description": "Email Table for GEt Categoires",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GQHDFN0H0N22jMAC5hzM8VWZvN5sbeICy",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "AOCat",
+          "scope": "input",
+          "name": "Enter the CategoryName",
+          "type": "datatype.string",
+          "is_required": true
+        },
+        "unique_name": "variable_workflow_01GN7IFG6POQW0RfxF7fKayezQti7lD2BXJ",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "DELETE Category API Status - Pass/Fail",
+          "type": "datatype.string",
+          "description": "DELETE Category API Status  Description",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GQJJLVK63P23HjqxhCd3Rpa9fS96OBKXx",
         "object_type": "variable_workflow"
       },
       {
@@ -674,7 +674,7 @@
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.output.variable_workflow_01GQHD3PLCTER6vwMDbLDg5KjRUx1n9HMZp$",
-                      "variable_value_new": "Some Test Cases for Get Category API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.output.instance_id$"
+                      "variable_value_new": "❌ ⭕ Some Test Cases for Get Category API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.output.instance_id$"
                     }
                   ]
                 },
@@ -841,39 +841,24 @@
               }
             },
             "object_type": "definition_activity"
-          },
-          {
-            "unique_name": "definition_activity_01GQH3UG4UVQ11WuWQ4PKYhDOXG8l3EECxd",
-            "name": "Find String",
-            "title": "Verify the Status Code",
-            "type": "core.find_string",
-            "base_type": "activity",
-            "properties": {
-              "continue_on_failure": false,
-              "display_name": "Verify the Status Code",
-              "searched_string": "200",
-              "skip_execution": false,
-              "source": "$activity.definition_activity_01GQH0SMVADRE5Ah6prLNDjbriyYKtlbmCS.output.status_code$"
-            },
-            "object_type": "definition_activity"
           }
         ]
       },
       {
-        "unique_name": "definition_activity_01GQJNTGHA5K86pbF9zHZtiNN4d2ttPutdP",
+        "unique_name": "definition_activity_01H5122SKLN5E4j2MfJRyTqPDTrU0QIn2Z4",
         "name": "Condition Block",
-        "title": "Condition Block",
+        "title": "Condition Block for POST and PUT",
         "type": "logic.if_else",
         "base_type": "activity",
         "properties": {
           "continue_on_failure": false,
-          "display_name": "Condition Block",
+          "display_name": "Condition Block for POST and PUT",
           "skip_execution": false
         },
         "object_type": "definition_activity",
         "blocks": [
           {
-            "unique_name": "definition_activity_01GQJNTP6QVDG0Nt3VYUm4PqWuyJtg18A5g",
+            "unique_name": "definition_activity_01H5122ZGIZ652k9Yb1rXlnjGamVqSIiTjc",
             "name": "Condition Branch",
             "title": "Condition Branch",
             "type": "logic.condition_block",
@@ -890,7 +875,7 @@
                   "right_operand": {
                     "left_operand": "$activity.definition_activity_01GN7K8JEUXVA0a0NNbLz8gfs6Mr0AJHuE8.output.status_code$",
                     "operator": "eq",
-                    "right_operand": 20
+                    "right_operand": 200
                   }
                 },
                 "operator": "and",
@@ -907,7 +892,7 @@
             "object_type": "definition_activity",
             "actions": [
               {
-                "unique_name": "definition_activity_01GQJRYCEYQV608u5ZPbvfmeaRjh1Erqc3Q",
+                "unique_name": "definition_activity_01H514GCKDHFR6oywjSk6V0nquIKWT8C7wb",
                 "name": "Set Variables",
                 "title": "Set Variables",
                 "type": "core.set_multiple_variables",
@@ -928,7 +913,7 @@
             ]
           },
           {
-            "unique_name": "definition_activity_01GQJNTRGMHRC17EPXAkf6iH0UAaAKj7PqB",
+            "unique_name": "definition_activity_01H51231VKPFM3rLK8LvhSxfWjDslUNVBJj",
             "name": "Condition Branch",
             "title": "Condition Branch",
             "type": "logic.condition_block",
@@ -955,14 +940,14 @@
                   "right_operand": 200
                 }
               },
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Condition Branch",
               "skip_execution": false
             },
             "object_type": "definition_activity",
             "actions": [
               {
-                "unique_name": "definition_activity_01GQJSTNLOA3M4szaga8dTYVCYah45gJtwq",
+                "unique_name": "definition_activity_01H514IGYX2P30qIA1VIsQcbBw9LnmAAeYW",
                 "name": "Set Variables",
                 "title": "Set Variables",
                 "type": "core.set_multiple_variables",
@@ -974,7 +959,7 @@
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.output.variable_workflow_01GQJROGADAQU4A1wq8qzg25b0SvqXJViGG$",
-                      "variable_value_new": "Test Cases for CREATE(POST) and UPDATE(PUT) Category API's Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.output.instance_id$"
+                      "variable_value_new": "❌ ⭕ Test Cases for CREATE(POST) and UPDATE(PUT) Category API's Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.output.instance_id$"
                     }
                   ]
                 },
@@ -1250,7 +1235,7 @@
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.output.variable_workflow_01GRC5ZBMNPVM4V6BRz32oWU2H5rLgI4eiQ$",
-                      "variable_value_new": "Test Cases for CREATE(POST) and UPDATE(PUT) Category API's Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.output.instance_id$"
+                      "variable_value_new": "❌ ⭕ Test Cases for CREATE(POST) and UPDATE(PUT) Category API's Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.output.instance_id$"
                     }
                   ]
                 },
@@ -1387,7 +1372,7 @@
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.output.variable_workflow_01GQJJLVK63P23HjqxhCd3Rpa9fS96OBKXx$",
-                      "variable_value_new": "Test Cases for Delete Category API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.output.instance_id$"
+                      "variable_value_new": "❌ ⭕ Test Cases for Delete Category API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.output.instance_id$"
                     }
                   ]
                 },
@@ -1631,7 +1616,7 @@
               "body": "{\n    \"name\": \"Cat - [$workflow.Tercel Cataegory API - Automation Positive and Negative UseCases.output.Instance Id$]\",\n \"catalog_items\": [\n       \"5e9d36a96a4c6b8651912da9\"\n    ],\n   \"description\": \"[$workflow.Tercel Cataegory API - Automation Positive and Negative UseCases.input.Enter the Category Desc$]-[$workflow.Tercel Cataegory API - Automation Positive and Negative UseCases.output.Instance Id$]\"\n}",
               "content_type": "application/json",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "description": "Create Category by Passing Catalog Item ID which doesn't Exists",
               "display_name": "Create Category by Passing Catalog Item ID which doesn't Exists",
               "method": "POST",
@@ -1730,7 +1715,7 @@
                 "right_operand": {
                   "left_operand": "$activity.definition_activity_01GRHQJVTHWA12hf6hSedUKrs0P8O3vpBIR.output.error.code$",
                   "operator": "eq",
-                  "right_operand": "404"
+                  "right_operand": "400"
                 }
               },
               "continue_on_failure": false,
@@ -1825,7 +1810,7 @@
                 "right_operand": {
                   "left_operand": "$activity.definition_activity_01GRHQJVTHWA12hf6hSedUKrs0P8O3vpBIR.output.error.code$",
                   "operator": "ne",
-                  "right_operand": "404"
+                  "right_operand": "400"
                 }
               },
               "continue_on_failure": false,
@@ -1847,7 +1832,7 @@
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.output.variable_workflow_01GQNITUOWA232OLdZ7NJPCIhuBxsAfeHAK$",
-                      "variable_value_new": "Some of Negative Test Cases for  Category POST API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.output.instance_id$"
+                      "variable_value_new": "❌ ⭕ Some of Negative Test Cases for  Category POST API Failed, Please Check the Instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.output.instance_id$"
                     }
                   ]
                 },
@@ -1870,7 +1855,7 @@
           "variables_to_update": [
             {
               "variable_to_update": "$workflow.definition_workflow_01GN14QMW8XFS1Enlp2KFc5Hc92nqjz4mFw.output.variable_workflow_01GQHDFN0H0N22jMAC5hzM8VWZvN5sbeICy$",
-              "variable_value_new": "\u003ch2\u003eGet All Category - Autoamtion \u003c/h2\u003e\n\u003ctable\u003e\n\u003ctr\u003e\n\u003cth\u003eActivity Name\u003c/th\u003e\n\u003cth\u003eTrue/False\u003c/th\u003e\n\u003cth\u003eError Code\u003c/th\u003e\n\u003cth\u003eError Message\u003c/th\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET All Categories\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN15TQP7SAB26mwUdZwyRS8b2CSi3Cg7B.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN15TQP7SAB26mwUdZwyRS8b2CSi3Cg7B.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN15TQP7SAB26mwUdZwyRS8b2CSi3Cg7B.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET All Categories With Limit and Start\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN3KNQHMW8E0PjpUuZZDDE1cYCxz38O5v.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN15HM7IZMQ4XZAneokCmc3lpHXTjVkUD.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN15HM7IZMQ4XZAneokCmc3lpHXTjVkUD.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET All Categories with Invalid Limit and Start\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN3N4BINP4A0jVfV5mI2ZSOf8gfqgBPYR.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN3N4BINP4A0jVfV5mI2ZSOf8gfqgBPYR.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN3N4BINP4A0jVfV5mI2ZSOf8gfqgBPYR.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET Category by ID\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN3IRYHPU4P7PhCuQNiaDkGIiIsLGVFES.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN3IRYHPU4P7PhCuQNiaDkGIiIsLGVFES.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN3IRYHPU4P7PhCuQNiaDkGIiIsLGVFES.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET Category by Name\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN5YT0AU6BI6HCaf13yvBhFIevEG5G3X3.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN5YT0AU6BI6HCaf13yvBhFIevEG5G3X3.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN5YT0AU6BI6HCaf13yvBhFIevEG5G3X3.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET All Categories with Include Catalog Items \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN6D6MH2TUD3UPHd2Rt0GdNl5nAdZwlJR.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN6D6MH2TUD3UPHd2Rt0GdNl5nAdZwlJR.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN6D6MH2TUD3UPHd2Rt0GdNl5nAdZwlJR.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate Category \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN6NGRYR6H10oCcvRyeypDETpZs8OqZ9F.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN6NGRYR6H10oCcvRyeypDETpZs8OqZ9F.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN6NGRYR6H10oCcvRyeypDETpZs8OqZ9F.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eUpdate Category \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQH0SMVADRE5Ah6prLNDjbriyYKtlbmCS.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQH0SMVADRE5Ah6prLNDjbriyYKtlbmCS.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQH0SMVADRE5Ah6prLNDjbriyYKtlbmCS.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDelete Category \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN7P1ZMFEUE3BYS4wIumYnTLW6iRjZsMP.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN7P1ZMFEUE3BYS4wIumYnTLW6iRjZsMP.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN7P1ZMFEUE3BYS4wIumYnTLW6iRjZsMP.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTry to Delete Category by Passing Category ID which is Already Deleted \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKJS32AOPQ2CkpsCDeUuK68osaCFf9Wi.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKJS32AOPQ2CkpsCDeUuK68osaCFf9Wi.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKJS32AOPQ2CkpsCDeUuK68osaCFf9Wi.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTrying to Create Category by Passing Empty value in Name Field\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKOMACP8P85WjjlX5FPRQah4fqRe0mvq.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKOMACP8P85WjjlX5FPRQah4fqRe0mvq.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKOMACP8P85WjjlX5FPRQah4fqRe0mvq.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTry to Create Category by Passing Invalid Catlog Items \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKQH1SSW4Q0hn0rUWuRkhn2A74WXmFsq.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKQH1SSW4Q0hn0rUWuRkhn2A74WXmFsq.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKQH1SSW4Q0hn0rUWuRkhn2A74WXmFsq.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTry to Create  Category by Passing Special Chars in Name Field \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKTHM0WV7I3pQMaxbB6TQyjeopJePT05.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKTHM0WV7I3pQMaxbB6TQyjeopJePT05.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKTHM0WV7I3pQMaxbB6TQyjeopJePT05.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTry to Create  Category by Passing Chinese Chars in Name Field\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKUCKQXKHO4IV7Sa7bK1C1v0p1vfQVLn.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKUCKQXKHO4IV7Sa7bK1C1v0p1vfQVLn.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKUCKQXKHO4IV7Sa7bK1C1v0p1vfQVLn.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTry to Create Category by Passing More than 64 Chars in Name Field \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKWKAHYW4D5ddWS0IHiNegyf23cgeDNb.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKWKAHYW4D5ddWS0IHiNegyf23cgeDNb.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKWKAHYW4D5ddWS0IHiNegyf23cgeDNb.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTry to Create Category by Passing More than 1024 Chars in Description Field \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQMFN6S0SEA4hImueRXl0t1Z6oCd4pEor.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQMFN6S0SEA4hImueRXl0t1Z6oCd4pEor.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQMFN6S0SEA4hImueRXl0t1Z6oCd4pEor.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctd\u003e Try to Create Category by Passing Catalog Items ID that Doesnt Exists\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRHQJVTHWA12hf6hSedUKrs0P8O3vpBIR.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRHQJVTHWA12hf6hSedUKrs0P8O3vpBIR.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRHQJVTHWA12hf6hSedUKrs0P8O3vpBIR.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTry to Update Category  by Passing Empty Value in Name Field\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRA8QJP1GJM0dBfUmShRqRRWFCXSctzoR.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRA8QJP1GJM0dBfUmShRqRRWFCXSctzoR.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRA8QJP1GJM0dBfUmShRqRRWFCXSctzoR.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTry to Update Category  by Passing Invalid Catalog Items\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRA8QMDVK211Fq5TuWC4PXNtM4Rc20iSv.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRA8QMDVK211Fq5TuWC4PXNtM4Rc20iSv.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRA8QMDVK211Fq5TuWC4PXNtM4Rc20iSv.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTry to Update Category  by Passing more than 64chars in Name Field\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRA8QUBOP7410PxhF6eV8tHGNp60rcLP3.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRA8QUBOP7410PxhF6eV8tHGNp60rcLP3.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRA8QUBOP7410PxhF6eV8tHGNp60rcLP3.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTry to Update Category  by Passing more than 1024 chars in Description Field\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRA8QWVWI642rHteeaoGd0eIFqymvaY6B.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRA8QWVWI642rHteeaoGd0eIFqymvaY6B.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRA8QWVWI642rHteeaoGd0eIFqymvaY6B.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/table\u003e"
+              "variable_value_new": "\u003ch2\u003eCategory API Status Codes for valid and Invalid Cases \u003c/h2\u003e\n\u003ctable\u003e\n\u003ctr\u003e\n\u003cth\u003eActivity Name\u003c/th\u003e\n\u003cth\u003eTrue/False\u003c/th\u003e\n\u003cth\u003eError Code\u003c/th\u003e\n\u003cth\u003eError Message\u003c/th\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET All Categories\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN15TQP7SAB26mwUdZwyRS8b2CSi3Cg7B.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN15TQP7SAB26mwUdZwyRS8b2CSi3Cg7B.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN15TQP7SAB26mwUdZwyRS8b2CSi3Cg7B.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET All Categories With Limit and Start\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN3KNQHMW8E0PjpUuZZDDE1cYCxz38O5v.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN15HM7IZMQ4XZAneokCmc3lpHXTjVkUD.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN15HM7IZMQ4XZAneokCmc3lpHXTjVkUD.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET All Categories with Invalid Limit and Start\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN3N4BINP4A0jVfV5mI2ZSOf8gfqgBPYR.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN3N4BINP4A0jVfV5mI2ZSOf8gfqgBPYR.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN3N4BINP4A0jVfV5mI2ZSOf8gfqgBPYR.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET Category by ID\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN3IRYHPU4P7PhCuQNiaDkGIiIsLGVFES.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN3IRYHPU4P7PhCuQNiaDkGIiIsLGVFES.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN3IRYHPU4P7PhCuQNiaDkGIiIsLGVFES.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET Category by Name\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN5YT0AU6BI6HCaf13yvBhFIevEG5G3X3.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN5YT0AU6BI6HCaf13yvBhFIevEG5G3X3.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN5YT0AU6BI6HCaf13yvBhFIevEG5G3X3.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET All Categories with Include Catalog Items \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN6D6MH2TUD3UPHd2Rt0GdNl5nAdZwlJR.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN6D6MH2TUD3UPHd2Rt0GdNl5nAdZwlJR.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN6D6MH2TUD3UPHd2Rt0GdNl5nAdZwlJR.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate Category \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN6NGRYR6H10oCcvRyeypDETpZs8OqZ9F.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN6NGRYR6H10oCcvRyeypDETpZs8OqZ9F.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN6NGRYR6H10oCcvRyeypDETpZs8OqZ9F.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eUpdate Category \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQH0SMVADRE5Ah6prLNDjbriyYKtlbmCS.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQH0SMVADRE5Ah6prLNDjbriyYKtlbmCS.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQH0SMVADRE5Ah6prLNDjbriyYKtlbmCS.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDelete Category \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN7P1ZMFEUE3BYS4wIumYnTLW6iRjZsMP.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN7P1ZMFEUE3BYS4wIumYnTLW6iRjZsMP.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN7P1ZMFEUE3BYS4wIumYnTLW6iRjZsMP.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTry to Delete Category by Passing Category ID which is Already Deleted \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKJS32AOPQ2CkpsCDeUuK68osaCFf9Wi.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKJS32AOPQ2CkpsCDeUuK68osaCFf9Wi.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKJS32AOPQ2CkpsCDeUuK68osaCFf9Wi.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTrying to Create Category by Passing Empty value in Name Field\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKOMACP8P85WjjlX5FPRQah4fqRe0mvq.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKOMACP8P85WjjlX5FPRQah4fqRe0mvq.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKOMACP8P85WjjlX5FPRQah4fqRe0mvq.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTry to Create Category by Passing Invalid Catlog Items \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKQH1SSW4Q0hn0rUWuRkhn2A74WXmFsq.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKQH1SSW4Q0hn0rUWuRkhn2A74WXmFsq.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKQH1SSW4Q0hn0rUWuRkhn2A74WXmFsq.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTry to Create  Category by Passing Special Chars in Name Field \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKTHM0WV7I3pQMaxbB6TQyjeopJePT05.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKTHM0WV7I3pQMaxbB6TQyjeopJePT05.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKTHM0WV7I3pQMaxbB6TQyjeopJePT05.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTry to Create  Category by Passing Chinese Chars in Name Field\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKUCKQXKHO4IV7Sa7bK1C1v0p1vfQVLn.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKUCKQXKHO4IV7Sa7bK1C1v0p1vfQVLn.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKUCKQXKHO4IV7Sa7bK1C1v0p1vfQVLn.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTry to Create Category by Passing More than 64 Chars in Name Field \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKWKAHYW4D5ddWS0IHiNegyf23cgeDNb.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKWKAHYW4D5ddWS0IHiNegyf23cgeDNb.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQKWKAHYW4D5ddWS0IHiNegyf23cgeDNb.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTry to Create Category by Passing More than 1024 Chars in Description Field \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQMFN6S0SEA4hImueRXl0t1Z6oCd4pEor.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQMFN6S0SEA4hImueRXl0t1Z6oCd4pEor.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GQMFN6S0SEA4hImueRXl0t1Z6oCd4pEor.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctd\u003e Try to Create Category by Passing Catalog Items ID that Doesnt Exists\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRHQJVTHWA12hf6hSedUKrs0P8O3vpBIR.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRHQJVTHWA12hf6hSedUKrs0P8O3vpBIR.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRHQJVTHWA12hf6hSedUKrs0P8O3vpBIR.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTry to Update Category  by Passing Empty Value in Name Field\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRA8QJP1GJM0dBfUmShRqRRWFCXSctzoR.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRA8QJP1GJM0dBfUmShRqRRWFCXSctzoR.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRA8QJP1GJM0dBfUmShRqRRWFCXSctzoR.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTry to Update Category  by Passing Invalid Catalog Items\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRA8QMDVK211Fq5TuWC4PXNtM4Rc20iSv.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRA8QMDVK211Fq5TuWC4PXNtM4Rc20iSv.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRA8QMDVK211Fq5TuWC4PXNtM4Rc20iSv.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTry to Update Category  by Passing more than 64chars in Name Field\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRA8QUBOP7410PxhF6eV8tHGNp60rcLP3.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRA8QUBOP7410PxhF6eV8tHGNp60rcLP3.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRA8QUBOP7410PxhF6eV8tHGNp60rcLP3.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTry to Update Category  by Passing more than 1024 chars in Description Field\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRA8QWVWI642rHteeaoGd0eIFqymvaY6B.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRA8QWVWI642rHteeaoGd0eIFqymvaY6B.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRA8QWVWI642rHteeaoGd0eIFqymvaY6B.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/table\u003e"
             }
           ]
         },
