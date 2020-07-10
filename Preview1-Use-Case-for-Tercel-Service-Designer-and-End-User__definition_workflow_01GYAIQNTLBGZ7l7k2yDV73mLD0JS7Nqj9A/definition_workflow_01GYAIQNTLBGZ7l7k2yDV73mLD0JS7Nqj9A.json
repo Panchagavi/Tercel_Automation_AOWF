@@ -9,29 +9,6 @@
       {
         "schema_id": "datatype.string",
         "properties": {
-          "value": "WM_Operations",
-          "scope": "input",
-          "name": "WFName_Filter",
-          "type": "datatype.string",
-          "is_required": true
-        },
-        "unique_name": "variable_workflow_01GYATW3MUG3B61UCPesjnuAWHKS0VQbkWE",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-        "properties": {
-          "scope": "local",
-          "name": "Form Resposne Headers",
-          "type": "datatype.table",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GYB08PJUZZX0LQ61CUQiNTQWI0zaytAUq",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
           "value": "",
           "scope": "output",
           "name": "Print the Order Output",
@@ -99,6 +76,29 @@
           "is_required": true
         },
         "unique_name": "variable_workflow_01GYATMVPWGRL0cQ1DB0VzbIXXC5GIlJsUj",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "WMOperations",
+          "scope": "input",
+          "name": "WFName_Filter",
+          "type": "datatype.string",
+          "is_required": true
+        },
+        "unique_name": "variable_workflow_01GYATW3MUG3B61UCPesjnuAWHKS0VQbkWE",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+        "properties": {
+          "scope": "local",
+          "name": "Form Resposne Headers",
+          "type": "datatype.table",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GYB08PJUZZX0LQ61CUQiNTQWI0zaytAUq",
         "object_type": "variable_workflow"
       }
     ],
@@ -484,7 +484,34 @@
                 "override_target_runtime_user": false,
                 "target_default": true
               },
-              "skip_execution": true,
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": true,
+                "target_id": "definition_target_01GSJUSLNKC6X3V87R7SkO6VzEyeIOTZZER"
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H51KHH97EVO6wtfQfqMce7ImgW8EkJSlx",
+            "name": "HTTP Request",
+            "title": "Get Schema by FormID",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Get Schema by FormID",
+              "method": "GET",
+              "relative_url": "forms/$activity.definition_activity_01GZCXJ8589SR45P7fOZllDxdHzXpRRYMll.output.result_string$/schemas",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
               "target": {
                 "override_workflow_target": true,
                 "target_id": "definition_target_01GSJUSLNKC6X3V87R7SkO6VzEyeIOTZZER"
@@ -1159,83 +1186,99 @@
                                 "left_operand": {
                                   "left_operand": {
                                     "left_operand": {
-                                      "left_operand": "$activity.definition_activity_01GYALD0XJZ434lx0IAqUe8d4wPDvHFVJQV.output.status_code$",
-                                      "operator": "eq",
-                                      "right_operand": 200
+                                      "left_operand": {
+                                        "left_operand": {
+                                          "left_operand": "$activity.definition_activity_01GYALD0XJZ434lx0IAqUe8d4wPDvHFVJQV.output.status_code$",
+                                          "operator": "eq",
+                                          "right_operand": 200
+                                        },
+                                        "operator": "and",
+                                        "right_operand": {
+                                          "left_operand": "$activity.definition_activity_01GYAKQGP27UK46CVtYTAJC6VtA4itMDN9L.output.status_code$",
+                                          "operator": "eq",
+                                          "right_operand": 201
+                                        }
+                                      },
+                                      "operator": "and",
+                                      "right_operand": {
+                                        "left_operand": "$activity.definition_activity_01GYB8E1BJ1TP6Z3Wz5onhufhe5kdbyBF6d.output.status_code$",
+                                        "operator": "eq",
+                                        "right_operand": 201
+                                      }
                                     },
                                     "operator": "and",
                                     "right_operand": {
-                                      "left_operand": "$activity.definition_activity_01GYAKQGP27UK46CVtYTAJC6VtA4itMDN9L.output.status_code$",
+                                      "left_operand": "$activity.definition_activity_01GYYASQ4LJRS20KaSUi8ogA5VlfZnKzPzU.output.status_code$",
                                       "operator": "eq",
-                                      "right_operand": 201
+                                      "right_operand": 200
                                     }
                                   },
                                   "operator": "and",
                                   "right_operand": {
-                                    "left_operand": "$activity.definition_activity_01GYB8E1BJ1TP6Z3Wz5onhufhe5kdbyBF6d.output.status_code$",
+                                    "left_operand": "$activity.definition_activity_01GYBCCW3T2YK5fvkGR19MuoiSXGYSppd4l.output.status_code$",
                                     "operator": "eq",
-                                    "right_operand": 201
+                                    "right_operand": 200
                                   }
                                 },
                                 "operator": "and",
                                 "right_operand": {
-                                  "left_operand": "$activity.definition_activity_01GYYASQ4LJRS20KaSUi8ogA5VlfZnKzPzU.output.status_code$",
+                                  "left_operand": "$activity.definition_activity_01GYBEWRZXMZD45dB2XM70ZwMSney6qBUb5.output.status_code$",
                                   "operator": "eq",
-                                  "right_operand": 200
+                                  "right_operand": 201
                                 }
                               },
                               "operator": "and",
                               "right_operand": {
-                                "left_operand": "$activity.definition_activity_01GYBCCW3T2YK5fvkGR19MuoiSXGYSppd4l.output.status_code$",
+                                "left_operand": "$activity.definition_activity_01GYEMRTTQZN35wiyk5DwKFWn6qWGGSLYAH.output.status_code$",
                                 "operator": "eq",
-                                "right_operand": 200
+                                "right_operand": 201
                               }
                             },
                             "operator": "and",
                             "right_operand": {
-                              "left_operand": "$activity.definition_activity_01GYBEWRZXMZD45dB2XM70ZwMSney6qBUb5.output.status_code$",
+                              "left_operand": "$activity.definition_activity_01GYEU5XZX6NB6xgsAVP6Jl8xvn1xa7pvbX.output.status_code$",
                               "operator": "eq",
-                              "right_operand": 201
+                              "right_operand": 200
                             }
                           },
                           "operator": "and",
                           "right_operand": {
-                            "left_operand": "$activity.definition_activity_01GYEMRTTQZN35wiyk5DwKFWn6qWGGSLYAH.output.status_code$",
+                            "left_operand": "$activity.definition_activity_01GYEUCAYW0Y861k5k20AMCW4b9A5lYegnp.output.status_code$",
                             "operator": "eq",
                             "right_operand": 201
                           }
                         },
                         "operator": "and",
                         "right_operand": {
-                          "left_operand": "$activity.definition_activity_01GYEU5XZX6NB6xgsAVP6Jl8xvn1xa7pvbX.output.status_code$",
+                          "left_operand": "$activity.definition_activity_01GYF1EABZNFC1A8CNkSgJOeh0mItB5HNAO.output.status_code$",
                           "operator": "eq",
-                          "right_operand": 200
+                          "right_operand": 201
                         }
                       },
                       "operator": "and",
                       "right_operand": {
-                        "left_operand": "$activity.definition_activity_01GYEUCAYW0Y861k5k20AMCW4b9A5lYegnp.output.status_code$",
+                        "left_operand": "$activity.definition_activity_01GYFCKITZ7VF3I6VMyXF5N19XXbp3fF9zV.output.status_code$",
                         "operator": "eq",
                         "right_operand": 201
                       }
                     },
                     "operator": "and",
                     "right_operand": {
-                      "left_operand": "$activity.definition_activity_01GYF1EABZNFC1A8CNkSgJOeh0mItB5HNAO.output.status_code$",
+                      "left_operand": "$activity.definition_activity_01GYY8RANARUQ2AI12I6jUnoTr5ph9lcdXm.output.status_code$",
                       "operator": "eq",
-                      "right_operand": 201
+                      "right_operand": 200
                     }
                   },
                   "operator": "and",
                   "right_operand": {
-                    "left_operand": "$activity.definition_activity_01GYFCKITZ7VF3I6VMyXF5N19XXbp3fF9zV.output.status_code$",
+                    "left_operand": "$activity.definition_activity_01GYYBNODK55G1bK0COgE8x2qYfxHPkG382.output.status_code$",
                     "operator": "eq",
-                    "right_operand": 201
+                    "right_operand": 200
                   }
                 },
                 "operator": "and",
                 "right_operand": {
-                  "left_operand": "$activity.definition_activity_01GYY8RANARUQ2AI12I6jUnoTr5ph9lcdXm.output.status_code$",
+                  "left_operand": "$activity.definition_activity_01H51KHH97EVO6wtfQfqMce7ImgW8EkJSlx.output.status_code$",
                   "operator": "eq",
                   "right_operand": 200
                 }
@@ -1286,83 +1329,99 @@
                                 "left_operand": {
                                   "left_operand": {
                                     "left_operand": {
-                                      "left_operand": "$activity.definition_activity_01GYALD0XJZ434lx0IAqUe8d4wPDvHFVJQV.output.error.code$",
-                                      "operator": "ne",
-                                      "right_operand": "200"
+                                      "left_operand": {
+                                        "left_operand": {
+                                          "left_operand": "$activity.definition_activity_01GYALD0XJZ434lx0IAqUe8d4wPDvHFVJQV.output.error.code$",
+                                          "operator": "ne",
+                                          "right_operand": "200"
+                                        },
+                                        "operator": "or",
+                                        "right_operand": {
+                                          "left_operand": "$activity.definition_activity_01GYAKQGP27UK46CVtYTAJC6VtA4itMDN9L.output.error.code$",
+                                          "operator": "ne",
+                                          "right_operand": "201"
+                                        }
+                                      },
+                                      "operator": "or",
+                                      "right_operand": {
+                                        "left_operand": "$activity.definition_activity_01GYB8E1BJ1TP6Z3Wz5onhufhe5kdbyBF6d.output.error.code$",
+                                        "operator": "ne",
+                                        "right_operand": "201"
+                                      }
                                     },
                                     "operator": "or",
                                     "right_operand": {
-                                      "left_operand": "$activity.definition_activity_01GYAKQGP27UK46CVtYTAJC6VtA4itMDN9L.output.error.code$",
+                                      "left_operand": "$activity.definition_activity_01GYYASQ4LJRS20KaSUi8ogA5VlfZnKzPzU.output.error.code$",
                                       "operator": "ne",
-                                      "right_operand": "201"
+                                      "right_operand": "200"
                                     }
                                   },
                                   "operator": "or",
                                   "right_operand": {
-                                    "left_operand": "$activity.definition_activity_01GYB8E1BJ1TP6Z3Wz5onhufhe5kdbyBF6d.output.error.code$",
+                                    "left_operand": "$activity.definition_activity_01GYBCCW3T2YK5fvkGR19MuoiSXGYSppd4l.output.error.code$",
                                     "operator": "ne",
-                                    "right_operand": "201"
+                                    "right_operand": "200"
                                   }
                                 },
                                 "operator": "or",
                                 "right_operand": {
-                                  "left_operand": "$activity.definition_activity_01GYYASQ4LJRS20KaSUi8ogA5VlfZnKzPzU.output.error.code$",
+                                  "left_operand": "$activity.definition_activity_01GYBEWRZXMZD45dB2XM70ZwMSney6qBUb5.output.error.code$",
                                   "operator": "ne",
-                                  "right_operand": "200"
+                                  "right_operand": "201"
                                 }
                               },
                               "operator": "or",
                               "right_operand": {
-                                "left_operand": "$activity.definition_activity_01GYBCCW3T2YK5fvkGR19MuoiSXGYSppd4l.output.error.code$",
+                                "left_operand": "$activity.definition_activity_01GYEMRTTQZN35wiyk5DwKFWn6qWGGSLYAH.output.error.code$",
                                 "operator": "ne",
-                                "right_operand": "200"
+                                "right_operand": "201"
                               }
                             },
                             "operator": "or",
                             "right_operand": {
-                              "left_operand": "$activity.definition_activity_01GYBEWRZXMZD45dB2XM70ZwMSney6qBUb5.output.error.code$",
+                              "left_operand": "$activity.definition_activity_01GYEU5XZX6NB6xgsAVP6Jl8xvn1xa7pvbX.output.error.code$",
                               "operator": "ne",
-                              "right_operand": "201"
+                              "right_operand": "200"
                             }
                           },
                           "operator": "or",
                           "right_operand": {
-                            "left_operand": "$activity.definition_activity_01GYEMRTTQZN35wiyk5DwKFWn6qWGGSLYAH.output.error.code$",
+                            "left_operand": "$activity.definition_activity_01GYEUCAYW0Y861k5k20AMCW4b9A5lYegnp.output.error.code$",
                             "operator": "ne",
                             "right_operand": "201"
                           }
                         },
                         "operator": "or",
                         "right_operand": {
-                          "left_operand": "$activity.definition_activity_01GYEU5XZX6NB6xgsAVP6Jl8xvn1xa7pvbX.output.error.code$",
+                          "left_operand": "$activity.definition_activity_01GYF1EABZNFC1A8CNkSgJOeh0mItB5HNAO.output.error.code$",
                           "operator": "ne",
-                          "right_operand": "200"
+                          "right_operand": "201"
                         }
                       },
                       "operator": "or",
                       "right_operand": {
-                        "left_operand": "$activity.definition_activity_01GYEUCAYW0Y861k5k20AMCW4b9A5lYegnp.output.error.code$",
+                        "left_operand": "$activity.definition_activity_01GYFCKITZ7VF3I6VMyXF5N19XXbp3fF9zV.output.error.code$",
                         "operator": "ne",
                         "right_operand": "201"
                       }
                     },
                     "operator": "or",
                     "right_operand": {
-                      "left_operand": "$activity.definition_activity_01GYF1EABZNFC1A8CNkSgJOeh0mItB5HNAO.output.error.code$",
+                      "left_operand": "$activity.definition_activity_01GYY8RANARUQ2AI12I6jUnoTr5ph9lcdXm.output.error.code$",
                       "operator": "ne",
-                      "right_operand": "201"
+                      "right_operand": "200"
                     }
                   },
                   "operator": "or",
                   "right_operand": {
-                    "left_operand": "$activity.definition_activity_01GYFCKITZ7VF3I6VMyXF5N19XXbp3fF9zV.output.error.code$",
+                    "left_operand": "$activity.definition_activity_01GYYBNODK55G1bK0COgE8x2qYfxHPkG382.output.error.code$",
                     "operator": "ne",
-                    "right_operand": "201"
+                    "right_operand": "200"
                   }
                 },
                 "operator": "or",
                 "right_operand": {
-                  "left_operand": "$activity.definition_activity_01GYY8RANARUQ2AI12I6jUnoTr5ph9lcdXm.output.error.code$",
+                  "left_operand": "$activity.definition_activity_01H51KHH97EVO6wtfQfqMce7ImgW8EkJSlx.output.error.code$",
                   "operator": "ne",
                   "right_operand": "200"
                 }
@@ -1982,7 +2041,7 @@
           "variables_to_update": [
             {
               "variable_to_update": "$workflow.definition_workflow_01GYAIQNTLBGZ7l7k2yDV73mLD0JS7Nqj9A.output.variable_workflow_01GYYKCY2U2910vcLzcbZsmUmYyaswktPbH$",
-              "variable_value_new": "\u003ch2\u003ePreview1 User Case - Desinger and EndUser Status Codes and Messages\u003c/h2\u003e\n\u003ctable\u003e\n\u003ctr\u003e\n\u003cth\u003eActivity Name\u003c/th\u003e\n\u003cth\u003eTrue/False\u003c/th\u003e\n\u003cth\u003eStatus Code\u003c/th\u003e\n\u003cth\u003eStatus Message\u003c/th\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eFetch the Workflow from the AO\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYALD0XJZ434lx0IAqUe8d4wPDvHFVJQV.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYALD0XJZ434lx0IAqUe8d4wPDvHFVJQV.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYALD0XJZ434lx0IAqUe8d4wPDvHFVJQV.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate a LifeCycleaction Using a Workflow\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYAKQGP27UK46CVtYTAJC6VtA4itMDN9L.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYAKQGP27UK46CVtYTAJC6VtA4itMDN9L.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYAKQGP27UK46CVtYTAJC6VtA4itMDN9L.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate a form Uaing a LifeCycleaction\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYB8E1BJ1TP6Z3Wz5onhufhe5kdbyBF6d.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYB8E1BJ1TP6Z3Wz5onhufhe5kdbyBF6d.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYB8E1BJ1TP6Z3Wz5onhufhe5kdbyBF6d.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet the Schema by FormID\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYYASQ4LJRS20KaSUi8ogA5VlfZnKzPzU.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYYASQ4LJRS20KaSUi8ogA5VlfZnKzPzU.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYYASQ4LJRS20KaSUi8ogA5VlfZnKzPzU.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\n\u003ctr\u003e\n\u003ctd\u003eCreate a ServiceGroup\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYBEWRZXMZD45dB2XM70ZwMSney6qBUb5.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYBEWRZXMZD45dB2XM70ZwMSney6qBUb5.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYBEWRZXMZD45dB2XM70ZwMSney6qBUb5.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate a Service Using the LifeCycleaction\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYEMRTTQZN35wiyk5DwKFWn6qWGGSLYAH.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYEMRTTQZN35wiyk5DwKFWn6qWGGSLYAH.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYEMRTTQZN35wiyk5DwKFWn6qWGGSLYAH.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet Image for CatelogItem Creation\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYEU5XZX6NB6xgsAVP6Jl8xvn1xa7pvbX.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYEU5XZX6NB6xgsAVP6Jl8xvn1xa7pvbX.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYEU5XZX6NB6xgsAVP6Jl8xvn1xa7pvbX.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate a Category for a CatalogItem\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYEUCAYW0Y861k5k20AMCW4b9A5lYegnp.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYEUCAYW0Y861k5k20AMCW4b9A5lYegnp.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYEUCAYW0Y861k5k20AMCW4b9A5lYegnp.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate a CatalogItems Using Service,Image and Category\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYF1EABZNFC1A8CNkSgJOeh0mItB5HNAO.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYF1EABZNFC1A8CNkSgJOeh0mItB5HNAO.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYF1EABZNFC1A8CNkSgJOeh0mItB5HNAO.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate a CatalogItemAction Using CatalogItem\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYFCKITZ7VF3I6VMyXF5N19XXbp3fF9zV.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYFCKITZ7VF3I6VMyXF5N19XXbp3fF9zV.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYFCKITZ7VF3I6VMyXF5N19XXbp3fF9zV.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePublish the CatalogItem to Place order for EndUser\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYY8RANARUQ2AI12I6jUnoTr5ph9lcdXm.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYY8RANARUQ2AI12I6jUnoTr5ph9lcdXm.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYY8RANARUQ2AI12I6jUnoTr5ph9lcdXm.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePlace a order for a CatalogItem\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYFP906HQ8R1UvDudbdDpLwdlzeRLVsj1.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYFP906HQ8R1UvDudbdDpLwdlzeRLVsj1.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYFP906HQ8R1UvDudbdDpLwdlzeRLVsj1.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet the Order Details for a Order\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYG46OIQ2EA4V8qcc45rFHEiaVFV1BEu5.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYG46OIQ2EA4V8qcc45rFHEiaVFV1BEu5.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYG46OIQ2EA4V8qcc45rFHEiaVFV1BEu5.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/table\u003e"
+              "variable_value_new": "\u003ch2\u003ePreview1 User Case - Desinger and EndUser Status Codes and Messages\u003c/h2\u003e\n\u003ctable\u003e\n\u003ctr\u003e\n\u003cth\u003eActivity Name\u003c/th\u003e\n\u003cth\u003eTrue/False\u003c/th\u003e\n\u003cth\u003eStatus Code\u003c/th\u003e\n\u003cth\u003eStatus Message\u003c/th\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eFetch the Workflow from the AO\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYALD0XJZ434lx0IAqUe8d4wPDvHFVJQV.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYALD0XJZ434lx0IAqUe8d4wPDvHFVJQV.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYALD0XJZ434lx0IAqUe8d4wPDvHFVJQV.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate a LifeCycleaction Using a Workflow\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYAKQGP27UK46CVtYTAJC6VtA4itMDN9L.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYAKQGP27UK46CVtYTAJC6VtA4itMDN9L.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYAKQGP27UK46CVtYTAJC6VtA4itMDN9L.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate a form Uaing a LifeCycleaction\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYB8E1BJ1TP6Z3Wz5onhufhe5kdbyBF6d.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYB8E1BJ1TP6Z3Wz5onhufhe5kdbyBF6d.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYB8E1BJ1TP6Z3Wz5onhufhe5kdbyBF6d.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet the Schema by FormID\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYYASQ4LJRS20KaSUi8ogA5VlfZnKzPzU.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYYASQ4LJRS20KaSUi8ogA5VlfZnKzPzU.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYYASQ4LJRS20KaSUi8ogA5VlfZnKzPzU.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePublish/Validate the Form\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYYBNODK55G1bK0COgE8x2qYfxHPkG382.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYYBNODK55G1bK0COgE8x2qYfxHPkG382.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYYBNODK55G1bK0COgE8x2qYfxHPkG382.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eSchema details for a Form after the Publish\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H51KHH97EVO6wtfQfqMce7ImgW8EkJSlx.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H51KHH97EVO6wtfQfqMce7ImgW8EkJSlx.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H51KHH97EVO6wtfQfqMce7ImgW8EkJSlx.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate a ServiceGroup\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYBEWRZXMZD45dB2XM70ZwMSney6qBUb5.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYBEWRZXMZD45dB2XM70ZwMSney6qBUb5.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYBEWRZXMZD45dB2XM70ZwMSney6qBUb5.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate a Service Using the LifeCycleaction\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYEMRTTQZN35wiyk5DwKFWn6qWGGSLYAH.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYEMRTTQZN35wiyk5DwKFWn6qWGGSLYAH.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYEMRTTQZN35wiyk5DwKFWn6qWGGSLYAH.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet Image for CatelogItem Creation\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYEU5XZX6NB6xgsAVP6Jl8xvn1xa7pvbX.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYEU5XZX6NB6xgsAVP6Jl8xvn1xa7pvbX.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYEU5XZX6NB6xgsAVP6Jl8xvn1xa7pvbX.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate a Category for a CatalogItem\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYEUCAYW0Y861k5k20AMCW4b9A5lYegnp.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYEUCAYW0Y861k5k20AMCW4b9A5lYegnp.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYEUCAYW0Y861k5k20AMCW4b9A5lYegnp.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate a CatalogItems Using Service,Image and Category\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYF1EABZNFC1A8CNkSgJOeh0mItB5HNAO.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYF1EABZNFC1A8CNkSgJOeh0mItB5HNAO.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYF1EABZNFC1A8CNkSgJOeh0mItB5HNAO.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate a CatalogItemAction Using CatalogItem\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYFCKITZ7VF3I6VMyXF5N19XXbp3fF9zV.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYFCKITZ7VF3I6VMyXF5N19XXbp3fF9zV.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYFCKITZ7VF3I6VMyXF5N19XXbp3fF9zV.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePublish the CatalogItem to Place order for EndUser\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYY8RANARUQ2AI12I6jUnoTr5ph9lcdXm.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYY8RANARUQ2AI12I6jUnoTr5ph9lcdXm.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYY8RANARUQ2AI12I6jUnoTr5ph9lcdXm.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePlace a order for a CatalogItem\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYFP906HQ8R1UvDudbdDpLwdlzeRLVsj1.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYFP906HQ8R1UvDudbdDpLwdlzeRLVsj1.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYFP906HQ8R1UvDudbdDpLwdlzeRLVsj1.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet the Order Details for a Order\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYG46OIQ2EA4V8qcc45rFHEiaVFV1BEu5.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYG46OIQ2EA4V8qcc45rFHEiaVFV1BEu5.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GYG46OIQ2EA4V8qcc45rFHEiaVFV1BEu5.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/table\u003e"
             }
           ]
         },
