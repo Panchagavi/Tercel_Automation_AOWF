@@ -11,11 +11,23 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "NegativeTest-Create Action on CatalogItem OutputStatus-Pass/Fail",
+          "name": "NegativeTest-Update Action on CatalogItem OutputStatus-Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GXFTJL849KD6wYlvaJB6ejK6DYMOQCT0e",
+        "unique_name": "variable_workflow_01GXGI4IZO2KM6Hfcm7Bjj7ubMlQhLd2PEm",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Email Table",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GY81QFL4A5I31UI5E7FySQ70noxLEmcEJ",
         "object_type": "variable_workflow"
       },
       {
@@ -35,71 +47,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "NegativeTest-Update Action on CatalogItem OutputStatus-Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GXGI4IZO2KM6Hfcm7Bjj7ubMlQhLd2PEm",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Update State of Catalog Item Output Status - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GWMWMCSTRQ10N36q2O13WqUulyfYh1PU0",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
           "name": "Delete Action on CatalogItem by ActionID Output Status-Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
         "unique_name": "variable_workflow_01GWMLGUSBVZG31giVbXa2qJDPZHgofgkxO",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Create an Action on Catalog Item Output Status - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GWJ1DOXG8JT35MqVdwgRerjqrzmmRIq9G",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "NegativeTest-Get Actions of  CatalogItem OutputStatus-Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GXFHTCM19OT44m8cWx3LIyMVo9eP6cHpf",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Get Action on Catalog Item by ActionID Output Status - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GWMF4684CHE3OFOdsFAERjwJW6lEtkyEI",
         "object_type": "variable_workflow"
       },
       {
@@ -119,6 +71,30 @@
         "properties": {
           "value": "",
           "scope": "output",
+          "name": "NegativeTest-Get Actions of  CatalogItem OutputStatus-Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GXFHTCM19OT44m8cWx3LIyMVo9eP6cHpf",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "NegativeTest-Create Action on CatalogItem OutputStatus-Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GXFTJL849KD6wYlvaJB6ejK6DYMOQCT0e",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
           "name": "Update Action on CatalogItem by ActionID OutputSatatus-Pass/Fail",
           "type": "datatype.string",
           "is_required": false
@@ -131,11 +107,35 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Email Table",
+          "name": "Create an Action on Catalog Item Output Status - Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GY81QFL4A5I31UI5E7FySQ70noxLEmcEJ",
+        "unique_name": "variable_workflow_01GWJ1DOXG8JT35MqVdwgRerjqrzmmRIq9G",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Update State of Catalog Item Output Status - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWMWMCSTRQ10N36q2O13WqUulyfYh1PU0",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Get Action on Catalog Item by ActionID Output Status - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWMF4684CHE3OFOdsFAERjwJW6lEtkyEI",
         "object_type": "variable_workflow"
       }
     ],
@@ -253,13 +253,13 @@
           {
             "unique_name": "definition_activity_01GTYIXUBVRQM0bXHNsqeirB8azybkXaMlz",
             "name": "JSONPath Query",
-            "title": "JSONPath Query",
+            "title": "Fetch Category ID",
             "type": "corejava.jsonpathquery",
             "base_type": "activity",
             "properties": {
               "action_timeout": 180,
               "continue_on_failure": false,
-              "display_name": "JSONPath Query",
+              "display_name": "Fetch Category ID",
               "input_json": "$activity.definition_activity_01GTYHU5FBVW10sJShRVuNB5qJo0BeyLDJt.output.response_body$",
               "jsonpath_queries": [
                 {
@@ -281,7 +281,7 @@
             "properties": {
               "action_timeout": 180,
               "allow_auto_redirect": true,
-              "body": "{\n\n\"categories\": [\n\"$activity.definition_activity_01GTYIXUBVRQM0bXHNsqeirB8azybkXaMlz.output.jsonpath_queries.Cat_ID$\"\n],\n\"description\": \"catalogItem Description - $workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$\",\n\"icon\": \"5e9d3ea56a4c6b8651912da7\",\n\"image_gallery\": [\n\"5ef1ef2fe5190afa5110c1c7\"\n],\n\"invalid_properties\": {\n\"additionalProp1\": {},\n\"additionalProp2\": {},\n\"additionalProp3\": {}\n},\n\"is_orderable\": true,\n\"is_orderable_for_others\": true,\n\"links\": [\n{\n\"link_text\": \"PSC_URL\",\n\"url\": \"http://172.21.37.22:8080/RequestCenter\"\n}\n],\n\"name\": \"CatalogItem00-$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$\",\n\"object_type\": \"catalog_item\",\n\n\"service_definitions\": [\n\"$activity.definition_activity_01GTYFVHU10KJ31e9mRphki4uvIRi4KGQTx.output.variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI$\"\n\n],\n\n\"tags\": [\n\"TercelTag\"\n],\n\"terms_and_conditions\": \"terms\",\n\"title\": \"catalogitem\",\n\"type\": \"catalogitem\",\n\"unique_name\": \"CatalogItem Unique Name - $workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$\",\n\"version\": {\n\"build\": 0,\n\"major\": 0,\n\"minor\": 0\n}\n}",
+              "body": "{\n  \"description\": \"catalogItem Description - $workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$\",\n  \"icon\": \"5e9d3ea56a4c6b8651912da7\",\n  \"image_gallery\": [\n    \"5ef1ef2fe5190afa5110c1c7\"\n  ],\n  \"invalid_properties\": {\n    \"additionalProp1\": {},\n    \"additionalProp2\": {},\n    \"additionalProp3\": {}\n  },\n  \"is_orderable\": true,\n  \"is_orderable_for_others\": true,\n  \"links\": [\n    {\n      \"link_text\": \"PSC_URL\",\n      \"url\": \"http://172.21.37.22:8080/RequestCenter\"\n    }\n  ],\n  \"name\": \"CatalogItem00-$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$\",\n  \"object_type\": \"catalog_item\",\n  \"service_definitions\": [\n    \"$activity.definition_activity_01GTYFVHU10KJ31e9mRphki4uvIRi4KGQTx.output.variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI$\"\n  ],\n  \"tags\": [\n    \"TercelTag\"\n  ],\n  \"terms_and_conditions\": \"terms\",\n  \"title\": \"catalogitem\",\n  \"type\": \"catalogitem\",\n  \"unique_name\": \"CatalogItem Unique Name - $workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$\",\n  \"version\": {\n    \"build\": 0,\n    \"major\": 0,\n    \"minor\": 0\n  }\n}",
               "content_type": "application/json",
               "continue_on_error_status_code": false,
               "continue_on_failure": false,
@@ -352,6 +352,65 @@
               "skip_execution": false
             },
             "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H5RYNVR8Y7J4JTjBbRRbAwHTuM8O5JFAx",
+            "name": "HTTP Request",
+            "title": "Update a Category - Map a CatalogItem",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "body": "{\n\"catalog_items\": [\n\t\t\"$activity.definition_activity_01GTYO3710TNV19P6Uz55etyLcvMxBT41zx.output.jsonpath_queries.CatalogItem_ID$\"\n\t\n\t],\n  \"description\": \"Category Name description\",\n  \"name\": \"Cat00-$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$\"\n}",
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Update a Category - Map a CatalogItem",
+              "method": "PUT",
+              "relative_url": "categories/$activity.definition_activity_01GTYIXUBVRQM0bXHNsqeirB8azybkXaMlz.output.jsonpath_queries.Cat_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H5S0C675QJK45a6y3uhgPx1DIMivFaKVn",
+            "name": "HTTP Request",
+            "title": "Get CatalogItem by ID",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "content_type": "application/json",
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Get CatalogItem by ID",
+              "method": "GET",
+              "relative_url": "catalogitems/$activity.definition_activity_01GTYO3710TNV19P6Uz55etyLcvMxBT41zx.output.jsonpath_queries.CatalogItem_ID$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
           }
         ]
       },
@@ -375,6 +434,7 @@
             "type": "workflow.atomic_workflow",
             "base_type": "subworkflow",
             "properties": {
+              "continue_on_failure": false,
               "display_name": "Tercel Action Creation Atomic",
               "input": {
                 "variable_workflow_01GN65RVL49Q22OUGuvaRSLA0dIlMdZXBD5": "Tercel_AutomationWF",
@@ -383,6 +443,7 @@
               "runtime_user": {
                 "target_default": true
               },
+              "skip_execution": true,
               "target": {
                 "execute_on_this_target": true,
                 "target_id": "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP",
@@ -401,7 +462,7 @@
             "properties": {
               "action_timeout": 180,
               "allow_auto_redirect": true,
-              "body": "{\n  \"is_custom\": true,\n  \"lifecycle_actions\": [\n    {\n      \"action_id\": \"$activity.definition_activity_01GTZ6G4XVO3X0YYCA2WJzPC28P69Kro4o4.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$\",\n      \"sequence\": 0,\n      \"service_definition_id\": \"$activity.definition_activity_01GTYFVHU10KJ31e9mRphki4uvIRi4KGQTx.output.variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI$\"\n    }\n  ],\n  \"name\": \"TAction-$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$\"\n}",
+              "body": "{\n  \"is_custom\": true,\n  \"lifecycle_actions\": [\n    {\n      \"action_id\": \"$activity.definition_activity_01GTYFVHU10KJ31e9mRphki4uvIRi4KGQTx.output.variable_workflow_01H5S4A9O8VZP1E3m4of54VdI0WCc82z204$\",\n      \"sequence\": 0,\n      \"service_definition_id\": \"$activity.definition_activity_01GTYFVHU10KJ31e9mRphki4uvIRi4KGQTx.output.variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI$\"\n    }\n  ],\n  \"name\": \"TAction-$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$\"\n}",
               "continue_on_error_status_code": false,
               "continue_on_failure": false,
               "display_name": "Create an Action on Catalog Item",
@@ -538,7 +599,7 @@
             "properties": {
               "action_timeout": 180,
               "allow_auto_redirect": true,
-              "body": "{\n  \"is_custom\": true,\n  \"lifecycle_actions\": [\n    {\n      \"action_id\": \"$activity.definition_activity_01GTZ6G4XVO3X0YYCA2WJzPC28P69Kro4o4.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$\",\n      \"sequence\": 0,\n      \"service_definition_id\": \"5efb1fc4ee6f5be8de4ebbb4\"\n    }\n  ],\n  \"name\": \"TAction-$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$\"\n}",
+              "body": "{\n  \"is_custom\": true,\n  \"lifecycle_actions\": [\n    {\n      \"action_id\": \"$activity.definition_activity_01GTYFVHU10KJ31e9mRphki4uvIRi4KGQTx.output.variable_workflow_01H5S4A9O8VZP1E3m4of54VdI0WCc82z204$\",\n      \"sequence\": 0,\n      \"service_definition_id\": \"5efb1fc4ee6f5be8de4ebbb4\"\n    }\n  ],\n  \"name\": \"TAction-$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$\"\n}",
               "continue_on_error_status_code": false,
               "continue_on_failure": true,
               "description": "Create an Action on Catalog Item by Passing Service ID which is not Added/PArt of Catalog item ",
@@ -598,7 +659,7 @@
             "properties": {
               "action_timeout": 180,
               "allow_auto_redirect": true,
-              "body": "{\n  \"is_custom\": true,\n  \"lifecycle_actions\": [\n    {\n      \"action_id\": \"$activity.definition_activity_01GTZ6G4XVO3X0YYCA2WJzPC28P69Kro4o4.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$\",\n      \"sequence\": 0,\n      \"service_definition_id\": \"$activity.definition_activity_01GTYFVHU10KJ31e9mRphki4uvIRi4KGQTx.output.variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI$\"\n    }\n  ],\n  \"name\": \"\"\n}",
+              "body": "{\n  \"is_custom\": true,\n  \"lifecycle_actions\": [\n    {\n      \"action_id\": \"$activity.definition_activity_01GTYFVHU10KJ31e9mRphki4uvIRi4KGQTx.output.variable_workflow_01H5S4A9O8VZP1E3m4of54VdI0WCc82z204$\",\n      \"sequence\": 0,\n      \"service_definition_id\": \"$activity.definition_activity_01GTYFVHU10KJ31e9mRphki4uvIRi4KGQTx.output.variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI$\"\n    }\n  ],\n  \"name\": \"\"\n}",
               "continue_on_error_status_code": false,
               "continue_on_failure": true,
               "display_name": "Create an Action on Catalog Item Without Passing Name",
@@ -627,7 +688,7 @@
             "properties": {
               "action_timeout": 180,
               "allow_auto_redirect": true,
-              "body": "{\n  \"is_custom\": true,\n  \"lifecycle_actions\": [\n    {\n      \"action_id\": \"$activity.definition_activity_01GTZ6G4XVO3X0YYCA2WJzPC28P69Kro4o4.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$\",\n      \"sequence\": 0,\n      \"service_definition_id\": \"$activity.definition_activity_01GTYFVHU10KJ31e9mRphki4uvIRi4KGQTx.output.variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI$\"\n    }\n  ],\n  \"name\": \"TAction-$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$\"\n}",
+              "body": "{\n  \"is_custom\": true,\n  \"lifecycle_actions\": [\n    {\n      \"action_id\": \"$activity.definition_activity_01GTYFVHU10KJ31e9mRphki4uvIRi4KGQTx.output.variable_workflow_01H5S4A9O8VZP1E3m4of54VdI0WCc82z204$\",\n      \"sequence\": 0,\n      \"service_definition_id\": \"$activity.definition_activity_01GTYFVHU10KJ31e9mRphki4uvIRi4KGQTx.output.variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI$\"\n    }\n  ],\n  \"name\": \"TAction-$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$\"\n}",
               "continue_on_error_status_code": false,
               "continue_on_failure": true,
               "display_name": "Create an Action on Catalog Item With Existing Name ",
@@ -955,7 +1016,7 @@
         "type": "logic.group",
         "base_type": "activity",
         "properties": {
-          "continue_on_failure": false,
+          "continue_on_failure": true,
           "display_name": "Negative Tests for Get Actions of a Catalog Item",
           "skip_execution": false
         },
@@ -971,7 +1032,7 @@
               "action_timeout": 180,
               "allow_auto_redirect": true,
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Get Actions of a Catalog Item by Passing ID that Doesn't Exists",
               "method": "GET",
               "relative_url": "catalogitems/5efb1bfc4d5964ef8907272d/actions",
@@ -1242,7 +1303,7 @@
             "properties": {
               "action_timeout": 180,
               "allow_auto_redirect": true,
-              "body": "{\n  \"is_custom\": true,\n  \"lifecycle_actions\": [\n    {\n      \"action_id\": \"[$activity.Tercel Action Creation Atomic.output.Action_ID$]\",\n      \"sequence\": 0,\n      \"service_definition_id\": \"[$activity.Tercel Service Creation- Using Action Atomic.output.Service_ID$]\"\n    }\n  ],\n  \"name\": \"TActionUPdated-[$workflow.Tercel CatalogItem Actions API -  Positive and Negative Test.output.Instance Id$]\"\n}",
+              "body": "{\n  \"is_custom\": true,\n  \"lifecycle_actions\": [\n    {\n      \"action_id\": \"$activity.definition_activity_01GTYFVHU10KJ31e9mRphki4uvIRi4KGQTx.output.variable_workflow_01H5S4A9O8VZP1E3m4of54VdI0WCc82z204$\",\n      \"sequence\": 0,\n      \"service_definition_id\": \"$activity.definition_activity_01GTYFVHU10KJ31e9mRphki4uvIRi4KGQTx.output.variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI$\"\n   }\n  ],\n  \"name\": \"ActionUPdated-$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$\"\n}",
               "content_type": "application/json",
               "continue_on_error_status_code": false,
               "continue_on_failure": false,
@@ -1380,10 +1441,10 @@
             "properties": {
               "action_timeout": 180,
               "allow_auto_redirect": true,
-              "body": "{\n  \"is_custom\": true,\n  \"lifecycle_actions\": [\n    {\n      \"action_id\": \"$activity.definition_activity_01GTZ6G4XVO3X0YYCA2WJzPC28P69Kro4o4.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$\",\n      \"sequence\": 0,\n      \"service_definition_id\": \"5efb267ce9f8230762b86000\"\n    }\n  ],\n  \"name\": \"TActionUPdated-$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$\"\n}",
+              "body": "{\n  \"is_custom\": true,\n  \"lifecycle_actions\": [\n    {\n      \"action_id\": \"$activity.definition_activity_01GTYFVHU10KJ31e9mRphki4uvIRi4KGQTx.output.variable_workflow_01H5S4A9O8VZP1E3m4of54VdI0WCc82z204$\",\n      \"sequence\": 0,\n      \"service_definition_id\": \"5efb267ce9f8230762b86000\"\n    }\n  ],\n  \"name\": \"TActionUPdated-$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$\"\n}",
               "content_type": "application/json",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "description": "Negative Tests for Update Action on Catlog Item by Action ID by Passing Invalid Service ID",
               "display_name": "Update Action on Catlog Item by Action ID-Invalid Service ID",
               "method": "PUT",
@@ -1414,7 +1475,7 @@
               "body": "{\n  \"is_custom\": true,\n  \"lifecycle_actions\": [\n    {\n      \"action_id\": \"5efb2700af4941345421eb6a\",\n      \"sequence\": 0,\n      \"service_definition_id\": \"$activity.definition_activity_01GTYFVHU10KJ31e9mRphki4uvIRi4KGQTx.output.variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI$\"\n    }\n  ],\n  \"name\": \"TActionUPdated-$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.instance_id$\"\n}",
               "content_type": "application/json",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "description": "Negative Tests for Update Action on Catlog Item by Action ID by Passing Invalid Action ID",
               "display_name": "Update Action on Catlog Item by Action ID-Invalid Action ID",
               "method": "PUT",
@@ -1442,10 +1503,10 @@
             "properties": {
               "action_timeout": 180,
               "allow_auto_redirect": true,
-              "body": "{\n  \"is_custom\": true,\n  \"lifecycle_actions\": [\n    {\n      \"action_id\": \"$activity.definition_activity_01GTZ6G4XVO3X0YYCA2WJzPC28P69Kro4o4.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$\",\n      \"sequence\": 0,\n      \"service_definition_id\": \"$activity.definition_activity_01GTYFVHU10KJ31e9mRphki4uvIRi4KGQTx.output.variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI$\"\n    }\n  ],\n  \"name\": \"\"\n}",
+              "body": "{\n  \"is_custom\": true,\n  \"lifecycle_actions\": [\n    {\n      \"action_id\": \"$activity.definition_activity_01GTYFVHU10KJ31e9mRphki4uvIRi4KGQTx.output.variable_workflow_01H5S4A9O8VZP1E3m4of54VdI0WCc82z204$\",\n      \"sequence\": 0,\n      \"service_definition_id\": \"$activity.definition_activity_01GTYFVHU10KJ31e9mRphki4uvIRi4KGQTx.output.variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI$\"\n    }\n  ],\n  \"name\": \"\"\n}",
               "content_type": "application/json",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "description": "Negative Tests for Update Action on Catlog Item by Action ID without Passing anything in Name field",
               "display_name": "Update Action on Catlog Item by Action ID-Without Passing Name",
               "method": "PUT",
@@ -1752,7 +1813,7 @@
               "allow_auto_redirect": true,
               "body": "{\n\"state\": \"PUBLISHED\"\n}",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Update Catalog Item State to PUBLISHED",
               "method": "PUT",
               "relative_url": "catalogitems/$activity.definition_activity_01GTYO3710TNV19P6Uz55etyLcvMxBT41zx.output.jsonpath_queries.CatalogItem_ID$/state",
@@ -1781,7 +1842,7 @@
               "allow_auto_redirect": true,
               "body": "{\n\"state\": \"DRAFT\"\n}",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Update Catalog Item State to DRAFT",
               "method": "PUT",
               "relative_url": "catalogitems/$activity.definition_activity_01GTYO3710TNV19P6Uz55etyLcvMxBT41zx.output.jsonpath_queries.CatalogItem_ID$/state",
@@ -1934,7 +1995,7 @@
               "allow_auto_redirect": true,
               "content_type": "application/json",
               "continue_on_error_status_code": false,
-              "continue_on_failure": false,
+              "continue_on_failure": true,
               "display_name": "Delete Action on a Catlog Item by Action ID that Doesn't Exists",
               "method": "DELETE",
               "relative_url": "catalogitems/$activity.definition_activity_01GTYO3710TNV19P6Uz55etyLcvMxBT41zx.output.jsonpath_queries.CatalogItem_ID$/actions/$activity.definition_activity_01GWLK7ITGAUA16x1MwqQP9Vphr71sbkRQJ.output.jsonpath_queries.action_id$",
@@ -2135,6 +2196,30 @@
         "base_type": "workflow",
         "variables": [
           {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "ServiceGroup_ID",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GN9B0ORUMLA52zdxii7atGlzOXr6EC0q5",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Action_ID",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01H5S4A9O8VZP1E3m4of54VdI0WCc82z204",
+            "object_type": "variable_workflow"
+          },
+          {
             "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
             "properties": {
               "scope": "local",
@@ -2155,18 +2240,6 @@
               "is_required": false
             },
             "unique_name": "variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "ServiceGroup_ID",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GN9B0ORUMLA52zdxii7atGlzOXr6EC0q5",
             "object_type": "variable_workflow"
           }
         ],
@@ -2212,6 +2285,25 @@
                 "target_type": "web-service.endpoint"
               },
               "workflow_id": "definition_workflow_01GN6386122JS6sHfTaXknPpC3Hyqmtld5p"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H5S4DJQAG1J6gEybZMkuAha81KBSFFbjf",
+            "name": "Set Variables",
+            "title": "Print ActionID",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Print ActionID",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01GN6NM7SV0AH2an1wrWtgaAylJZQRL9pmZ.output.variable_workflow_01H5S4A9O8VZP1E3m4of54VdI0WCc82z204$",
+                  "variable_value_new": "$activity.definition_activity_01GN6ODU71I397SlTUWVJshmNRNscLSdEfg.output.variable_workflow_01GN69SKKV1BI2SGyRZBoYLMfwNC3VBYf4k$"
+                }
+              ]
             },
             "object_type": "definition_activity"
           },
