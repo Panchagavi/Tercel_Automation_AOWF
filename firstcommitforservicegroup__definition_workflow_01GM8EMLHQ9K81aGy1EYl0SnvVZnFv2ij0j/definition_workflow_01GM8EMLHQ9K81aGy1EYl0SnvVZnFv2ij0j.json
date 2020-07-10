@@ -9,13 +9,24 @@
       {
         "schema_id": "datatype.string",
         "properties": {
-          "value": "SGTitle",
+          "value": "Service Created from the AO Automation WF",
           "scope": "local",
-          "name": "Enter the Service Group Title",
+          "name": "Enter the Service Group Description",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMA7QJ6PU8M3gt6rSIlPTvRda8Gkhgz8w",
+        "unique_name": "variable_workflow_01GMA75C196OI3SCzRbIuxo1ptCkbUKEqwl",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+        "properties": {
+          "scope": "local",
+          "name": "SG Sorting Headers",
+          "type": "datatype.table",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMABSJ3WQI00tdotdhjAhYMCuIkz9GfGO",
         "object_type": "variable_workflow"
       },
       {
@@ -35,83 +46,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op for invalid start",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMFHFSS5TP078ACHZbyVymN4lZa0ipxwl",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for delete - ID is Invalid",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMM7WD2WNO80JLh0vuwhSDThtHmTL9Cvg",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
           "name": "OP for Update SG with ID which does not exists",
           "type": "datatype.string",
           "is_required": false
         },
         "unique_name": "variable_workflow_01GML55XPMPGY22FVm4xT6MypRGMHg81ieN",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for when title is more than 64",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMG5JDIG6J724UGnNCxMHOoYBjcYtkMCb",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "tercel",
-          "scope": "local",
-          "name": "WFCategory",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMAX7UD9ELA5PURpQWplN873p5TWJE3Xd",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "OP for Delete SG Failed",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMEFTB46BD52g6MQ2sKFqVXGDNg6nOifR",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for update - invalid ID",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMLAETVNKCZ4HnVsyZIxRITlm7kM5qC88",
         "object_type": "variable_workflow"
       },
       {
@@ -131,11 +70,47 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op for update - empty title",
+          "name": "op for update - without name",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMLI5L2FREA3Z4eJ5F0Sz3o74THWbOzXt",
+        "unique_name": "variable_workflow_01GMLK0Z4UKPP3ZUNUiuMYqHBSAIS84yBob",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for duplcate check",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMGDWPXQJLE3DGuwydgl4fJtgMa5wyZgI",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for when name is special char",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMGE3ZLYN9Z6HJWO335YrPaiwuwtrPx1X",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "tercel",
+          "scope": "local",
+          "name": "WFCategory",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMAX7UD9ELA5PURpQWplN873p5TWJE3Xd",
         "object_type": "variable_workflow"
       },
       {
@@ -155,227 +130,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op for SG when title is empty",
+          "name": "op for update - title more the 64",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMFZRH961166wnILvPtVzySyQdMx1RjaL",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for update - without title ",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMLJQMP1LUR0yO0fHFABR0beCCgD9q1YC",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Get Service Group ID Inavlid and Not Exists - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GRC3CM4YWAT3yP02lVgpXnelXK9pvlTM2",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Post Call Negative Test Cases - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GRCN9LWDKG76MjpYz06KN9MqsVOxEQdIL",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Delete Call Negative Test Cases - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GRCNS2YXQSY5IfjsP8Su2pYAOtbIJw1U2",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op when title is not there",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMGDNY5Q0I12KelmGm9ttqyG0dZ8SybGD",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "PUT Call Negative Test Cases - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GRCNJUI7G6Z5HfLV0xesixTk0dwDV9tMu",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "Tercel_AutomationWF",
-          "scope": "local",
-          "name": "WFName",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMAXKNT0FXQ0l90EMGMZQxBnUlB9OFTAl",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for update - localised string",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMM6ZQM7UPS1UjlSZ3okyIgiih97b3G5f",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "GET All Service Groups - Pass/Fail",
-          "type": "datatype.string",
-          "description": "GET All Service Groups - Pass/Fail",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GRAL2CJPUTM6Zrk3NBHO61lQetDzNWelk",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for update - name more than 64",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMLIEGELICW3qtJ7v9ETpZbhxSJB5UxHk",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for ID which does not exists",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMFQ3CHS8L526UzqsAqugnVxg8JilQHm2",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-        "properties": {
-          "scope": "local",
-          "name": "SG Sorting Headers",
-          "type": "datatype.table",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMABSJ3WQI00tdotdhjAhYMCuIkz9GfGO",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for ID which is Invalid",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMFQEXCMT7T4FILay7o3PnPGAsCunPPBl",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op when name is not there",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMGDG2MHZOF7BYsp16vTB4vJX1I8VNCYU",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for SG when name is empty",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMFZJEKCNSK23BlCfdtcutpmcUwxG0SYC",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "Service Created from the AO Automation WF",
-          "scope": "local",
-          "name": "Enter the Service Group Description",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMA75C196OI3SCzRbIuxo1ptCkbUKEqwl",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "SGAO",
-          "scope": "local",
-          "name": "Enter the Service Group name",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMA65U8ODND3mPCShoq1ESUepLu42EvhM",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for update - empty name",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMLH4XRYD5I3xgjAzF7ZwDWJgYzutokj0",
+        "unique_name": "variable_workflow_01GMLIPVP44S858ou0u7YJIVRDEmA9rNkKK",
         "object_type": "variable_workflow"
       },
       {
@@ -395,11 +154,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Mapping a Service_Group to a Service",
+          "name": "op for update - name more than 64",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GRAZCIHKUR52LaZWIYfQlPhEndG4MhOWl",
+        "unique_name": "variable_workflow_01GMLIEGELICW3qtJ7v9ETpZbhxSJB5UxHk",
         "object_type": "variable_workflow"
       },
       {
@@ -417,25 +176,13 @@
       {
         "schema_id": "datatype.string",
         "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for invalid limit",
+          "value": "SGAO",
+          "scope": "local",
+          "name": "Enter the Service Group name",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMFHA1KKSCT4kdVPShLrg0l4kmwImCy4y",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "EmailTable",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GRFXA6LMWYC5VW4I3pHJJIcMZSpoIbSWJ",
+        "unique_name": "variable_workflow_01GMA65U8ODND3mPCShoq1ESUepLu42EvhM",
         "object_type": "variable_workflow"
       },
       {
@@ -455,11 +202,23 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "PUT Call Service Group - Pass/Fail",
+          "name": "op when title is not there",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GRATKHGHCDR7BFElUrKdcJBapaLKUiOdS",
+        "unique_name": "variable_workflow_01GMGDNY5Q0I12KelmGm9ttqyG0dZ8SybGD",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for update - invalid ID",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMLAETVNKCZ4HnVsyZIxRITlm7kM5qC88",
         "object_type": "variable_workflow"
       },
       {
@@ -480,11 +239,107 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Post - Fetch Service_Group with a service ",
+          "name": "PUT Call Service Group - Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GRBKMUWMP8D21o497UXvZLR7pgrwFqUFy",
+        "unique_name": "variable_workflow_01GRATKHGHCDR7BFElUrKdcJBapaLKUiOdS",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Get Service Group ID Inavlid and Not Exists - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GRC3CM4YWAT3yP02lVgpXnelXK9pvlTM2",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for update - empty title",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMLI5L2FREA3Z4eJ5F0Sz3o74THWbOzXt",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for update - empty name",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMLH4XRYD5I3xgjAzF7ZwDWJgYzutokj0",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for delete - ID is Invalid",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMM7WD2WNO80JLh0vuwhSDThtHmTL9Cvg",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for update -special char",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMLJ8RFL6A964hWoI5xfz1SM5uKFE6sJM",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for invalid start",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMFHFSS5TP078ACHZbyVymN4lZa0ipxwl",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op when name is not there",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMGDG2MHZOF7BYsp16vTB4vJX1I8VNCYU",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "OP for Delete SG Failed",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMEFTB46BD52g6MQ2sKFqVXGDNg6nOifR",
         "object_type": "variable_workflow"
       },
       {
@@ -504,11 +359,23 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op for update - without name",
+          "name": "Post Call Negative Test Cases - Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMLK0Z4UKPP3ZUNUiuMYqHBSAIS84yBob",
+        "unique_name": "variable_workflow_01GRCN9LWDKG76MjpYz06KN9MqsVOxEQdIL",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "PUT Call Negative Test Cases - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GRCNJUI7G6Z5HfLV0xesixTk0dwDV9tMu",
         "object_type": "variable_workflow"
       },
       {
@@ -527,11 +394,154 @@
         "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
         "properties": {
           "scope": "local",
+          "name": "Action Sorting Headers",
+          "type": "datatype.table",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMBMW63PGBX1EuUNveEWBh92xWVxbPwjr",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for update - localised string",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMM6ZQM7UPS1UjlSZ3okyIgiih97b3G5f",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for ID which does not exists",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMFQ3CHS8L526UzqsAqugnVxg8JilQHm2",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "EmailTable",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GRFXA6LMWYC5VW4I3pHJJIcMZSpoIbSWJ",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Post - Fetch Service_Group with a service ",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GRBKMUWMP8D21o497UXvZLR7pgrwFqUFy",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "SGTitle",
+          "scope": "local",
+          "name": "Enter the Service Group Title",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMA7QJ6PU8M3gt6rSIlPTvRda8Gkhgz8w",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "Tercel_AutomationWF",
+          "scope": "local",
+          "name": "WFName",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMAXKNT0FXQ0l90EMGMZQxBnUlB9OFTAl",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for update - without title ",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMLJQMP1LUR0yO0fHFABR0beCCgD9q1YC",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for when title is more than 64",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMG5JDIG6J724UGnNCxMHOoYBjcYtkMCb",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for SG when title is empty",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMFZRH961166wnILvPtVzySyQdMx1RjaL",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+        "properties": {
+          "scope": "local",
           "name": "Service Sorting Headers",
           "type": "datatype.table",
           "is_required": false
         },
         "unique_name": "variable_workflow_01GMBZ8WX1YRO3NecW5KnHC2CyCxxhNmTC1",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for SG when name is empty",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GMFZJEKCNSK23BlCfdtcutpmcUwxG0SYC",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Mapping a Service_Group to a Service",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GRAZCIHKUR52LaZWIYfQlPhEndG4MhOWl",
         "object_type": "variable_workflow"
       },
       {
@@ -551,11 +561,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op for when name is special char",
+          "name": "op for ID which is Invalid",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMGE3ZLYN9Z6HJWO335YrPaiwuwtrPx1X",
+        "unique_name": "variable_workflow_01GMFQEXCMT7T4FILay7o3PnPGAsCunPPBl",
         "object_type": "variable_workflow"
       },
       {
@@ -563,22 +573,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op for duplcate check",
+          "name": "Delete Call Negative Test Cases - Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMGDWPXQJLE3DGuwydgl4fJtgMa5wyZgI",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-        "properties": {
-          "scope": "local",
-          "name": "Action Sorting Headers",
-          "type": "datatype.table",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GMBMW63PGBX1EuUNveEWBh92xWVxbPwjr",
+        "unique_name": "variable_workflow_01GRCNS2YXQSY5IfjsP8Su2pYAOtbIJw1U2",
         "object_type": "variable_workflow"
       },
       {
@@ -586,11 +585,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op for update - title more the 64",
+          "name": "op for invalid limit",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMLIPVP44S858ou0u7YJIVRDEmA9rNkKK",
+        "unique_name": "variable_workflow_01GMFHA1KKSCT4kdVPShLrg0l4kmwImCy4y",
         "object_type": "variable_workflow"
       },
       {
@@ -598,11 +597,12 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "op for update -special char",
+          "name": "GET All Service Groups - Pass/Fail",
           "type": "datatype.string",
+          "description": "GET All Service Groups - Pass/Fail",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GMLJ8RFL6A964hWoI5xfz1SM5uKFE6sJM",
+        "unique_name": "variable_workflow_01GRAL2CJPUTM6Zrk3NBHO61lQetDzNWelk",
         "object_type": "variable_workflow"
       }
     ],
