@@ -11,11 +11,45 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "PUT Negative Cases- Pass/Fail",
+          "name": "PUT/DEL Positive Cases - Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GWJUW7ALTEX3x9CbDhs2FXJjvQnZYafdb",
+        "unique_name": "variable_workflow_01GWJTQT24L9B0yPHhEGxLOAuaNZEUdrNkb",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Pagination_Links",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWKS5B4X6KD6Se08fQ1HszDPWR5KjwLvi",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+        "properties": {
+          "scope": "local",
+          "name": "Resposne Headers",
+          "type": "datatype.table",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GZ6WMCJ6PC01iWxgQ3KKSYCA1fPkLoz8N",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+        "properties": {
+          "scope": "local",
+          "name": "Post Form Resposne Headers",
+          "type": "datatype.table",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GZ6J4FY28CI5JovchN9x2a94wyYl34JaJ",
         "object_type": "variable_workflow"
       },
       {
@@ -28,6 +62,30 @@
           "is_required": false
         },
         "unique_name": "variable_workflow_01GWQ63UYNHF147RvK6UzZC08YFBuaXffl1",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "PUT Negative Cases- Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWJUW7ALTEX3x9CbDhs2FXJjvQnZYafdb",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "GET/POST - Positive Case- Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWJS7GX0JW45JaJBBZztNsMhK7mLGDUdc",
         "object_type": "variable_workflow"
       },
       {
@@ -59,11 +117,22 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "GET/POST - Positive Case- Pass/Fail",
+          "name": "DEL Negative Cases - Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GWJS7GX0JW45JaJBBZztNsMhK7mLGDUdc",
+        "unique_name": "variable_workflow_01GWJV4FGFG8W5HUp8U1IkBqyZuIOA36bfJ",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+        "properties": {
+          "scope": "local",
+          "name": "PUT Reponse Headers",
+          "type": "datatype.table",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GZ6OC0X7PA14aIatH9VJhhyJSPN3bEgMW",
         "object_type": "variable_workflow"
       },
       {
@@ -88,75 +157,6 @@
           "is_required": false
         },
         "unique_name": "variable_workflow_01GWPRTUCO4J04ytMy1LGflIBUSX287tk8r",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-        "properties": {
-          "scope": "local",
-          "name": "PUT Reponse Headers",
-          "type": "datatype.table",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GZ6OC0X7PA14aIatH9VJhhyJSPN3bEgMW",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-        "properties": {
-          "scope": "local",
-          "name": "Resposne Headers",
-          "type": "datatype.table",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GZ6WMCJ6PC01iWxgQ3KKSYCA1fPkLoz8N",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "PUT/DEL Positive Cases - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GWJTQT24L9B0yPHhEGxLOAuaNZEUdrNkb",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-        "properties": {
-          "scope": "local",
-          "name": "Post Form Resposne Headers",
-          "type": "datatype.table",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GZ6J4FY28CI5JovchN9x2a94wyYl34JaJ",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Pagination_Links",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GWKS5B4X6KD6Se08fQ1HszDPWR5KjwLvi",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "DEL Negative Cases - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GWJV4FGFG8W5HUp8U1IkBqyZuIOA36bfJ",
         "object_type": "variable_workflow"
       }
     ],
@@ -2469,7 +2469,7 @@
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.variable_workflow_01GWJU6A2IQW70BZShmUs94SbEEzmAI2AWt$",
-                      "variable_value_new": "❌⭕ some  Negative Case are passed for the Post Negative cases , please check the instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$"
+                      "variable_value_new": "❌⭕ some  Negative Case are failed for the Post Negative cases , please check the instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01GWDG6CT2ART40NDTklvqnIDqPaz2gauXY.output.instance_id$"
                     }
                   ]
                 },
