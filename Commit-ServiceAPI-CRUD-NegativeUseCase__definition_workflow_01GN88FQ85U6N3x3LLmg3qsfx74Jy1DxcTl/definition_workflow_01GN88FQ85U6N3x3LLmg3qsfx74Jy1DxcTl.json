@@ -7,245 +7,6 @@
     "base_type": "workflow",
     "variables": [
       {
-        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-        "properties": {
-          "scope": "local",
-          "name": "Service without name Sorting Headers",
-          "type": "datatype.table",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GNCU3413EMW5bVlHEoImN08OUGiI84jFM",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "POST PUT DEL Positive Cases - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GS9ISH42XGJ2Np3g1it2UpRDssH49EWsw",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for put invalid service group and lifecycle",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GUAIZPU8OBI3cV12kUvzRDfSyaV7BkQZ2",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "GET Positive Cases - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GS9ONQ9WY570VqbJFMqXd9WY6fm9K0g1x",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for set group by name and service group",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GU5JL0NM5161ccn16Hynf5RRsHP9l59M4",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "GET Service Negative Test Case - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GU36D619R755yTEjKP9eKJWzNQ6rfsKFT",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for invalid lifecycle post",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GUAD81J0DDY57ikmzWom5dSkMgitkNJ6d",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for when name is empty",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GND9T03YSDE7VxyYGi06QLeZHP61Bss22",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for invalid lifecycle",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GU429USQ78L3nvpHCliIvhryApsa7mLqQ",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for ID which does not exists",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GNCCI5B32874opSo4sesKT0WjwKKEuyLA",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for invalid start",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GNC9XACZ8KH75AQpIFdeHvkMjQvkyVvZz",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for Service group update operation",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GU7672CEDNE4N50Jwwoicg1j5mN7sGT4X",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for Update Verification",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GS991WZIXVQ1rmBKLOE04RpoI5O9uNYVf",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "EmailTable",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GU8ICE8INI63xKbdchW27TdX39duP5eRU",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Delete Service Negative Test Case - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GU36VS3Q9KH7kkzGGR5FfRxF5WQ1ugsta",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "PUT Service Negative Test Case - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GU36PUY4UU15ubkRpn6oE6pIFZFcJeCKb",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for ID which is Invalid",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GNCC78W9WPQ5Ym5ss7m37a5aiU78jRYCW",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for a service when name  Length",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GS6JCSUGG5I0iU7U2LyKzqW6J8dWLKi09",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for a service when desc  Length",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GS7KM7FYG7K1cj3XdYcoWyIqJupgHyNAe",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "op for invalid serviceGroup",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GUAFXUEBIY02PsyfsW63hbuWf21eSedGS",
-        "object_type": "variable_workflow"
-      },
-      {
         "schema_id": "datatype.string",
         "properties": {
           "value": "",
@@ -267,6 +28,245 @@
           "is_required": false
         },
         "unique_name": "variable_workflow_01GNC9QWAYDFY3zbhE1JuXyBPGDJGQmDtRu",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for set group by name and service group",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GU5JL0NM5161ccn16Hynf5RRsHP9l59M4",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for put invalid service group and lifecycle",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GUAIZPU8OBI3cV12kUvzRDfSyaV7BkQZ2",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "GET Service Negative Test Case - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GU36D619R755yTEjKP9eKJWzNQ6rfsKFT",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "EmailTable",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GU8ICE8INI63xKbdchW27TdX39duP5eRU",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "GET Positive Cases - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GS9ONQ9WY570VqbJFMqXd9WY6fm9K0g1x",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "POST PUT DEL Positive Cases - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GS9ISH42XGJ2Np3g1it2UpRDssH49EWsw",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for invalid serviceGroup",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GUAFXUEBIY02PsyfsW63hbuWf21eSedGS",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+        "properties": {
+          "scope": "local",
+          "name": "Service without name Sorting Headers",
+          "type": "datatype.table",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GNCU3413EMW5bVlHEoImN08OUGiI84jFM",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for a service when name  Length",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GS6JCSUGG5I0iU7U2LyKzqW6J8dWLKi09",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Delete Service Negative Test Case - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GU36VS3Q9KH7kkzGGR5FfRxF5WQ1ugsta",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for a service when desc  Length",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GS7KM7FYG7K1cj3XdYcoWyIqJupgHyNAe",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for invalid lifecycle",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GU429USQ78L3nvpHCliIvhryApsa7mLqQ",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "PUT Service Negative Test Case - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GU36PUY4UU15ubkRpn6oE6pIFZFcJeCKb",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for Service group update operation",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GU7672CEDNE4N50Jwwoicg1j5mN7sGT4X",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for when name is empty",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GND9T03YSDE7VxyYGi06QLeZHP61Bss22",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for invalid lifecycle post",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GUAD81J0DDY57ikmzWom5dSkMgitkNJ6d",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for Update Verification",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GS991WZIXVQ1rmBKLOE04RpoI5O9uNYVf",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for invalid start",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GNC9XACZ8KH75AQpIFdeHvkMjQvkyVvZz",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for ID which does not exists",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GNCCI5B32874opSo4sesKT0WjwKKEuyLA",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "op for ID which is Invalid",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GNCC78W9WPQ5Ym5ss7m37a5aiU78jRYCW",
         "object_type": "variable_workflow"
       }
     ],
@@ -3536,7 +3536,7 @@
           "variables_to_update": [
             {
               "variable_to_update": "$workflow.definition_workflow_01GN88FQ85U6N3x3LLmg3qsfx74Jy1DxcTl.output.variable_workflow_01GU8ICE8INI63xKbdchW27TdX39duP5eRU$",
-              "variable_value_new": "\u003ch2\u003eServices API Status Codes for Valid and Invalid Cases\u003c/h2\u003e\n\u003ctable\u003e\n\u003ctr\u003e\n\u003cth\u003eActivity Name\u003c/th\u003e\n\u003cth\u003eTrue/False\u003c/th\u003e\n\u003cth\u003eError Code\u003c/th\u003e\n\u003cth\u003eError Message\u003c/th\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet API Verification - Get ALL\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN8CFODMGIZ0Q6uXAAXeB9HSQcGly8L9D.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN8CFODMGIZ0Q6uXAAXeB9HSQcGly8L9D.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN8CFODMGIZ0Q6uXAAXeB9HSQcGly8L9D.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet API Verification - Get by ID\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN8G6A7U7PV3wWqMQz3f2Ggr5TrMlhuRw.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e\u003c$activity.definition_activity_01GN8G6A7U7PV3wWqMQz3f2Ggr5TrMlhuRw.output.error.code$/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN8G6A7U7PV3wWqMQz3f2Ggr5TrMlhuRw.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet API Verification - Pagination\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN8H00NXWXI7iv3OrGyftoiHRW2gbD6IK.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN8H00NXWXI7iv3OrGyftoiHRW2gbD6IK.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN8H00NXWXI7iv3OrGyftoiHRW2gbD6IK.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet API Verification- Get by Service Group\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN99OUVBV8X6CojWu0xknA8tuXAE0YqOf.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN99OUVBV8X6CojWu0xknA8tuXAE0YqOf.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN99OUVBV8X6CojWu0xknA8tuXAE0YqOf.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST/PUT/DELETE Verification- Create a Service\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNA6FOQRSDN5Rrddy2fIqvDwMADtZuIoG.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNA6FOQRSDN5Rrddy2fIqvDwMADtZuIoG.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNA6FOQRSDN5Rrddy2fIqvDwMADtZuIoG.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST/PUT/DELETE Verification-Get Service by Name\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNA9HYYH6P62ncFfLkh4YosFO1AlDILps.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNA9HYYH6P62ncFfLkh4YosFO1AlDILps.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNA9HYYH6P62ncFfLkh4YosFO1AlDILps.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST/PUT/DELETE Verification-Update a Service Call \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNAUDKG59HX3LO7NYlPGzYHNVbc2ZFZ8B.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNAUDKG59HX3LO7NYlPGzYHNVbc2ZFZ8B.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNAUDKG59HX3LO7NYlPGzYHNVbc2ZFZ8B.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST/PUT/DELETE Verification-Delete a Service\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS9DG08FILG7VjHWCPpZxqR2SFJFdwcIq.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS9DG08FILG7VjHWCPpZxqR2SFJFdwcIq.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS9DG08FILG7VjHWCPpZxqR2SFJFdwcIq.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST/PUT/DELETE Verification-Delete Service or not\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS9DWWDYXQY18l24rQpnEmpDQuarNGSFM.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS9DWWDYXQY18l24rQpnEmpDQuarNGSFM.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS9DWWDYXQY18l24rQpnEmpDQuarNGSFM.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet API Negative Verification- Invalid Start\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNC60KP063Y13hrHNdL9432nHsjkjZ4Qk.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNC60KP063Y13hrHNdL9432nHsjkjZ4Qk.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNC60KP063Y13hrHNdL9432nHsjkjZ4Qk.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET API Negative Verification-Invalid limit\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNCACH9J6L67ZiItoPLc5787zxpGKZqj5.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNCACH9J6L67ZiItoPLc5787zxpGKZqj5.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNCACH9J6L67ZiItoPLc5787zxpGKZqj5.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET API Negative Verification -Get by ID not Exists \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNCD76U3CFE71ocYjRh31gj7EfYVdEHDb.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNCD76U3CFE71ocYjRh31gj7EfYVdEHDb.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNCD76U3CFE71ocYjRh31gj7EfYVdEHDb.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET API Negative Verification - Get by ID is Invalid \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNCEC706S5S3svUyHQgqbk3fLyO13dO54.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNCEC706S5S3svUyHQgqbk3fLyO13dO54.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNCEC706S5S3svUyHQgqbk3fLyO13dO54.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST API Negative Verification - Create a Service with Empty Name\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNCNC8BDWMN3liMlVb6XZuvC3H8HlqmJA.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNCNC8BDWMN3liMlVb6XZuvC3H8HlqmJA.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNCNC8BDWMN3liMlVb6XZuvC3H8HlqmJA.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST API Negative Verification - Name Length\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNDEW0KKYH41MODHLo51MaHyKM49472QW.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNDEW0KKYH41MODHLo51MaHyKM49472QW.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNDEW0KKYH41MODHLo51MaHyKM49472QW.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST API Negative Verification - Service with Invalid Lifecycle\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU3R364ZGWV6mysHsovDOW4X9yaw64DHI.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU3R364ZGWV6mysHsovDOW4X9yaw64DHI.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU3R364ZGWV6mysHsovDOW4X9yaw64DHI.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST API Negative Verification - Service with valid Service Group\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU53XL0ZDLP4xHBSG7ysr0Grcp3EI2pya.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU53XL0ZDLP4xHBSG7ysr0Grcp3EI2pya.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU53XL0ZDLP4xHBSG7ysr0Grcp3EI2pya.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST API Negative Verification - Service with Invalid ServiceGroup\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU5PPBPCGRH4VeuLXLs6RM1DdC6VpWpqt.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU5PPBPCGRH4VeuLXLs6RM1DdC6VpWpqt.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU5PPBPCGRH4VeuLXLs6RM1DdC6VpWpqt.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST API Negative Verification - Get by ServiceGroup Filter \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU5GNXL27WP6svEbnzeJbihV3xXkknKnn.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU5GNXL27WP6svEbnzeJbihV3xXkknKnn.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU5GNXL27WP6svEbnzeJbihV3xXkknKnn.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePUT API Negative Verification - Update a Service with empty name\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU6KN1DK4KM5CR7mV5b9BGxQKyNyffvFQ.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU6KN1DK4KM5CR7mV5b9BGxQKyNyffvFQ.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU6KN1DK4KM5CR7mV5b9BGxQKyNyffvFQ.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePUT API Negative Verification - Update a Service with Name  Length\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU6QWNXA2H65vZaWe2YyxPfvPdggqnf1s.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU6QWNXA2H65vZaWe2YyxPfvPdggqnf1s.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU6QWNXA2H65vZaWe2YyxPfvPdggqnf1s.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePUT API Negative Verification - Invalid Service Group and Lifecycle\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU6TQQJ9RDN45vKUKdNsCm3Im9NrgXMy4.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU6TQQJ9RDN45vKUKdNsCm3Im9NrgXMy4.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU6TQQJ9RDN45vKUKdNsCm3Im9NrgXMy4.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePUT API Negative Verification - Update a ServiceGroup\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU6Y0G74MAR2CDcV71ikhYgquvMjSHPCK.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU6Y0G74MAR2CDcV71ikhYgquvMjSHPCK.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU6Y0G74MAR2CDcV71ikhYgquvMjSHPCK.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDelete API Negative Verification - ID does not exists\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU8COIB9KJA4XNOTdgpjPJMZKvkBpYQvx.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU8COIB9KJA4XNOTdgpjPJMZKvkBpYQvx.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU8COIB9KJA4XNOTdgpjPJMZKvkBpYQvx.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDelete API Negative Verification - ID is Invalid \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU8DMC31XQJ4dwA5SVtzkVY8ebkR6o7Yp.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU8DMC31XQJ4dwA5SVtzkVY8ebkR6o7Yp.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU8DMC31XQJ4dwA5SVtzkVY8ebkR6o7Yp.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/table\u003e"
+              "variable_value_new": "\u003ch2\u003eServices API Status Codes for Valid and Invalid Cases\u003c/h2\u003e\n\u003ctable\u003e\n\u003ctr\u003e\n\u003cth\u003eActivity Name\u003c/th\u003e\n\u003cth\u003eTrue/False\u003c/th\u003e\n\u003cth\u003eError Code\u003c/th\u003e\n\u003cth\u003eError Message\u003c/th\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet API Verification - Get ALL\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN8CFODMGIZ0Q6uXAAXeB9HSQcGly8L9D.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN8CFODMGIZ0Q6uXAAXeB9HSQcGly8L9D.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN8CFODMGIZ0Q6uXAAXeB9HSQcGly8L9D.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet API Verification - Get by ID\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN8G6A7U7PV3wWqMQz3f2Ggr5TrMlhuRw.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN8G6A7U7PV3wWqMQz3f2Ggr5TrMlhuRw.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN8G6A7U7PV3wWqMQz3f2Ggr5TrMlhuRw.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet API Verification - Pagination\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN8H00NXWXI7iv3OrGyftoiHRW2gbD6IK.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN8H00NXWXI7iv3OrGyftoiHRW2gbD6IK.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN8H00NXWXI7iv3OrGyftoiHRW2gbD6IK.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet API Verification- Get by Service Group\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN99OUVBV8X6CojWu0xknA8tuXAE0YqOf.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN99OUVBV8X6CojWu0xknA8tuXAE0YqOf.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GN99OUVBV8X6CojWu0xknA8tuXAE0YqOf.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST/PUT/DELETE Verification- Create a Service\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNA6FOQRSDN5Rrddy2fIqvDwMADtZuIoG.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNA6FOQRSDN5Rrddy2fIqvDwMADtZuIoG.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNA6FOQRSDN5Rrddy2fIqvDwMADtZuIoG.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST/PUT/DELETE Verification-Get Service by Name\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNA9HYYH6P62ncFfLkh4YosFO1AlDILps.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNA9HYYH6P62ncFfLkh4YosFO1AlDILps.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNA9HYYH6P62ncFfLkh4YosFO1AlDILps.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST/PUT/DELETE Verification-Update a Service Call \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNAUDKG59HX3LO7NYlPGzYHNVbc2ZFZ8B.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNAUDKG59HX3LO7NYlPGzYHNVbc2ZFZ8B.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNAUDKG59HX3LO7NYlPGzYHNVbc2ZFZ8B.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST/PUT/DELETE Verification-Delete a Service\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS9DG08FILG7VjHWCPpZxqR2SFJFdwcIq.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS9DG08FILG7VjHWCPpZxqR2SFJFdwcIq.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS9DG08FILG7VjHWCPpZxqR2SFJFdwcIq.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST/PUT/DELETE Verification-Delete Service or not\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS9DWWDYXQY18l24rQpnEmpDQuarNGSFM.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS9DWWDYXQY18l24rQpnEmpDQuarNGSFM.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS9DWWDYXQY18l24rQpnEmpDQuarNGSFM.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet API Negative Verification- Invalid Start\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNC60KP063Y13hrHNdL9432nHsjkjZ4Qk.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNC60KP063Y13hrHNdL9432nHsjkjZ4Qk.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNC60KP063Y13hrHNdL9432nHsjkjZ4Qk.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET API Negative Verification-Invalid limit\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNCACH9J6L67ZiItoPLc5787zxpGKZqj5.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNCACH9J6L67ZiItoPLc5787zxpGKZqj5.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNCACH9J6L67ZiItoPLc5787zxpGKZqj5.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET API Negative Verification -Get by ID not Exists \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNCD76U3CFE71ocYjRh31gj7EfYVdEHDb.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNCD76U3CFE71ocYjRh31gj7EfYVdEHDb.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNCD76U3CFE71ocYjRh31gj7EfYVdEHDb.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET API Negative Verification - Get by ID is Invalid \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNCEC706S5S3svUyHQgqbk3fLyO13dO54.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNCEC706S5S3svUyHQgqbk3fLyO13dO54.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNCEC706S5S3svUyHQgqbk3fLyO13dO54.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST API Negative Verification - Create a Service with Empty Name\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNCNC8BDWMN3liMlVb6XZuvC3H8HlqmJA.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNCNC8BDWMN3liMlVb6XZuvC3H8HlqmJA.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNCNC8BDWMN3liMlVb6XZuvC3H8HlqmJA.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST API Negative Verification - Name Length\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNDEW0KKYH41MODHLo51MaHyKM49472QW.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNDEW0KKYH41MODHLo51MaHyKM49472QW.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GNDEW0KKYH41MODHLo51MaHyKM49472QW.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST API Negative Verification - Service with Invalid Lifecycle\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU3R364ZGWV6mysHsovDOW4X9yaw64DHI.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU3R364ZGWV6mysHsovDOW4X9yaw64DHI.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU3R364ZGWV6mysHsovDOW4X9yaw64DHI.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST API Negative Verification - Service with valid Service Group\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU53XL0ZDLP4xHBSG7ysr0Grcp3EI2pya.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU53XL0ZDLP4xHBSG7ysr0Grcp3EI2pya.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU53XL0ZDLP4xHBSG7ysr0Grcp3EI2pya.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST API Negative Verification - Service with Invalid ServiceGroup\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU5PPBPCGRH4VeuLXLs6RM1DdC6VpWpqt.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU5PPBPCGRH4VeuLXLs6RM1DdC6VpWpqt.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU5PPBPCGRH4VeuLXLs6RM1DdC6VpWpqt.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePOST API Negative Verification - Get by ServiceGroup Filter \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU5GNXL27WP6svEbnzeJbihV3xXkknKnn.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU5GNXL27WP6svEbnzeJbihV3xXkknKnn.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU5GNXL27WP6svEbnzeJbihV3xXkknKnn.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePUT API Negative Verification - Update a Service with empty name\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU6KN1DK4KM5CR7mV5b9BGxQKyNyffvFQ.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU6KN1DK4KM5CR7mV5b9BGxQKyNyffvFQ.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU6KN1DK4KM5CR7mV5b9BGxQKyNyffvFQ.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePUT API Negative Verification - Update a Service with Name  Length\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU6QWNXA2H65vZaWe2YyxPfvPdggqnf1s.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU6QWNXA2H65vZaWe2YyxPfvPdggqnf1s.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU6QWNXA2H65vZaWe2YyxPfvPdggqnf1s.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePUT API Negative Verification - Invalid Service Group and Lifecycle\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU6TQQJ9RDN45vKUKdNsCm3Im9NrgXMy4.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU6TQQJ9RDN45vKUKdNsCm3Im9NrgXMy4.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU6TQQJ9RDN45vKUKdNsCm3Im9NrgXMy4.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePUT API Negative Verification - Update a ServiceGroup\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU6Y0G74MAR2CDcV71ikhYgquvMjSHPCK.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU6Y0G74MAR2CDcV71ikhYgquvMjSHPCK.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU6Y0G74MAR2CDcV71ikhYgquvMjSHPCK.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDelete API Negative Verification - ID does not exists\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU8COIB9KJA4XNOTdgpjPJMZKvkBpYQvx.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU8COIB9KJA4XNOTdgpjPJMZKvkBpYQvx.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU8COIB9KJA4XNOTdgpjPJMZKvkBpYQvx.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDelete API Negative Verification - ID is Invalid \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU8DMC31XQJ4dwA5SVtzkVY8ebkR6o7Yp.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU8DMC31XQJ4dwA5SVtzkVY8ebkR6o7Yp.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GU8DMC31XQJ4dwA5SVtzkVY8ebkR6o7Yp.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/table\u003e"
             }
           ]
         },
@@ -3611,18 +3611,6 @@
         "base_type": "workflow",
         "variables": [
           {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Action_ID",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01H5S4A9O8VZP1E3m4of54VdI0WCc82z204",
-            "object_type": "variable_workflow"
-          },
-          {
             "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
             "properties": {
               "scope": "local",
@@ -3655,6 +3643,18 @@
               "is_required": false
             },
             "unique_name": "variable_workflow_01GN9B0ORUMLA52zdxii7atGlzOXr6EC0q5",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Action_ID",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01H5S4A9O8VZP1E3m4of54VdI0WCc82z204",
             "object_type": "variable_workflow"
           }
         ],
