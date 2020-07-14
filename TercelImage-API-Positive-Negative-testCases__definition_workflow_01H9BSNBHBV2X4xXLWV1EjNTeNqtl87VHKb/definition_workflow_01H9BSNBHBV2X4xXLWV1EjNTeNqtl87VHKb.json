@@ -11,47 +11,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Image API -Positive Case - Pass/Fail",
+          "name": "Szie of the Image",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01H9CQ5C4C0XY0COMk3jwpZvGwFGANSZ6Ca",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.file",
-        "properties": {
-          "value": "",
-          "scope": "input",
-          "name": "ImageFileName - more than 2MB",
-          "type": "datatype.file",
-          "is_required": true
-        },
-        "unique_name": "variable_workflow_01H9C39XJJND47RZE9GGlAuRqfroT5mypvL",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "ImageID which Does not exists",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01H9CK6P1TYWD30SvoLH2wmctnOMPyAlaSf",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Delete ID which is Invalid",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01H9CN90UJV0964YTu3zwCmaFUDQFKhGF1H",
+        "unique_name": "variable_workflow_01H9C8CU53BZ13LYp44jhqIlbkcZChMEEMd",
         "object_type": "variable_workflow"
       },
       {
@@ -71,47 +35,11 @@
         "properties": {
           "value": "",
           "scope": "input",
-          "name": "ImageFileName - PngFormat",
-          "type": "datatype.file",
-          "is_required": true
-        },
-        "unique_name": "variable_workflow_01H9BV273HZTT6aukxl5cjk3UThbjD6gA9l",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.file",
-        "properties": {
-          "value": "",
-          "scope": "input",
           "name": "ImageFileName - JpgFormat",
           "type": "datatype.file",
           "is_required": true
         },
         "unique_name": "variable_workflow_01H9C2SQKW1ML2Hf6iZmj467J83VC7wBvbF",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.file",
-        "properties": {
-          "value": "",
-          "scope": "input",
-          "name": "ImageFileName - GifFormat",
-          "type": "datatype.file",
-          "is_required": true
-        },
-        "unique_name": "variable_workflow_01H9C31HRLZ0I3lCGxSrD2WlLQ8LmhtYbAD",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Invalid Start",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01H9CF7JESZAC2nrt6nKa98rws978ohvRQO",
         "object_type": "variable_workflow"
       },
       {
@@ -124,18 +52,6 @@
           "is_required": false
         },
         "unique_name": "variable_workflow_01H9CFCZR7FQ11EmIDW0VicIhCqLPYsxaLq",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Delete ID which Does not Exists",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01H9CN0JGQYMB279RR5yjsmcYft2k9RA4dN",
         "object_type": "variable_workflow"
       },
       {
@@ -163,15 +79,99 @@
         "object_type": "variable_workflow"
       },
       {
+        "schema_id": "datatype.file",
+        "properties": {
+          "value": "",
+          "scope": "input",
+          "name": "ImageFileName - more than 2MB",
+          "type": "datatype.file",
+          "is_required": true
+        },
+        "unique_name": "variable_workflow_01H9C39XJJND47RZE9GGlAuRqfroT5mypvL",
+        "object_type": "variable_workflow"
+      },
+      {
         "schema_id": "datatype.string",
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Szie of the Image",
+          "name": "Delete ID which is Invalid",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01H9C8CU53BZ13LYp44jhqIlbkcZChMEEMd",
+        "unique_name": "variable_workflow_01H9CN90UJV0964YTu3zwCmaFUDQFKhGF1H",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "ImageID which Does not exists",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01H9CK6P1TYWD30SvoLH2wmctnOMPyAlaSf",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.file",
+        "properties": {
+          "value": "",
+          "scope": "input",
+          "name": "ImageFileName - GifFormat",
+          "type": "datatype.file",
+          "is_required": true
+        },
+        "unique_name": "variable_workflow_01H9C31HRLZ0I3lCGxSrD2WlLQ8LmhtYbAD",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Delete ID which Does not Exists",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01H9CN0JGQYMB279RR5yjsmcYft2k9RA4dN",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Image API -Positive Case - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01H9CQ5C4C0XY0COMk3jwpZvGwFGANSZ6Ca",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Invalid Start",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01H9CF7JESZAC2nrt6nKa98rws978ohvRQO",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.file",
+        "properties": {
+          "value": "",
+          "scope": "input",
+          "name": "ImageFileName - PngFormat",
+          "type": "datatype.file",
+          "is_required": true
+        },
+        "unique_name": "variable_workflow_01H9BV273HZTT6aukxl5cjk3UThbjD6gA9l",
         "object_type": "variable_workflow"
       },
       {
@@ -294,7 +294,7 @@
               "input_string": "$activity.definition_activity_01H9BWWG7WEHE6x68Ce6TOObjCVVhpqt2hu.output.jsonpath_queries.Location Headers$",
               "replace_list": [
                 {
-                  "replaced_string": "api/v1/images/",
+                  "replaced_string": "/api/v1/images/",
                   "replacement_string": ""
                 }
               ],
@@ -464,7 +464,7 @@
               "input_string": "$activity.definition_activity_01H9BY182HC8E2Kp84KXZC4R3gpOkHXr65w.output.jsonpath_queries.Location Headers$",
               "replace_list": [
                 {
-                  "replaced_string": "api/v1/images/",
+                  "replaced_string": "/api/v1/images/",
                   "replacement_string": ""
                 }
               ],
@@ -532,21 +532,19 @@
             "object_type": "definition_activity"
           },
           {
-            "unique_name": "definition_activity_01H9BYSK3KGQ05dnSinxc0QWiRWthiNfWc8",
-            "name": "Download File",
-            "title": "Get ALL Images",
-            "type": "email.download_file",
+            "unique_name": "definition_activity_01H9DUXIWBRSK3SalF5ciJeitjirpys4bVc",
+            "name": "HTTP Request",
+            "title": "Get All Images",
+            "type": "web-service.http_request",
             "base_type": "activity",
             "properties": {
               "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
               "continue_on_failure": false,
-              "display_name": "Get ALL Images",
-              "http_request": {
-                "allow_auto_redirect": true,
-                "continue_on_error_status_code": false,
-                "method": "GET",
-                "relative_url": "images"
-              },
+              "display_name": "Get All Images",
+              "method": "GET",
+              "relative_url": "images",
               "runtime_user": {
                 "override_target_runtime_user": false,
                 "target_default": true
@@ -557,27 +555,24 @@
                 "override_workflow_target_group_criteria": false,
                 "use_workflow_target": true,
                 "use_workflow_target_group": false
-              },
-              "target_type": "web-service.endpoint"
+              }
             },
             "object_type": "definition_activity"
           },
           {
-            "unique_name": "definition_activity_01H9CDGNP9WIE6TvLDQxf96IyqX0fya5EsR",
-            "name": "Download File",
-            "title": "Get ALL Images with Pagination",
-            "type": "email.download_file",
+            "unique_name": "definition_activity_01H9DVE1PR12U285gwwLKuJi6bOBsYaeX7Y",
+            "name": "HTTP Request",
+            "title": "Get All Images with pagination",
+            "type": "web-service.http_request",
             "base_type": "activity",
             "properties": {
               "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
               "continue_on_failure": false,
-              "display_name": "Get ALL Images with Pagination",
-              "http_request": {
-                "allow_auto_redirect": true,
-                "continue_on_error_status_code": false,
-                "method": "GET",
-                "relative_url": "images?start=1\u0026limit=1"
-              },
+              "display_name": "Get All Images with pagination",
+              "method": "GET",
+              "relative_url": "images?start=1\u0026limit=1",
               "runtime_user": {
                 "override_target_runtime_user": false,
                 "target_default": true
@@ -588,8 +583,29 @@
                 "override_workflow_target_group_criteria": false,
                 "use_workflow_target": true,
                 "use_workflow_target_group": false
-              },
-              "target_type": "web-service.endpoint"
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9DW1B1SB4Y0zN98J4DXu4KvnPEhNbYN2",
+            "name": "JSONPath Query",
+            "title": "Pagination Links",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Pagination Links",
+              "input_json": "$activity.definition_activity_01H9DVE1PR12U285gwwLKuJi6bOBsYaeX7Y.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$._links",
+                  "jsonpath_query_name": "Pagination_Links",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
             },
             "object_type": "definition_activity"
           },
@@ -668,7 +684,7 @@
               "input_string": "$activity.definition_activity_01H9C3NYXEQ190Wdt8DRPauDGUv5sGHeufP.output.jsonpath_queries.Location Headers$",
               "replace_list": [
                 {
-                  "replaced_string": "api/v1/images/",
+                  "replaced_string": "/api/v1/images/",
                   "replacement_string": ""
                 }
               ],
@@ -807,9 +823,9 @@
                     },
                     "operator": "and",
                     "right_operand": {
-                      "left_operand": "$activity.definition_activity_01H9CDGNP9WIE6TvLDQxf96IyqX0fya5EsR.output.succeeded$",
+                      "left_operand": "$activity.definition_activity_01H9DUXIWBRSK3SalF5ciJeitjirpys4bVc.output.status_code$",
                       "operator": "eq",
-                      "right_operand": true
+                      "right_operand": 200
                     }
                   },
                   "operator": "and",
@@ -821,9 +837,9 @@
                 },
                 "operator": "and",
                 "right_operand": {
-                  "left_operand": "$activity.definition_activity_01H9BYSK3KGQ05dnSinxc0QWiRWthiNfWc8.output.succeeded$",
+                  "left_operand": "$activity.definition_activity_01H9DVE1PR12U285gwwLKuJi6bOBsYaeX7Y.output.status_code$",
                   "operator": "eq",
-                  "right_operand": true
+                  "right_operand": 200
                 }
               },
               "continue_on_failure": false,
@@ -910,16 +926,16 @@
                     },
                     "operator": "or",
                     "right_operand": {
-                      "left_operand": "$activity.definition_activity_01H9CDGNP9WIE6TvLDQxf96IyqX0fya5EsR.output.succeeded$",
-                      "operator": "eq",
-                      "right_operand": false
+                      "left_operand": "$activity.definition_activity_01H9DUXIWBRSK3SalF5ciJeitjirpys4bVc.output.error.code$",
+                      "operator": "ne",
+                      "right_operand": "200"
                     }
                   },
                   "operator": "or",
                   "right_operand": {
-                    "left_operand": "$activity.definition_activity_01H9BYSK3KGQ05dnSinxc0QWiRWthiNfWc8.output.succeeded$",
-                    "operator": "eq",
-                    "right_operand": false
+                    "left_operand": "$activity.definition_activity_01H9DVE1PR12U285gwwLKuJi6bOBsYaeX7Y.output.error.code$",
+                    "operator": "ne",
+                    "right_operand": "200"
                   }
                 },
                 "operator": "or",
@@ -1092,21 +1108,19 @@
             "object_type": "definition_activity"
           },
           {
-            "unique_name": "definition_activity_01H9CEA3O8X8Z4WJyGcyCqWyoitUTc9fZnO",
-            "name": "Download File",
-            "title": "Get ALL Images with Invalid Start Pagination",
-            "type": "email.download_file",
+            "unique_name": "definition_activity_01H9E5IW6FVXC6GxvvkoQWQngAH5b49UKTS",
+            "name": "HTTP Request",
+            "title": "Get All Images with Invalid Start pagination",
+            "type": "web-service.http_request",
             "base_type": "activity",
             "properties": {
               "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
               "continue_on_failure": true,
-              "display_name": "Get ALL Images with Invalid Start Pagination",
-              "http_request": {
-                "allow_auto_redirect": true,
-                "continue_on_error_status_code": false,
-                "method": "GET",
-                "relative_url": "images?start=-1\u0026limit=1"
-              },
+              "display_name": "Get All Images with Invalid Start pagination",
+              "method": "GET",
+              "relative_url": "images?start=-1\u0026limit=1",
               "runtime_user": {
                 "override_target_runtime_user": false,
                 "target_default": true
@@ -1117,8 +1131,7 @@
                 "override_workflow_target_group_criteria": false,
                 "use_workflow_target": true,
                 "use_workflow_target_group": false
-              },
-              "target_type": "web-service.endpoint"
+              }
             },
             "object_type": "definition_activity"
           },
@@ -1135,28 +1148,26 @@
               "variables_to_update": [
                 {
                   "variable_to_update": "$workflow.definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb.output.variable_workflow_01H9CF7JESZAC2nrt6nKa98rws978ohvRQO$",
-                  "variable_value_new": "$activity.definition_activity_01H9CEA3O8X8Z4WJyGcyCqWyoitUTc9fZnO.output.error.message$"
+                  "variable_value_new": "$activity.definition_activity_01H9E5IW6FVXC6GxvvkoQWQngAH5b49UKTS.output.error.message$"
                 }
               ]
             },
             "object_type": "definition_activity"
           },
           {
-            "unique_name": "definition_activity_01H9CG84XMC7Y4raShCZjDqmeBseM4KCiL1",
-            "name": "Download File",
-            "title": "Get ALL Images with Invalid limit Pagination",
-            "type": "email.download_file",
+            "unique_name": "definition_activity_01H9E5ZRTQ0W51YBriJ6DTwZPgyvHdVr06q",
+            "name": "HTTP Request",
+            "title": "Get All Images with Invalid Limit pagination",
+            "type": "web-service.http_request",
             "base_type": "activity",
             "properties": {
               "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
               "continue_on_failure": true,
-              "display_name": "Get ALL Images with Invalid limit Pagination",
-              "http_request": {
-                "allow_auto_redirect": true,
-                "continue_on_error_status_code": false,
-                "method": "GET",
-                "relative_url": "images?start=1\u0026limit=32"
-              },
+              "display_name": "Get All Images with Invalid Limit pagination",
+              "method": "GET",
+              "relative_url": "images?start=1\u0026limit=32",
               "runtime_user": {
                 "override_target_runtime_user": false,
                 "target_default": true
@@ -1167,8 +1178,7 @@
                 "override_workflow_target_group_criteria": false,
                 "use_workflow_target": true,
                 "use_workflow_target_group": false
-              },
-              "target_type": "web-service.endpoint"
+              }
             },
             "object_type": "definition_activity"
           },
@@ -1185,28 +1195,26 @@
               "variables_to_update": [
                 {
                   "variable_to_update": "$workflow.definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb.output.variable_workflow_01H9CFCZR7FQ11EmIDW0VicIhCqLPYsxaLq$",
-                  "variable_value_new": "$activity.definition_activity_01H9CG84XMC7Y4raShCZjDqmeBseM4KCiL1.output.error.message$"
+                  "variable_value_new": "$activity.definition_activity_01H9E5ZRTQ0W51YBriJ6DTwZPgyvHdVr06q.output.error.message$"
                 }
               ]
             },
             "object_type": "definition_activity"
           },
           {
-            "unique_name": "definition_activity_01H9CIT6KCGR90grjLSPzgFhGQXsV1AVHg0",
-            "name": "Download File",
-            "title": "Get Images with ID Does not Exits ",
-            "type": "email.download_file",
+            "unique_name": "definition_activity_01H9EFP8M0X5575sjudrDSQnefK5m7vE0RY",
+            "name": "HTTP Request",
+            "title": "Get  Images with ID which dioes not exists",
+            "type": "web-service.http_request",
             "base_type": "activity",
             "properties": {
               "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
               "continue_on_failure": true,
-              "display_name": "Get Images with ID Does not Exits ",
-              "http_request": {
-                "allow_auto_redirect": true,
-                "continue_on_error_status_code": false,
-                "method": "GET",
-                "relative_url": "images/5f0d95bdcfa615cb09571a73"
-              },
+              "display_name": "Get  Images with ID which dioes not exists",
+              "method": "GET",
+              "relative_url": "images/5f0d95bdcfa615cb09571a73",
               "runtime_user": {
                 "override_target_runtime_user": false,
                 "target_default": true
@@ -1217,8 +1225,7 @@
                 "override_workflow_target_group_criteria": false,
                 "use_workflow_target": true,
                 "use_workflow_target_group": false
-              },
-              "target_type": "web-service.endpoint"
+              }
             },
             "object_type": "definition_activity"
           },
@@ -1235,28 +1242,26 @@
               "variables_to_update": [
                 {
                   "variable_to_update": "$workflow.definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb.output.variable_workflow_01H9CK6P1TYWD30SvoLH2wmctnOMPyAlaSf$",
-                  "variable_value_new": "$activity.definition_activity_01H9CIT6KCGR90grjLSPzgFhGQXsV1AVHg0.output.error.message$"
+                  "variable_value_new": "$activity.definition_activity_01H9EFP8M0X5575sjudrDSQnefK5m7vE0RY.output.error.message$"
                 }
               ]
             },
             "object_type": "definition_activity"
           },
           {
-            "unique_name": "definition_activity_01H9CLKKRJTLK6uXLJ458XgiGbUvOMkok3x",
-            "name": "Download File",
-            "title": "Get Images with Invalid ID",
-            "type": "email.download_file",
+            "unique_name": "definition_activity_01H9EGIYCOJ097ZLaxN2hmaNRrVx6A2J2MG",
+            "name": "HTTP Request",
+            "title": "Get  Images with ID which Invalid",
+            "type": "web-service.http_request",
             "base_type": "activity",
             "properties": {
               "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
               "continue_on_failure": true,
-              "display_name": "Get Images with Invalid ID",
-              "http_request": {
-                "allow_auto_redirect": true,
-                "continue_on_error_status_code": false,
-                "method": "GET",
-                "relative_url": "images/5f0d95bdcfa615cb09571a7Z"
-              },
+              "display_name": "Get  Images with ID which Invalid",
+              "method": "GET",
+              "relative_url": "images/5f0d95bdcfa615cb09571a7Z",
               "runtime_user": {
                 "override_target_runtime_user": false,
                 "target_default": true
@@ -1267,8 +1272,7 @@
                 "override_workflow_target_group_criteria": false,
                 "use_workflow_target": true,
                 "use_workflow_target_group": false
-              },
-              "target_type": "web-service.endpoint"
+              }
             },
             "object_type": "definition_activity"
           },
@@ -1285,7 +1289,7 @@
               "variables_to_update": [
                 {
                   "variable_to_update": "$workflow.definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb.output.variable_workflow_01H9CKBSXXEEX6cGcDdSekeL4HqD8rWeN3f$",
-                  "variable_value_new": "$activity.definition_activity_01H9CLKKRJTLK6uXLJ458XgiGbUvOMkok3x.output.error.message$"
+                  "variable_value_new": "$activity.definition_activity_01H9EGIYCOJ097ZLaxN2hmaNRrVx6A2J2MG.output.error.message$"
                 }
               ]
             },
@@ -1428,28 +1432,28 @@
                           },
                           "operator": "and",
                           "right_operand": {
-                            "left_operand": "$activity.definition_activity_01H9CEA3O8X8Z4WJyGcyCqWyoitUTc9fZnO.output.error.code$",
+                            "left_operand": "$activity.definition_activity_01H9E5IW6FVXC6GxvvkoQWQngAH5b49UKTS.output.error.code$",
                             "operator": "eq",
                             "right_operand": "400"
                           }
                         },
                         "operator": "and",
                         "right_operand": {
-                          "left_operand": "$activity.definition_activity_01H9CG84XMC7Y4raShCZjDqmeBseM4KCiL1.output.error.code$",
+                          "left_operand": "$activity.definition_activity_01H9E5ZRTQ0W51YBriJ6DTwZPgyvHdVr06q.output.error.code$",
                           "operator": "eq",
                           "right_operand": "400"
                         }
                       },
                       "operator": "and",
                       "right_operand": {
-                        "left_operand": "$activity.definition_activity_01H9CIT6KCGR90grjLSPzgFhGQXsV1AVHg0.output.error.code$",
+                        "left_operand": "$activity.definition_activity_01H9EFP8M0X5575sjudrDSQnefK5m7vE0RY.output.error.code$",
                         "operator": "eq",
                         "right_operand": "404"
                       }
                     },
                     "operator": "and",
                     "right_operand": {
-                      "left_operand": "$activity.definition_activity_01H9CLKKRJTLK6uXLJ458XgiGbUvOMkok3x.output.error.code$",
+                      "left_operand": "$activity.definition_activity_01H9EGIYCOJ097ZLaxN2hmaNRrVx6A2J2MG.output.error.code$",
                       "operator": "eq",
                       "right_operand": "400"
                     }
@@ -1523,28 +1527,28 @@
                           },
                           "operator": "or",
                           "right_operand": {
-                            "left_operand": "$activity.definition_activity_01H9CEA3O8X8Z4WJyGcyCqWyoitUTc9fZnO.output.error.code$",
+                            "left_operand": "$activity.definition_activity_01H9E5IW6FVXC6GxvvkoQWQngAH5b49UKTS.output.error.code$",
                             "operator": "ne",
                             "right_operand": "400"
                           }
                         },
                         "operator": "or",
                         "right_operand": {
-                          "left_operand": "$activity.definition_activity_01H9CG84XMC7Y4raShCZjDqmeBseM4KCiL1.output.error.code$",
+                          "left_operand": "$activity.definition_activity_01H9E5ZRTQ0W51YBriJ6DTwZPgyvHdVr06q.output.error.code$",
                           "operator": "ne",
                           "right_operand": "400"
                         }
                       },
                       "operator": "or",
                       "right_operand": {
-                        "left_operand": "$activity.definition_activity_01H9CIT6KCGR90grjLSPzgFhGQXsV1AVHg0.output.error.code$",
+                        "left_operand": "$activity.definition_activity_01H9EFP8M0X5575sjudrDSQnefK5m7vE0RY.output.error.code$",
                         "operator": "ne",
                         "right_operand": "404"
                       }
                     },
                     "operator": "or",
                     "right_operand": {
-                      "left_operand": "$activity.definition_activity_01H9CLKKRJTLK6uXLJ458XgiGbUvOMkok3x.output.error.code$",
+                      "left_operand": "$activity.definition_activity_01H9EGIYCOJ097ZLaxN2hmaNRrVx6A2J2MG.output.error.code$",
                       "operator": "ne",
                       "right_operand": "400"
                     }
@@ -1605,7 +1609,7 @@
           "variables_to_update": [
             {
               "variable_to_update": "$workflow.definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb.output.variable_workflow_01H9CQHFE4LP143adP96ETIH0o9lbzCmpYi$",
-              "variable_value_new": "\u003ch2\u003eImage API Status Codes for valid and Invalid Cases\u003c/h2\u003e\n\u003ctable\u003e\n\u003ctr\u003e\n\u003cth\u003eActivity Name\u003c/th\u003e\n\u003cth\u003eTrue/False\u003c/th\u003e\n\u003cth\u003eError Code\u003c/th\u003e\n\u003cth\u003eError Message\u003c/th\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eUpload Image With PNG Format\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BUFARUYU008ICxM81ygqj0D0knSncEk.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BUFARUYU008ICxM81ygqj0D0knSncEk.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BUFARUYU008ICxM81ygqj0D0knSncEk.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet Image by ID\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BZ96GDPT95TXPeXJsB1p1OJ8WpmnNVE.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BZ96GDPT95TXPeXJsB1p1OJ8WpmnNVE.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BZ96GDPT95TXPeXJsB1p1OJ8WpmnNVE.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDelete Image\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CAM398QXD2S3ekJle5VmlfS0AtuWq3L.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CAM398QXD2S3ekJle5VmlfS0AtuWq3L.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CAM398QXD2S3ekJle5VmlfS0AtuWq3L.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eVerifiy Image Deleted or not ? \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CB07KLVCC78QTPdNpujyAvrlIXNlck9.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CB07KLVCC78QTPdNpujyAvrlIXNlck9.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CB07KLVCC78QTPdNpujyAvrlIXNlck9.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eUpload Image as Icon\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BWCNTQ7X94ZaSNxmfxU2mFVgorfZZa3.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BWCNTQ7X94ZaSNxmfxU2mFVgorfZZa3.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BWCNTQ7X94ZaSNxmfxU2mFVgorfZZa3.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet All Images\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BYSK3KGQ05dnSinxc0QWiRWthiNfWc8.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BYSK3KGQ05dnSinxc0QWiRWthiNfWc8.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BYSK3KGQ05dnSinxc0QWiRWthiNfWc8.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet All Images with Pagination\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CDGNP9WIE6TvLDQxf96IyqX0fya5EsR.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CDGNP9WIE6TvLDQxf96IyqX0fya5EsR.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CDGNP9WIE6TvLDQxf96IyqX0fya5EsR.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eUpload Image with JPG Format\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C0XT9A1SF7Mu0iA9F6CLNOaIeLn5dnl.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C0XT9A1SF7Mu0iA9F6CLNOaIeLn5dnl.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C0XT9A1SF7Mu0iA9F6CLNOaIeLn5dnl.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eUpload Image with GIF Format\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C5H2SKS632xp6PNPK1xB5yq7qrF3U7D.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C5H2SKS632xp6PNPK1xB5yq7qrF3U7D.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C5H2SKS632xp6PNPK1xB5yq7qrF3U7D.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eUpload Image More the 2 MB Size\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C8OPJNDV116ibUoU9CPtC79x5Fq2Pyx.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C8OPJNDV116ibUoU9CPtC79x5Fq2Pyx.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C8OPJNDV116ibUoU9CPtC79x5Fq2Pyx.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet Imaged with Invalid start parameter\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CEA3O8X8Z4WJyGcyCqWyoitUTc9fZnO.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CEA3O8X8Z4WJyGcyCqWyoitUTc9fZnO.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CEA3O8X8Z4WJyGcyCqWyoitUTc9fZnO.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet Imaged with Invalid limit parameter\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CG84XMC7Y4raShCZjDqmeBseM4KCiL1.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CG84XMC7Y4raShCZjDqmeBseM4KCiL1.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CG84XMC7Y4raShCZjDqmeBseM4KCiL1.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet Image with ID which does not exists\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CIT6KCGR90grjLSPzgFhGQXsV1AVHg0.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CIT6KCGR90grjLSPzgFhGQXsV1AVHg0.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CIT6KCGR90grjLSPzgFhGQXsV1AVHg0.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet Image with ID which is Invalid\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CLKKRJTLK6uXLJ458XgiGbUvOMkok3x.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CLKKRJTLK6uXLJ458XgiGbUvOMkok3x.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CLKKRJTLK6uXLJ458XgiGbUvOMkok3x.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDelete a Image ID which does not exists\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CNCP7QDUK2suitW38LUnDRHhZNVorRD.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CNCP7QDUK2suitW38LUnDRHhZNVorRD.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CNCP7QDUK2suitW38LUnDRHhZNVorRD.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDelete a Image which ID is Invalid\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9COQ8KX3OY4UFEvk0oaKno0WXSjSWULw.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9COQ8KX3OY4UFEvk0oaKno0WXSjSWULw.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9COQ8KX3OY4UFEvk0oaKno0WXSjSWULw.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/table\u003e"
+              "variable_value_new": "\u003ch2\u003eImage API Status Codes for valid and Invalid Cases\u003c/h2\u003e\n\u003ctable\u003e\n\u003ctr\u003e\n\u003cth\u003eActivity Name\u003c/th\u003e\n\u003cth\u003eTrue/False\u003c/th\u003e\n\u003cth\u003eError Code\u003c/th\u003e\n\u003cth\u003eError Message\u003c/th\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eUpload Image With PNG Format\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BUFARUYU008ICxM81ygqj0D0knSncEk.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BUFARUYU008ICxM81ygqj0D0knSncEk.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BUFARUYU008ICxM81ygqj0D0knSncEk.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet Image by ID\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BZ96GDPT95TXPeXJsB1p1OJ8WpmnNVE.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BZ96GDPT95TXPeXJsB1p1OJ8WpmnNVE.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BZ96GDPT95TXPeXJsB1p1OJ8WpmnNVE.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDelete Image\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CAM398QXD2S3ekJle5VmlfS0AtuWq3L.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CAM398QXD2S3ekJle5VmlfS0AtuWq3L.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CAM398QXD2S3ekJle5VmlfS0AtuWq3L.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eVerifiy Image Deleted or not ? \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CB07KLVCC78QTPdNpujyAvrlIXNlck9.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CB07KLVCC78QTPdNpujyAvrlIXNlck9.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CB07KLVCC78QTPdNpujyAvrlIXNlck9.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eUpload Image as Icon\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BWCNTQ7X94ZaSNxmfxU2mFVgorfZZa3.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BWCNTQ7X94ZaSNxmfxU2mFVgorfZZa3.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BWCNTQ7X94ZaSNxmfxU2mFVgorfZZa3.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet All Images\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9DUXIWBRSK3SalF5ciJeitjirpys4bVc.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9DUXIWBRSK3SalF5ciJeitjirpys4bVc.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9DUXIWBRSK3SalF5ciJeitjirpys4bVc.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet All Images with Pagination\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9DVE1PR12U285gwwLKuJi6bOBsYaeX7Y.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9DVE1PR12U285gwwLKuJi6bOBsYaeX7Y.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9DVE1PR12U285gwwLKuJi6bOBsYaeX7Y.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eUpload Image with JPG Format\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C0XT9A1SF7Mu0iA9F6CLNOaIeLn5dnl.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C0XT9A1SF7Mu0iA9F6CLNOaIeLn5dnl.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C0XT9A1SF7Mu0iA9F6CLNOaIeLn5dnl.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eUpload Image with GIF Format\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C5H2SKS632xp6PNPK1xB5yq7qrF3U7D.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C5H2SKS632xp6PNPK1xB5yq7qrF3U7D.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C5H2SKS632xp6PNPK1xB5yq7qrF3U7D.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eUpload Image More the 2 MB Size\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C8OPJNDV116ibUoU9CPtC79x5Fq2Pyx.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C8OPJNDV116ibUoU9CPtC79x5Fq2Pyx.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C8OPJNDV116ibUoU9CPtC79x5Fq2Pyx.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet Imaged with Invalid start parameter\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9E5IW6FVXC6GxvvkoQWQngAH5b49UKTS.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9E5IW6FVXC6GxvvkoQWQngAH5b49UKTS.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9E5IW6FVXC6GxvvkoQWQngAH5b49UKTS.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet Imaged with Invalid limit parameter\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9E5ZRTQ0W51YBriJ6DTwZPgyvHdVr06q.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9E5ZRTQ0W51YBriJ6DTwZPgyvHdVr06q.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9E5ZRTQ0W51YBriJ6DTwZPgyvHdVr06q.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet Image with ID which does not exists\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9EFP8M0X5575sjudrDSQnefK5m7vE0RY.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9EFP8M0X5575sjudrDSQnefK5m7vE0RY.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9EFP8M0X5575sjudrDSQnefK5m7vE0RY.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet Image with ID which is Invalid\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9EGIYCOJ097ZLaxN2hmaNRrVx6A2J2MG.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9EGIYCOJ097ZLaxN2hmaNRrVx6A2J2MG.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9EGIYCOJ097ZLaxN2hmaNRrVx6A2J2MG.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDelete a Image ID which does not exists\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CNCP7QDUK2suitW38LUnDRHhZNVorRD.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CNCP7QDUK2suitW38LUnDRHhZNVorRD.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CNCP7QDUK2suitW38LUnDRHhZNVorRD.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDelete a Image which ID is Invalid\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9COQ8KX3OY4UFEvk0oaKno0WXSjSWULw.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9COQ8KX3OY4UFEvk0oaKno0WXSjSWULw.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9COQ8KX3OY4UFEvk0oaKno0WXSjSWULw.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/table\u003e"
             }
           ]
         },
