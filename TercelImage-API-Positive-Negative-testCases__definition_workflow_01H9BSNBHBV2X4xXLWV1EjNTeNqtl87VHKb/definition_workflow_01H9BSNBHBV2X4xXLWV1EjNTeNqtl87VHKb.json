@@ -1,0 +1,1652 @@
+{
+  "workflow": {
+    "unique_name": "definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb",
+    "name": "Tercel Image API - Negative Test Cases",
+    "title": "Tercel Image API - Negative Test Cases",
+    "type": "generic.workflow",
+    "base_type": "workflow",
+    "variables": [
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Image API -Positive Case - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01H9CQ5C4C0XY0COMk3jwpZvGwFGANSZ6Ca",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.file",
+        "properties": {
+          "value": "",
+          "scope": "input",
+          "name": "ImageFileName - more than 2MB",
+          "type": "datatype.file",
+          "is_required": true
+        },
+        "unique_name": "variable_workflow_01H9C39XJJND47RZE9GGlAuRqfroT5mypvL",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "ImageID which Does not exists",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01H9CK6P1TYWD30SvoLH2wmctnOMPyAlaSf",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Delete ID which is Invalid",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01H9CN90UJV0964YTu3zwCmaFUDQFKhGF1H",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Invalid ID",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01H9CKBSXXEEX6cGcDdSekeL4HqD8rWeN3f",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.file",
+        "properties": {
+          "value": "",
+          "scope": "input",
+          "name": "ImageFileName - PngFormat",
+          "type": "datatype.file",
+          "is_required": true
+        },
+        "unique_name": "variable_workflow_01H9BV273HZTT6aukxl5cjk3UThbjD6gA9l",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.file",
+        "properties": {
+          "value": "",
+          "scope": "input",
+          "name": "ImageFileName - JpgFormat",
+          "type": "datatype.file",
+          "is_required": true
+        },
+        "unique_name": "variable_workflow_01H9C2SQKW1ML2Hf6iZmj467J83VC7wBvbF",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.file",
+        "properties": {
+          "value": "",
+          "scope": "input",
+          "name": "ImageFileName - GifFormat",
+          "type": "datatype.file",
+          "is_required": true
+        },
+        "unique_name": "variable_workflow_01H9C31HRLZ0I3lCGxSrD2WlLQ8LmhtYbAD",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Invalid Start",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01H9CF7JESZAC2nrt6nKa98rws978ohvRQO",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Invlaid Limt",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01H9CFCZR7FQ11EmIDW0VicIhCqLPYsxaLq",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Delete ID which Does not Exists",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01H9CN0JGQYMB279RR5yjsmcYft2k9RA4dN",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "EmailTable",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01H9CQHFE4LP143adP96ETIH0o9lbzCmpYi",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "GIF Unsupported",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01H9C7XGPLFI25eZHZwxyk0LBwgB3FOXsb7",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Szie of the Image",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01H9C8CU53BZ13LYp44jhqIlbkcZChMEEMd",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Image API -Negitive Case - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01H9CQBJGFJ873qTukuPXhOARJO4pmQFjZj",
+        "object_type": "variable_workflow"
+      }
+    ],
+    "properties": {
+      "atomic": {
+        "is_atomic": false
+      },
+      "delete_workflow_instance": false,
+      "display_name": "Tercel Image API - Negative Test Cases",
+      "runtime_user": {
+        "override_target_runtime_user": false,
+        "specify_on_workflow_start": false,
+        "target_default": true
+      },
+      "target": {
+        "target_type": "web-service.endpoint",
+        "target_id": "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP",
+        "execute_on_workflow_target": true
+      }
+    },
+    "object_type": "definition_workflow",
+    "actions": [
+      {
+        "unique_name": "definition_activity_01H9BVFOILYSG6S9FnudtWLoS9kc4EOvWGB",
+        "name": "Group",
+        "title": "Image API Verification - Positive Cases",
+        "type": "logic.group",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Image API Verification - Positive Cases",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "actions": [
+          {
+            "unique_name": "definition_activity_01H9BUFARUYU008ICxM81ygqj0D0knSncEk",
+            "name": "Upload File",
+            "title": "Upload Image with Png Format",
+            "type": "email.upload_file",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Upload Image with Png Format",
+              "http_request": {
+                "allow_auto_redirect": true,
+                "body_data": {
+                  "body_type": "form-data",
+                  "form_data": [
+                    {
+                      "key": "image",
+                      "key_type": "file",
+                      "path": "$workflow.definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb.input.variable_workflow_01H9BV273HZTT6aukxl5cjk3UThbjD6gA9l$"
+                    }
+                  ]
+                },
+                "continue_on_error_status_code": false,
+                "method": "POST",
+                "relative_url": "images"
+              },
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              },
+              "target_type": "web-service.endpoint"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9BWWG7WEHE6x68Ce6TOObjCVVhpqt2hu",
+            "name": "JSONPath Query",
+            "title": "Extract the Location Header",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the Location Header",
+              "input_json": "$activity.definition_activity_01H9BUFARUYU008ICxM81ygqj0D0knSncEk.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.response_headers[?(@.name==\"Location\")].value",
+                  "jsonpath_query_name": "Location Headers",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9BXJI485N61DLbEEoxj2kZLnE879BWgd",
+            "name": "Replace String",
+            "title": "Extract the ImageID",
+            "type": "core.replacestring",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Extract the ImageID",
+              "input_string": "$activity.definition_activity_01H9BWWG7WEHE6x68Ce6TOObjCVVhpqt2hu.output.jsonpath_queries.Location Headers$",
+              "replace_list": [
+                {
+                  "replaced_string": "api/v1/images/",
+                  "replacement_string": ""
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9BZ96GDPT95TXPeXJsB1p1OJ8WpmnNVE",
+            "name": "Download File",
+            "title": "Get Images with above ID",
+            "type": "email.download_file",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Get Images with above ID",
+              "http_request": {
+                "allow_auto_redirect": true,
+                "continue_on_error_status_code": false,
+                "method": "GET",
+                "relative_url": "images/$activity.definition_activity_01H9BXJI485N61DLbEEoxj2kZLnE879BWgd.output.result_string$"
+              },
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              },
+              "target_type": "web-service.endpoint"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9CAM398QXD2S3ekJle5VmlfS0AtuWq3L",
+            "name": "HTTP Request",
+            "title": "Delete Image",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Delete Image",
+              "method": "DELETE",
+              "relative_url": "images/$activity.definition_activity_01H9BXJI485N61DLbEEoxj2kZLnE879BWgd.output.result_string$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9CB07KLVCC78QTPdNpujyAvrlIXNlck9",
+            "name": "HTTP Request",
+            "title": "Delete Image - Verify Deleted or Not ? ",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Delete Image - Verify Deleted or Not ? ",
+              "method": "DELETE",
+              "relative_url": "images/$activity.definition_activity_01H9BXJI485N61DLbEEoxj2kZLnE879BWgd.output.result_string$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9BWCNTQ7X94ZaSNxmfxU2mFVgorfZZa3",
+            "name": "Upload File",
+            "title": "Upload Image as icon",
+            "type": "email.upload_file",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Upload Image as icon",
+              "http_request": {
+                "allow_auto_redirect": true,
+                "body_data": {
+                  "body_type": "form-data",
+                  "form_data": [
+                    {
+                      "key": "image",
+                      "key_type": "file",
+                      "path": "$workflow.definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb.input.variable_workflow_01H9BV273HZTT6aukxl5cjk3UThbjD6gA9l$"
+                    }
+                  ]
+                },
+                "continue_on_error_status_code": false,
+                "method": "POST",
+                "relative_url": "images?is_icon=true"
+              },
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              },
+              "target_type": "web-service.endpoint"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9BY182HC8E2Kp84KXZC4R3gpOkHXr65w",
+            "name": "JSONPath Query",
+            "title": "Extract the Location Header",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the Location Header",
+              "input_json": "$activity.definition_activity_01H9BWCNTQ7X94ZaSNxmfxU2mFVgorfZZa3.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.response_headers[?(@.name==\"Location\")].value",
+                  "jsonpath_query_name": "Location Headers",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9BY6HZYYUY4sWEkgRIrlMy5PUdSJQxyl",
+            "name": "Replace String",
+            "title": "Extract the ImageID",
+            "type": "core.replacestring",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Extract the ImageID",
+              "input_string": "$activity.definition_activity_01H9BY182HC8E2Kp84KXZC4R3gpOkHXr65w.output.jsonpath_queries.Location Headers$",
+              "replace_list": [
+                {
+                  "replaced_string": "api/v1/images/",
+                  "replacement_string": ""
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9BYYN9U9G4212kyaxs5AZXsuQzAATMzU",
+            "name": "Download File",
+            "title": "Get Images with icon set to true",
+            "type": "email.download_file",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Get Images with icon set to true",
+              "http_request": {
+                "allow_auto_redirect": true,
+                "continue_on_error_status_code": false,
+                "method": "GET",
+                "relative_url": "images/$activity.definition_activity_01H9BY6HZYYUY4sWEkgRIrlMy5PUdSJQxyl.output.result_string$?is_icon=true"
+              },
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              },
+              "target_type": "web-service.endpoint"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9CB8PJ5FUT2bmPqboH2zEYBl2Ps6CcjP",
+            "name": "HTTP Request",
+            "title": "Delete Image",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Delete Image",
+              "method": "DELETE",
+              "relative_url": "images/$activity.definition_activity_01H9BY6HZYYUY4sWEkgRIrlMy5PUdSJQxyl.output.result_string$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9BYSK3KGQ05dnSinxc0QWiRWthiNfWc8",
+            "name": "Download File",
+            "title": "Get ALL Images",
+            "type": "email.download_file",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Get ALL Images",
+              "http_request": {
+                "allow_auto_redirect": true,
+                "continue_on_error_status_code": false,
+                "method": "GET",
+                "relative_url": "images"
+              },
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              },
+              "target_type": "web-service.endpoint"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9CDGNP9WIE6TvLDQxf96IyqX0fya5EsR",
+            "name": "Download File",
+            "title": "Get ALL Images with Pagination",
+            "type": "email.download_file",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Get ALL Images with Pagination",
+              "http_request": {
+                "allow_auto_redirect": true,
+                "continue_on_error_status_code": false,
+                "method": "GET",
+                "relative_url": "images?start=1\u0026limit=1"
+              },
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              },
+              "target_type": "web-service.endpoint"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9C0XT9A1SF7Mu0iA9F6CLNOaIeLn5dnl",
+            "name": "Upload File",
+            "title": "Upload Image with Jpg Format",
+            "type": "email.upload_file",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Upload Image with Jpg Format",
+              "http_request": {
+                "allow_auto_redirect": true,
+                "body_data": {
+                  "body_type": "form-data",
+                  "form_data": [
+                    {
+                      "key": "image",
+                      "key_type": "file",
+                      "path": "$workflow.definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb.input.variable_workflow_01H9C2SQKW1ML2Hf6iZmj467J83VC7wBvbF$"
+                    }
+                  ]
+                },
+                "continue_on_error_status_code": false,
+                "method": "POST",
+                "relative_url": "images"
+              },
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              },
+              "target_type": "web-service.endpoint"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9C3NYXEQ190Wdt8DRPauDGUv5sGHeufP",
+            "name": "JSONPath Query",
+            "title": "Extract the Location Header",
+            "type": "corejava.jsonpathquery",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Extract the Location Header",
+              "input_json": "$activity.definition_activity_01H9C0XT9A1SF7Mu0iA9F6CLNOaIeLn5dnl.output.response_body$",
+              "jsonpath_queries": [
+                {
+                  "jsonpath_query": "$.response_headers[?(@.name==\"Location\")].value",
+                  "jsonpath_query_name": "Location Headers",
+                  "jsonpath_query_type": "string"
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9C3T00SP8E249DAjtDp8GZjYE3eMA8xj",
+            "name": "Replace String",
+            "title": "Extract the ImageID",
+            "type": "core.replacestring",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Extract the ImageID",
+              "input_string": "$activity.definition_activity_01H9C3NYXEQ190Wdt8DRPauDGUv5sGHeufP.output.jsonpath_queries.Location Headers$",
+              "replace_list": [
+                {
+                  "replaced_string": "api/v1/images/",
+                  "replacement_string": ""
+                }
+              ],
+              "skip_execution": false
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9C4QH0WRKC7fUX9lqJ6ivMJpaMU7EWkq",
+            "name": "Download File",
+            "title": "Get Image with JPG format",
+            "type": "email.download_file",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": false,
+              "display_name": "Get Image with JPG format",
+              "http_request": {
+                "allow_auto_redirect": true,
+                "continue_on_error_status_code": false,
+                "method": "GET",
+                "relative_url": "images/$activity.definition_activity_01H9C3T00SP8E249DAjtDp8GZjYE3eMA8xj.output.result_string$"
+              },
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              },
+              "target_type": "web-service.endpoint"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9CBVVY0HQW43aTLCGejDM5X7UPvVqGzA",
+            "name": "HTTP Request",
+            "title": "Delete Image",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
+              "continue_on_failure": false,
+              "display_name": "Delete Image",
+              "method": "DELETE",
+              "relative_url": "images/$activity.definition_activity_01H9C3T00SP8E249DAjtDp8GZjYE3eMA8xj.output.result_string$",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01H9CR1RLZ6VB38Hv3WgdVSOC5DxaNURHtv",
+        "name": "Condition Block",
+        "title": "Verify the Status Code - Positive Cases",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Verify the Status Code - Positive Cases",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01H9CR1X7185I5RABQmq0kWa5i5r70B6zVJ",
+            "name": "Condition Branch",
+            "title": "Pass Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": {
+                      "left_operand": {
+                        "left_operand": {
+                          "left_operand": {
+                            "left_operand": {
+                              "left_operand": {
+                                "left_operand": "$activity.definition_activity_01H9BUFARUYU008ICxM81ygqj0D0knSncEk.output.succeeded$",
+                                "operator": "eq",
+                                "right_operand": true
+                              },
+                              "operator": "and",
+                              "right_operand": {
+                                "left_operand": "$activity.definition_activity_01H9BZ96GDPT95TXPeXJsB1p1OJ8WpmnNVE.output.succeeded$",
+                                "operator": "eq",
+                                "right_operand": true
+                              }
+                            },
+                            "operator": "and",
+                            "right_operand": {
+                              "left_operand": "$activity.definition_activity_01H9CAM398QXD2S3ekJle5VmlfS0AtuWq3L.output.status_code$",
+                              "operator": "eq",
+                              "right_operand": 204
+                            }
+                          },
+                          "operator": "and",
+                          "right_operand": {
+                            "left_operand": "$activity.definition_activity_01H9CB07KLVCC78QTPdNpujyAvrlIXNlck9.output.error.code$",
+                            "operator": "eq",
+                            "right_operand": "404"
+                          }
+                        },
+                        "operator": "and",
+                        "right_operand": {
+                          "left_operand": "$activity.definition_activity_01H9BWCNTQ7X94ZaSNxmfxU2mFVgorfZZa3.output.succeeded$",
+                          "operator": "eq",
+                          "right_operand": true
+                        }
+                      },
+                      "operator": "and",
+                      "right_operand": {
+                        "left_operand": "$activity.definition_activity_01H9BYYN9U9G4212kyaxs5AZXsuQzAATMzU.output.succeeded$",
+                        "operator": "eq",
+                        "right_operand": true
+                      }
+                    },
+                    "operator": "and",
+                    "right_operand": {
+                      "left_operand": "$activity.definition_activity_01H9CDGNP9WIE6TvLDQxf96IyqX0fya5EsR.output.succeeded$",
+                      "operator": "eq",
+                      "right_operand": true
+                    }
+                  },
+                  "operator": "and",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01H9C0XT9A1SF7Mu0iA9F6CLNOaIeLn5dnl.output.succeeded$",
+                    "operator": "eq",
+                    "right_operand": true
+                  }
+                },
+                "operator": "and",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01H9BYSK3KGQ05dnSinxc0QWiRWthiNfWc8.output.succeeded$",
+                  "operator": "eq",
+                  "right_operand": true
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Pass Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01H9CRJPDPE7Z3UqZN0a7cJ7uP4Ct6OKsDL",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb.output.variable_workflow_01H9CQ5C4C0XY0COMk3jwpZvGwFGANSZ6Ca$",
+                      "variable_value_new": "✔✅All test cases are passed - 100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01H9CR1ZXA4SV40SgX9nt8vCssmNWH3kzI3",
+            "name": "Condition Branch",
+            "title": "Fail Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": {
+                      "left_operand": {
+                        "left_operand": {
+                          "left_operand": {
+                            "left_operand": {
+                              "left_operand": {
+                                "left_operand": "$activity.definition_activity_01H9BUFARUYU008ICxM81ygqj0D0knSncEk.output.succeeded$",
+                                "operator": "eq",
+                                "right_operand": false
+                              },
+                              "operator": "or",
+                              "right_operand": {
+                                "left_operand": "$activity.definition_activity_01H9BZ96GDPT95TXPeXJsB1p1OJ8WpmnNVE.output.succeeded$",
+                                "operator": "eq",
+                                "right_operand": false
+                              }
+                            },
+                            "operator": "or",
+                            "right_operand": {
+                              "left_operand": "$activity.definition_activity_01H9CAM398QXD2S3ekJle5VmlfS0AtuWq3L.output.status_code$",
+                              "operator": "ne",
+                              "right_operand": 204
+                            }
+                          },
+                          "operator": "or",
+                          "right_operand": {
+                            "left_operand": "$activity.definition_activity_01H9CB07KLVCC78QTPdNpujyAvrlIXNlck9.output.error.code$",
+                            "operator": "ne",
+                            "right_operand": "404"
+                          }
+                        },
+                        "operator": "or",
+                        "right_operand": {
+                          "left_operand": "$activity.definition_activity_01H9BWCNTQ7X94ZaSNxmfxU2mFVgorfZZa3.output.succeeded$",
+                          "operator": "eq",
+                          "right_operand": false
+                        }
+                      },
+                      "operator": "or",
+                      "right_operand": {
+                        "left_operand": "$activity.definition_activity_01H9BYYN9U9G4212kyaxs5AZXsuQzAATMzU.output.succeeded$",
+                        "operator": "eq",
+                        "right_operand": false
+                      }
+                    },
+                    "operator": "or",
+                    "right_operand": {
+                      "left_operand": "$activity.definition_activity_01H9CDGNP9WIE6TvLDQxf96IyqX0fya5EsR.output.succeeded$",
+                      "operator": "eq",
+                      "right_operand": false
+                    }
+                  },
+                  "operator": "or",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01H9BYSK3KGQ05dnSinxc0QWiRWthiNfWc8.output.succeeded$",
+                    "operator": "eq",
+                    "right_operand": false
+                  }
+                },
+                "operator": "or",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01H9C0XT9A1SF7Mu0iA9F6CLNOaIeLn5dnl.output.succeeded$",
+                  "operator": "eq",
+                  "right_operand": false
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Fail Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01H9CRKZPTHMU2GSvoIVOqWot4MEadE5hGn",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb.output.variable_workflow_01H9CQ5C4C0XY0COMk3jwpZvGwFGANSZ6Ca$",
+                      "variable_value_new": "❌⭕some test case are failed - please check the instance https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb.output.instance_id$/"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01H9CCRRGZO8901n0UI07AAPxFZIZMi7BPR",
+        "name": "Group",
+        "title": "Image API Verification - Negative Cases",
+        "type": "logic.group",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Image API Verification - Negative Cases",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "actions": [
+          {
+            "unique_name": "definition_activity_01H9C5H2SKS632xp6PNPK1xB5yq7qrF3U7D",
+            "name": "Upload File",
+            "title": "Upload Image with GIF Format",
+            "type": "email.upload_file",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": true,
+              "display_name": "Upload Image with GIF Format",
+              "http_request": {
+                "allow_auto_redirect": true,
+                "body_data": {
+                  "body_type": "form-data",
+                  "form_data": [
+                    {
+                      "key": "image",
+                      "key_type": "file",
+                      "path": "$workflow.definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb.input.variable_workflow_01H9C31HRLZ0I3lCGxSrD2WlLQ8LmhtYbAD$"
+                    }
+                  ]
+                },
+                "continue_on_error_status_code": false,
+                "method": "POST",
+                "relative_url": "images"
+              },
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              },
+              "target_type": "web-service.endpoint"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9C7OEUHJ0O4d5XyZbgqmLsMwg5EgDbEg",
+            "name": "Set Variables",
+            "title": "Set Variables",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Set Variables",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb.output.variable_workflow_01H9C7XGPLFI25eZHZwxyk0LBwgB3FOXsb7$",
+                  "variable_value_new": "$activity.definition_activity_01H9C5H2SKS632xp6PNPK1xB5yq7qrF3U7D.output.error.message$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9C8OPJNDV116ibUoU9CPtC79x5Fq2Pyx",
+            "name": "Upload File",
+            "title": "Upload Image with size more than 2MB",
+            "type": "email.upload_file",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": true,
+              "display_name": "Upload Image with size more than 2MB",
+              "http_request": {
+                "allow_auto_redirect": true,
+                "body_data": {
+                  "body_type": "form-data",
+                  "form_data": [
+                    {
+                      "key": "image",
+                      "key_type": "file",
+                      "path": "$workflow.definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb.input.variable_workflow_01H9C39XJJND47RZE9GGlAuRqfroT5mypvL$"
+                    }
+                  ]
+                },
+                "continue_on_error_status_code": false,
+                "method": "POST",
+                "relative_url": "images"
+              },
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              },
+              "target_type": "web-service.endpoint"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9C95BVTT5Q31vtZxFfW4p1aK3V8PCvSd",
+            "name": "Set Variables",
+            "title": "Set Variables",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Set Variables",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb.output.variable_workflow_01H9C8CU53BZ13LYp44jhqIlbkcZChMEEMd$",
+                  "variable_value_new": "$activity.definition_activity_01H9C8OPJNDV116ibUoU9CPtC79x5Fq2Pyx.output.error.message$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9CEA3O8X8Z4WJyGcyCqWyoitUTc9fZnO",
+            "name": "Download File",
+            "title": "Get ALL Images with Invalid Start Pagination",
+            "type": "email.download_file",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": true,
+              "display_name": "Get ALL Images with Invalid Start Pagination",
+              "http_request": {
+                "allow_auto_redirect": true,
+                "continue_on_error_status_code": false,
+                "method": "GET",
+                "relative_url": "images?start=-1\u0026limit=1"
+              },
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              },
+              "target_type": "web-service.endpoint"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9CFKQZ9U7R7MS2XTnm1dLlGo01cLoM50",
+            "name": "Set Variables",
+            "title": "Set Variables",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Set Variables",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb.output.variable_workflow_01H9CF7JESZAC2nrt6nKa98rws978ohvRQO$",
+                  "variable_value_new": "$activity.definition_activity_01H9CEA3O8X8Z4WJyGcyCqWyoitUTc9fZnO.output.error.message$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9CG84XMC7Y4raShCZjDqmeBseM4KCiL1",
+            "name": "Download File",
+            "title": "Get ALL Images with Invalid limit Pagination",
+            "type": "email.download_file",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": true,
+              "display_name": "Get ALL Images with Invalid limit Pagination",
+              "http_request": {
+                "allow_auto_redirect": true,
+                "continue_on_error_status_code": false,
+                "method": "GET",
+                "relative_url": "images?start=1\u0026limit=32"
+              },
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              },
+              "target_type": "web-service.endpoint"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9CGZKJ29040lBdNZI2F7S2GzsHSLo4hu",
+            "name": "Set Variables",
+            "title": "Set Variables",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Set Variables",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb.output.variable_workflow_01H9CFCZR7FQ11EmIDW0VicIhCqLPYsxaLq$",
+                  "variable_value_new": "$activity.definition_activity_01H9CG84XMC7Y4raShCZjDqmeBseM4KCiL1.output.error.message$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9CIT6KCGR90grjLSPzgFhGQXsV1AVHg0",
+            "name": "Download File",
+            "title": "Get Images with ID Does not Exits ",
+            "type": "email.download_file",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": true,
+              "display_name": "Get Images with ID Does not Exits ",
+              "http_request": {
+                "allow_auto_redirect": true,
+                "continue_on_error_status_code": false,
+                "method": "GET",
+                "relative_url": "images/5f0d95bdcfa615cb09571a73"
+              },
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              },
+              "target_type": "web-service.endpoint"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9CKGZLJTU50KDSomrKoLoNSoxuLuP9Ab",
+            "name": "Set Variables",
+            "title": "Set Variables",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Set Variables",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb.output.variable_workflow_01H9CK6P1TYWD30SvoLH2wmctnOMPyAlaSf$",
+                  "variable_value_new": "$activity.definition_activity_01H9CIT6KCGR90grjLSPzgFhGQXsV1AVHg0.output.error.message$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9CLKKRJTLK6uXLJ458XgiGbUvOMkok3x",
+            "name": "Download File",
+            "title": "Get Images with Invalid ID",
+            "type": "email.download_file",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "continue_on_failure": true,
+              "display_name": "Get Images with Invalid ID",
+              "http_request": {
+                "allow_auto_redirect": true,
+                "continue_on_error_status_code": false,
+                "method": "GET",
+                "relative_url": "images/5f0d95bdcfa615cb09571a7Z"
+              },
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              },
+              "target_type": "web-service.endpoint"
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9CLX0NQCEO4fnf2PblY2j1499fDFOy1s",
+            "name": "Set Variables",
+            "title": "Set Variables",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Set Variables",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb.output.variable_workflow_01H9CKBSXXEEX6cGcDdSekeL4HqD8rWeN3f$",
+                  "variable_value_new": "$activity.definition_activity_01H9CLKKRJTLK6uXLJ458XgiGbUvOMkok3x.output.error.message$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9CNCP7QDUK2suitW38LUnDRHhZNVorRD",
+            "name": "HTTP Request",
+            "title": "Delete Image with ID does not exists",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Delete Image with ID does not exists",
+              "method": "DELETE",
+              "relative_url": "images/5f0d9703ca92889e2b5ec5eb",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9CNV5Q85FD3SeFRLCgSu9Cv5aV6BYt4l",
+            "name": "Set Variables",
+            "title": "Set Variables",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Set Variables",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb.output.variable_workflow_01H9CN0JGQYMB279RR5yjsmcYft2k9RA4dN$",
+                  "variable_value_new": "$activity.definition_activity_01H9CNCP7QDUK2suitW38LUnDRHhZNVorRD.output.error.message$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9COQ8KX3OY4UFEvk0oaKno0WXSjSWULw",
+            "name": "HTTP Request",
+            "title": "Delete Image with ID which is Invalid",
+            "type": "web-service.http_request",
+            "base_type": "activity",
+            "properties": {
+              "action_timeout": 180,
+              "allow_auto_redirect": true,
+              "continue_on_error_status_code": false,
+              "continue_on_failure": true,
+              "display_name": "Delete Image with ID which is Invalid",
+              "method": "DELETE",
+              "relative_url": "images/5f0d9703ca92889e2b5ec5eZ",
+              "runtime_user": {
+                "override_target_runtime_user": false,
+                "target_default": true
+              },
+              "skip_execution": false,
+              "target": {
+                "override_workflow_target": false,
+                "override_workflow_target_group_criteria": false,
+                "use_workflow_target": true,
+                "use_workflow_target_group": false
+              }
+            },
+            "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01H9CP53VDPRM4r8fkfDzcHWCvagV8q92k3",
+            "name": "Set Variables",
+            "title": "Set Variables",
+            "type": "core.set_multiple_variables",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Set Variables",
+              "skip_execution": false,
+              "variables_to_update": [
+                {
+                  "variable_to_update": "$workflow.definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb.output.variable_workflow_01H9CN90UJV0964YTu3zwCmaFUDQFKhGF1H$",
+                  "variable_value_new": "$activity.definition_activity_01H9COQ8KX3OY4UFEvk0oaKno0WXSjSWULw.output.error.message$"
+                }
+              ]
+            },
+            "object_type": "definition_activity"
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01H9D1984941I1c7cd4H7g2IhkUnDcPiahY",
+        "name": "Condition Block",
+        "title": "Verify the Status Code - Negative Cases",
+        "type": "logic.if_else",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Verify the Status Code - Negative Cases",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01H9D19F80S3B06gDQXWmW3LkwDr1eE2ztl",
+            "name": "Condition Branch",
+            "title": "Pass Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": {
+                      "left_operand": {
+                        "left_operand": {
+                          "left_operand": {
+                            "left_operand": {
+                              "left_operand": "$activity.definition_activity_01H9C5H2SKS632xp6PNPK1xB5yq7qrF3U7D.output.error.code$",
+                              "operator": "eq",
+                              "right_operand": "400"
+                            },
+                            "operator": "and",
+                            "right_operand": {
+                              "left_operand": "$activity.definition_activity_01H9C8OPJNDV116ibUoU9CPtC79x5Fq2Pyx.output.error.code$",
+                              "operator": "eq",
+                              "right_operand": "400"
+                            }
+                          },
+                          "operator": "and",
+                          "right_operand": {
+                            "left_operand": "$activity.definition_activity_01H9CEA3O8X8Z4WJyGcyCqWyoitUTc9fZnO.output.error.code$",
+                            "operator": "eq",
+                            "right_operand": "400"
+                          }
+                        },
+                        "operator": "and",
+                        "right_operand": {
+                          "left_operand": "$activity.definition_activity_01H9CG84XMC7Y4raShCZjDqmeBseM4KCiL1.output.error.code$",
+                          "operator": "eq",
+                          "right_operand": "400"
+                        }
+                      },
+                      "operator": "and",
+                      "right_operand": {
+                        "left_operand": "$activity.definition_activity_01H9CIT6KCGR90grjLSPzgFhGQXsV1AVHg0.output.error.code$",
+                        "operator": "eq",
+                        "right_operand": "404"
+                      }
+                    },
+                    "operator": "and",
+                    "right_operand": {
+                      "left_operand": "$activity.definition_activity_01H9CLKKRJTLK6uXLJ458XgiGbUvOMkok3x.output.error.code$",
+                      "operator": "eq",
+                      "right_operand": "400"
+                    }
+                  },
+                  "operator": "and",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01H9CNCP7QDUK2suitW38LUnDRHhZNVorRD.output.error.code$",
+                    "operator": "eq",
+                    "right_operand": "404"
+                  }
+                },
+                "operator": "and",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01H9COQ8KX3OY4UFEvk0oaKno0WXSjSWULw.output.error.code$",
+                  "operator": "eq",
+                  "right_operand": "400"
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Pass Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01H9D1U9OT3V27Lx8Nkb5ks09VJ4A7nlddU",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb.output.variable_workflow_01H9CQBJGFJ873qTukuPXhOARJO4pmQFjZj$",
+                      "variable_value_new": "✔✅All test Cases are Passed -100%"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01H9D19HS86JK2zQ0iXtcirEdKQLESGT2r3",
+            "name": "Condition Branch",
+            "title": "Fail Case",
+            "type": "logic.condition_block",
+            "base_type": "activity",
+            "properties": {
+              "condition": {
+                "left_operand": {
+                  "left_operand": {
+                    "left_operand": {
+                      "left_operand": {
+                        "left_operand": {
+                          "left_operand": {
+                            "left_operand": {
+                              "left_operand": "$activity.definition_activity_01H9C5H2SKS632xp6PNPK1xB5yq7qrF3U7D.output.error.code$",
+                              "operator": "ne",
+                              "right_operand": "400"
+                            },
+                            "operator": "or",
+                            "right_operand": {
+                              "left_operand": "$activity.definition_activity_01H9C8OPJNDV116ibUoU9CPtC79x5Fq2Pyx.output.error.code$",
+                              "operator": "ne",
+                              "right_operand": "400"
+                            }
+                          },
+                          "operator": "or",
+                          "right_operand": {
+                            "left_operand": "$activity.definition_activity_01H9CEA3O8X8Z4WJyGcyCqWyoitUTc9fZnO.output.error.code$",
+                            "operator": "ne",
+                            "right_operand": "400"
+                          }
+                        },
+                        "operator": "or",
+                        "right_operand": {
+                          "left_operand": "$activity.definition_activity_01H9CG84XMC7Y4raShCZjDqmeBseM4KCiL1.output.error.code$",
+                          "operator": "ne",
+                          "right_operand": "400"
+                        }
+                      },
+                      "operator": "or",
+                      "right_operand": {
+                        "left_operand": "$activity.definition_activity_01H9CIT6KCGR90grjLSPzgFhGQXsV1AVHg0.output.error.code$",
+                        "operator": "ne",
+                        "right_operand": "404"
+                      }
+                    },
+                    "operator": "or",
+                    "right_operand": {
+                      "left_operand": "$activity.definition_activity_01H9CLKKRJTLK6uXLJ458XgiGbUvOMkok3x.output.error.code$",
+                      "operator": "ne",
+                      "right_operand": "400"
+                    }
+                  },
+                  "operator": "or",
+                  "right_operand": {
+                    "left_operand": "$activity.definition_activity_01H9CNCP7QDUK2suitW38LUnDRHhZNVorRD.output.error.code$",
+                    "operator": "ne",
+                    "right_operand": "404"
+                  }
+                },
+                "operator": "or",
+                "right_operand": {
+                  "left_operand": "$activity.definition_activity_01H9COQ8KX3OY4UFEvk0oaKno0WXSjSWULw.output.error.code$",
+                  "operator": "ne",
+                  "right_operand": "400"
+                }
+              },
+              "continue_on_failure": false,
+              "display_name": "Fail Case",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01H9D20ZHBQ83754wRuiShujG5a5K4PdGCB",
+                "name": "Set Variables",
+                "title": "Set Variables",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Set Variables",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb.output.variable_workflow_01H9CQBJGFJ873qTukuPXhOARJO4pmQFjZj$",
+                      "variable_value_new": "❌⭕Some test Cases are failed - Please check the instance - https://vpqetest-01.tidalsoft.local:30218/orch-ui/runs/$workflow.definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb.output.instance_id$/"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01H9D9CAJPFPF4ZIsd9UvUmgqHQhxbO2Awt",
+        "name": "Set Variables",
+        "title": "Email Table",
+        "type": "core.set_multiple_variables",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Email Table",
+          "skip_execution": false,
+          "variables_to_update": [
+            {
+              "variable_to_update": "$workflow.definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb.output.variable_workflow_01H9CQHFE4LP143adP96ETIH0o9lbzCmpYi$",
+              "variable_value_new": "\u003ch2\u003eImage API Status Codes for valid and Invalid Cases\u003c/h2\u003e\n\u003ctable\u003e\n\u003ctr\u003e\n\u003cth\u003eActivity Name\u003c/th\u003e\n\u003cth\u003eTrue/False\u003c/th\u003e\n\u003cth\u003eError Code\u003c/th\u003e\n\u003cth\u003eError Message\u003c/th\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eUpload Image With PNG Format\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BUFARUYU008ICxM81ygqj0D0knSncEk.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BUFARUYU008ICxM81ygqj0D0knSncEk.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BUFARUYU008ICxM81ygqj0D0knSncEk.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet Image by ID\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BZ96GDPT95TXPeXJsB1p1OJ8WpmnNVE.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BZ96GDPT95TXPeXJsB1p1OJ8WpmnNVE.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BZ96GDPT95TXPeXJsB1p1OJ8WpmnNVE.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDelete Image\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CAM398QXD2S3ekJle5VmlfS0AtuWq3L.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CAM398QXD2S3ekJle5VmlfS0AtuWq3L.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CAM398QXD2S3ekJle5VmlfS0AtuWq3L.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eVerifiy Image Deleted or not ? \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CB07KLVCC78QTPdNpujyAvrlIXNlck9.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CB07KLVCC78QTPdNpujyAvrlIXNlck9.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CB07KLVCC78QTPdNpujyAvrlIXNlck9.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eUpload Image as Icon\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BWCNTQ7X94ZaSNxmfxU2mFVgorfZZa3.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BWCNTQ7X94ZaSNxmfxU2mFVgorfZZa3.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BWCNTQ7X94ZaSNxmfxU2mFVgorfZZa3.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet All Images\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BYSK3KGQ05dnSinxc0QWiRWthiNfWc8.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BYSK3KGQ05dnSinxc0QWiRWthiNfWc8.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9BYSK3KGQ05dnSinxc0QWiRWthiNfWc8.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet All Images with Pagination\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CDGNP9WIE6TvLDQxf96IyqX0fya5EsR.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CDGNP9WIE6TvLDQxf96IyqX0fya5EsR.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CDGNP9WIE6TvLDQxf96IyqX0fya5EsR.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eUpload Image with JPG Format\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C0XT9A1SF7Mu0iA9F6CLNOaIeLn5dnl.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C0XT9A1SF7Mu0iA9F6CLNOaIeLn5dnl.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C0XT9A1SF7Mu0iA9F6CLNOaIeLn5dnl.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eUpload Image with GIF Format\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C5H2SKS632xp6PNPK1xB5yq7qrF3U7D.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C5H2SKS632xp6PNPK1xB5yq7qrF3U7D.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C5H2SKS632xp6PNPK1xB5yq7qrF3U7D.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eUpload Image More the 2 MB Size\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C8OPJNDV116ibUoU9CPtC79x5Fq2Pyx.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C8OPJNDV116ibUoU9CPtC79x5Fq2Pyx.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9C8OPJNDV116ibUoU9CPtC79x5Fq2Pyx.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet Imaged with Invalid start parameter\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CEA3O8X8Z4WJyGcyCqWyoitUTc9fZnO.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CEA3O8X8Z4WJyGcyCqWyoitUTc9fZnO.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CEA3O8X8Z4WJyGcyCqWyoitUTc9fZnO.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet Imaged with Invalid limit parameter\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CG84XMC7Y4raShCZjDqmeBseM4KCiL1.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CG84XMC7Y4raShCZjDqmeBseM4KCiL1.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CG84XMC7Y4raShCZjDqmeBseM4KCiL1.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet Image with ID which does not exists\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CIT6KCGR90grjLSPzgFhGQXsV1AVHg0.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CIT6KCGR90grjLSPzgFhGQXsV1AVHg0.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CIT6KCGR90grjLSPzgFhGQXsV1AVHg0.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet Image with ID which is Invalid\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CLKKRJTLK6uXLJ458XgiGbUvOMkok3x.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CLKKRJTLK6uXLJ458XgiGbUvOMkok3x.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CLKKRJTLK6uXLJ458XgiGbUvOMkok3x.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDelete a Image ID which does not exists\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CNCP7QDUK2suitW38LUnDRHhZNVorRD.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CNCP7QDUK2suitW38LUnDRHhZNVorRD.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9CNCP7QDUK2suitW38LUnDRHhZNVorRD.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDelete a Image which ID is Invalid\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9COQ8KX3OY4UFEvk0oaKno0WXSjSWULw.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9COQ8KX3OY4UFEvk0oaKno0WXSjSWULw.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H9COQ8KX3OY4UFEvk0oaKno0WXSjSWULw.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/table\u003e"
+            }
+          ]
+        },
+        "object_type": "definition_activity"
+      }
+    ],
+    "categories": [
+      "category_01GN2GBI52Y2F1AYT3RDfcwY4odOJfgHjMb"
+    ]
+  },
+  "categories": {
+    "category_01GN2GBI52Y2F1AYT3RDfcwY4odOJfgHjMb": {
+      "unique_name": "category_01GN2GBI52Y2F1AYT3RDfcwY4odOJfgHjMb",
+      "name": "Tercel_Automation_API",
+      "title": "Tercel_Automation_API",
+      "type": "basic.category",
+      "base_type": "category",
+      "description": "Tercel_Automation_API",
+      "category_type": "custom",
+      "object_type": "category"
+    }
+  },
+  "targets": {
+    "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP": {
+      "unique_name": "definition_target_01FYIU2EOA8R66EXZmvT1NUlQCnyrLUAcNP",
+      "name": "Tercel API",
+      "title": "Tercel API",
+      "type": "web-service.endpoint",
+      "base_type": "target",
+      "object_type": "definition_target",
+      "properties": {
+        "description": "test",
+        "disable_certificate_validation": true,
+        "display_name": "Tercel API",
+        "host": "172.23.14.96",
+        "ignore_proxy": false,
+        "no_runtime_user": true,
+        "path": "/api/v1/",
+        "port": 8006,
+        "protocol": "https"
+      }
+    }
+  }
+}
