@@ -1,11 +1,23 @@
 {
   "workflow": {
     "unique_name": "definition_workflow_01H9BSNBHBV2X4xXLWV1EjNTeNqtl87VHKb",
-    "name": "Tercel Image API - Negative Test Cases",
-    "title": "Tercel Image API - Negative Test Cases",
+    "name": "Tercel Image API - CRUD - Positive and Negative Test Cases",
+    "title": "Tercel Image API - CRUD - Positive and Negative Test Cases",
     "type": "generic.workflow",
     "base_type": "workflow",
     "variables": [
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Delete ID which Does not Exists",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01H9CN0JGQYMB279RR5yjsmcYft2k9RA4dN",
+        "object_type": "variable_workflow"
+      },
       {
         "schema_id": "datatype.string",
         "properties": {
@@ -23,35 +35,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Invalid ID",
+          "name": "Image API -Negitive Case - Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01H9CKBSXXEEX6cGcDdSekeL4HqD8rWeN3f",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.file",
-        "properties": {
-          "value": "",
-          "scope": "input",
-          "name": "ImageFileName - JpgFormat",
-          "type": "datatype.file",
-          "is_required": true
-        },
-        "unique_name": "variable_workflow_01H9C2SQKW1ML2Hf6iZmj467J83VC7wBvbF",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Invlaid Limt",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01H9CFCZR7FQ11EmIDW0VicIhCqLPYsxaLq",
+        "unique_name": "variable_workflow_01H9CQBJGFJ873qTukuPXhOARJO4pmQFjZj",
         "object_type": "variable_workflow"
       },
       {
@@ -71,23 +59,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "GIF Unsupported",
+          "name": "Invalid Start",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01H9C7XGPLFI25eZHZwxyk0LBwgB3FOXsb7",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.file",
-        "properties": {
-          "value": "",
-          "scope": "input",
-          "name": "ImageFileName - more than 2MB",
-          "type": "datatype.file",
-          "is_required": true
-        },
-        "unique_name": "variable_workflow_01H9C39XJJND47RZE9GGlAuRqfroT5mypvL",
+        "unique_name": "variable_workflow_01H9CF7JESZAC2nrt6nKa98rws978ohvRQO",
         "object_type": "variable_workflow"
       },
       {
@@ -119,11 +95,11 @@
         "properties": {
           "value": "",
           "scope": "input",
-          "name": "ImageFileName - GifFormat",
+          "name": "ImageFileName - PngFormat",
           "type": "datatype.file",
           "is_required": true
         },
-        "unique_name": "variable_workflow_01H9C31HRLZ0I3lCGxSrD2WlLQ8LmhtYbAD",
+        "unique_name": "variable_workflow_01H9BV273HZTT6aukxl5cjk3UThbjD6gA9l",
         "object_type": "variable_workflow"
       },
       {
@@ -131,11 +107,23 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Delete ID which Does not Exists",
+          "name": "Invalid ID",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01H9CN0JGQYMB279RR5yjsmcYft2k9RA4dN",
+        "unique_name": "variable_workflow_01H9CKBSXXEEX6cGcDdSekeL4HqD8rWeN3f",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Invlaid Limt",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01H9CFCZR7FQ11EmIDW0VicIhCqLPYsxaLq",
         "object_type": "variable_workflow"
       },
       {
@@ -155,11 +143,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Invalid Start",
+          "name": "GIF Unsupported",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01H9CF7JESZAC2nrt6nKa98rws978ohvRQO",
+        "unique_name": "variable_workflow_01H9C7XGPLFI25eZHZwxyk0LBwgB3FOXsb7",
         "object_type": "variable_workflow"
       },
       {
@@ -167,23 +155,35 @@
         "properties": {
           "value": "",
           "scope": "input",
-          "name": "ImageFileName - PngFormat",
+          "name": "ImageFileName - GifFormat",
           "type": "datatype.file",
           "is_required": true
         },
-        "unique_name": "variable_workflow_01H9BV273HZTT6aukxl5cjk3UThbjD6gA9l",
+        "unique_name": "variable_workflow_01H9C31HRLZ0I3lCGxSrD2WlLQ8LmhtYbAD",
         "object_type": "variable_workflow"
       },
       {
-        "schema_id": "datatype.string",
+        "schema_id": "datatype.file",
         "properties": {
           "value": "",
-          "scope": "output",
-          "name": "Image API -Negitive Case - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
+          "scope": "input",
+          "name": "ImageFileName - more than 2MB",
+          "type": "datatype.file",
+          "is_required": true
         },
-        "unique_name": "variable_workflow_01H9CQBJGFJ873qTukuPXhOARJO4pmQFjZj",
+        "unique_name": "variable_workflow_01H9C39XJJND47RZE9GGlAuRqfroT5mypvL",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.file",
+        "properties": {
+          "value": "",
+          "scope": "input",
+          "name": "ImageFileName - JpgFormat",
+          "type": "datatype.file",
+          "is_required": true
+        },
+        "unique_name": "variable_workflow_01H9C2SQKW1ML2Hf6iZmj467J83VC7wBvbF",
         "object_type": "variable_workflow"
       }
     ],
@@ -192,7 +192,7 @@
         "is_atomic": false
       },
       "delete_workflow_instance": false,
-      "display_name": "Tercel Image API - Negative Test Cases",
+      "display_name": "Tercel Image API - CRUD - Positive and Negative Test Cases",
       "runtime_user": {
         "override_target_runtime_user": false,
         "specify_on_workflow_start": false,
