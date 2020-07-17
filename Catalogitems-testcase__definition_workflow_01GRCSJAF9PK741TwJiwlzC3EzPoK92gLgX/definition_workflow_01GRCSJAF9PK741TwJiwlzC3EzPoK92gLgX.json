@@ -11,133 +11,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Ouput for Name Length for Update API",
+          "name": "Ouput for Description Length for Update API",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GT39QDZ9WLG0E8L18zwwVS3HmyUcYAsV9",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Update(PUT) API Name and Desc Length Output Status -Pass/FAil",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GT3FCDMQ9MQ3Y71bCsgSTj6FWdcB8SReG",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "DELETE Catalog Item API Output Status - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GT3RTJCTQF613DmhxWohRprQBcGNPD1o3",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Email Table",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GTVPFKNF2NV2UfWh1VS2RcFXbUIDM6661",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Output for Invalid Start",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GTB8F8MFP0Z12Ijsmxf6KgV23lfmbC56c",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Output for Name Length",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GS8XAIA6RRP6hHamHmbfCIbICBEWTc2TM",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Get Catalog Items Query Params Output Status - Pass/Fail",
-          "type": "datatype.string",
-          "description": "Get Catalog Items Query Params Output Status Description",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GRH2JU295WZ6vMEG44EiIfQGIDUpmtHb4",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Output for Invalid Limit",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GTB86WRFO4X7692RYiIdnaC6sjOBI2odf",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Create and Update Catalog Item API's Output Status - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GS5J3JQLC8L0J360u45CHEgU4Ry240Jiq",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Output for Description Length",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GS8XNN0DOJ86hoYdkSmTOvuHi6wldTqxR",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Get Catalog Items Output Status - Pass/Fail",
-          "type": "datatype.string",
-          "description": "Get Catalog Items Output Status Description",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GRH1KF7I3EY1mLDdJYmT3HrT2Hy5SKBEH",
+        "unique_name": "variable_workflow_01GT39XN2DC6G6FH2kTeB2b1LRIZaTlupID",
         "object_type": "variable_workflow"
       },
       {
@@ -153,15 +31,14 @@
         "object_type": "variable_workflow"
       },
       {
-        "schema_id": "datatype.string",
+        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
         "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Create(POST) API Name and Desc Length  Output Status - Pass/Fail",
-          "type": "datatype.string",
+          "scope": "local",
+          "name": "Sorting Headers",
+          "type": "datatype.table",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GS92O9YO54H5yBz9wHEHydLPuFRN4EXVr",
+        "unique_name": "variable_workflow_01GS604AXWCME3xPudagPpfXNKo73AtdfMY",
         "object_type": "variable_workflow"
       },
       {
@@ -181,6 +58,18 @@
         "properties": {
           "value": "",
           "scope": "output",
+          "name": "Output for Name Length",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GS8XAIA6RRP6hHamHmbfCIbICBEWTc2TM",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
           "name": "Create(POST) API without Name Output Status  - Pass/Fail",
           "type": "datatype.string",
           "is_required": false
@@ -189,61 +78,15 @@
         "object_type": "variable_workflow"
       },
       {
-        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-        "properties": {
-          "scope": "local",
-          "name": "Sorting Headers",
-          "type": "datatype.table",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GS604AXWCME3xPudagPpfXNKo73AtdfMY",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-        "properties": {
-          "scope": "local",
-          "name": "Sorting Headers1",
-          "type": "datatype.table",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GS62AWYI6C67LSsOJdxDIyCJpoHTRV0LR",
-        "object_type": "variable_workflow"
-      },
-      {
         "schema_id": "datatype.string",
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Pagination Link",
+          "name": "Ouput for Name Length for Update API",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GTB4P63LWGF0iBdVbzGIgkaFuM4YnjHtT",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Create API With Invalid Service Def Output Status - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GSA5HXPSWML2Q7UxmJYEPuEagkNdcpXrl",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Ouput for Description Length for Update API",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GT39XN2DC6G6FH2kTeB2b1LRIZaTlupID",
+        "unique_name": "variable_workflow_01GT39QDZ9WLG0E8L18zwwVS3HmyUcYAsV9",
         "object_type": "variable_workflow"
       },
       {
@@ -268,6 +111,163 @@
           "is_required": false
         },
         "unique_name": "variable_workflow_01GS9GOJWN6FC2FEXONBiDvXQ5jfVHcp2TH",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+        "properties": {
+          "scope": "local",
+          "name": "Sorting Headers1",
+          "type": "datatype.table",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GS62AWYI6C67LSsOJdxDIyCJpoHTRV0LR",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Create API With Invalid Service Def Output Status - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GSA5HXPSWML2Q7UxmJYEPuEagkNdcpXrl",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Create(POST) API Name and Desc Length  Output Status - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GS92O9YO54H5yBz9wHEHydLPuFRN4EXVr",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Pagination Link",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GTB4P63LWGF0iBdVbzGIgkaFuM4YnjHtT",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Get Catalog Items Query Params Output Status - Pass/Fail",
+          "type": "datatype.string",
+          "description": "Get Catalog Items Query Params Output Status Description",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GRH2JU295WZ6vMEG44EiIfQGIDUpmtHb4",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Create and Update Catalog Item API's Output Status - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GS5J3JQLC8L0J360u45CHEgU4Ry240Jiq",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Email Table",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GTVPFKNF2NV2UfWh1VS2RcFXbUIDM6661",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Output for Description Length",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GS8XNN0DOJ86hoYdkSmTOvuHi6wldTqxR",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "DELETE Catalog Item API Output Status - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GT3RTJCTQF613DmhxWohRprQBcGNPD1o3",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Update(PUT) API Name and Desc Length Output Status -Pass/FAil",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GT3FCDMQ9MQ3Y71bCsgSTj6FWdcB8SReG",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Output for Invalid Start",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GTB8F8MFP0Z12Ijsmxf6KgV23lfmbC56c",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Get Catalog Items Output Status - Pass/Fail",
+          "type": "datatype.string",
+          "description": "Get Catalog Items Output Status Description",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GRH1KF7I3EY1mLDdJYmT3HrT2Hy5SKBEH",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Output for Invalid Limit",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GTB86WRFO4X7692RYiIdnaC6sjOBI2odf",
         "object_type": "variable_workflow"
       }
     ],
@@ -1278,6 +1278,183 @@
               "skip_execution": false
             },
             "object_type": "definition_activity"
+          },
+          {
+            "unique_name": "definition_activity_01HBRS4AQC4LS369HQ5FZk7vzCl89s2v1IZ",
+            "name": "Group",
+            "title": "Issue - 1643 - Creating a CatalogItem with Empty Category",
+            "type": "logic.group",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "description": "Once this issue is fixed , need to add the this action status code in condition block and accordingly report need to be add with one more column. ",
+              "display_name": "Issue - 1643 - Creating a CatalogItem with Empty Category",
+              "skip_execution": true
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01HBR8PSCRKEH6G2o4sC9NC2p5QuJyWUaUq",
+                "name": "HTTP Request",
+                "title": "Create Catalog Item and mapping a category on Fly",
+                "type": "web-service.http_request",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "allow_auto_redirect": true,
+                  "body": "{\n\"categories\": [\n\t\t\"$activity.definition_activity_01GRINW3WGPDP3pTQEyirJAiciTdMpeSWTP.output.jsonpath_queries.Cat_ID$\"\n\t],\n  \"description\": \"catalogItem Description - $workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.instance_id$\",\n  \"icon\": \"5e9d3ea56a4c6b8651912da7\",\n  \"image_gallery\": [\n    \"5ef1ef2fe5190afa5110c1c7\"\n  ],\n  \"invalid_properties\": {\n    \"additionalProp1\": {},\n    \"additionalProp2\": {},\n    \"additionalProp3\": {}\n  },\n  \"is_orderable\": true,\n  \"is_orderable_for_others\": true,\n  \"links\": [\n    {\n      \"link_text\": \"PSC_URL\",\n      \"url\": \"http://172.21.37.22:8080/RequestCenter\"\n    }\n  ],\n  \"name\": \"CatalogItem01-$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.instance_id$\",\n  \"object_type\": \"catalog_item\",\n  \"service_definitions\": [\n    \"$activity.definition_activity_01GRIIH7LFPTY39GNTTebDcoixZ3QVBeHPq.output.variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI$\"\n  ],\n  \"tags\": [\n    \"TercelTag\"\n  ],\n  \"terms_and_conditions\": \"terms\",\n  \"title\": \"catalogitem\",\n  \"type\": \"catalogitem\",\n  \"unique_name\": \"CatalogItem Unique Name - $workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.instance_id$\",\n  \"version\": {\n    \"build\": 0,\n    \"major\": 0,\n    \"minor\": 0\n  }\n}",
+                  "content_type": "application/json",
+                  "continue_on_error_status_code": false,
+                  "continue_on_failure": false,
+                  "display_name": "Create Catalog Item and mapping a category on Fly",
+                  "method": "POST",
+                  "relative_url": "catalogitems",
+                  "runtime_user": {
+                    "override_target_runtime_user": false,
+                    "target_default": true
+                  },
+                  "skip_execution": false,
+                  "target": {
+                    "override_workflow_target": false,
+                    "override_workflow_target_group_criteria": false,
+                    "use_workflow_target": true,
+                    "use_workflow_target_group": false
+                  }
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HBRA9RRXWLK2K3dBBD8jnGDwkIs6I4POc",
+                "name": "HTTP Request",
+                "title": "Get by Name CatalogItem",
+                "type": "web-service.http_request",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "allow_auto_redirect": true,
+                  "content_type": "application/json",
+                  "continue_on_error_status_code": false,
+                  "continue_on_failure": false,
+                  "display_name": "Get by Name CatalogItem",
+                  "method": "GET",
+                  "relative_url": "catalogitems?name=CatalogItem01-$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.instance_id$",
+                  "runtime_user": {
+                    "override_target_runtime_user": false,
+                    "target_default": true
+                  },
+                  "skip_execution": false,
+                  "target": {
+                    "override_workflow_target": false,
+                    "override_workflow_target_group_criteria": false,
+                    "use_workflow_target": true,
+                    "use_workflow_target_group": false
+                  }
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HBRAGQO3CC36rbxPXUVcCTyY7R5QJmoJ5",
+                "name": "JSONPath Query",
+                "title": "Extract CatalogItem ID",
+                "type": "corejava.jsonpathquery",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "continue_on_failure": false,
+                  "display_name": "Extract CatalogItem ID",
+                  "input_json": "$activity.definition_activity_01HBRA9RRXWLK2K3dBBD8jnGDwkIs6I4POc.output.response_body$",
+                  "jsonpath_queries": [
+                    {
+                      "jsonpath_query": "$.catalog_items[0]._id",
+                      "jsonpath_query_name": "CatalogItem_ID",
+                      "jsonpath_query_type": "string"
+                    }
+                  ],
+                  "skip_execution": false
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HBRA22X3Q227PtumRReDQr9YmQ9dxoAAN",
+                "name": "HTTP Request",
+                "title": "Get CatalogItem by ID",
+                "type": "web-service.http_request",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "allow_auto_redirect": true,
+                  "content_type": "application/json",
+                  "continue_on_error_status_code": false,
+                  "continue_on_failure": false,
+                  "display_name": "Get CatalogItem by ID",
+                  "method": "GET",
+                  "relative_url": "catalogitems/$activity.definition_activity_01HBRAGQO3CC36rbxPXUVcCTyY7R5QJmoJ5.output.jsonpath_queries.CatalogItem_ID$?include_categories=true",
+                  "runtime_user": {
+                    "override_target_runtime_user": false,
+                    "target_default": true
+                  },
+                  "skip_execution": false,
+                  "target": {
+                    "override_workflow_target": false,
+                    "override_workflow_target_group_criteria": false,
+                    "use_workflow_target": true,
+                    "use_workflow_target_group": false
+                  }
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HBRGGA1DN6W48Qj0sL5CKOZzDqJGDWatA",
+                "name": "JSONPath Query",
+                "title": "Extract the Category from the CatalogItem",
+                "type": "corejava.jsonpathquery",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "continue_on_failure": false,
+                  "display_name": "Extract the Category from the CatalogItem",
+                  "input_json": "$activity.definition_activity_01HBRA22X3Q227PtumRReDQr9YmQ9dxoAAN.output.response_body$",
+                  "jsonpath_queries": [
+                    {
+                      "jsonpath_query": "$.categories",
+                      "jsonpath_query_name": "Extracted_CatID",
+                      "jsonpath_query_type": "string"
+                    }
+                  ],
+                  "skip_execution": false
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HBR9SX0WEQ84IxgiNGxaJMw4zjCACh9mg",
+                "name": "HTTP Request",
+                "title": "Delete CatalogItem",
+                "type": "web-service.http_request",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "allow_auto_redirect": true,
+                  "content_type": "application/json",
+                  "continue_on_error_status_code": false,
+                  "continue_on_failure": false,
+                  "display_name": "Delete CatalogItem",
+                  "method": "DELETE",
+                  "relative_url": "catalogitems/$activity.definition_activity_01HBRAGQO3CC36rbxPXUVcCTyY7R5QJmoJ5.output.jsonpath_queries.CatalogItem_ID$",
+                  "runtime_user": {
+                    "override_target_runtime_user": false,
+                    "target_default": true
+                  },
+                  "skip_execution": false,
+                  "target": {
+                    "override_workflow_target": false,
+                    "override_workflow_target_group_criteria": false,
+                    "use_workflow_target": true,
+                    "use_workflow_target_group": false
+                  }
+                },
+                "object_type": "definition_activity"
+              }
+            ]
           },
           {
             "unique_name": "definition_activity_01GRHHJL01V991KmFl4UYRGQMtQ5at2HKVI",
@@ -2862,7 +3039,7 @@
           "variables_to_update": [
             {
               "variable_to_update": "$workflow.definition_workflow_01GRCSJAF9PK741TwJiwlzC3EzPoK92gLgX.output.variable_workflow_01GTVPFKNF2NV2UfWh1VS2RcFXbUIDM6661$",
-              "variable_value_new": "\u003ch2\u003eCatalog Items API Status Codes for valid and Invalid Cases \u003c/h2\u003e\n\u003ctable\u003e\n\u003ctr\u003e\n\u003cth\u003eActivity Name\u003c/th\u003e\n\u003cth\u003eTrue/False\u003c/th\u003e\n\u003cth\u003eError Code\u003c/th\u003e\n\u003cth\u003eError Message\u003c/th\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET  CatalogItems\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRCW7NR3OEO6Xgj2j8AAqHFPDhaNP1Xqy.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRCW7NR3OEO6Xgj2j8AAqHFPDhaNP1Xqy.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRCW7NR3OEO6Xgj2j8AAqHFPDhaNP1Xqy.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET  CatalogItems With Query Params\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRFJ5HBVY2U3IFCd1bHjcCnUNeN0ZV9EW.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRFJ5HBVY2U3IFCd1bHjcCnUNeN0ZV9EW.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRFJ5HBVY2U3IFCd1bHjcCnUNeN0ZV9EW.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePagination for GET CatalogItems\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GTB11JKP2U159lt9BqGxlO4B3oWLxfXGH.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GTB11JKP2U159lt9BqGxlO4B3oWLxfXGH.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GTB11JKP2U159lt9BqGxlO4B3oWLxfXGH.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET CatalogItems - Negative Tests\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS9B6YS1ODT2gQzJ87IeXHIpj6hCU5Z5i.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS9B6YS1ODT2gQzJ87IeXHIpj6hCU5Z5i.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS9B6YS1ODT2gQzJ87IeXHIpj6hCU5Z5i.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate(POST) and Update(PUT) Catalog Items \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRHC98AMHV61DvvTifsc2M9kEanXUaUWv.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRHC98AMHV61DvvTifsc2M9kEanXUaUWv.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRHC98AMHV61DvvTifsc2M9kEanXUaUWv.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctr\u003e\n\u003ctd\u003eMap CatalogItem to a Category Using Category PUT \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H5RHVCZICQC53Ol63gApFDwjw1eRObWcV.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H5RHVCZICQC53Ol63gApFDwjw1eRObWcV.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H5RHVCZICQC53Ol63gApFDwjw1eRObWcV.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eUpdate(PUT) CatalogItems with Name and Description Length - Negative Tests\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GT0THDLJ6T27j7SdGOxXQpAbkzqSUIHvl.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GT0THDLJ6T27j7SdGOxXQpAbkzqSUIHvl.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GT0THDLJ6T27j7SdGOxXQpAbkzqSUIHvl.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDelete Catalog Items\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GT3O7PGYQ2G68CPOIyOf5smylfrG6Oegc.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GT3O7PGYQ2G68CPOIyOf5smylfrG6Oegc.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GT3O7PGYQ2G68CPOIyOf5smylfrG6Oegc.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate(POST) CatalogItems with Empty Name - Negative Tests \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS5QLERTD062KmYJNByQLnBRiCCUlgn9Z.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS5QLERTD062KmYJNByQLnBRiCCUlgn9Z.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS5QLERTD062KmYJNByQLnBRiCCUlgn9Z.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate(POST) Catalog Items with Name and Description Length - Negative Tests\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS85ZCCPTYB3PjfQg3UTAXF45VDw4zMh3.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS85ZCCPTYB3PjfQg3UTAXF45VDw4zMh3.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS85ZCCPTYB3PjfQg3UTAXF45VDw4zMh3.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate  Catalog Items with Invalid Service Def ID\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS9TETHKRPC3gMY4wq2Vj7lgqvfzsE7TI.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS9TETHKRPC3gMY4wq2Vj7lgqvfzsE7TI.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS9TETHKRPC3gMY4wq2Vj7lgqvfzsE7TI.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate  Catalog Items with Invalid Category ID\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GTVCV3NKP7N6X6aANmbnRNeL3xGUPsbYv.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GTVCV3NKP7N6X6aANmbnRNeL3xGUPsbYv.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GTVCV3NKP7N6X6aANmbnRNeL3xGUPsbYv.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/table\u003e"
+              "variable_value_new": "\u003ch2\u003eCatalog Items API Status Codes for valid and Invalid Cases \u003c/h2\u003e\n\u003ctable\u003e\n\u003ctr\u003e\n\u003cth\u003eActivity Name\u003c/th\u003e\n\u003cth\u003eTrue/False\u003c/th\u003e\n\u003cth\u003eError Code\u003c/th\u003e\n\u003cth\u003eError Message\u003c/th\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET  CatalogItems\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRCW7NR3OEO6Xgj2j8AAqHFPDhaNP1Xqy.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRCW7NR3OEO6Xgj2j8AAqHFPDhaNP1Xqy.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRCW7NR3OEO6Xgj2j8AAqHFPDhaNP1Xqy.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET  CatalogItems With Query Params\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRFJ5HBVY2U3IFCd1bHjcCnUNeN0ZV9EW.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRFJ5HBVY2U3IFCd1bHjcCnUNeN0ZV9EW.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRFJ5HBVY2U3IFCd1bHjcCnUNeN0ZV9EW.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePagination for GET CatalogItems\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GTB11JKP2U159lt9BqGxlO4B3oWLxfXGH.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GTB11JKP2U159lt9BqGxlO4B3oWLxfXGH.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GTB11JKP2U159lt9BqGxlO4B3oWLxfXGH.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET CatalogItems - Negative Tests\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS9B6YS1ODT2gQzJ87IeXHIpj6hCU5Z5i.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS9B6YS1ODT2gQzJ87IeXHIpj6hCU5Z5i.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS9B6YS1ODT2gQzJ87IeXHIpj6hCU5Z5i.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate(POST) and Update(PUT) Catalog Items \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRHC98AMHV61DvvTifsc2M9kEanXUaUWv.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRHC98AMHV61DvvTifsc2M9kEanXUaUWv.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GRHC98AMHV61DvvTifsc2M9kEanXUaUWv.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eMap CatalogItem to a Category Using Category PUT \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H5RHVCZICQC53Ol63gApFDwjw1eRObWcV.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H5RHVCZICQC53Ol63gApFDwjw1eRObWcV.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01H5RHVCZICQC53Ol63gApFDwjw1eRObWcV.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eUpdate(PUT) CatalogItems with Name and Description Length - Negative Tests\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GT0THDLJ6T27j7SdGOxXQpAbkzqSUIHvl.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GT0THDLJ6T27j7SdGOxXQpAbkzqSUIHvl.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GT0THDLJ6T27j7SdGOxXQpAbkzqSUIHvl.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDelete Catalog Items\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GT3O7PGYQ2G68CPOIyOf5smylfrG6Oegc.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GT3O7PGYQ2G68CPOIyOf5smylfrG6Oegc.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GT3O7PGYQ2G68CPOIyOf5smylfrG6Oegc.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate(POST) CatalogItems with Empty Name - Negative Tests \u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS5QLERTD062KmYJNByQLnBRiCCUlgn9Z.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS5QLERTD062KmYJNByQLnBRiCCUlgn9Z.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS5QLERTD062KmYJNByQLnBRiCCUlgn9Z.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate(POST) Catalog Items with Name and Description Length - Negative Tests\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS85ZCCPTYB3PjfQg3UTAXF45VDw4zMh3.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS85ZCCPTYB3PjfQg3UTAXF45VDw4zMh3.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS85ZCCPTYB3PjfQg3UTAXF45VDw4zMh3.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate  Catalog Items with Invalid Service Def ID\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS9TETHKRPC3gMY4wq2Vj7lgqvfzsE7TI.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS9TETHKRPC3gMY4wq2Vj7lgqvfzsE7TI.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GS9TETHKRPC3gMY4wq2Vj7lgqvfzsE7TI.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate  Catalog Items with Invalid Category ID\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GTVCV3NKP7N6X6aANmbnRNeL3xGUPsbYv.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GTVCV3NKP7N6X6aANmbnRNeL3xGUPsbYv.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GTVCV3NKP7N6X6aANmbnRNeL3xGUPsbYv.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/table\u003e"
             }
           ]
         },
@@ -2937,6 +3114,18 @@
         "base_type": "workflow",
         "variables": [
           {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Action_ID",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01H5S4A9O8VZP1E3m4of54VdI0WCc82z204",
+            "object_type": "variable_workflow"
+          },
+          {
             "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
             "properties": {
               "scope": "local",
@@ -2969,18 +3158,6 @@
               "is_required": false
             },
             "unique_name": "variable_workflow_01GN9B0ORUMLA52zdxii7atGlzOXr6EC0q5",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Action_ID",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01H5S4A9O8VZP1E3m4of54VdI0WCc82z204",
             "object_type": "variable_workflow"
           }
         ],
