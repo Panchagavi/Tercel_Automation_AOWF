@@ -11,71 +11,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Update State of Catalog Item Output Status - Pass/Fail",
+          "name": "Email Table",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GWMWMCSTRQ10N36q2O13WqUulyfYh1PU0",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "NegativeTest-Create Action on CatalogItem OutputStatus-Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GXFTJL849KD6wYlvaJB6ejK6DYMOQCT0e",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "NegativeTest-Delete Action on CatlogItem by ActionID OutpuStatus",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GXEQ50KJJ505TTwf36gy0drXaQ3Do5Tci",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Create an Action on Catalog Item Output Status - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GWJ1DOXG8JT35MqVdwgRerjqrzmmRIq9G",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "NegativeTest-Update Action on CatalogItem OutputStatus-Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GXGI4IZO2KM6Hfcm7Bjj7ubMlQhLd2PEm",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Get Actions of a Catalog Item Output Status - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01GWMB6L3WYWR3RWbCIroLKQGFAmx79uPSO",
+        "unique_name": "variable_workflow_01GY81QFL4A5I31UI5E7FySQ70noxLEmcEJ",
         "object_type": "variable_workflow"
       },
       {
@@ -95,11 +35,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Email Table",
+          "name": "Delete Action on CatalogItem by ActionID Output Status-Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GY81QFL4A5I31UI5E7FySQ70noxLEmcEJ",
+        "unique_name": "variable_workflow_01GWMLGUSBVZG31giVbXa2qJDPZHgofgkxO",
         "object_type": "variable_workflow"
       },
       {
@@ -107,11 +47,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Get Action on Catalog Item by ActionID Output Status - Pass/Fail",
+          "name": "NegativeTest-Delete Action on CatlogItem by ActionID OutpuStatus",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GWMF4684CHE3OFOdsFAERjwJW6lEtkyEI",
+        "unique_name": "variable_workflow_01GXEQ50KJJ505TTwf36gy0drXaQ3Do5Tci",
         "object_type": "variable_workflow"
       },
       {
@@ -131,11 +71,71 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "Delete Action on CatalogItem by ActionID Output Status-Pass/Fail",
+          "name": "Create an Action on Catalog Item Output Status - Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01GWMLGUSBVZG31giVbXa2qJDPZHgofgkxO",
+        "unique_name": "variable_workflow_01GWJ1DOXG8JT35MqVdwgRerjqrzmmRIq9G",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Get Actions of a Catalog Item Output Status - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWMB6L3WYWR3RWbCIroLKQGFAmx79uPSO",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "NegativeTest-Update Action on CatalogItem OutputStatus-Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GXGI4IZO2KM6Hfcm7Bjj7ubMlQhLd2PEm",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Get Action on Catalog Item by ActionID Output Status - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWMF4684CHE3OFOdsFAERjwJW6lEtkyEI",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "NegativeTest-Create Action on CatalogItem OutputStatus-Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GXFTJL849KD6wYlvaJB6ejK6DYMOQCT0e",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Update State of Catalog Item Output Status - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01GWMWMCSTRQ10N36q2O13WqUulyfYh1PU0",
         "object_type": "variable_workflow"
       }
     ],
@@ -2121,7 +2121,7 @@
           "variables_to_update": [
             {
               "variable_to_update": "$workflow.definition_workflow_01GTYD2AK7OCO0PXA2kqaH9Uc4UVgmN1vAB.output.variable_workflow_01GY81QFL4A5I31UI5E7FySQ70noxLEmcEJ$",
-              "variable_value_new": "\u003ch2\u003eCatalog ItemActions- Autoamtion \u003c/h2\u003e\n\u003ctable\u003e\n\u003ctr\u003e\n\u003cth\u003eActivity Name\u003c/th\u003e\n\u003cth\u003eTrue/False\u003c/th\u003e\n\u003cth\u003eError Code\u003c/th\u003e\n\u003cth\u003eError Message\u003c/th\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate an Action on Catalog Item\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GTZ9BL61AVO5iB7cd6k3mvLErp048yoLN.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GTZ9BL61AVO5iB7cd6k3mvLErp048yoLN.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GTZ9BL61AVO5iB7cd6k3mvLErp048yoLN.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eNegative Tests for Create an Action on Catalog Item\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GXFL3BPE9WO5FP1XCmqPN40n9GYNS0RDD.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GXFL3BPE9WO5FP1XCmqPN40n9GYNS0RDD.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GXFL3BPE9WO5FP1XCmqPN40n9GYNS0RDD.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET Actions of a  CatalogItems\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWJ4EK3RN4A2cpdvamNqvXJTE6vats22a.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWJ4EK3RN4A2cpdvamNqvXJTE6vats22a.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWJ4EK3RN4A2cpdvamNqvXJTE6vats22a.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eNegative Tests for GET Actions of a  CatalogItems\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GXFBFDO6AYV7KKMv8qifW7D9KrFWS60Hm.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GXFBFDO6AYV7KKMv8qifW7D9KrFWS60Hm.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GXFBFDO6AYV7KKMv8qifW7D9KrFWS60Hm.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET Action of a  CatalogItem by Action ID\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWLLNV5315R6D1TupOJZFguNV3KDKr1Ep.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWLLNV5315R6D1TupOJZFguNV3KDKr1Ep.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWLLNV5315R6D1TupOJZFguNV3KDKr1Ep.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eUpdate an Action on a  CatalogItem by Action ID\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWLOQHOSORV20VH3frDb7Gf8tJEoBpz5X.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWLOQHOSORV20VH3frDb7Gf8tJEoBpz5X.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWLOQHOSORV20VH3frDb7Gf8tJEoBpz5X.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eNegative Tests for Update an Action on a  CatalogItem by Action ID\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GXG8AMX14PX5fSgZJZTAY4ZtrgxeDh7Q3.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GXG8AMX14PX5fSgZJZTAY4ZtrgxeDh7Q3.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GXG8AMX14PX5fSgZJZTAY4ZtrgxeDh7Q3.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDelete Action on a  CatalogItem by Action ID\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWM6CVD0PMY3z1dpijk4bSlLV0RsxPzWt.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWM6CVD0PMY3z1dpijk4bSlLV0RsxPzWt.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWM6CVD0PMY3z1dpijk4bSlLV0RsxPzWt.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eUpdate State of a  CatalogItem\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWMQ3UIKBYU6v30xVxCCYMb4WZle4Q5ON.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWMQ3UIKBYU6v30xVxCCYMb4WZle4Q5ON.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWMQ3UIKBYU6v30xVxCCYMb4WZle4Q5ON.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDelete Action on a  CatalogItem by Action ID\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GXELWJOH4VB5GdA7iOJJSqJoWoL4uSfhq.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GXELWJOH4VB5GdA7iOJJSqJoWoL4uSfhq.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GXELWJOH4VB5GdA7iOJJSqJoWoL4uSfhq.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/table\u003e"
+              "variable_value_new": "\u003ch2\u003eCatalogItem Actions API Status Codes for valid and Invalid Cases\u003c/h2\u003e\n\u003ctable\u003e\n\u003ctr\u003e\n\u003cth\u003eActivity Name\u003c/th\u003e\n\u003cth\u003eTrue/False\u003c/th\u003e\n\u003cth\u003eError Code\u003c/th\u003e\n\u003cth\u003eError Message\u003c/th\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate an Action on Catalog Item\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GTZ9BL61AVO5iB7cd6k3mvLErp048yoLN.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GTZ9BL61AVO5iB7cd6k3mvLErp048yoLN.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GTZ9BL61AVO5iB7cd6k3mvLErp048yoLN.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eNegative Tests for Create an Action on Catalog Item\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GXFL3BPE9WO5FP1XCmqPN40n9GYNS0RDD.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GXFL3BPE9WO5FP1XCmqPN40n9GYNS0RDD.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GXFL3BPE9WO5FP1XCmqPN40n9GYNS0RDD.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET Actions of a  CatalogItems\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWJ4EK3RN4A2cpdvamNqvXJTE6vats22a.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWJ4EK3RN4A2cpdvamNqvXJTE6vats22a.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWJ4EK3RN4A2cpdvamNqvXJTE6vats22a.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eNegative Tests for GET Actions of a  CatalogItems\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GXFBFDO6AYV7KKMv8qifW7D9KrFWS60Hm.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GXFBFDO6AYV7KKMv8qifW7D9KrFWS60Hm.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GXFBFDO6AYV7KKMv8qifW7D9KrFWS60Hm.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET Action of a  CatalogItem by Action ID\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWLLNV5315R6D1TupOJZFguNV3KDKr1Ep.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWLLNV5315R6D1TupOJZFguNV3KDKr1Ep.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWLLNV5315R6D1TupOJZFguNV3KDKr1Ep.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eUpdate an Action on a  CatalogItem by Action ID\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWLOQHOSORV20VH3frDb7Gf8tJEoBpz5X.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWLOQHOSORV20VH3frDb7Gf8tJEoBpz5X.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWLOQHOSORV20VH3frDb7Gf8tJEoBpz5X.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eNegative Tests for Update an Action on a  CatalogItem by Action ID\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GXG8AMX14PX5fSgZJZTAY4ZtrgxeDh7Q3.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GXG8AMX14PX5fSgZJZTAY4ZtrgxeDh7Q3.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GXG8AMX14PX5fSgZJZTAY4ZtrgxeDh7Q3.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDelete Action on a  CatalogItem by Action ID\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWM6CVD0PMY3z1dpijk4bSlLV0RsxPzWt.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWM6CVD0PMY3z1dpijk4bSlLV0RsxPzWt.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWM6CVD0PMY3z1dpijk4bSlLV0RsxPzWt.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eUpdate State of a  CatalogItem\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWMQ3UIKBYU6v30xVxCCYMb4WZle4Q5ON.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWMQ3UIKBYU6v30xVxCCYMb4WZle4Q5ON.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GWMQ3UIKBYU6v30xVxCCYMb4WZle4Q5ON.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDelete Action on a  CatalogItem by Action ID\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GXELWJOH4VB5GdA7iOJJSqJoWoL4uSfhq.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GXELWJOH4VB5GdA7iOJJSqJoWoL4uSfhq.output.error.code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01GXELWJOH4VB5GdA7iOJJSqJoWoL4uSfhq.output.error.message$\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/table\u003e"
             }
           ]
         },
@@ -2196,29 +2196,6 @@
         "base_type": "workflow",
         "variables": [
           {
-            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
-            "properties": {
-              "scope": "local",
-              "name": "Service Sorting Headers",
-              "type": "datatype.table",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GN6W1U5YMHU3xnwlkVbeN5aV4COFg8bA4",
-            "object_type": "variable_workflow"
-          },
-          {
-            "schema_id": "datatype.string",
-            "properties": {
-              "value": "",
-              "scope": "output",
-              "name": "Service_ID",
-              "type": "datatype.string",
-              "is_required": false
-            },
-            "unique_name": "variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI",
-            "object_type": "variable_workflow"
-          },
-          {
             "schema_id": "datatype.string",
             "properties": {
               "value": "",
@@ -2240,6 +2217,29 @@
               "is_required": false
             },
             "unique_name": "variable_workflow_01H5S4A9O8VZP1E3m4of54VdI0WCc82z204",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "tabletype_01FYKWRPJF7P01gTf2DeU7WuiVNx8fdZlr5",
+            "properties": {
+              "scope": "local",
+              "name": "Service Sorting Headers",
+              "type": "datatype.table",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GN6W1U5YMHU3xnwlkVbeN5aV4COFg8bA4",
+            "object_type": "variable_workflow"
+          },
+          {
+            "schema_id": "datatype.string",
+            "properties": {
+              "value": "",
+              "scope": "output",
+              "name": "Service_ID",
+              "type": "datatype.string",
+              "is_required": false
+            },
+            "unique_name": "variable_workflow_01GN6W8C0LO8Z1SzYOTd19iTdpqrzewQgsI",
             "object_type": "variable_workflow"
           }
         ],
