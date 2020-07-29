@@ -11,59 +11,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "MigratedJobDetails",
+          "name": "VMUniqueID",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01HL4IVXMRWGE64EUDzw6yHvHMzqHwKGJiu",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "JobDetails",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01HL3CARCCQ922u8RASXBRzVgDfUov1dZZ0",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "VMLifeCycleOperations - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01HM9EM1UNWS04KLl8A3ugLx9Ktr7RtvQQc",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.integer",
-        "properties": {
-          "value": 1,
-          "scope": "local",
-          "name": "VMDiskSize",
-          "type": "datatype.integer",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01HM4FXVDJJYS4LuDgzzq2atW8O0zIF9TeE",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "MetadataTest",
-          "scope": "local",
-          "name": "New_MetaData_AppProfile",
-          "type": "datatype.string",
-          "is_required": true
-        },
-        "unique_name": "variable_workflow_01HL2XT7H3VIE12Tgq20IBHG9kzcezgEVKw",
+        "unique_name": "variable_workflow_01HM3PI176VFI6qzu8xri5XMm2Adrj4OhKv",
         "object_type": "variable_workflow"
       },
       {
@@ -76,30 +28,6 @@
           "is_required": false
         },
         "unique_name": "variable_workflow_01HL2Y0YWPLB32i2mfOCfg0dTyHHQF7abn6",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Deployment LifeCycle Actions Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01HLCSYR828OJ1RrURP7rhaIMylLTZzGs2R",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "VMUniqueID",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01HM3PI176VFI6qzu8xri5XMm2Adrj4OhKv",
         "object_type": "variable_workflow"
       },
       {
@@ -119,11 +47,23 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "EmailTableVM",
+          "name": "MigratedJobDetails",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01HM9E4IJ1IB32d256W89GNbzxbIOJktZZf",
+        "unique_name": "variable_workflow_01HL4IVXMRWGE64EUDzw6yHvHMzqHwKGJiu",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "UniqueID",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HL4A8NAUUPM1sHpIF1dvYARR7xVg8qfdk",
         "object_type": "variable_workflow"
       },
       {
@@ -153,13 +93,37 @@
       {
         "schema_id": "datatype.string",
         "properties": {
+          "value": "MetadataTest",
+          "scope": "local",
+          "name": "New_MetaData_AppProfile",
+          "type": "datatype.string",
+          "is_required": true
+        },
+        "unique_name": "variable_workflow_01HL2XT7H3VIE12Tgq20IBHG9kzcezgEVKw",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.integer",
+        "properties": {
+          "value": 1,
+          "scope": "local",
+          "name": "VMDiskSize",
+          "type": "datatype.integer",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HM4FXVDJJYS4LuDgzzq2atW8O0zIF9TeE",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
           "value": "",
           "scope": "output",
-          "name": "VM-JobDetaails",
+          "name": "EmailTableVM",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01HM3UB0D9R3U4E16sLJbraVL7LjoGFdbYq",
+        "unique_name": "variable_workflow_01HM9E4IJ1IB32d256W89GNbzxbIOJktZZf",
         "object_type": "variable_workflow"
       },
       {
@@ -179,11 +143,47 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "UniqueID",
+          "name": "VMLifeCycleOperations - Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01HL4A8NAUUPM1sHpIF1dvYARR7xVg8qfdk",
+        "unique_name": "variable_workflow_01HM9EM1UNWS04KLl8A3ugLx9Ktr7RtvQQc",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "JobDetails",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HL3CARCCQ922u8RASXBRzVgDfUov1dZZ0",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "VM-JobDetaails",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HM3UB0D9R3U4E16sLJbraVL7LjoGFdbYq",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Deployment LifeCycle Actions Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HLCSYR828OJ1RrURP7rhaIMylLTZzGs2R",
         "object_type": "variable_workflow"
       }
     ],
@@ -1893,7 +1893,7 @@
                   "continue_on_failure": false,
                   "description": "Execute the LifeCycle Operations on Deployment",
                   "display_name": "Delete Job - CleanUp",
-                  "relative_url": "- cloudcenter-ccm-backend/api/v2/jobs/[$activity.definition_activity_01HM3S5UM93B13RoSARf2Mxr7or34FsnbGG.output.jsonpath_queries.Job_ID$hide=false",
+                  "relative_url": "cloudcenter-ccm-backend/api/v2/jobs/$activity.definition_activity_01HM3S5UM93B13RoSARf2Mxr7or34FsnbGG.output.jsonpath_queries.Job_ID$?hide=false",
                   "runtime_user": {
                     "override_target_runtime_user": false,
                     "target_default": true
