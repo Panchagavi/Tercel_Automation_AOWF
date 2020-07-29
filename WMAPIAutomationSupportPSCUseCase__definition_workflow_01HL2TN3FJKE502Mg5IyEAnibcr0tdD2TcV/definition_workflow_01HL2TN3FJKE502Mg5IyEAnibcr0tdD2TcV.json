@@ -11,83 +11,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "VMLifeCycleOperations - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01HM9EM1UNWS04KLl8A3ugLx9Ktr7RtvQQc",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "Oracle",
-          "scope": "local",
-          "name": "DatabaseDetails",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01HL2Y0YWPLB32i2mfOCfg0dTyHHQF7abn6",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "VM-JobDetaails",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01HM3UB0D9R3U4E16sLJbraVL7LjoGFdbYq",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
           "name": "MigratedJobDetails",
           "type": "datatype.string",
           "is_required": false
         },
         "unique_name": "variable_workflow_01HL4IVXMRWGE64EUDzw6yHvHMzqHwKGJiu",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "MetadataTest",
-          "scope": "local",
-          "name": "New_MetaData_AppProfile",
-          "type": "datatype.string",
-          "is_required": true
-        },
-        "unique_name": "variable_workflow_01HL2XT7H3VIE12Tgq20IBHG9kzcezgEVKw",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "CentOSVM",
-          "scope": "local",
-          "name": "DeploymentDetails",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01HL2Y7I9KBPV63HXssb0JWVGERoTIadIS4",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "EmailTableVM",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01HM9E4IJ1IB32d256W89GNbzxbIOJktZZf",
         "object_type": "variable_workflow"
       },
       {
@@ -107,11 +35,71 @@
         "properties": {
           "value": "",
           "scope": "output",
+          "name": "VMLifeCycleOperations - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HM9EM1UNWS04KLl8A3ugLx9Ktr7RtvQQc",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.integer",
+        "properties": {
+          "value": 1,
+          "scope": "local",
+          "name": "VMDiskSize",
+          "type": "datatype.integer",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HM4FXVDJJYS4LuDgzzq2atW8O0zIF9TeE",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "MetadataTest",
+          "scope": "local",
+          "name": "New_MetaData_AppProfile",
+          "type": "datatype.string",
+          "is_required": true
+        },
+        "unique_name": "variable_workflow_01HL2XT7H3VIE12Tgq20IBHG9kzcezgEVKw",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "Oracle",
+          "scope": "local",
+          "name": "DatabaseDetails",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HL2Y0YWPLB32i2mfOCfg0dTyHHQF7abn6",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
           "name": "Deployment LifeCycle Actions Pass/Fail",
           "type": "datatype.string",
           "is_required": false
         },
         "unique_name": "variable_workflow_01HLCSYR828OJ1RrURP7rhaIMylLTZzGs2R",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "VMUniqueID",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HM3PI176VFI6qzu8xri5XMm2Adrj4OhKv",
         "object_type": "variable_workflow"
       },
       {
@@ -131,11 +119,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "VMUniqueID",
+          "name": "EmailTableVM",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01HM3PI176VFI6qzu8xri5XMm2Adrj4OhKv",
+        "unique_name": "variable_workflow_01HM9E4IJ1IB32d256W89GNbzxbIOJktZZf",
         "object_type": "variable_workflow"
       },
       {
@@ -143,11 +131,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "UniqueID",
+          "name": "EmailTable",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01HL4A8NAUUPM1sHpIF1dvYARR7xVg8qfdk",
+        "unique_name": "variable_workflow_01HLD5QVC4LE163ofqrjBqr4OXopktJUCu3",
         "object_type": "variable_workflow"
       },
       {
@@ -167,23 +155,35 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "EmailTable",
+          "name": "VM-JobDetaails",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01HLD5QVC4LE163ofqrjBqr4OXopktJUCu3",
+        "unique_name": "variable_workflow_01HM3UB0D9R3U4E16sLJbraVL7LjoGFdbYq",
         "object_type": "variable_workflow"
       },
       {
-        "schema_id": "datatype.integer",
+        "schema_id": "datatype.string",
         "properties": {
-          "value": 1,
+          "value": "CentOSVM",
           "scope": "local",
-          "name": "VMDiskSize",
-          "type": "datatype.integer",
+          "name": "DeploymentDetails",
+          "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01HM4FXVDJJYS4LuDgzzq2atW8O0zIF9TeE",
+        "unique_name": "variable_workflow_01HL2Y7I9KBPV63HXssb0JWVGERoTIadIS4",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "UniqueID",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HL4A8NAUUPM1sHpIF1dvYARR7xVg8qfdk",
         "object_type": "variable_workflow"
       }
     ],
@@ -299,7 +299,7 @@
                   "continue_on_failure": false,
                   "description": "Deployment - Life Cycle Operation\nCreate\nSuspend\nResume\nTerminate\nMigrate",
                   "display_name": "Deployment - Life Cycle Operation",
-                  "skip_execution": true
+                  "skip_execution": false
                 },
                 "object_type": "definition_activity",
                 "actions": [
@@ -802,7 +802,7 @@
                 "properties": {
                   "continue_on_failure": false,
                   "display_name": "Verify the Status Code",
-                  "skip_execution": true
+                  "skip_execution": false
                 },
                 "object_type": "definition_activity",
                 "blocks": [
@@ -1039,7 +1039,7 @@
                 "properties": {
                   "continue_on_failure": false,
                   "display_name": "EmailTable",
-                  "skip_execution": true,
+                  "skip_execution": false,
                   "variables_to_update": [
                     {
                       "variable_to_update": "$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.variable_workflow_01HLD5QVC4LE163ofqrjBqr4OXopktJUCu3$",
@@ -1645,7 +1645,7 @@
                   "continue_on_failure": false,
                   "display_name": "Sleep",
                   "skip_execution": false,
-                  "sleep_interval": 120
+                  "sleep_interval": 260
                 },
                 "object_type": "definition_activity"
               },
@@ -2297,7 +2297,7 @@
             "override_target_runtime_user": false,
             "target_default": true
           },
-          "skip_execution": true,
+          "skip_execution": false,
           "subject": "WM API Automation Status Which Support PSC Use Cases-$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.start_time$",
           "target": {
             "override_workflow_target": true,
