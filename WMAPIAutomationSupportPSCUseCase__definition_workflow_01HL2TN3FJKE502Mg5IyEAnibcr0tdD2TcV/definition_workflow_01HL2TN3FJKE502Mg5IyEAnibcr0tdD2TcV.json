@@ -1,0 +1,1950 @@
+{
+  "workflow": {
+    "unique_name": "definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV",
+    "name": "WM - Automation which Support in PSC",
+    "title": "WM - Automation which Support in PSC",
+    "type": "generic.workflow",
+    "base_type": "workflow",
+    "variables": [
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "CentOS",
+          "scope": "local",
+          "name": "DeploymentName",
+          "type": "datatype.string",
+          "is_required": true
+        },
+        "unique_name": "variable_workflow_01HL2XG6U228766IFb9z1YUuzRDl4oiz6M0",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "CentOSVM",
+          "scope": "local",
+          "name": "DeploymentDetails",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HL2Y7I9KBPV63HXssb0JWVGERoTIadIS4",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "UniqueID",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HL4A8NAUUPM1sHpIF1dvYARR7xVg8qfdk",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "VMUniqueID",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HM3PI176VFI6qzu8xri5XMm2Adrj4OhKv",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "Oracle",
+          "scope": "local",
+          "name": "DatabaseDetails",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HL2Y0YWPLB32i2mfOCfg0dTyHHQF7abn6",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.integer",
+        "properties": {
+          "value": 1,
+          "scope": "local",
+          "name": "VMDiskSize",
+          "type": "datatype.integer",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HM4FXVDJJYS4LuDgzzq2atW8O0zIF9TeE",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "MetadataTest",
+          "scope": "local",
+          "name": "New_MetaData_AppProfile",
+          "type": "datatype.string",
+          "is_required": true
+        },
+        "unique_name": "variable_workflow_01HL2XT7H3VIE12Tgq20IBHG9kzcezgEVKw",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "EmailTable",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HLD5QVC4LE163ofqrjBqr4OXopktJUCu3",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "snap",
+          "scope": "local",
+          "name": "SnapShotName",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HM4XWIYBH300cLoxWLRl7AbWXqQ6dL3SR",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "MigratedJobDetails",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HL4IVXMRWGE64EUDzw6yHvHMzqHwKGJiu",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "JobDetails",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HL3CARCCQ922u8RASXBRzVgDfUov1dZZ0",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "VM-JobDetaails",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HM3UB0D9R3U4E16sLJbraVL7LjoGFdbYq",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Deployment LifeCycle Actions Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HLCSYR828OJ1RrURP7rhaIMylLTZzGs2R",
+        "object_type": "variable_workflow"
+      }
+    ],
+    "properties": {
+      "atomic": {
+        "is_atomic": false
+      },
+      "delete_workflow_instance": false,
+      "display_name": "WM - Automation which Support in PSC",
+      "runtime_user": {
+        "override_target_runtime_user": false,
+        "specify_on_workflow_start": false,
+        "target_default": true
+      },
+      "target": {
+        "execute_on_target_group": false,
+        "execute_on_workflow_target": false,
+        "no_target": true,
+        "specify_on_workflow_start": false
+      }
+    },
+    "object_type": "definition_workflow",
+    "actions": [
+      {
+        "unique_name": "definition_activity_01HLESZ28X0Q23wvZHKlN3r1A1o8iqXD2id",
+        "name": "Generic CCS API Request",
+        "title": "FetchUserInfo",
+        "type": "ccs.api_request",
+        "base_type": "activity",
+        "properties": {
+          "action_timeout": 180,
+          "api_call_method": "GET",
+          "continue_on_failure": false,
+          "display_name": "FetchUserInfo",
+          "relative_url": "suite-idm/api/v1/currentUser/userInfo",
+          "runtime_user": {
+            "override_target_runtime_user": false,
+            "target_default": true
+          },
+          "skip_execution": false,
+          "target": {
+            "override_workflow_target": true,
+            "target_id": "definition_target_01f9IQgvQRJv3tvlqwR145Bbrye0toH0Q"
+          }
+        },
+        "object_type": "definition_activity"
+      },
+      {
+        "unique_name": "definition_activity_01HLETQLXGNV52Z5385IqRWT1fqSrmlY4z0",
+        "name": "JSONPath Query",
+        "title": "FetchUserDetails",
+        "type": "corejava.jsonpathquery",
+        "base_type": "activity",
+        "properties": {
+          "action_timeout": 180,
+          "continue_on_failure": false,
+          "display_name": "FetchUserDetails",
+          "input_json": "$activity.definition_activity_01HLESZ28X0Q23wvZHKlN3r1A1o8iqXD2id.output.response_body$",
+          "jsonpath_queries": [
+            {
+              "jsonpath_query": "$.user.email",
+              "jsonpath_query_name": "UserEmail",
+              "jsonpath_query_type": "string"
+            },
+            {
+              "jsonpath_query": "$.user.tenantId",
+              "jsonpath_query_name": "UserTenantID",
+              "jsonpath_query_type": "string"
+            },
+            {
+              "jsonpath_query": "$.tenant.name",
+              "jsonpath_query_name": "UserTenantName",
+              "jsonpath_query_type": "string"
+            }
+          ],
+          "skip_execution": false
+        },
+        "object_type": "definition_activity"
+      },
+      {
+        "unique_name": "definition_activity_01HL3KIST5ZKF2rBOnrHApbEtFeNx2CkHPF",
+        "name": "Parallel Block",
+        "title": "Parallel Block",
+        "type": "logic.parallel",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Parallel Block",
+          "skip_execution": false
+        },
+        "object_type": "definition_activity",
+        "blocks": [
+          {
+            "unique_name": "definition_activity_01HL3KIXXSJUC7iQTpJJELwx1rehwEU97pu",
+            "name": "Parallel Branch",
+            "title": "Deployment",
+            "type": "logic.parallel_block",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Deployment",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01HL2TXCAL6WG5GPLWjSua1dXAhwjXCC27C",
+                "name": "Group",
+                "title": "Deployment - Life Cycle Operation",
+                "type": "logic.group",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "description": "Deployment - Life Cycle Operation\nCreate\nSuspend\nResume\nTerminate\nMigrate",
+                  "display_name": "Deployment - Life Cycle Operation",
+                  "skip_execution": true
+                },
+                "object_type": "definition_activity",
+                "actions": [
+                  {
+                    "unique_name": "definition_activity_01HL49PNI2BMN0k93xusc3lpvXn7EWhUNay",
+                    "name": "Execute Python Script",
+                    "title": "Execute Python Script",
+                    "type": "python3.script",
+                    "base_type": "activity",
+                    "properties": {
+                      "action_timeout": 180,
+                      "continue_on_failure": false,
+                      "display_name": "Execute Python Script",
+                      "script": "import random\nimport string\n\ndef get_random_string(length):\n    letters = string.ascii_lowercase\n    result_str = ''.join(random.choice(letters) for i in range(length))\n    print(result_str)\n    \n\nget_random_string(6)",
+                      "skip_execution": false
+                    },
+                    "object_type": "definition_activity"
+                  },
+                  {
+                    "unique_name": "definition_activity_01HL4ABJRSF6D5ivWYzkp79tlxzPSBUkgcI",
+                    "name": "Set Variables",
+                    "title": "UniqueID",
+                    "type": "core.set_multiple_variables",
+                    "base_type": "activity",
+                    "properties": {
+                      "continue_on_failure": false,
+                      "display_name": "UniqueID",
+                      "skip_execution": false,
+                      "variables_to_update": [
+                        {
+                          "variable_to_update": "$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.variable_workflow_01HL4A8NAUUPM1sHpIF1dvYARR7xVg8qfdk$",
+                          "variable_value_new": "$activity.definition_activity_01HL49PNI2BMN0k93xusc3lpvXn7EWhUNay.output.response_body$"
+                        }
+                      ]
+                    },
+                    "object_type": "definition_activity"
+                  },
+                  {
+                    "unique_name": "definition_activity_01HL2V7W5WJTM3Rfs8GYIr2YKnaw8OlzVWs",
+                    "name": "Generic CCS API Request",
+                    "title": "CentOS- Create Deployment",
+                    "type": "ccs.api_request",
+                    "base_type": "activity",
+                    "properties": {
+                      "action_timeout": 180,
+                      "api_body": "{\n  \"appId\": 31,\n  \"appVersion\": \"1.1\",\n  \"name\": \"$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.local.variable_workflow_01HL2XG6U228766IFb9z1YUuzRDl4oiz6M0$-$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.variable_workflow_01HL4A8NAUUPM1sHpIF1dvYARR7xVg8qfdk$\",\n  \"metadatas\": [\n    {\n      \"id\": 8,\n      \"namespace\": \"\",\n      \"tagName\": \"New_MetaData_AppProfile\",\n      \"tagCollectionId\": 8,\n      \"value\": \"$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.local.variable_workflow_01HL2XT7H3VIE12Tgq20IBHG9kzcezgEVKw$\",\n      \"required\": true,\n      \"editable\": true,\n      \"name\": \"New_MetaData_AppProfile\"\n    },\n    {\n      \"id\": 9,\n      \"namespace\": \"\",\n      \"tagName\": \"IsThisCluster\",\n      \"tagCollectionId\": 8,\n      \"value\": \"Yes 2VM Cluster\",\n      \"required\": false,\n      \"editable\": false,\n      \"name\": \"IsThisCluster\"\n    },\n    {\n      \"id\": 10,\n      \"namespace\": \"\",\n      \"tagName\": \"DatabaseDetails\",\n      \"tagCollectionId\": 8,\n      \"value\": \"$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.local.variable_workflow_01HL2Y0YWPLB32i2mfOCfg0dTyHHQF7abn6$\",\n      \"required\": false,\n      \"editable\": true,\n      \"name\": \"DatabaseDetails\"\n    },\n    {\n      \"id\": 11,\n      \"namespace\": \"\",\n      \"tagName\": \"DeploymentDetails\",\n      \"tagCollectionId\": 8,\n      \"value\": \"$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.local.variable_workflow_01HL2Y7I9KBPV63HXssb0JWVGERoTIadIS4$\",\n      \"required\": false,\n      \"editable\": true,\n      \"name\": \"DeploymentDetails\"\n    },\n    {\n      \"id\": 13,\n      \"namespace\": \"\",\n      \"tagName\": \"ProfileName\",\n      \"tagCollectionId\": 8,\n      \"value\": \"CentOS\",\n      \"required\": true,\n      \"editable\": true,\n      \"name\": \"ProfileName\"\n    },\n    {\n      \"id\": 12,\n      \"namespace\": \"\",\n      \"tagName\": \"New_MetaData_AppProfile1\",\n      \"tagCollectionId\": 8,\n      \"value\": \"App  profile centOS\",\n      \"required\": false,\n      \"editable\": false,\n      \"name\": \"New_MetaData_AppProfile1\"\n    },\n    {\n      \"id\": 14,\n      \"namespace\": \"\",\n      \"tagName\": \"DeploymentScaling\",\n      \"tagCollectionId\": 8,\n      \"value\": \"Scaled up to one VM\",\n      \"required\": true,\n      \"editable\": false,\n      \"name\": \"DeploymentScaling\"\n    },\n    {\n      \"id\": 15,\n      \"namespace\": \"\",\n      \"tagName\": \"Name\",\n      \"tagCollectionId\": 8,\n      \"value\": \"%JOB_NAME%\",\n      \"required\": true,\n      \"editable\": false,\n      \"name\": \"Name\"\n    }\n  ],\n  \"environmentId\": \"1\",\n  \"tagIds\": [\n    \"1\"\n  ],\n  \"securityProfileIds\": null,\n  \"agingPolicyId\": \"1\",\n  \"suspensionPolicyId\": null,\n  \"policyIds\": null,\n  \"preventTermination\": false,\n  \"parameters\": {\n    \"appParams\": [\n      {\n        \"name\": \"Test_Field\",\n        \"value\": \"Default\"\n      },\n      {\n        \"name\": \"Test_Number\",\n        \"value\": \"1\"\n      }\n    ],\n    \"cloudParams\": {\n      \"cloudRegionId\": \"1\",\n      \"accountId\": \"1\"\n    }\n  },\n  \"jobs\": [\n    {\n      \"tierId\": \"32\",\n      \"policyIds\": null,\n      \"tagIds\": [\n        \"2\"\n      ],\n      \"securityProfileIds\": null,\n      \"parameters\": {\n        \"appParams\": [\n          {\n            \"name\": \"referredJob\",\n            \"value\": \"\"\n          },\n          {\n            \"name\": \"SSHPreference\",\n            \"value\": \"NO_PREFERENCE\"\n          }\n        ],\n        \"envParams\": [],\n        \"cloudParams\": {\n          \"cloudRegionId\": \"1\",\n          \"accountId\": \"1\",\n          \"volumes\": [\n            {\n              \"name\": \"RootVolume\",\n              \"bootable\": true,\n              \"size\": null,\n              \"type\": \"storage-Vcenter_65-default\",\n              \"iops\": null\n            }\n          ],\n          \"rootVolumeSize\": \"0\",\n          \"cloudProperties\": [\n            {\n              \"name\": \"FullClone\",\n              \"value\": \"true\"\n            },\n            {\n              \"name\": \"UserDataCenterName\",\n              \"value\": \"PSC-Datacenter\"\n            },\n            {\n              \"name\": \"UserClusterName\",\n              \"value\": \"PCS-DC-Cluster\"\n            },\n            {\n              \"name\": \"UserDatastoreCluster\",\n              \"value\": \"VC65-LUN161\"\n            },\n            {\n              \"name\": \"UserResourcePoolName\",\n              \"value\": \"Cloud\"\n            },\n            {\n              \"name\": \"VMGroup\",\n              \"value\": \"\"\n            },\n            {\n              \"name\": \"UserDatastore\",\n              \"value\": \"\"\n            },\n            {\n              \"name\": \"UserTargetDeploymentFolder\",\n              \"value\": \"/Discovered virtual machine\"\n            },\n            {\n              \"name\": \"CC_AUTO_SELECT_NETWORK\",\n              \"value\": false\n            },\n            {\n              \"name\": \"numNICs\",\n              \"value\": \"\"\n            }\n          ],\n          \"nics\": [\n            {\n              \"order\": 1,\n              \"id\": \"172.23.14.x\",\n              \"type\": \"NETWORK\"\n            }\n          ],\n          \"instance\": \"default\"\n        }\n      },\n      \"appServices\": [],\n      \"numNodesToLaunch\": 1\n    }\n  ],\n  \"timeZone\": \"GMT+05:30\",\n  \"responseJobJaxbNotRequired\": true\n}",
+                      "api_call_method": "POST",
+                      "continue_on_failure": false,
+                      "display_name": "CentOS- Create Deployment",
+                      "relative_url": "cloudcenter-ccm-backend/api/v2/jobs",
+                      "runtime_user": {
+                        "override_target_runtime_user": false,
+                        "target_default": true
+                      },
+                      "skip_execution": false,
+                      "target": {
+                        "override_workflow_target": true,
+                        "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                      }
+                    },
+                    "object_type": "definition_activity"
+                  },
+                  {
+                    "unique_name": "definition_activity_01HL3JJS7UEP32SNZ92NFVT2KiP9ayOm3Q6",
+                    "name": "Sleep",
+                    "title": "Sleep",
+                    "type": "core.sleep",
+                    "base_type": "activity",
+                    "properties": {
+                      "continue_on_failure": false,
+                      "display_name": "Sleep",
+                      "skip_execution": false,
+                      "sleep_interval": 200
+                    },
+                    "object_type": "definition_activity"
+                  },
+                  {
+                    "unique_name": "definition_activity_01HL39GB0JGPL1TojHCWuUFJLOqGpX3rInn",
+                    "name": "JSONPath Query",
+                    "title": "Extract the Job ID",
+                    "type": "corejava.jsonpathquery",
+                    "base_type": "activity",
+                    "properties": {
+                      "action_timeout": 180,
+                      "continue_on_failure": false,
+                      "display_name": "Extract the Job ID",
+                      "input_json": "$activity.definition_activity_01HL2V7W5WJTM3Rfs8GYIr2YKnaw8OlzVWs.output.response_body$",
+                      "jsonpath_queries": [
+                        {
+                          "jsonpath_query": "$.id",
+                          "jsonpath_query_name": "Job_ID",
+                          "jsonpath_query_type": "string"
+                        }
+                      ],
+                      "skip_execution": false
+                    },
+                    "object_type": "definition_activity"
+                  },
+                  {
+                    "unique_name": "definition_activity_01HL3A2HPFYN63VGWfYBprVjf5rfEuEQWE8",
+                    "name": "Generic CCS API Request",
+                    "title": "Get the Deployment Details",
+                    "type": "ccs.api_request",
+                    "base_type": "activity",
+                    "properties": {
+                      "action_timeout": 180,
+                      "api_call_method": "GET",
+                      "continue_on_failure": false,
+                      "display_name": "Get the Deployment Details",
+                      "relative_url": "cloudcenter-ccm-backend//api/v2/jobs/$activity.definition_activity_01HL39GB0JGPL1TojHCWuUFJLOqGpX3rInn.output.jsonpath_queries.Job_ID$",
+                      "runtime_user": {
+                        "override_target_runtime_user": false,
+                        "target_default": true
+                      },
+                      "skip_execution": false,
+                      "target": {
+                        "override_workflow_target": true,
+                        "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                      }
+                    },
+                    "object_type": "definition_activity"
+                  },
+                  {
+                    "unique_name": "definition_activity_01HL3CIXJ1JR80YSipMelrAxOiPYbiVzAhw",
+                    "name": "Set Variables",
+                    "title": "Print the Job Details",
+                    "type": "core.set_multiple_variables",
+                    "base_type": "activity",
+                    "properties": {
+                      "continue_on_failure": false,
+                      "display_name": "Print the Job Details",
+                      "skip_execution": false,
+                      "variables_to_update": [
+                        {
+                          "variable_to_update": "$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.variable_workflow_01HL3CARCCQ922u8RASXBRzVgDfUov1dZZ0$",
+                          "variable_value_new": "$activity.definition_activity_01HL3A2HPFYN63VGWfYBprVjf5rfEuEQWE8.output.response_body$"
+                        }
+                      ]
+                    },
+                    "object_type": "definition_activity"
+                  },
+                  {
+                    "unique_name": "definition_activity_01HM3SCZWZY782e5CgaHbHpBzuOrLKP3K3K",
+                    "name": "Sleep",
+                    "title": "Sleep",
+                    "type": "core.sleep",
+                    "base_type": "activity",
+                    "properties": {
+                      "continue_on_failure": false,
+                      "display_name": "Sleep",
+                      "skip_execution": false,
+                      "sleep_interval": 200
+                    },
+                    "object_type": "definition_activity"
+                  },
+                  {
+                    "unique_name": "definition_activity_01HL4XNI513E20ZMwlDWovUjKbX9iGg7nvT",
+                    "name": "Generic CCS API Request",
+                    "title": "Suspend Job",
+                    "type": "ccs.api_request",
+                    "base_type": "activity",
+                    "properties": {
+                      "action_timeout": 180,
+                      "api_body": "{\n  \"hibernateAction\": false,\n  \"action\": \"SUSPEND\"\n}",
+                      "api_call_method": "PUT",
+                      "continue_on_failure": false,
+                      "description": "Execute the LifeCycle Operations on Deployment",
+                      "display_name": "Suspend Job",
+                      "relative_url": "cloudcenter-ccm-backend/api/v2/jobs/$activity.definition_activity_01HL39GB0JGPL1TojHCWuUFJLOqGpX3rInn.output.jsonpath_queries.Job_ID$",
+                      "runtime_user": {
+                        "override_target_runtime_user": false,
+                        "target_default": true
+                      },
+                      "skip_execution": false,
+                      "target": {
+                        "override_workflow_target": true,
+                        "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                      }
+                    },
+                    "object_type": "definition_activity"
+                  },
+                  {
+                    "unique_name": "definition_activity_01HL8NRFS97P90DxbX7KJ6XcOb1SIe5J9YF",
+                    "name": "Sleep",
+                    "title": "Sleep",
+                    "type": "core.sleep",
+                    "base_type": "activity",
+                    "properties": {
+                      "continue_on_failure": false,
+                      "display_name": "Sleep",
+                      "skip_execution": false,
+                      "sleep_interval": 120
+                    },
+                    "object_type": "definition_activity"
+                  },
+                  {
+                    "unique_name": "definition_activity_01HL4YN1U2FNK1Yt86tXKqTlyVZgnBMdiM9",
+                    "name": "Generic CCS API Request",
+                    "title": "Resume Job",
+                    "type": "ccs.api_request",
+                    "base_type": "activity",
+                    "properties": {
+                      "action_timeout": 180,
+                      "api_body": "{\n  \"action\": \"RESUME\"\n}",
+                      "api_call_method": "PUT",
+                      "continue_on_failure": false,
+                      "description": "Execute the LifeCycle Operations on Deployment",
+                      "display_name": "Resume Job",
+                      "relative_url": "cloudcenter-ccm-backend/api/v2/jobs/$activity.definition_activity_01HL39GB0JGPL1TojHCWuUFJLOqGpX3rInn.output.jsonpath_queries.Job_ID$",
+                      "runtime_user": {
+                        "override_target_runtime_user": false,
+                        "target_default": true
+                      },
+                      "skip_execution": false,
+                      "target": {
+                        "override_workflow_target": true,
+                        "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                      }
+                    },
+                    "object_type": "definition_activity"
+                  },
+                  {
+                    "unique_name": "definition_activity_01HL8NVFR97PC0Gw5X3XLkCB9em05ZJxRpq",
+                    "name": "Sleep",
+                    "title": "Sleep",
+                    "type": "core.sleep",
+                    "base_type": "activity",
+                    "properties": {
+                      "continue_on_failure": false,
+                      "display_name": "Sleep",
+                      "skip_execution": false,
+                      "sleep_interval": 120
+                    },
+                    "object_type": "definition_activity"
+                  },
+                  {
+                    "unique_name": "definition_activity_01HL3R1NB2NLH57CjPJC3DmZEZTBuSakcrn",
+                    "name": "Generic CCS API Request",
+                    "title": "Migrate Deployment and Remove the Source Dep",
+                    "type": "ccs.api_request",
+                    "base_type": "activity",
+                    "properties": {
+                      "action_timeout": 180,
+                      "api_body": "{\n  \"appId\": 31,\n  \"appVersion\": \"1.1\",\n  \"name\": \"Migrate-$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.local.variable_workflow_01HL2XG6U228766IFb9z1YUuzRDl4oiz6M0$-$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.variable_workflow_01HL4A8NAUUPM1sHpIF1dvYARR7xVg8qfdk$\",\n  \"metadatas\": [\n    {\n      \"id\": 8,\n      \"namespace\": \"\",\n      \"tagName\": \"New_MetaData_AppProfile\",\n      \"tagCollectionId\": 8,\n      \"value\": \"Migrated-$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.local.variable_workflow_01HL2XT7H3VIE12Tgq20IBHG9kzcezgEVKw$\",\n      \"required\": true,\n      \"editable\": true,\n      \"name\": \"New_MetaData_AppProfile\"\n    },\n    {\n      \"id\": 9,\n      \"namespace\": \"\",\n      \"tagName\": \"IsThisCluster\",\n      \"tagCollectionId\": 8,\n      \"value\": \"Yes 2VM Cluster\",\n      \"required\": false,\n      \"editable\": false,\n      \"name\": \"IsThisCluster\"\n    },\n    {\n      \"id\": 10,\n      \"namespace\": \"\",\n      \"tagName\": \"DatabaseDetails\",\n      \"tagCollectionId\": 8,\n      \"value\": \"Migrate-$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.local.variable_workflow_01HL2Y0YWPLB32i2mfOCfg0dTyHHQF7abn6$\",\n      \"required\": false,\n      \"editable\": true,\n      \"name\": \"DatabaseDetails\"\n    },\n    {\n      \"id\": 11,\n      \"namespace\": \"\",\n      \"tagName\": \"DeploymentDetails\",\n      \"tagCollectionId\": 8,\n      \"value\": \"Migrate-$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.local.variable_workflow_01HL2Y7I9KBPV63HXssb0JWVGERoTIadIS4$\",\n      \"required\": false,\n      \"editable\": true,\n      \"name\": \"DeploymentDetails\"\n    },\n    {\n      \"id\": 13,\n      \"namespace\": \"\",\n      \"tagName\": \"ProfileName\",\n      \"tagCollectionId\": 8,\n      \"value\": \"CentOS\",\n      \"required\": true,\n      \"editable\": true,\n      \"name\": \"ProfileName\"\n    },\n    {\n      \"id\": 12,\n      \"namespace\": \"\",\n      \"tagName\": \"New_MetaData_AppProfile1\",\n      \"tagCollectionId\": 8,\n      \"value\": \"App  profile centOS\",\n      \"required\": false,\n      \"editable\": false,\n      \"name\": \"New_MetaData_AppProfile1\"\n    },\n    {\n      \"id\": 14,\n      \"namespace\": \"\",\n      \"tagName\": \"DeploymentScaling\",\n      \"tagCollectionId\": 8,\n      \"value\": \"Scaled up to one VM\",\n      \"required\": true,\n      \"editable\": false,\n      \"name\": \"DeploymentScaling\"\n    },\n    {\n      \"id\": 15,\n      \"namespace\": \"\",\n      \"tagName\": \"Name\",\n      \"tagCollectionId\": 8,\n      \"value\": \"%JOB_NAME%\",\n      \"required\": true,\n      \"editable\": false,\n      \"name\": \"Name\"\n    }\n  ],\n  \"environmentId\": \"1\",\n  \"tagIds\": [\n    \"1\"\n  ],\n  \"securityProfileIds\": null,\n  \"agingPolicyId\": \"1\",\n  \"suspensionPolicyId\": null,\n  \"policyIds\": null,\n  \"preventTermination\": false,\n  \"parameters\": {\n    \"appParams\": [\n      {\n        \"name\": \"Test_Field\",\n        \"value\": \"Default\"\n      },\n      {\n        \"name\": \"Test_Number\",\n        \"value\": \"1\"\n      }\n    ],\n    \"cloudParams\": {\n      \"cloudRegionId\": \"1\",\n      \"accountId\": \"1\"\n    }\n  },\n  \"jobs\": [\n    {\n      \"tierId\": \"32\",\n      \"policyIds\": null,\n      \"tagIds\": [\n        \"2\"\n      ],\n      \"securityProfileIds\": null,\n      \"parameters\": {\n        \"appParams\": [\n          {\n            \"name\": \"referredJob\",\n            \"value\": \"\"\n          },\n          {\n            \"name\": \"SSHPreference\",\n            \"value\": \"NO_PREFERENCE\"\n          }\n        ],\n        \"envParams\": [],\n        \"cloudParams\": {\n          \"cloudRegionId\": \"1\",\n          \"accountId\": \"1\",\n          \"volumes\": [\n            {\n              \"name\": \"RootVolume\",\n              \"bootable\": true,\n              \"size\": null,\n              \"type\": \"storage-Vcenter_65-default\",\n              \"iops\": null\n            }\n          ],\n          \"rootVolumeSize\": \"0\",\n          \"cloudProperties\": [\n            {\n              \"name\": \"FullClone\",\n              \"value\": \"true\"\n            },\n            {\n              \"name\": \"UserDataCenterName\",\n              \"value\": \"PSC-Datacenter\"\n            },\n            {\n              \"name\": \"UserClusterName\",\n              \"value\": \"PCS-DC-Cluster\"\n            },\n            {\n              \"name\": \"UserDatastoreCluster\",\n              \"value\": \"VC65-LUN161\"\n            },\n            {\n              \"name\": \"UserResourcePoolName\",\n              \"value\": \"Cloud\"\n            },\n            {\n              \"name\": \"VMGroup\",\n              \"value\": \"\"\n            },\n            {\n              \"name\": \"UserDatastore\",\n              \"value\": \"\"\n            },\n            {\n              \"name\": \"UserTargetDeploymentFolder\",\n              \"value\": \"/Discovered virtual machine\"\n            },\n            {\n              \"name\": \"CC_AUTO_SELECT_NETWORK\",\n              \"value\": false\n            },\n            {\n              \"name\": \"numNICs\",\n              \"value\": \"\"\n            }\n          ],\n          \"nics\": [\n            {\n              \"order\": 1,\n              \"id\": \"172.23.14.x\",\n              \"type\": \"NETWORK\"\n            }\n          ],\n          \"instance\": \"default\"\n        }\n      },\n      \"appServices\": [],\n      \"numNodesToLaunch\": 1\n    }\n  ],\n  \"timeZone\": \"GMT+05:30\",\n  \"responseJobJaxbNotRequired\": true,\n  \"action\": \"MIGRATE\",\n  \"keepExistingDeployment\": false\n}",
+                      "api_call_method": "PUT",
+                      "continue_on_failure": false,
+                      "display_name": "Migrate Deployment and Remove the Source Dep",
+                      "relative_url": "/cloudcenter-ccm-backend/api/v2/jobs/$activity.definition_activity_01HL39GB0JGPL1TojHCWuUFJLOqGpX3rInn.output.jsonpath_queries.Job_ID$",
+                      "runtime_user": {
+                        "override_target_runtime_user": false,
+                        "target_default": true
+                      },
+                      "skip_execution": false,
+                      "target": {
+                        "override_workflow_target": true,
+                        "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                      }
+                    },
+                    "object_type": "definition_activity"
+                  },
+                  {
+                    "unique_name": "definition_activity_01HL4F5AIL9I85HKI9aM54PLvGocAKhstJ8",
+                    "name": "Sleep",
+                    "title": "Sleep",
+                    "type": "core.sleep",
+                    "base_type": "activity",
+                    "properties": {
+                      "continue_on_failure": false,
+                      "display_name": "Sleep",
+                      "skip_execution": false,
+                      "sleep_interval": 260
+                    },
+                    "object_type": "definition_activity"
+                  },
+                  {
+                    "unique_name": "definition_activity_01HL4H9GHW5OC1XlhV5y5fT6qLllXehUaui",
+                    "name": "Generic CCS API Request",
+                    "title": "Get the Migrate  Deployment by Name",
+                    "type": "ccs.api_request",
+                    "base_type": "activity",
+                    "properties": {
+                      "action_timeout": 180,
+                      "api_call_method": "GET",
+                      "continue_on_failure": false,
+                      "display_name": "Get the Migrate  Deployment by Name",
+                      "relative_url": "cloudcenter-ccm-backend/api/v2/jobs?search=deploymentEntity.name,fle,Migrate-$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.local.variable_workflow_01HL2XG6U228766IFb9z1YUuzRDl4oiz6M0$-$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.variable_workflow_01HL4A8NAUUPM1sHpIF1dvYARR7xVg8qfdk$",
+                      "runtime_user": {
+                        "override_target_runtime_user": false,
+                        "target_default": true
+                      },
+                      "skip_execution": false,
+                      "target": {
+                        "override_workflow_target": true,
+                        "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                      }
+                    },
+                    "object_type": "definition_activity"
+                  },
+                  {
+                    "unique_name": "definition_activity_01HL4FFFCYTBE7F9CGMhwofVNfsGsx7Z3iZ",
+                    "name": "JSONPath Query",
+                    "title": "Extract the Migrate Job ID",
+                    "type": "corejava.jsonpathquery",
+                    "base_type": "activity",
+                    "properties": {
+                      "action_timeout": 180,
+                      "continue_on_failure": false,
+                      "display_name": "Extract the Migrate Job ID",
+                      "input_json": "$activity.definition_activity_01HL4H9GHW5OC1XlhV5y5fT6qLllXehUaui.output.response_body$",
+                      "jsonpath_queries": [
+                        {
+                          "jsonpath_query": "$.jobs[0].id",
+                          "jsonpath_query_name": "MigrateJob_ID",
+                          "jsonpath_query_type": "string"
+                        }
+                      ],
+                      "skip_execution": false
+                    },
+                    "object_type": "definition_activity"
+                  },
+                  {
+                    "unique_name": "definition_activity_01HL4HTP5ANSW4v16iLl70z5pMHymItUkB1",
+                    "name": "Set Variables",
+                    "title": "Print the Migrated Job Details",
+                    "type": "core.set_multiple_variables",
+                    "base_type": "activity",
+                    "properties": {
+                      "continue_on_failure": false,
+                      "display_name": "Print the Migrated Job Details",
+                      "skip_execution": false,
+                      "variables_to_update": [
+                        {
+                          "variable_to_update": "$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.variable_workflow_01HL4IVXMRWGE64EUDzw6yHvHMzqHwKGJiu$",
+                          "variable_value_new": "$activity.definition_activity_01HL4H9GHW5OC1XlhV5y5fT6qLllXehUaui.output.response_body$"
+                        }
+                      ]
+                    },
+                    "object_type": "definition_activity"
+                  },
+                  {
+                    "unique_name": "definition_activity_01HLARN6JSN3M6Q1AVRtBy6GMVTXCZXCaXp",
+                    "name": "Generic CCS API Request",
+                    "title": "Verify the Source Deployment deleted or not ?",
+                    "type": "ccs.api_request",
+                    "base_type": "activity",
+                    "properties": {
+                      "action_timeout": 180,
+                      "api_call_method": "GET",
+                      "continue_on_failure": false,
+                      "display_name": "Verify the Source Deployment deleted or not ?",
+                      "relative_url": "cloudcenter-ccm-backend//api/v2/jobs/$activity.definition_activity_01HL39GB0JGPL1TojHCWuUFJLOqGpX3rInn.output.jsonpath_queries.Job_ID$",
+                      "runtime_user": {
+                        "override_target_runtime_user": false,
+                        "target_default": true
+                      },
+                      "skip_execution": false,
+                      "target": {
+                        "override_workflow_target": true,
+                        "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                      }
+                    },
+                    "object_type": "definition_activity"
+                  },
+                  {
+                    "unique_name": "definition_activity_01HL4VFM5T9H63uAlvkuvyE8JBbmWgVBX91",
+                    "name": "Generic CCS API Request",
+                    "title": "Execute the Custom Action on Deployment",
+                    "type": "ccs.api_request",
+                    "base_type": "activity",
+                    "properties": {
+                      "action_timeout": 180,
+                      "api_body": "{\n  \"resourceType\": \"DEPLOYMENT\",\n  \"executionSpecs\": [\n    {\n      \"name\": \"wsRequestType\",\n      \"value\": \"post\"\n    },\n    {\n      \"name\": \"wsUsername\",\n      \"value\": \"admin\"\n    },\n    {\n      \"name\": \"wsUrl\",\n      \"value\": \"10.78.0.251:8080/RequestCenter/nsapi/definition/agent/CliqrAgent/start\"\n    },\n    {\n      \"name\": \"wsProtocol\",\n      \"value\": \"http\"\n    },\n    {\n      \"name\": \"wsCommandParams\",\n      \"value\": \"\"\n    },\n    {\n      \"name\": \"wsPassword\",\n      \"value\": \"KO+KysPzUlGPpSOV6kMaNw==\"\n    },\n    {\n      \"name\": \"wsContentType\",\n      \"value\": \"json\"\n    },\n    {\n      \"name\": \"wsBody\",\n      \"value\": \"\"\n    }\n  ],\n  \"executionResources\": [\n    {\n      \"id\": \"$activity.definition_activity_01HL4FFFCYTBE7F9CGMhwofVNfsGsx7Z3iZ.output.jsonpath_queries.MigrateJob_ID$\"\n    }\n  ]\n}",
+                      "api_call_method": "POST",
+                      "continue_on_failure": false,
+                      "description": "Execute the Custom Action on Deployment",
+                      "display_name": "Execute the Custom Action on Deployment",
+                      "relative_url": "cloudcenter-ccm-backend/api/v1/actions/104/executions",
+                      "runtime_user": {
+                        "override_target_runtime_user": false,
+                        "target_default": true
+                      },
+                      "skip_execution": false,
+                      "target": {
+                        "override_workflow_target": true,
+                        "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                      }
+                    },
+                    "object_type": "definition_activity"
+                  },
+                  {
+                    "unique_name": "definition_activity_01HL6IFQBDIG62ZIRUcffP0vg3wczdwx5IB",
+                    "name": "Sleep",
+                    "title": "Sleep",
+                    "type": "core.sleep",
+                    "base_type": "activity",
+                    "properties": {
+                      "continue_on_failure": false,
+                      "display_name": "Sleep",
+                      "skip_execution": false,
+                      "sleep_interval": 60
+                    },
+                    "object_type": "definition_activity"
+                  },
+                  {
+                    "unique_name": "definition_activity_01HLAQX3XT32Y54uUq0Dq4jglO90FCer7r4",
+                    "name": "Generic CCS API Request",
+                    "title": "Get the Deployment History",
+                    "type": "ccs.api_request",
+                    "base_type": "activity",
+                    "properties": {
+                      "action_timeout": 180,
+                      "api_call_method": "GET",
+                      "continue_on_failure": false,
+                      "description": "Execute the Custom Action on Deployment",
+                      "display_name": "Get the Deployment History",
+                      "relative_url": "cloudcenter-ccm-backend//api/v1/actionHistory?resourceId=$activity.definition_activity_01HL4FFFCYTBE7F9CGMhwofVNfsGsx7Z3iZ.output.jsonpath_queries.MigrateJob_ID$\u0026resourceType=DEPLOYMENT",
+                      "runtime_user": {
+                        "override_target_runtime_user": false,
+                        "target_default": true
+                      },
+                      "skip_execution": false,
+                      "target": {
+                        "override_workflow_target": true,
+                        "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                      }
+                    },
+                    "object_type": "definition_activity"
+                  },
+                  {
+                    "unique_name": "definition_activity_01HL4ZR2TIUA90fRquZZifL2SX7adPA19vR",
+                    "name": "Generic CCS API Request",
+                    "title": "Delete Job",
+                    "type": "ccs.api_request",
+                    "base_type": "activity",
+                    "properties": {
+                      "action_timeout": 180,
+                      "api_call_method": "DELETE",
+                      "continue_on_failure": false,
+                      "description": "Execute the LifeCycle Operations on Deployment",
+                      "display_name": "Delete Job",
+                      "relative_url": "cloudcenter-ccm-backend/api/v2/jobs/$activity.definition_activity_01HL4FFFCYTBE7F9CGMhwofVNfsGsx7Z3iZ.output.jsonpath_queries.MigrateJob_ID$?hide=false",
+                      "runtime_user": {
+                        "override_target_runtime_user": false,
+                        "target_default": true
+                      },
+                      "skip_execution": false,
+                      "target": {
+                        "override_workflow_target": true,
+                        "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                      }
+                    },
+                    "object_type": "definition_activity"
+                  },
+                  {
+                    "unique_name": "definition_activity_01HL8YT4C73WY7AA9Ozy8hVSynzGdUAwJsH",
+                    "name": "Sleep",
+                    "title": "Sleep",
+                    "type": "core.sleep",
+                    "base_type": "activity",
+                    "properties": {
+                      "continue_on_failure": false,
+                      "display_name": "Sleep",
+                      "skip_execution": false,
+                      "sleep_interval": 60
+                    },
+                    "object_type": "definition_activity"
+                  },
+                  {
+                    "unique_name": "definition_activity_01HL6I1QTRGB478aPCCupbz49iSE2KxID4d",
+                    "name": "Generic CCS API Request",
+                    "title": "Verify Job is Deleted or Not ?",
+                    "type": "ccs.api_request",
+                    "base_type": "activity",
+                    "properties": {
+                      "action_timeout": 180,
+                      "api_call_method": "GET",
+                      "continue_on_failure": false,
+                      "display_name": "Verify Job is Deleted or Not ?",
+                      "relative_url": "cloudcenter-ccm-backend//api/v2/jobs/$activity.definition_activity_01HL4FFFCYTBE7F9CGMhwofVNfsGsx7Z3iZ.output.jsonpath_queries.MigrateJob_ID$",
+                      "runtime_user": {
+                        "override_target_runtime_user": false,
+                        "target_default": true
+                      },
+                      "skip_execution": false,
+                      "target": {
+                        "override_workflow_target": true,
+                        "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                      }
+                    },
+                    "object_type": "definition_activity"
+                  }
+                ]
+              },
+              {
+                "unique_name": "definition_activity_01HLCS3WDKV3A0Vs2ct5MBl1CV3N7W9v25T",
+                "name": "Condition Block",
+                "title": "Verify the Status Code",
+                "type": "logic.if_else",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Verify the Status Code",
+                  "skip_execution": true
+                },
+                "object_type": "definition_activity",
+                "blocks": [
+                  {
+                    "unique_name": "definition_activity_01HLCS41JOYWT5jI55MqAIoTPoDGr4R4hMp",
+                    "name": "Condition Branch",
+                    "title": "Pass Case",
+                    "type": "logic.condition_block",
+                    "base_type": "activity",
+                    "properties": {
+                      "condition": {
+                        "left_operand": {
+                          "left_operand": {
+                            "left_operand": {
+                              "left_operand": {
+                                "left_operand": {
+                                  "left_operand": {
+                                    "left_operand": {
+                                      "left_operand": {
+                                        "left_operand": {
+                                          "left_operand": "$activity.definition_activity_01HL2V7W5WJTM3Rfs8GYIr2YKnaw8OlzVWs.output.status_code$",
+                                          "operator": "eq",
+                                          "right_operand": 200
+                                        },
+                                        "operator": "and",
+                                        "right_operand": {
+                                          "left_operand": "$activity.definition_activity_01HL3A2HPFYN63VGWfYBprVjf5rfEuEQWE8.output.status_code$",
+                                          "operator": "eq",
+                                          "right_operand": 200
+                                        }
+                                      },
+                                      "operator": "and",
+                                      "right_operand": {
+                                        "left_operand": "$activity.definition_activity_01HL4XNI513E20ZMwlDWovUjKbX9iGg7nvT.output.status_code$",
+                                        "operator": "eq",
+                                        "right_operand": 202
+                                      }
+                                    },
+                                    "operator": "and",
+                                    "right_operand": {
+                                      "left_operand": "$activity.definition_activity_01HL4YN1U2FNK1Yt86tXKqTlyVZgnBMdiM9.output.status_code$",
+                                      "operator": "eq",
+                                      "right_operand": 202
+                                    }
+                                  },
+                                  "operator": "and",
+                                  "right_operand": {
+                                    "left_operand": "$activity.definition_activity_01HL3R1NB2NLH57CjPJC3DmZEZTBuSakcrn.output.status_code$",
+                                    "operator": "eq",
+                                    "right_operand": 202
+                                  }
+                                },
+                                "operator": "and",
+                                "right_operand": {
+                                  "left_operand": "$activity.definition_activity_01HL4H9GHW5OC1XlhV5y5fT6qLllXehUaui.output.status_code$",
+                                  "operator": "eq",
+                                  "right_operand": 200
+                                }
+                              },
+                              "operator": "and",
+                              "right_operand": {
+                                "left_operand": "$activity.definition_activity_01HL4VFM5T9H63uAlvkuvyE8JBbmWgVBX91.output.status_code$",
+                                "operator": "eq",
+                                "right_operand": 200
+                              }
+                            },
+                            "operator": "and",
+                            "right_operand": {
+                              "left_operand": "$activity.definition_activity_01HLAQX3XT32Y54uUq0Dq4jglO90FCer7r4.output.status_code$",
+                              "operator": "eq",
+                              "right_operand": 200
+                            }
+                          },
+                          "operator": "and",
+                          "right_operand": {
+                            "left_operand": "$activity.definition_activity_01HL4ZR2TIUA90fRquZZifL2SX7adPA19vR.output.status_code$",
+                            "operator": "eq",
+                            "right_operand": 202
+                          }
+                        },
+                        "operator": "and",
+                        "right_operand": {
+                          "left_operand": "$activity.definition_activity_01HL6I1QTRGB478aPCCupbz49iSE2KxID4d.output.status_code$",
+                          "operator": "eq",
+                          "right_operand": 200
+                        }
+                      },
+                      "continue_on_failure": false,
+                      "display_name": "Pass Case",
+                      "skip_execution": false
+                    },
+                    "object_type": "definition_activity",
+                    "actions": [
+                      {
+                        "unique_name": "definition_activity_01HLCSLEVN7GL02gnTrgKRPcyjuQIG4qbDL",
+                        "name": "Set Variables",
+                        "title": "Set Variables",
+                        "type": "core.set_multiple_variables",
+                        "base_type": "activity",
+                        "properties": {
+                          "continue_on_failure": false,
+                          "display_name": "Set Variables",
+                          "skip_execution": false,
+                          "variables_to_update": [
+                            {
+                              "variable_to_update": "$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.variable_workflow_01HLCSYR828OJ1RrURP7rhaIMylLTZzGs2R$",
+                              "variable_value_new": "✔✅ All Cases are Passed for Deployment LifeCycle Operations- please Verify the instance for staus codes and messages - https://172.25.5.20:31872/orch-ui/runs/$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.instance_id$/"
+                            }
+                          ]
+                        },
+                        "object_type": "definition_activity"
+                      }
+                    ]
+                  },
+                  {
+                    "unique_name": "definition_activity_01HLCS44PYDLP61xPQ6ZcZXJb8pJUs1mNY0",
+                    "name": "Condition Branch",
+                    "title": "Fail Case",
+                    "type": "logic.condition_block",
+                    "base_type": "activity",
+                    "properties": {
+                      "condition": {
+                        "left_operand": {
+                          "left_operand": {
+                            "left_operand": {
+                              "left_operand": {
+                                "left_operand": {
+                                  "left_operand": {
+                                    "left_operand": {
+                                      "left_operand": {
+                                        "left_operand": {
+                                          "left_operand": "$activity.definition_activity_01HL2V7W5WJTM3Rfs8GYIr2YKnaw8OlzVWs.output.error.code$",
+                                          "operator": "ne",
+                                          "right_operand": "200"
+                                        },
+                                        "operator": "or",
+                                        "right_operand": {
+                                          "left_operand": "$activity.definition_activity_01HL3A2HPFYN63VGWfYBprVjf5rfEuEQWE8.output.error.code$",
+                                          "operator": "ne",
+                                          "right_operand": "200"
+                                        }
+                                      },
+                                      "operator": "or",
+                                      "right_operand": {
+                                        "left_operand": "$activity.definition_activity_01HL4XNI513E20ZMwlDWovUjKbX9iGg7nvT.output.error.code$",
+                                        "operator": "ne",
+                                        "right_operand": "202"
+                                      }
+                                    },
+                                    "operator": "or",
+                                    "right_operand": {
+                                      "left_operand": "$activity.definition_activity_01HL4YN1U2FNK1Yt86tXKqTlyVZgnBMdiM9.output.error.code$",
+                                      "operator": "ne",
+                                      "right_operand": "202"
+                                    }
+                                  },
+                                  "operator": "or",
+                                  "right_operand": {
+                                    "left_operand": "$activity.definition_activity_01HL3R1NB2NLH57CjPJC3DmZEZTBuSakcrn.output.error.code$",
+                                    "operator": "eq",
+                                    "right_operand": "202"
+                                  }
+                                },
+                                "operator": "or",
+                                "right_operand": {
+                                  "left_operand": "$activity.definition_activity_01HL4H9GHW5OC1XlhV5y5fT6qLllXehUaui.output.error.code$",
+                                  "operator": "ne",
+                                  "right_operand": "200"
+                                }
+                              },
+                              "operator": "or",
+                              "right_operand": {
+                                "left_operand": "$activity.definition_activity_01HL4VFM5T9H63uAlvkuvyE8JBbmWgVBX91.output.error.code$",
+                                "operator": "ne",
+                                "right_operand": "200"
+                              }
+                            },
+                            "operator": "or",
+                            "right_operand": {
+                              "left_operand": "$activity.definition_activity_01HLAQX3XT32Y54uUq0Dq4jglO90FCer7r4.output.error.code$",
+                              "operator": "ne",
+                              "right_operand": "200"
+                            }
+                          },
+                          "operator": "or",
+                          "right_operand": {
+                            "left_operand": "$activity.definition_activity_01HL6I1QTRGB478aPCCupbz49iSE2KxID4d.output.status_code$",
+                            "operator": "ne",
+                            "right_operand": 200
+                          }
+                        },
+                        "operator": "or",
+                        "right_operand": {
+                          "left_operand": "$activity.definition_activity_01HL4ZR2TIUA90fRquZZifL2SX7adPA19vR.output.status_code$",
+                          "operator": "ne",
+                          "right_operand": 202
+                        }
+                      },
+                      "continue_on_failure": false,
+                      "display_name": "Fail Case",
+                      "skip_execution": false
+                    },
+                    "object_type": "definition_activity",
+                    "actions": [
+                      {
+                        "unique_name": "definition_activity_01HLCSMX0WQL11DT48446GPsvsUtosGxEAk",
+                        "name": "Set Variables",
+                        "title": "Set Variables",
+                        "type": "core.set_multiple_variables",
+                        "base_type": "activity",
+                        "properties": {
+                          "continue_on_failure": false,
+                          "display_name": "Set Variables",
+                          "skip_execution": false,
+                          "variables_to_update": [
+                            {
+                              "variable_to_update": "$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.variable_workflow_01HLCSYR828OJ1RrURP7rhaIMylLTZzGs2R$",
+                              "variable_value_new": "❌⭕ Some Test Cases are failed for deployment lifecycle operations - please refer the instance - https://172.25.5.20:31872/orch-ui/runs/$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.instance_id$/"
+                            }
+                          ]
+                        },
+                        "object_type": "definition_activity"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "unique_name": "definition_activity_01HLD6B98GYZC78pRYTpKMXuYPCUQSHbS3o",
+                "name": "Set Variables",
+                "title": "EmailTable",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "EmailTable",
+                  "skip_execution": true,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.variable_workflow_01HLD5QVC4LE163ofqrjBqr4OXopktJUCu3$",
+                      "variable_value_new": "\u003ch2\u003eDeployment Lifecycle Operations\u003c/h2\u003e\n\u003ctable\u003e\n\u003ctr\u003e\n\u003cth\u003eActivity Name\u003c/th\u003e\n\u003cth\u003eTrue/False\u003c/th\u003e\n\u003cth\u003eStatus Code\u003c/th\u003e\n\u003cth\u003eStatus Text\u003c/th\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate Centos Deployment\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01HL2V7W5WJTM3Rfs8GYIr2YKnaw8OlzVWs.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01HL2V7W5WJTM3Rfs8GYIr2YKnaw8OlzVWs.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01HL2V7W5WJTM3Rfs8GYIr2YKnaw8OlzVWs.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGET Deployment Details\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01HL3A2HPFYN63VGWfYBprVjf5rfEuEQWE8.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01HL3A2HPFYN63VGWfYBprVjf5rfEuEQWE8.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01HL3A2HPFYN63VGWfYBprVjf5rfEuEQWE8.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eSuspend Job\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01HL4XNI513E20ZMwlDWovUjKbX9iGg7nvT.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01HL4XNI513E20ZMwlDWovUjKbX9iGg7nvT.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01HL4XNI513E20ZMwlDWovUjKbX9iGg7nvT.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eResume Job\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01HL4YN1U2FNK1Yt86tXKqTlyVZgnBMdiM9.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01HL4YN1U2FNK1Yt86tXKqTlyVZgnBMdiM9.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01HL4YN1U2FNK1Yt86tXKqTlyVZgnBMdiM9.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eMigrate the Job\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01HL3R1NB2NLH57CjPJC3DmZEZTBuSakcrn.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01HL3R1NB2NLH57CjPJC3DmZEZTBuSakcrn.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01HL3R1NB2NLH57CjPJC3DmZEZTBuSakcrn.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGet the Migrated Deployment by Name\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01HL4H9GHW5OC1XlhV5y5fT6qLllXehUaui.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01HL4H9GHW5OC1XlhV5y5fT6qLllXehUaui.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01HL4H9GHW5OC1XlhV5y5fT6qLllXehUaui.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eExecute the Custom Actions on Deployment\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01HL4VFM5T9H63uAlvkuvyE8JBbmWgVBX91.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01HL4VFM5T9H63uAlvkuvyE8JBbmWgVBX91.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01HL4VFM5T9H63uAlvkuvyE8JBbmWgVBX91.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDeployment History\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01HLAQX3XT32Y54uUq0Dq4jglO90FCer7r4.output.succeeded$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01HLAQX3XT32Y54uUq0Dq4jglO90FCer7r4.output.status_code$\u003c/td\u003e\n\u003ctd\u003e$activity.definition_activity_01HLAQX3XT32Y54uUq0Dq4jglO90FCer7r4.output.status_text$\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/table\u003e"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          },
+          {
+            "unique_name": "definition_activity_01HL3KJ0Z45FR6C52yGYpYSvcESImYUfh3o",
+            "name": "Parallel Branch",
+            "title": "Virtual Machines",
+            "type": "logic.parallel_block",
+            "base_type": "activity",
+            "properties": {
+              "continue_on_failure": false,
+              "display_name": "Virtual Machines",
+              "skip_execution": false
+            },
+            "object_type": "definition_activity",
+            "actions": [
+              {
+                "unique_name": "definition_activity_01HLXQOWID6BN71Trov3XAUx1B2PWKtf2wU",
+                "name": "Execute Python Script",
+                "title": "Execute Python Script",
+                "type": "python3.script",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "continue_on_failure": false,
+                  "display_name": "Execute Python Script",
+                  "script": "import random\nimport string\n\ndef get_random_string(length):\n    letters = string.ascii_lowercase\n    result_str = ''.join(random.choice(letters) for i in range(length))\n    print(result_str)\n    \n\nget_random_string(6)",
+                  "skip_execution": false
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM3OOQ0NII51Dm0WkdoBxnLajkIPyqL2o",
+                "name": "Set Variables",
+                "title": "UniqueID",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "UniqueID",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.variable_workflow_01HM3PI176VFI6qzu8xri5XMm2Adrj4OhKv$",
+                      "variable_value_new": "$activity.definition_activity_01HLXQOWID6BN71Trov3XAUx1B2PWKtf2wU.output.response_body$"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HLXPRK7UX3N2J3MJFEVicJ2NBTKhFgjvC",
+                "name": "Generic CCS API Request",
+                "title": "CentOS- Create Deployment",
+                "type": "ccs.api_request",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "api_body": "{\n  \"appId\": 31,\n  \"appVersion\": \"1.1\",\n  \"name\": \"VM-$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.local.variable_workflow_01HL2XG6U228766IFb9z1YUuzRDl4oiz6M0$-$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.variable_workflow_01HM3PI176VFI6qzu8xri5XMm2Adrj4OhKv$\",\n  \"metadatas\": [\n    {\n      \"id\": 8,\n      \"namespace\": \"\",\n      \"tagName\": \"New_MetaData_AppProfile\",\n      \"tagCollectionId\": 8,\n      \"value\": \"VM-$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.local.variable_workflow_01HL2XT7H3VIE12Tgq20IBHG9kzcezgEVKw$\",\n      \"required\": true,\n      \"editable\": true,\n      \"name\": \"New_MetaData_AppProfile\"\n    },\n    {\n      \"id\": 9,\n      \"namespace\": \"\",\n      \"tagName\": \"IsThisCluster\",\n      \"tagCollectionId\": 8,\n      \"value\": \"Yes 2VM Cluster\",\n      \"required\": false,\n      \"editable\": false,\n      \"name\": \"IsThisCluster\"\n    },\n    {\n      \"id\": 10,\n      \"namespace\": \"\",\n      \"tagName\": \"DatabaseDetails\",\n      \"tagCollectionId\": 8,\n      \"value\": \"VM-$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.local.variable_workflow_01HL2Y0YWPLB32i2mfOCfg0dTyHHQF7abn6$\",\n      \"required\": false,\n      \"editable\": true,\n      \"name\": \"DatabaseDetails\"\n    },\n    {\n      \"id\": 11,\n      \"namespace\": \"\",\n      \"tagName\": \"DeploymentDetails\",\n      \"tagCollectionId\": 8,\n      \"value\": \"VM-$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.local.variable_workflow_01HL2Y7I9KBPV63HXssb0JWVGERoTIadIS4$\",\n      \"required\": false,\n      \"editable\": true,\n      \"name\": \"DeploymentDetails\"\n    },\n    {\n      \"id\": 13,\n      \"namespace\": \"\",\n      \"tagName\": \"ProfileName\",\n      \"tagCollectionId\": 8,\n      \"value\": \"CentOS\",\n      \"required\": true,\n      \"editable\": true,\n      \"name\": \"ProfileName\"\n    },\n    {\n      \"id\": 12,\n      \"namespace\": \"\",\n      \"tagName\": \"New_MetaData_AppProfile1\",\n      \"tagCollectionId\": 8,\n      \"value\": \"App  profile centOS\",\n      \"required\": false,\n      \"editable\": false,\n      \"name\": \"New_MetaData_AppProfile1\"\n    },\n    {\n      \"id\": 14,\n      \"namespace\": \"\",\n      \"tagName\": \"DeploymentScaling\",\n      \"tagCollectionId\": 8,\n      \"value\": \"Scaled up to one VM\",\n      \"required\": true,\n      \"editable\": false,\n      \"name\": \"DeploymentScaling\"\n    },\n    {\n      \"id\": 15,\n      \"namespace\": \"\",\n      \"tagName\": \"Name\",\n      \"tagCollectionId\": 8,\n      \"value\": \"%JOB_NAME%\",\n      \"required\": true,\n      \"editable\": false,\n      \"name\": \"Name\"\n    }\n  ],\n  \"environmentId\": \"1\",\n  \"tagIds\": [\n    \"1\"\n  ],\n  \"securityProfileIds\": null,\n  \"agingPolicyId\": \"1\",\n  \"suspensionPolicyId\": null,\n  \"policyIds\": null,\n  \"preventTermination\": false,\n  \"parameters\": {\n    \"appParams\": [\n      {\n        \"name\": \"Test_Field\",\n        \"value\": \"Default\"\n      },\n      {\n        \"name\": \"Test_Number\",\n        \"value\": \"1\"\n      }\n    ],\n    \"cloudParams\": {\n      \"cloudRegionId\": \"1\",\n      \"accountId\": \"1\"\n    }\n  },\n  \"jobs\": [\n    {\n      \"tierId\": \"32\",\n      \"policyIds\": null,\n      \"tagIds\": [\n        \"2\"\n      ],\n      \"securityProfileIds\": null,\n      \"parameters\": {\n        \"appParams\": [\n          {\n            \"name\": \"referredJob\",\n            \"value\": \"\"\n          },\n          {\n            \"name\": \"SSHPreference\",\n            \"value\": \"NO_PREFERENCE\"\n          }\n        ],\n        \"envParams\": [],\n        \"cloudParams\": {\n          \"cloudRegionId\": \"1\",\n          \"accountId\": \"1\",\n          \"volumes\": [\n            {\n              \"name\": \"RootVolume\",\n              \"bootable\": true,\n              \"size\": null,\n              \"type\": \"storage-Vcenter_65-default\",\n              \"iops\": null\n            }\n          ],\n          \"rootVolumeSize\": \"0\",\n          \"cloudProperties\": [\n            {\n              \"name\": \"FullClone\",\n              \"value\": \"true\"\n            },\n            {\n              \"name\": \"UserDataCenterName\",\n              \"value\": \"PSC-Datacenter\"\n            },\n            {\n              \"name\": \"UserClusterName\",\n              \"value\": \"PCS-DC-Cluster\"\n            },\n            {\n              \"name\": \"UserDatastoreCluster\",\n              \"value\": \"VC65-LUN161\"\n            },\n            {\n              \"name\": \"UserResourcePoolName\",\n              \"value\": \"Cloud\"\n            },\n            {\n              \"name\": \"VMGroup\",\n              \"value\": \"\"\n            },\n            {\n              \"name\": \"UserDatastore\",\n              \"value\": \"\"\n            },\n            {\n              \"name\": \"UserTargetDeploymentFolder\",\n              \"value\": \"/Discovered virtual machine\"\n            },\n            {\n              \"name\": \"CC_AUTO_SELECT_NETWORK\",\n              \"value\": false\n            },\n            {\n              \"name\": \"numNICs\",\n              \"value\": \"\"\n            }\n          ],\n          \"nics\": [\n            {\n              \"order\": 1,\n              \"id\": \"172.23.14.x\",\n              \"type\": \"NETWORK\"\n            }\n          ],\n          \"instance\": \"default\"\n        }\n      },\n      \"appServices\": [],\n      \"numNodesToLaunch\": 1\n    }\n  ],\n  \"timeZone\": \"GMT+05:30\",\n  \"responseJobJaxbNotRequired\": true\n}",
+                  "api_call_method": "POST",
+                  "continue_on_failure": false,
+                  "display_name": "CentOS- Create Deployment",
+                  "relative_url": "cloudcenter-ccm-backend/api/v2/jobs",
+                  "runtime_user": {
+                    "override_target_runtime_user": false,
+                    "target_default": true
+                  },
+                  "skip_execution": false,
+                  "target": {
+                    "override_workflow_target": true,
+                    "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                  }
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM3S3UJNTRV1LPdHxD9ef2WV9bXznby90",
+                "name": "Sleep",
+                "title": "Sleep",
+                "type": "core.sleep",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Sleep",
+                  "skip_execution": false,
+                  "sleep_interval": 200
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM3S5UM93B13RoSARf2Mxr7or34FsnbGG",
+                "name": "JSONPath Query",
+                "title": "Extract the Job ID",
+                "type": "corejava.jsonpathquery",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "continue_on_failure": false,
+                  "display_name": "Extract the Job ID",
+                  "input_json": "$activity.definition_activity_01HLXPRK7UX3N2J3MJFEVicJ2NBTKhFgjvC.output.response_body$",
+                  "jsonpath_queries": [
+                    {
+                      "jsonpath_query": "$.id",
+                      "jsonpath_query_name": "Job_ID",
+                      "jsonpath_query_type": "string"
+                    }
+                  ],
+                  "skip_execution": false
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM3S8I47RR72W3tLtDKPT3QzBjtso44FP",
+                "name": "Generic CCS API Request",
+                "title": "Get the Deployment Details",
+                "type": "ccs.api_request",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "api_call_method": "GET",
+                  "continue_on_failure": false,
+                  "display_name": "Get the Deployment Details",
+                  "relative_url": "cloudcenter-ccm-backend//api/v2/jobs/$activity.definition_activity_01HM3S5UM93B13RoSARf2Mxr7or34FsnbGG.output.jsonpath_queries.Job_ID$",
+                  "runtime_user": {
+                    "override_target_runtime_user": false,
+                    "target_default": true
+                  },
+                  "skip_execution": false,
+                  "target": {
+                    "override_workflow_target": true,
+                    "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                  }
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM3SAY59C4R0ZMd4OzEdZ6sbtrRIjV4BG",
+                "name": "Set Variables",
+                "title": "Print the Job Details",
+                "type": "core.set_multiple_variables",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Print the Job Details",
+                  "skip_execution": false,
+                  "variables_to_update": [
+                    {
+                      "variable_to_update": "$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.variable_workflow_01HM3UB0D9R3U4E16sLJbraVL7LjoGFdbYq$",
+                      "variable_value_new": "$activity.definition_activity_01HM3S8I47RR72W3tLtDKPT3QzBjtso44FP.output.response_body$"
+                    }
+                  ]
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HL9ASSOOMXU5o6aicR9T4UpEZvnY8kGi6",
+                "name": "Sleep",
+                "title": "Sleep",
+                "type": "core.sleep",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Sleep",
+                  "skip_execution": false,
+                  "sleep_interval": 200
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM4AL1L9L7O6qSDx0fjVVYlW8cl8AD0bC",
+                "name": "Generic CCS API Request",
+                "title": "Fetch the Job Assosiated VM",
+                "type": "ccs.api_request",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "api_call_method": "GET",
+                  "continue_on_failure": false,
+                  "display_name": "Fetch the Job Assosiated VM",
+                  "relative_url": "cloudcenter-ccm-backend/api/v1/jobs/$activity.definition_activity_01HM3S5UM93B13RoSARf2Mxr7or34FsnbGG.output.jsonpath_queries.Job_ID$/nodes",
+                  "runtime_user": {
+                    "override_target_runtime_user": false,
+                    "target_default": true
+                  },
+                  "skip_execution": false,
+                  "target": {
+                    "override_workflow_target": true,
+                    "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                  }
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM4BK7ROCI44NCtZavZlpuiilsq4nNUJ0",
+                "name": "JSONPath Query",
+                "title": "Extract the VirtualMachineId",
+                "type": "corejava.jsonpathquery",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "continue_on_failure": false,
+                  "display_name": "Extract the VirtualMachineId",
+                  "input_json": "$activity.definition_activity_01HM4AL1L9L7O6qSDx0fjVVYlW8cl8AD0bC.output.response_body$",
+                  "jsonpath_queries": [
+                    {
+                      "jsonpath_query": "$.nodes[0].virtualMachines[0].virtualMachineId",
+                      "jsonpath_query_name": "virtualMachineId",
+                      "jsonpath_query_type": "string"
+                    }
+                  ],
+                  "skip_execution": false
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM5MET3L6HQ5ueMFCeeA9ohsltr8gNlJN",
+                "name": "Generic CCS API Request",
+                "title": "Get VM Details by ID",
+                "type": "ccs.api_request",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "api_call_method": "GET",
+                  "continue_on_failure": false,
+                  "display_name": "Get VM Details by ID",
+                  "relative_url": "cloudcenter-ccm-backend/api/v1/virtualMachines/$activity.definition_activity_01HM4BK7ROCI44NCtZavZlpuiilsq4nNUJ0.output.jsonpath_queries.virtualMachineId$",
+                  "runtime_user": {
+                    "override_target_runtime_user": false,
+                    "target_default": true
+                  },
+                  "skip_execution": false,
+                  "target": {
+                    "override_workflow_target": true,
+                    "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                  }
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM66GOE8OMR1B0kvhHbUdLHtCJRBFfESh",
+                "name": "JSONPath Query",
+                "title": "ExtractVM NodeID",
+                "type": "corejava.jsonpathquery",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "continue_on_failure": false,
+                  "display_name": "ExtractVM NodeID",
+                  "input_json": "$activity.definition_activity_01HM5MET3L6HQ5ueMFCeeA9ohsltr8gNlJN.output.response_body$",
+                  "jsonpath_queries": [
+                    {
+                      "jsonpath_query": "$.nodeId",
+                      "jsonpath_query_name": "VMNodeID",
+                      "jsonpath_query_type": "string"
+                    }
+                  ],
+                  "skip_execution": false
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM481D2FYE96QDFrsoOIv0IBDAbd6RCHC",
+                "name": "Generic CCS API Request",
+                "title": "Create and Attach Volume",
+                "type": "ccs.api_request",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "api_body": "{\n  \"executionResources\": [\n    {\n      \"id\": \"$activity.definition_activity_01HM4BK7ROCI44NCtZavZlpuiilsq4nNUJ0.output.jsonpath_queries.virtualMachineId$\"\n    }\n  ],\n  \"executionSpecs\": [\n    {\n      \"name\": \"volumeInfoList\",\n      \"value\": \"[{\\\"name\\\":\\\"\\\",\\\"size\\\":\\\"$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.local.variable_workflow_01HM4FXVDJJYS4LuDgzzq2atW8O0zIF9TeE$\\\",\\\"iops\\\":\\\"\\\",\\\"type\\\":\\\"storage-Vcenter_65-default\\\"}]\",\n      \"resourceType\": \"VIRTUAL_MACHINE\"\n    }\n  ]\n}",
+                  "api_call_method": "POST",
+                  "continue_on_failure": false,
+                  "display_name": "Create and Attach Volume",
+                  "relative_url": "cloudcenter-ccm-backend/api/v1/actions/5/executions",
+                  "runtime_user": {
+                    "override_target_runtime_user": false,
+                    "target_default": true
+                  },
+                  "skip_execution": false,
+                  "target": {
+                    "override_workflow_target": true,
+                    "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                  }
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM4W9GS7QFH2x3fPYGNXMbJx5l5buytnQ",
+                "name": "Sleep",
+                "title": "Sleep",
+                "type": "core.sleep",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Sleep",
+                  "skip_execution": false,
+                  "sleep_interval": 60
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM4NX4VIDAJ49URJRMMwgPVGYGxILT3Iz",
+                "name": "Generic CCS API Request",
+                "title": "Fetch the Attached Volumes",
+                "type": "ccs.api_request",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "api_call_method": "GET",
+                  "continue_on_failure": false,
+                  "display_name": "Fetch the Attached Volumes",
+                  "relative_url": "cloudcenter-ccm-backend/api/v2/cloudentities/resource/1?resourceType=Instance\u0026cloudAccount=1\u0026resourceIds=$activity.definition_activity_01HM4BK7ROCI44NCtZavZlpuiilsq4nNUJ0.output.jsonpath_queries.virtualMachineId$\u0026entities=AttachedVolumes",
+                  "runtime_user": {
+                    "override_target_runtime_user": false,
+                    "target_default": true
+                  },
+                  "skip_execution": false,
+                  "target": {
+                    "override_workflow_target": true,
+                    "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                  }
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM4SRG8QZVE5QcxwRihKpmBsWoxPHipTx",
+                "name": "JSONPath Query",
+                "title": "Extract the VolumeID",
+                "type": "corejava.jsonpathquery",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "continue_on_failure": false,
+                  "display_name": "Extract the VolumeID",
+                  "input_json": "$activity.definition_activity_01HM4NX4VIDAJ49URJRMMwgPVGYGxILT3Iz.output.response_body$",
+                  "jsonpath_queries": [
+                    {
+                      "jsonpath_query": "$.data[0].entities.AttachedVolumes[0].id",
+                      "jsonpath_query_name": "VloumeID",
+                      "jsonpath_query_type": "string"
+                    }
+                  ],
+                  "skip_execution": false
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM4S2AM8ZVA5robKDdYqXZxnmBZvY5Jmx",
+                "name": "Generic CCS API Request",
+                "title": "Deattach Volume",
+                "type": "ccs.api_request",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "api_body": "{\n  \"executionResources\": [\n    {\n      \"id\": \"$activity.definition_activity_01HM4BK7ROCI44NCtZavZlpuiilsq4nNUJ0.output.jsonpath_queries.virtualMachineId$\"\n    }\n  ],\n  \"executionSpecs\": [\n    {\n      \"name\": \"volumeIds\",\n      \"value\": \"$activity.definition_activity_01HM4SRG8QZVE5QcxwRihKpmBsWoxPHipTx.output.jsonpath_queries.VloumeID$\"\n    }\n  ]\n}",
+                  "api_call_method": "POST",
+                  "continue_on_failure": false,
+                  "display_name": "Deattach Volume",
+                  "relative_url": "cloudcenter-ccm-backend/api/v1/actions/6/executions",
+                  "runtime_user": {
+                    "override_target_runtime_user": false,
+                    "target_default": true
+                  },
+                  "skip_execution": false,
+                  "target": {
+                    "override_workflow_target": true,
+                    "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                  }
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM4WCYRQN1I2ZNTE2IhnU3XV2FLyv7vu1",
+                "name": "Sleep",
+                "title": "Sleep",
+                "type": "core.sleep",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Sleep",
+                  "skip_execution": false,
+                  "sleep_interval": 60
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM4Y3AQIK5G09J8h2N8p1LY64pnRjOJDL",
+                "name": "Generic CCS API Request",
+                "title": "Create SnapShot",
+                "type": "ccs.api_request",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "api_body": "{\n  \"executionResources\": [\n    {\n      \"id\": \"$activity.definition_activity_01HM4BK7ROCI44NCtZavZlpuiilsq4nNUJ0.output.jsonpath_queries.virtualMachineId$\"\n    }\n  ],\n  \"executionSpecs\": [\n    {\n      \"name\": \"snapshotName\",\n      \"value\": \"$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.local.variable_workflow_01HM4XWIYBH300cLoxWLRl7AbWXqQ6dL3SR$-$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.variable_workflow_01HM3PI176VFI6qzu8xri5XMm2Adrj4OhKv$\"\n    }\n  ],\n  \"resourceType\": \"VIRTUAL_MACHINE\"\n}",
+                  "api_call_method": "POST",
+                  "continue_on_failure": false,
+                  "display_name": "Create SnapShot",
+                  "relative_url": "cloudcenter-ccm-backend/api/v1/actions/7/executions",
+                  "runtime_user": {
+                    "override_target_runtime_user": false,
+                    "target_default": true
+                  },
+                  "skip_execution": false,
+                  "target": {
+                    "override_workflow_target": true,
+                    "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                  }
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM4ZOVK71XR1SR4NeezUVhEQu2G14tuTr",
+                "name": "Sleep",
+                "title": "Sleep",
+                "type": "core.sleep",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Sleep",
+                  "skip_execution": false,
+                  "sleep_interval": 60
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM5GZCTBE990uqc0qUquw4SyVyXmTnWBw",
+                "name": "Generic CCS API Request",
+                "title": "PowerOFF VM",
+                "type": "ccs.api_request",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "api_body": "{\n  \"executionResources\": [\n    {\n      \"id\": \"$activity.definition_activity_01HM4BK7ROCI44NCtZavZlpuiilsq4nNUJ0.output.jsonpath_queries.virtualMachineId$\"\n    }\n  ]\n}",
+                  "api_call_method": "POST",
+                  "continue_on_failure": false,
+                  "display_name": "PowerOFF VM",
+                  "relative_url": "cloudcenter-ccm-backend/api/v1/actions/1/executions",
+                  "runtime_user": {
+                    "override_target_runtime_user": false,
+                    "target_default": true
+                  },
+                  "skip_execution": false,
+                  "target": {
+                    "override_workflow_target": true,
+                    "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                  }
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM5HQJILZPH7jK6iVXTuzGCmHz39vFS1S",
+                "name": "Sleep",
+                "title": "Sleep",
+                "type": "core.sleep",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Sleep",
+                  "skip_execution": false,
+                  "sleep_interval": 70
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM5HDVTS0IE6oAOlW1qdHjv2AfyXgP6uE",
+                "name": "Generic CCS API Request",
+                "title": "PowerON VM",
+                "type": "ccs.api_request",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "api_body": "{\n  \"executionResources\": [\n    {\n      \"id\": \"$activity.definition_activity_01HM4BK7ROCI44NCtZavZlpuiilsq4nNUJ0.output.jsonpath_queries.virtualMachineId$\"\n    }\n  ]\n}",
+                  "api_call_method": "POST",
+                  "continue_on_failure": false,
+                  "display_name": "PowerON VM",
+                  "relative_url": "cloudcenter-ccm-backend/api/v1/actions/2/executions",
+                  "runtime_user": {
+                    "override_target_runtime_user": false,
+                    "target_default": true
+                  },
+                  "skip_execution": false,
+                  "target": {
+                    "override_workflow_target": true,
+                    "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                  }
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM5HUGQERI53YkP2E54vUEQa1nDyQaqZj",
+                "name": "Sleep",
+                "title": "Sleep",
+                "type": "core.sleep",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Sleep",
+                  "skip_execution": false,
+                  "sleep_interval": 150
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM5HJJSHEUT5cCblKRoqu4C1dBUXcQsbU",
+                "name": "Generic CCS API Request",
+                "title": "Reboot VM",
+                "type": "ccs.api_request",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "api_body": "{\n  \"executionResources\": [\n    {\n      \"id\": \"$activity.definition_activity_01HM4BK7ROCI44NCtZavZlpuiilsq4nNUJ0.output.jsonpath_queries.virtualMachineId$\"\n    }\n  ]\n}",
+                  "api_call_method": "POST",
+                  "continue_on_failure": false,
+                  "display_name": "Reboot VM",
+                  "relative_url": "cloudcenter-ccm-backend/api/v1/actions/3/executions",
+                  "runtime_user": {
+                    "override_target_runtime_user": false,
+                    "target_default": true
+                  },
+                  "skip_execution": false,
+                  "target": {
+                    "override_workflow_target": true,
+                    "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                  }
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM5HYB7QDZ57kKJiGFob1xU4B71L2j6XT",
+                "name": "Sleep",
+                "title": "Sleep",
+                "type": "core.sleep",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Sleep",
+                  "skip_execution": false,
+                  "sleep_interval": 120
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM5KK9NTVBL63pQGunvbDPtGf4E1spJeE",
+                "name": "Generic CCS API Request",
+                "title": "Execute CustomAction on VM",
+                "type": "ccs.api_request",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "api_body": "{\n  \"executionResources\": [\n    {\n      \"id\": \"$activity.definition_activity_01HM4BK7ROCI44NCtZavZlpuiilsq4nNUJ0.output.jsonpath_queries.virtualMachineId$\"\n    }\n  ],\n  \"executionSpecs\": [],\n  \"resourceType\": \"VIRTUAL_MACHINE\"\n}",
+                  "api_call_method": "POST",
+                  "continue_on_failure": false,
+                  "display_name": "Execute CustomAction on VM",
+                  "relative_url": "cloudcenter-ccm-backend/api/v1/actions/105/executions",
+                  "runtime_user": {
+                    "override_target_runtime_user": false,
+                    "target_default": true
+                  },
+                  "skip_execution": false,
+                  "target": {
+                    "override_workflow_target": true,
+                    "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                  }
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM5L1OPPAE14CZMLx5v1FAz0zVbdJN3wx",
+                "name": "Sleep",
+                "title": "Sleep",
+                "type": "core.sleep",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Sleep",
+                  "skip_execution": false,
+                  "sleep_interval": 120
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM5IG33GI7Z03P8aWhSpb1NDnbw4zC1J5",
+                "name": "Generic CCS API Request",
+                "title": "SSH to VM and Find the SessionID",
+                "type": "ccs.api_request",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "api_call_method": "GET",
+                  "continue_on_failure": false,
+                  "display_name": "SSH to VM and Find the SessionID",
+                  "relative_url": "cloudcenter-ccm-backend/api/job/service/webssh/190/$activity.definition_activity_01HM66GOE8OMR1B0kvhHbUdLHtCJRBFfESh.output.jsonpath_queries.VMNodeID$?checkDepEnvPerms=false",
+                  "runtime_user": {
+                    "override_target_runtime_user": false,
+                    "target_default": true
+                  },
+                  "skip_execution": false,
+                  "target": {
+                    "override_workflow_target": true,
+                    "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                  }
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM5JPMVY1ZO085UldcIRVGWJ4dcjCb7VY",
+                "name": "Sleep",
+                "title": "Sleep",
+                "type": "core.sleep",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Sleep",
+                  "skip_execution": false,
+                  "sleep_interval": 10
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM5IWEWW6OZ1xQrhvUvumEO369VK44v0G",
+                "name": "Generic CCS API Request",
+                "title": "Synch VM",
+                "type": "ccs.api_request",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "api_body": "{\n  \"executionResources\": [\n    {\n      \"id\": \"$activity.definition_activity_01HM4BK7ROCI44NCtZavZlpuiilsq4nNUJ0.output.jsonpath_queries.virtualMachineId$\"\n    }\n  ]\n}",
+                  "api_call_method": "POST",
+                  "continue_on_failure": false,
+                  "display_name": "Synch VM",
+                  "relative_url": "cloudcenter-ccm-backend/api/v1/actions/12/executions",
+                  "runtime_user": {
+                    "override_target_runtime_user": false,
+                    "target_default": true
+                  },
+                  "skip_execution": false,
+                  "target": {
+                    "override_workflow_target": true,
+                    "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                  }
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM5JY1RJTZ40LsNFTicmAZMBueSzVLh3z",
+                "name": "Sleep",
+                "title": "Sleep",
+                "type": "core.sleep",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Sleep",
+                  "skip_execution": false,
+                  "sleep_interval": 60
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM5L8QP27PX74s7qMbEVgbZUwzjixrsZX",
+                "name": "Generic CCS API Request",
+                "title": "VM History",
+                "type": "ccs.api_request",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "api_call_method": "GET",
+                  "continue_on_failure": false,
+                  "display_name": "VM History",
+                  "relative_url": "cloudcenter-ccm-backend/api/v1/executions/status?resourceType=VIRTUAL_MACHINE\u0026logs=true\u0026id=$activity.definition_activity_01HM4BK7ROCI44NCtZavZlpuiilsq4nNUJ0.output.jsonpath_queries.virtualMachineId$",
+                  "runtime_user": {
+                    "override_target_runtime_user": false,
+                    "target_default": true
+                  },
+                  "skip_execution": false,
+                  "target": {
+                    "override_workflow_target": true,
+                    "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                  }
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM60OD7KH0216aKmAmzrBX2YKgUDFNY0a",
+                "name": "Sleep",
+                "title": "Sleep",
+                "type": "core.sleep",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Sleep",
+                  "skip_execution": false,
+                  "sleep_interval": 60
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM5J55YIZ855TgXhNNO4UwsZV5q43IMIT",
+                "name": "Generic CCS API Request",
+                "title": "Add a VM to a Deployment-ScaleUp",
+                "type": "ccs.api_request",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "api_body": "{\n  \"numNodesToScale\": 1,\n  \"action\": \"SCALE_UP\"\n}",
+                  "api_call_method": "PUT",
+                  "continue_on_failure": false,
+                  "display_name": "Add a VM to a Deployment-ScaleUp",
+                  "relative_url": "cloudcenter-ccm-backend//api/v2/jobs/$activity.definition_activity_01HM3S5UM93B13RoSARf2Mxr7or34FsnbGG.output.jsonpath_queries.Job_ID$/",
+                  "runtime_user": {
+                    "override_target_runtime_user": false,
+                    "target_default": true
+                  },
+                  "skip_execution": false,
+                  "target": {
+                    "override_workflow_target": true,
+                    "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                  }
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM5JTN9E40F4Tae0W93ecvELQm0nwjlAW",
+                "name": "Sleep",
+                "title": "Sleep",
+                "type": "core.sleep",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Sleep",
+                  "skip_execution": false,
+                  "sleep_interval": 360
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM5JGAST79U3ytYMKsgFp6aL40olKGBwe",
+                "name": "Generic CCS API Request",
+                "title": "Remove a VM From a Deployment- ScaleDown",
+                "type": "ccs.api_request",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "api_body": "{\n  \"numNodesToScale\": 1,\n  \"action\": \"SCALE_DOWN\"\n}",
+                  "api_call_method": "PUT",
+                  "continue_on_failure": false,
+                  "display_name": "Remove a VM From a Deployment- ScaleDown",
+                  "relative_url": "cloudcenter-ccm-backend//api/v2/jobs/$activity.definition_activity_01HM3S5UM93B13RoSARf2Mxr7or34FsnbGG.output.jsonpath_queries.Job_ID$/",
+                  "runtime_user": {
+                    "override_target_runtime_user": false,
+                    "target_default": true
+                  },
+                  "skip_execution": false,
+                  "target": {
+                    "override_workflow_target": true,
+                    "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                  }
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM6QAE8B73F7JN1zdi1vzA4jqMR82mSIW",
+                "name": "Sleep",
+                "title": "Sleep",
+                "type": "core.sleep",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Sleep",
+                  "skip_execution": false,
+                  "sleep_interval": 60
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM6D2CEKRMN4HwEIdB5A8clurTeH0zciW",
+                "name": "Generic CCS API Request",
+                "title": "Get the Deployment History",
+                "type": "ccs.api_request",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "api_call_method": "GET",
+                  "continue_on_failure": false,
+                  "description": "Execute the Custom Action on Deployment",
+                  "display_name": "Get the Deployment History",
+                  "relative_url": "cloudcenter-ccm-backend//api/v1/actionHistory?resourceId=$activity.definition_activity_01HM3S5UM93B13RoSARf2Mxr7or34FsnbGG.output.jsonpath_queries.Job_ID$\u0026resourceType=DEPLOYMENT",
+                  "runtime_user": {
+                    "override_target_runtime_user": false,
+                    "target_default": true
+                  },
+                  "skip_execution": false,
+                  "target": {
+                    "override_workflow_target": true,
+                    "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                  }
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM6S6EVOEN61NJrS3bcj4GO3tijSZiCUg",
+                "name": "Sleep",
+                "title": "Sleep",
+                "type": "core.sleep",
+                "base_type": "activity",
+                "properties": {
+                  "continue_on_failure": false,
+                  "display_name": "Sleep",
+                  "skip_execution": false,
+                  "sleep_interval": 60
+                },
+                "object_type": "definition_activity"
+              },
+              {
+                "unique_name": "definition_activity_01HM6SSJGLL7Z7ZKceiBec4Cxw2gHNY6YMg",
+                "name": "Generic CCS API Request",
+                "title": "Delete Job - CleanUp",
+                "type": "ccs.api_request",
+                "base_type": "activity",
+                "properties": {
+                  "action_timeout": 180,
+                  "api_call_method": "DELETE",
+                  "continue_on_failure": false,
+                  "description": "Execute the LifeCycle Operations on Deployment",
+                  "display_name": "Delete Job - CleanUp",
+                  "relative_url": "- cloudcenter-ccm-backend/api/v2/jobs/[$activity.definition_activity_01HM3S5UM93B13RoSARf2Mxr7or34FsnbGG.output.jsonpath_queries.Job_ID$hide=false",
+                  "runtime_user": {
+                    "override_target_runtime_user": false,
+                    "target_default": true
+                  },
+                  "skip_execution": false,
+                  "target": {
+                    "override_workflow_target": true,
+                    "target_id": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ"
+                  }
+                },
+                "object_type": "definition_activity"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unique_name": "definition_activity_01HLDCX7VPNYN5BA3rH0eVVBLfrmkFup2wu",
+        "name": "Send Email",
+        "title": "Send Email",
+        "type": "email.smtp_send_email",
+        "base_type": "activity",
+        "properties": {
+          "action_timeout": 180,
+          "body": "\u003c!DOCTYPE html\u003e\n\u003chtml\u003e\n  \u003chead\u003e\n    \u003cstyle\u003e\ntable {\nfont-family: cambria;\nborder-collapse: collapse;\nwidth: 100%;\n}\n\ntd, th {\nborder: 3px solid LightSlateGray;\ntext-align: left;\npadding: 2px;\n}\n\ntr:nth-child(even) {\nbackground-color: #dddddd;\n}\n\nh1{font-family: Lato,Arial;\ndisplay: flex;\nwebkit-box-align: center;\nalign-items: center;\ncolor: rgb(127, 127, 134);\nfont-size: 14px;\nfont-weight: 900;\nletter-spacing: 1px;\nline-height: 14px;\ntext-transform: uppercase;\nmargin: 0px 0px 0px 24px;\nalign=\"middle\";\n}\n\n\u003c/style\u003e\n  \u003c/head\u003e\n  \u003cbody\u003e\n    \u003cdiv\u003e\n      \u003ch1\u003e\n        \u003cImg src= \"https://images.g2crowd.com/uploads/vendor/image/262/large_detail_1527083662.png\"  alt=\"Cloud Center Suite - Workload Manager\" align=\"left\"  height= 26 width= 48 \u003e Cloud Center Suite - Workload Manager  \n   \n        \u003c/h1\u003e\n      \u003c/Img\u003e\n    \u003c/div\u003e\n    \u003ch2\u003e\n      \u003ccenter\u003e Workload Manager API Automation Status Which Support PSC Use Cases\u003c/center\u003e\n    \u003c/h2\u003e\n    \u003ch3\u003e User Details\u003c/h3\u003e\n    \u003ctable\u003e\n      \u003ctr\u003e\n        \u003cth\u003eTenant Name\u003c/th\u003e\n        \u003cth\u003eLogin User Email\u003c/th\u003e\n        \u003cth\u003eWorkflow Started By\u003c/th\u003e\n        \u003cth\u003eLogin Tenant Id\u003c/th\u003e\n        \u003cth\u003eWorkflow Instance ID\u003c/th\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003e$activity.definition_activity_01HLETQLXGNV52Z5385IqRWT1fqSrmlY4z0.output.jsonpath_queries.UserTenantName$\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01HLETQLXGNV52Z5385IqRWT1fqSrmlY4z0.output.jsonpath_queries.UserEmail$\u003c/td\u003e\n        \u003ctd\u003e$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.started_by$\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01HLETQLXGNV52Z5385IqRWT1fqSrmlY4z0.output.jsonpath_queries.UserTenantID$\u003c/td\u003e\n        \u003ctd\u003eInstacne id-https://172.25.5.20:31872/orch-ui/runs/$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.instance_id$/\u003c/td\u003e\n      \u003c/tr\u003e\n    \u003c/table\u003e\n    \u003ch2\u003eDeployment LifeCycle Operations Results\u003c/h2\u003e\n    \u003ctable\u003e\n      \u003ctr\u003e\n        \u003cth\u003eDeployment LifeCycle Operations API\u003c/th\u003e\n        \u003cth\u003eResults\u003c/th\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eDeployment LifeCycleOperations -Status\u003c/td\u003e\n        \u003ctd\u003e$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.variable_workflow_01HLCSYR828OJ1RrURP7rhaIMylLTZzGs2R$\u003c/td\u003e\n      \u003c/tr\u003e\n    \u003c/table\u003e\n$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.variable_workflow_01HLD5QVC4LE163ofqrjBqr4OXopktJUCu3$\n\n  \u003c/body\u003e\n\u003c/html\u003e",
+          "cc": "pshashid@cisco.com\nramenaya@cisco.com\nsanjms@cisco.com",
+          "continue_if_one_address_valid": false,
+          "continue_on_failure": false,
+          "display_name": "Send Email",
+          "from": "vspancha@cisco.com",
+          "html": true,
+          "runtime_user": {
+            "override_target_runtime_user": false,
+            "target_default": true
+          },
+          "skip_execution": true,
+          "subject": "WM API Automation Status Which Support PSC Use Cases-$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.start_time$",
+          "target": {
+            "override_workflow_target": true,
+            "target_id": "definition_target_01CYB4P96NDTT2y0YdQPej4souJfo9MedgB"
+          },
+          "to": "vspancha@cisco.com"
+        },
+        "object_type": "definition_activity"
+      }
+    ],
+    "categories": [
+      "category_1BMfMXSnJMyt5Ihqi7rWJr5N8cf"
+    ]
+  },
+  "targets": {
+    "definition_target_01CYB4P96NDTT2y0YdQPej4souJfo9MedgB": {
+      "unique_name": "definition_target_01CYB4P96NDTT2y0YdQPej4souJfo9MedgB",
+      "name": "NK SMTP Endpoint Target",
+      "title": "NK SMTP Endpoint Target",
+      "type": "email.smtp_endpoint",
+      "base_type": "target",
+      "object_type": "definition_target",
+      "properties": {
+        "display_name": "NK SMTP Endpoint Target",
+        "no_runtime_user": true,
+        "port": 25,
+        "protocol": "SMTP",
+        "server": "webmail.tidalsoft.local"
+      }
+    },
+    "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ": {
+      "unique_name": "definition_target_01HL77MW8G9J91zh30ylJTIgljhi8oe3mOJ",
+      "name": "CCS_Explcit",
+      "title": "CCS_Explcit",
+      "type": "ccsuite.endpoint",
+      "base_type": "target",
+      "object_type": "definition_target",
+      "properties": {
+        "default_runtime_user_id": "definition_runtime_user_01HL7758XADSP39BMr8VkyrIPjobYJgxkqR",
+        "display_name": "CCS_Explcit",
+        "host": "172.25.5.20",
+        "ignore_proxy": true,
+        "port": 31872,
+        "protocol": "https"
+      }
+    }
+  },
+  "runtime_users": {
+    "definition_runtime_user_01HL7758XADSP39BMr8VkyrIPjobYJgxkqR": {
+      "unique_name": "definition_runtime_user_01HL7758XADSP39BMr8VkyrIPjobYJgxkqR",
+      "name": "CCSExplcit",
+      "title": "CCSExplcit",
+      "type": "runtime_user.ccs_explicit_user",
+      "base_type": "runtime_user",
+      "object_type": "definition_runtime_user",
+      "properties": {
+        "display_name": "CCSExplcit",
+        "password": "*****",
+        "tenant_id": "*****",
+        "username": "*****"
+      }
+    }
+  }
+}
