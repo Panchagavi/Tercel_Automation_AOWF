@@ -9,13 +9,37 @@
       {
         "schema_id": "datatype.string",
         "properties": {
-          "value": "CentOS",
-          "scope": "local",
-          "name": "DeploymentName",
+          "value": "",
+          "scope": "output",
+          "name": "EmailTable",
           "type": "datatype.string",
-          "is_required": true
+          "is_required": false
         },
-        "unique_name": "variable_workflow_01HL2XG6U228766IFb9z1YUuzRDl4oiz6M0",
+        "unique_name": "variable_workflow_01HLD5QVC4LE163ofqrjBqr4OXopktJUCu3",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "Deployment LifeCycle Actions Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HLCSYR828OJ1RrURP7rhaIMylLTZzGs2R",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "Oracle",
+          "scope": "local",
+          "name": "DatabaseDetails",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HL2Y0YWPLB32i2mfOCfg0dTyHHQF7abn6",
         "object_type": "variable_workflow"
       },
       {
@@ -35,11 +59,59 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "VM-JobDetaails",
+          "name": "JobDetails",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01HM3UB0D9R3U4E16sLJbraVL7LjoGFdbYq",
+        "unique_name": "variable_workflow_01HL3CARCCQ922u8RASXBRzVgDfUov1dZZ0",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "snap",
+          "scope": "local",
+          "name": "SnapShotName",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HM4XWIYBH300cLoxWLRl7AbWXqQ6dL3SR",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "MetadataTest",
+          "scope": "local",
+          "name": "New_MetaData_AppProfile",
+          "type": "datatype.string",
+          "is_required": true
+        },
+        "unique_name": "variable_workflow_01HL2XT7H3VIE12Tgq20IBHG9kzcezgEVKw",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "VMLifeCycleOperations - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HM9EM1UNWS04KLl8A3ugLx9Ktr7RtvQQc",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "VMUniqueID",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HM3PI176VFI6qzu8xri5XMm2Adrj4OhKv",
         "object_type": "variable_workflow"
       },
       {
@@ -57,37 +129,13 @@
       {
         "schema_id": "datatype.string",
         "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "EmailTableVM",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01HM9E4IJ1IB32d256W89GNbzxbIOJktZZf",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "Oracle",
+          "value": "CentOS",
           "scope": "local",
-          "name": "DatabaseDetails",
+          "name": "DeploymentName",
           "type": "datatype.string",
-          "is_required": false
+          "is_required": true
         },
-        "unique_name": "variable_workflow_01HL2Y0YWPLB32i2mfOCfg0dTyHHQF7abn6",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "EmailTable",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01HLD5QVC4LE163ofqrjBqr4OXopktJUCu3",
+        "unique_name": "variable_workflow_01HL2XG6U228766IFb9z1YUuzRDl4oiz6M0",
         "object_type": "variable_workflow"
       },
       {
@@ -107,35 +155,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "VMLifeCycleOperations - Pass/Fail",
+          "name": "EmailTableVM",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01HM9EM1UNWS04KLl8A3ugLx9Ktr7RtvQQc",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "MetadataTest",
-          "scope": "local",
-          "name": "New_MetaData_AppProfile",
-          "type": "datatype.string",
-          "is_required": true
-        },
-        "unique_name": "variable_workflow_01HL2XT7H3VIE12Tgq20IBHG9kzcezgEVKw",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "snap",
-          "scope": "local",
-          "name": "SnapShotName",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01HM4XWIYBH300cLoxWLRl7AbWXqQ6dL3SR",
+        "unique_name": "variable_workflow_01HM9E4IJ1IB32d256W89GNbzxbIOJktZZf",
         "object_type": "variable_workflow"
       },
       {
@@ -143,35 +167,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "JobDetails",
+          "name": "VM-JobDetaails",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01HL3CARCCQ922u8RASXBRzVgDfUov1dZZ0",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "Deployment LifeCycle Actions Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01HLCSYR828OJ1RrURP7rhaIMylLTZzGs2R",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "VMUniqueID",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01HM3PI176VFI6qzu8xri5XMm2Adrj4OhKv",
+        "unique_name": "variable_workflow_01HM3UB0D9R3U4E16sLJbraVL7LjoGFdbYq",
         "object_type": "variable_workflow"
       },
       {
@@ -2049,7 +2049,7 @@
                           "right_operand": {
                             "left_operand": "$activity.definition_activity_01HM5JGAST79U3ytYMKsgFp6aL40olKGBwe.output.status_code$",
                             "operator": "eq",
-                            "right_operand": 200
+                            "right_operand": 201
                           }
                         },
                         "operator": "and",
@@ -2286,8 +2286,8 @@
         "base_type": "activity",
         "properties": {
           "action_timeout": 180,
-          "body": "\u003c!DOCTYPE html\u003e\n\u003chtml\u003e\n  \u003chead\u003e\n    \u003cstyle\u003e\ntable {\nfont-family: cambria;\nborder-collapse: collapse;\nwidth: 100%;\n}\n\ntd, th {\nborder: 3px solid LightSlateGray;\ntext-align: left;\npadding: 2px;\n}\n\ntr:nth-child(even) {\nbackground-color: #dddddd;\n}\n\nh1{font-family: Lato,Arial;\ndisplay: flex;\nwebkit-box-align: center;\nalign-items: center;\ncolor: rgb(127, 127, 134);\nfont-size: 14px;\nfont-weight: 900;\nletter-spacing: 1px;\nline-height: 14px;\ntext-transform: uppercase;\nmargin: 0px 0px 0px 24px;\nalign=\"middle\";\n}\n\n\u003c/style\u003e\n  \u003c/head\u003e\n  \u003cbody\u003e\n    \u003cdiv\u003e\n      \u003ch1\u003e\n        \u003cImg src= \"https://images.g2crowd.com/uploads/vendor/image/262/large_detail_1527083662.png\"  alt=\"Cloud Center Suite - Workload Manager\" align=\"left\"  height= 26 width= 48 \u003e Cloud Center Suite - Workload Manager  \n   \n        \u003c/h1\u003e\n      \u003c/Img\u003e\n    \u003c/div\u003e\n    \u003ch2\u003e\n      \u003ccenter\u003e Workload Manager API Automation Status Which Support PSC Use Cases\u003c/center\u003e\n    \u003c/h2\u003e\n    \u003ch3\u003e User Details\u003c/h3\u003e\n    \u003ctable\u003e\n      \u003ctr\u003e\n        \u003cth\u003eTenant Name\u003c/th\u003e\n        \u003cth\u003eLogin User Email\u003c/th\u003e\n        \u003cth\u003eWorkflow Started By\u003c/th\u003e\n        \u003cth\u003eLogin Tenant Id\u003c/th\u003e\n        \u003cth\u003eWorkflow Instance ID\u003c/th\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003e$activity.definition_activity_01HLETQLXGNV52Z5385IqRWT1fqSrmlY4z0.output.jsonpath_queries.UserTenantName$\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01HLETQLXGNV52Z5385IqRWT1fqSrmlY4z0.output.jsonpath_queries.UserEmail$\u003c/td\u003e\n        \u003ctd\u003e$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.started_by$\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01HLETQLXGNV52Z5385IqRWT1fqSrmlY4z0.output.jsonpath_queries.UserTenantID$\u003c/td\u003e\n        \u003ctd\u003eInstacne id-https://172.25.5.20:31872/orch-ui/runs/$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.instance_id$/\u003c/td\u003e\n      \u003c/tr\u003e\n    \u003c/table\u003e\n    \u003ch2\u003eDeployment and VM LifeCycle Operations Results\u003c/h2\u003e\n    \u003ctable\u003e\n      \u003ctr\u003e\n        \u003cth\u003eLifeCycle Operations API\u003c/th\u003e\n        \u003cth\u003eResults\u003c/th\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eDeployment LifeCycleOperations -Status\u003c/td\u003e\n        \u003ctd\u003e$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.variable_workflow_01HLCSYR828OJ1RrURP7rhaIMylLTZzGs2R$\u003c/td\u003e\n      \u003c/tr\u003e\n\u003ctr\u003e\n        \u003ctd\u003eVM LifeCycleOperations -Status\u003c/td\u003e\n        \u003ctd\u003e$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.variable_workflow_01HM9EM1UNWS04KLl8A3ugLx9Ktr7RtvQQc$\u003c/td\u003e\n      \u003c/tr\u003e\n    \u003c/table\u003e\n$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.variable_workflow_01HLD5QVC4LE163ofqrjBqr4OXopktJUCu3$\n$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.variable_workflow_01HM9E4IJ1IB32d256W89GNbzxbIOJktZZf$\n\n  \u003c/body\u003e\n\u003c/html\u003e",
-          "cc": "pshashid@cisco.com\nramenaya@cisco.com\nsanjms@cisco.com",
+          "body": "Hi All,\u003cbr\u003e\n\nThis is the report for  the Workload Manager 531 Use Case Which are supported in the PSC. Before performing the PSC certification this WF can be run to get the API status from the WM. and this API are V2 Version based.\u003cbr\u003e\n\n\u003c!DOCTYPE html\u003e\n\u003chtml\u003e\n  \u003chead\u003e\n    \u003cstyle\u003e\ntable {\nfont-family: cambria;\nborder-collapse: collapse;\nwidth: 100%;\n}\n\ntd, th {\nborder: 3px solid LightSlateGray;\ntext-align: left;\npadding: 2px;\n}\n\ntr:nth-child(even) {\nbackground-color: #dddddd;\n}\n\nh1{font-family: Lato,Arial;\ndisplay: flex;\nwebkit-box-align: center;\nalign-items: center;\ncolor: rgb(127, 127, 134);\nfont-size: 14px;\nfont-weight: 900;\nletter-spacing: 1px;\nline-height: 14px;\ntext-transform: uppercase;\nmargin: 0px 0px 0px 24px;\nalign=\"middle\";\n}\n\n\u003c/style\u003e\n  \u003c/head\u003e\n  \u003cbody\u003e\n    \u003cdiv\u003e\n      \u003ch1\u003e\n        \u003cImg src= \"https://images.g2crowd.com/uploads/vendor/image/262/large_detail_1527083662.png\"  alt=\"Cloud Center Suite - Workload Manager\" align=\"left\"  height= 26 width= 48 \u003e Cloud Center Suite - Workload Manager  \n   \n        \u003c/h1\u003e\n      \u003c/Img\u003e\n    \u003c/div\u003e\n    \u003ch2\u003e\n      \u003ccenter\u003e Workload Manager API Automation Status Which Support PSC Use Cases\u003c/center\u003e\n    \u003c/h2\u003e\n    \u003ch3\u003e User Details\u003c/h3\u003e\n    \u003ctable\u003e\n      \u003ctr\u003e\n        \u003cth\u003eTenant Name\u003c/th\u003e\n        \u003cth\u003eLogin User Email\u003c/th\u003e\n        \u003cth\u003eWorkflow Started By\u003c/th\u003e\n        \u003cth\u003eLogin Tenant Id\u003c/th\u003e\n        \u003cth\u003eWorkflow Instance ID\u003c/th\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003e$activity.definition_activity_01HLETQLXGNV52Z5385IqRWT1fqSrmlY4z0.output.jsonpath_queries.UserTenantName$\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01HLETQLXGNV52Z5385IqRWT1fqSrmlY4z0.output.jsonpath_queries.UserEmail$\u003c/td\u003e\n        \u003ctd\u003e$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.started_by$\u003c/td\u003e\n        \u003ctd\u003e$activity.definition_activity_01HLETQLXGNV52Z5385IqRWT1fqSrmlY4z0.output.jsonpath_queries.UserTenantID$\u003c/td\u003e\n        \u003ctd\u003eInstacne id-https://172.25.5.20:31872/orch-ui/runs/$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.instance_id$/\u003c/td\u003e\n      \u003c/tr\u003e\n    \u003c/table\u003e\n    \u003ch2\u003eDeployment and VM LifeCycle Operations Results\u003c/h2\u003e\n    \u003ctable\u003e\n      \u003ctr\u003e\n        \u003cth\u003eLifeCycle Operations API\u003c/th\u003e\n        \u003cth\u003eResults\u003c/th\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd\u003eDeployment LifeCycleOperations -Status\u003c/td\u003e\n        \u003ctd\u003e$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.variable_workflow_01HLCSYR828OJ1RrURP7rhaIMylLTZzGs2R$\u003c/td\u003e\n      \u003c/tr\u003e\n\u003ctr\u003e\n        \u003ctd\u003eVM LifeCycleOperations -Status\u003c/td\u003e\n        \u003ctd\u003e$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.variable_workflow_01HM9EM1UNWS04KLl8A3ugLx9Ktr7RtvQQc$\u003c/td\u003e\n      \u003c/tr\u003e\n    \u003c/table\u003e\n$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.variable_workflow_01HLD5QVC4LE163ofqrjBqr4OXopktJUCu3$\n$workflow.definition_workflow_01HL2TN3FJKE502Mg5IyEAnibcr0tdD2TcV.output.variable_workflow_01HM9E4IJ1IB32d256W89GNbzxbIOJktZZf$\n\n  \u003c/body\u003e\n\u003c/html\u003e",
+          "cc": "pshashid@cisco.com",
           "continue_if_one_address_valid": false,
           "continue_on_failure": false,
           "display_name": "Send Email",
