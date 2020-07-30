@@ -11,6 +11,90 @@
         "properties": {
           "value": "",
           "scope": "output",
+          "name": "VMLifeCycleOperations - Pass/Fail",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HM9EM1UNWS04KLl8A3ugLx9Ktr7RtvQQc",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.integer",
+        "properties": {
+          "value": 1,
+          "scope": "local",
+          "name": "VMDiskSize",
+          "type": "datatype.integer",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HM4FXVDJJYS4LuDgzzq2atW8O0zIF9TeE",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "VM-JobDetaails",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HM3UB0D9R3U4E16sLJbraVL7LjoGFdbYq",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "MigratedJobDetails",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HL4IVXMRWGE64EUDzw6yHvHMzqHwKGJiu",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
+          "name": "VMUniqueID",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HM3PI176VFI6qzu8xri5XMm2Adrj4OhKv",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "CentOS",
+          "scope": "local",
+          "name": "DeploymentName",
+          "type": "datatype.string",
+          "is_required": true
+        },
+        "unique_name": "variable_workflow_01HL2XG6U228766IFb9z1YUuzRDl4oiz6M0",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "snap",
+          "scope": "local",
+          "name": "SnapShotName",
+          "type": "datatype.string",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01HM4XWIYBH300cLoxWLRl7AbWXqQ6dL3SR",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "output",
           "name": "EmailTable",
           "type": "datatype.string",
           "is_required": false
@@ -33,54 +117,6 @@
       {
         "schema_id": "datatype.string",
         "properties": {
-          "value": "Oracle",
-          "scope": "local",
-          "name": "DatabaseDetails",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01HL2Y0YWPLB32i2mfOCfg0dTyHHQF7abn6",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "CentOSVM",
-          "scope": "local",
-          "name": "DeploymentDetails",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01HL2Y7I9KBPV63HXssb0JWVGERoTIadIS4",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "JobDetails",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01HL3CARCCQ922u8RASXBRzVgDfUov1dZZ0",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "snap",
-          "scope": "local",
-          "name": "SnapShotName",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01HM4XWIYBH300cLoxWLRl7AbWXqQ6dL3SR",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
           "value": "MetadataTest",
           "scope": "local",
           "name": "New_MetaData_AppProfile",
@@ -93,49 +129,13 @@
       {
         "schema_id": "datatype.string",
         "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "VMLifeCycleOperations - Pass/Fail",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01HM9EM1UNWS04KLl8A3ugLx9Ktr7RtvQQc",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "VMUniqueID",
-          "type": "datatype.string",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01HM3PI176VFI6qzu8xri5XMm2Adrj4OhKv",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.integer",
-        "properties": {
-          "value": 1,
+          "value": "Oracle",
           "scope": "local",
-          "name": "VMDiskSize",
-          "type": "datatype.integer",
+          "name": "DatabaseDetails",
+          "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01HM4FXVDJJYS4LuDgzzq2atW8O0zIF9TeE",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "CentOS",
-          "scope": "local",
-          "name": "DeploymentName",
-          "type": "datatype.string",
-          "is_required": true
-        },
-        "unique_name": "variable_workflow_01HL2XG6U228766IFb9z1YUuzRDl4oiz6M0",
+        "unique_name": "variable_workflow_01HL2Y0YWPLB32i2mfOCfg0dTyHHQF7abn6",
         "object_type": "variable_workflow"
       },
       {
@@ -165,13 +165,13 @@
       {
         "schema_id": "datatype.string",
         "properties": {
-          "value": "",
-          "scope": "output",
-          "name": "VM-JobDetaails",
+          "value": "CentOSVM",
+          "scope": "local",
+          "name": "DeploymentDetails",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01HM3UB0D9R3U4E16sLJbraVL7LjoGFdbYq",
+        "unique_name": "variable_workflow_01HL2Y7I9KBPV63HXssb0JWVGERoTIadIS4",
         "object_type": "variable_workflow"
       },
       {
@@ -179,11 +179,11 @@
         "properties": {
           "value": "",
           "scope": "output",
-          "name": "MigratedJobDetails",
+          "name": "JobDetails",
           "type": "datatype.string",
           "is_required": false
         },
-        "unique_name": "variable_workflow_01HL4IVXMRWGE64EUDzw6yHvHMzqHwKGJiu",
+        "unique_name": "variable_workflow_01HL3CARCCQ922u8RASXBRzVgDfUov1dZZ0",
         "object_type": "variable_workflow"
       }
     ],
@@ -1737,7 +1737,7 @@
                   "api_call_method": "GET",
                   "continue_on_failure": false,
                   "display_name": "SSH to VM and Find the SessionID",
-                  "relative_url": "cloudcenter-ccm-backend/api/job/service/webssh/190/$activity.definition_activity_01HM66GOE8OMR1B0kvhHbUdLHtCJRBFfESh.output.jsonpath_queries.VMNodeID$?checkDepEnvPerms=false",
+                  "relative_url": "cloudcenter-ccm-backend/api/job/service/webssh/$activity.definition_activity_01HM8XPJ9A0OG2XnaXYjynelzWWVdx7ANIW.output.jsonpath_queries.ChildJobID$/$activity.definition_activity_01HM66GOE8OMR1B0kvhHbUdLHtCJRBFfESh.output.jsonpath_queries.VMNodeID$?checkDepEnvPerms=false",
                   "runtime_user": {
                     "override_target_runtime_user": false,
                     "target_default": true
